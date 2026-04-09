@@ -122,6 +122,33 @@ Run these periodically:
 
 ---
 
+## The Dichotomies of Engineering Management
+
+Every EM strength is also a potential failure mode. The job requires holding opposing qualities at the same time — not choosing one side.
+
+| Strength | Becomes a trap when... |
+|----------|----------------------|
+| Great coder | You stay too involved in technical details, can't delegate decisions to developers |
+| Takes ownership, covers for the team | Your team executes only at your direction — no autonomy, far less capable |
+| Close to your people | You avoid difficult conversations, can't make hard calls like letting someone go |
+| High standards | You're cold, detached, burn people out chasing goals |
+| Caring and supportive | You soften feedback too much, let mediocrity slide |
+
+**The goal isn't to pick a side. It's to hold both.**
+
+Two words to aim for: **demanding AND caring.**
+
+- Care about your people genuinely — their growth, their raises, their lives
+- AND hold a high bar, have the hard conversations, make the hard calls
+
+From *The Dichotomy of Leadership*: *"Leaders must push hard without pushing too hard. They must drive their team to accomplish the mission without driving them off a cliff."*
+
+The tension never fully goes away. Getting better at it is the work.
+
+**Self-check:** What's your dominant strength? That's where your blind spot lives. If you're a great coder, ask: am I over-involved? If you're close to your team, ask: what conversations am I avoiding?
+
+---
+
 ## Related Skills
 
 - `delegation` — Getting out of the bottleneck is a prerequisite for managing yourself well

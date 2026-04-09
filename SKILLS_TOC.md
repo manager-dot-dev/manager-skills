@@ -24,4 +24,5 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | 2 | 10 common ways engineering managers get stuck | New skill | Created `managing-yourself` — 10-trap self-assessment, managing up/down/across |
 | 3 | Why Engineering Managers Give Up | New skill | Created `delegation` — Team Rep pattern, epic ownership, delegation principles |
 | 4 | What I wish somebody told me during my first year | Merged | Key content (team rep, project ownership, go-to person trap) merged into `delegation` |
-| 5 | The impossible task of engineering managers | Skip | Inaccessible (404) |
+| 5 | The impossible task of engineering managers | Enhance existing | Added dichotomies table + demanding/caring framework to `managing-yourself` |
+| — | *(housekeeping)* | Cleanup | Stripped all non-article-derived generic content from `1on1s`, `feedback`, `roadmap-planning`, `team-health`, `hiring`, `performance-reviews` — now shells or article-only content |
