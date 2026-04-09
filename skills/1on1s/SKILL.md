@@ -34,6 +34,24 @@ Based on a survey of engineers: the most valued 1:1s share a few consistent trai
 
 ---
 
+## Feelings as Diagnostic Signals
+
+One question worth adding to your 1:1 rotation: **"How did you feel this week?"**
+
+Not "how did it go" — that gets you status. "How did you feel" gets you signals.
+
+Three patterns to watch for:
+
+**The over-responsive engineer** — responds to every Slack message immediately, anxious when they miss something, apologizes for small things. The underlying signal: fear of letting people down. Left unaddressed, this leads to burnout. What they need: explicit permission to disconnect, reassurance that availability doesn't equal value.
+
+**The always-late engineer** — consistently underestimates how long things take, commits to more than they can deliver, misses self-imposed deadlines. The underlying signal: they're planning for their ideal self, not their real self. Not a discipline problem — a calibration problem. Work on scoping together, not on accountability pressure.
+
+**The messy-PR engineer** — submits PRs that feel rushed or incomplete, gets defensive in code review, doesn't ask for help until blocked. The underlying signal: they feel judged or exposed when work is imperfect. What they need: psychological safety to ship imperfect work-in-progress and get feedback earlier.
+
+The pattern only becomes visible if you ask the question regularly and pay attention to the answer over time.
+
+---
+
 ## Related Skills
 
 - `feedback` — For preparing or delivering specific feedback in a 1:1

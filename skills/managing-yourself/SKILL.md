@@ -251,6 +251,58 @@ When you find yourself frustrated that people "just aren't doing" something, sto
 
 ---
 
+## Responsiveness as a Core Management Job
+
+Engineers often measure their manager's availability by how quickly they respond to messages. Slow responses on decisions create blockers that ripple through the team.
+
+A useful standard: **respond within 1 hour to anything that might be blocking someone**, even if the response is just "I saw this — I'll get back to you by EOD." The acknowledgment itself removes the uncertainty.
+
+Two habits that help:
+- **Channel discipline.** Too many channels = messages get missed. Audit your Slack channels periodically. If a channel hasn't had meaningful conversation in 30 days, archive it. Fewer channels means fewer places to check.
+- **Ask "should I even be the one answering this?"** A common EM trap: becoming the answer machine. If an engineer asks you a question that another engineer could answer, redirect rather than reply. You're faster in the short run and slower in the long run.
+
+---
+
+## The Inversion Model
+
+When something isn't working — engagement is low, a team isn't collaborating, a process keeps failing — the instinct is to ask "what would make this better?"
+
+Try the opposite question first: **"What would make this worse?"**
+
+List the things that would guarantee low engagement, bad culture, or process failure. Then check: are any of those already happening? Inverting the problem often surfaces root causes that the forward-looking question misses.
+
+Example: "What would make standups useless?" → People talk to the air, no decisions get made, nobody is listening, it runs long, same blockers appear every day. Now check which of those apply. That's your actual problem list.
+
+---
+
+## The Inertia Model
+
+Every team has processes that nobody can explain why they exist. Daily standups that add no value. A document that gets filled out and never read. A meeting that's been on the calendar for two years.
+
+The question to ask regularly: **"Why are we still doing this?"**
+
+If the answer is "because we always have" or "I'm not sure," that's inertia — not a reason. Processes inherited from a previous manager, a different team size, or a different stage of the company often outlive their usefulness.
+
+A simple habit: once a quarter, list your team's regular rituals and ask for each: what problem does this solve? If nobody can answer, try removing it for one month.
+
+---
+
+## Pulling Instead of Pushing
+
+When an engineer comes to you with a problem, the reflex is to give them the answer. It's faster. It feels helpful. And it creates dependency.
+
+The alternative: **pull the answer out of them with questions**.
+
+- "What options have you considered?"
+- "If you had to pick one, what would it be and why?"
+- "What's stopping you from deciding this yourself?"
+
+Most of the time, engineers already know the answer. They want validation, not information. When you ask instead of tell, they reach the conclusion themselves — and own it more fully. Your job becomes pattern-matching and asking the right question, not solving every problem.
+
+This is slower in individual interactions and dramatically faster for the team over time.
+
+---
+
 ## Related Skills
 
 - `delegation` — The bottleneck trap maps directly to #5 and the dichotomies

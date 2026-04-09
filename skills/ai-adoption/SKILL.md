@@ -99,6 +99,22 @@ Extend to other teams. Evaluate AI tools for presentations (Gamma), internal app
 
 ---
 
+## How Vibe Coding Changes Your Role
+
+As AI dramatically accelerates developer output, 5 things shift for the EM:
+
+**1. The bottleneck moves.** When dev speed doubles or triples, engineering is no longer the constraint. Product discovery, design, QA, and deployment become the new bottlenecks. Your job: invest in making those faster too. More time spent on clear specs before coding, better QA tooling, faster deploy pipelines.
+
+**2. Bigger scope per team.** A small team can now own more surface area. You'll be expected to manage more systems with the same headcount. The challenge: ongoing maintenance costs scale up too (see `roadmap-planning`).
+
+**3. More outages and bugs.** Faster output without proportionally more testing = more production problems. Your team needs guardrails: automated tests, staged rollouts, better monitoring. Speed without guardrails creates a quality debt that compounds.
+
+**4. Engineers making product decisions.** When shipping is fast, the bottleneck shifts to "what do we build?" Product validation becomes the rate-limiting step. Engineers will increasingly be pulled into defining requirements. Help your team build product instincts — customer conversations, usage metrics, outcome thinking.
+
+**5. Less focus time.** AI tools require constant context-switching to review, prompt, and redirect. The developer isn't in deep work — they're in a review loop. Protect blocks of uninterrupted time even with AI tools (see `deep-work`).
+
+---
+
 ## Why Engineers Resist
 
 Engineer skepticism about AI tools is usually one of three things:

@@ -94,6 +94,24 @@ These conversations aren't about keeping people against their will. They're abou
 
 ---
 
+## Zero-Budget Recognition
+
+Some of the most memorable recognition moments cost nothing. These are specific ideas that have worked:
+
+**Creative onboarding.** When a new developer joins, send a personal newsletter introducing them to the team — something beyond "please welcome X, they come from Y." Include their background, what they care about, an interesting fact. Or build a simple landing page about them. It signals that they matter as a person, not just a resource.
+
+**The physical promotion ceremony.** When a developer is promoted, don't just post it in Slack. Order a physical placard with their new title. Present it in person (or ship it). The object makes the moment real. Slack announcements are forgotten in hours; objects last.
+
+**The birthday widget.** Add team birthdays to your engineering dashboard or status page. When someone's birthday appears on the Grafana screen the team stares at all day — and someone points it out — it creates a moment. Small, but noticed.
+
+**Surprise senior leader catch-up.** Arrange a 30-minute casual conversation between a high-performing developer and a VP or senior leader they wouldn't normally interact with. Not a presentation — just a conversation. The message it sends: you're seen at the highest levels. This one scales zero dollars and creates loyalty that salary increases can't buy.
+
+**Personalized books.** When you see a developer struggling with a problem — leadership, communication, a technical challenge — send them a relevant book with a personal note. It says: "I pay enough attention to know what you're working on."
+
+None of these require a budget. All of them require paying attention.
+
+---
+
 ## Final Caveat
 
 Not everything is in your hands. People get offers you can't match, want to change domains, start companies, or relocate. When the time comes, part on good terms. Don't take it personally.

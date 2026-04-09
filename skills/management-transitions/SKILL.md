@@ -79,6 +79,29 @@ The team doesn't know you. You need to build trust with each person individually
 
 ---
 
+## Acquisition Integration: A Fifth Transition Type
+
+When your team or company is acquired, the transition combines elements of all four types above — but with a specific failure mode that deserves its own entry.
+
+**The most common mistake: moving too fast.**
+
+Acquirers often want to show progress quickly — integrating processes, standardizing tools, reporting structures. The acquired team reads this as: "They don't trust how we did things." The result: the exact people the acquirer wanted to retain start leaving.
+
+**What to do first: build trust before changing anything.**
+
+In the first 60–90 days:
+- Run the same processes the acquired team already has, even if they're different from yours
+- Ask questions about why things work the way they do before suggesting changes
+- Find genuine shared successes — wins that both sides can claim together
+
+The shared success is key. It creates a reference point that makes future change less threatening: "We did X together. Now let's try changing Y."
+
+**Then increase pace — but together.**
+
+Once trust exists, the acquired team will pull you toward improvement. Changes they suggest are adopted; changes you impose create resistance. The goal is to become the kind of manager they'd want to build with — not the acquirer who tells them how things should be done now.
+
+---
+
 ## Related Skills
 
 - `1on1s` — First-week 1:1s are critical for all four transition types

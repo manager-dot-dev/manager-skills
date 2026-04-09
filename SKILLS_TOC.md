@@ -29,6 +29,7 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | written-communication | `skills/written-communication/SKILL.md` | 3-step framework for clear messages: Prepare (why/what/who), Write Simply, Garbage Collect |
 | knowledge-sharing | `skills/knowledge-sharing/SKILL.md` | Break down knowledge silos — guilds, ADRs, onboarding buddies, radical transparency |
 | ai-adoption | `skills/ai-adoption/SKILL.md` | 5-level AI adoption framework: code editors → agents → AI review → measurement → innovation |
+| business-literacy | `skills/business-literacy/SKILL.md` | Key business terms (ARR, COGS, CAC, LTV, AARRR) with EM-specific translation examples for roadmap and tech proposals |
 
 ## Articles Processed
 
@@ -105,3 +106,23 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | 69 | 6 assumptions engineering managers make (and engineers hate) | Enhance existing | Added "ask about cadence" nuance to `1on1s`; added public praise caveat to `feedback` |
 | 70 | $7B startup Head of Engineering builds a profitable side project | Skip | Side project story with Claude Code usage tips; not an EM skill |
 | 71 | The EM's guide to AI adoption (without your engineers hating it) | New skill | Created `ai-adoption` — 5-level framework from code editors to measurement to ongoing innovation |
+| 72 | How vibe coding will affect Engineering Managers | Enhance existing | Added "How Vibe Coding Changes Your Role" to `ai-adoption` — bottleneck shift, bigger scope, more outages, engineers making product decisions, less focus time |
+| 73 | The 5 intensity zones of software teams | Enhance existing | Added 5-zone intensity framework to `team-health` — naming zones explicitly, planning recovery after Zone 4–5 periods |
+| 74 | Landing an EM role in 2025 | Skip | Job-search tactics for aspiring EMs; not an EM skill |
+| 75 | 20 Business terms every Engineering Manager should know | New skill | Created `business-literacy` — ARR/COGS/CAC/LTV/AARRR with EM-specific translation examples |
+| 76 | Taking just one step too far | Skip | Personal narrative; no actionable framework |
+| 77 | When a PM takes over engineering | Enhance existing | Added product lens section to `working-with-pm` — pre-build customer questions, involving engineers in customer conversations, post-ship usage data engagement |
+| 78 | A Scientist's Guide to Debugging Engineers | Enhance existing | Added feelings-as-diagnostic-signals section to `1on1s` — 3 behavioral patterns (over-responsive, always-late, messy PRs) with root causes |
+| 79 | Managing people you don't like | Enhance existing | Added beer test bias section to `hiring` — how similarity bias reduces diversity, 5 steps to counter it |
+| 80 | The Unreachable Engineering Managers | Enhance existing | Added responsiveness section to `managing-yourself` — 1-hour SLA, channel pruning, "should I be answering this?" |
+| 81 | 7 proven mental models for engineering managers | Enhance existing | Added Inversion model and Inertia model to `managing-yourself` — concrete EM applications for each |
+| 82 | The 'delayed opinions givers' - engineering teams everybody hates | Enhance existing | Added 3-paths framework for cross-team requests to `knowledge-sharing` — why delayed attention is worse than no attention |
+| 83 | Why I decided to quit a Director's job | Skip | Personal narrative; no EM skill content |
+| 84 | Build your own Engineering Management Operating System | Skip | Promotional course email; no content |
+| 85 | Being an Engineering Manager at IKEA businesses | Enhance existing | Added acquisition integration section to `management-transitions` — build trust before changing anything, shared successes before increasing pace |
+| 86 | Being an Engineering Manager at Flo | Skip | Technical org design case study; not an EM skill |
+| 87 | Why things just work around some EMs | Enhance existing | Added pulling-not-pushing section to `managing-yourself` — ask guiding questions, let engineers reach conclusions themselves |
+| 88 | What's next for manager.dev and for me | Skip | Meta newsletter announcement; no skill content |
+| 89 | Building a $5K ARR Side Project While Managing 9 Engineers | Skip | Personal side-project story; not an EM skill |
+| 90 | How to WOW your engineers without budget | Enhance existing | Added zero-budget recognition section to `retaining-developers` — 5 specific low-cost recognition moments |
+| 91 | The 7 must-read Engineering Management books | Skip | Book list; no actionable framework to extract |

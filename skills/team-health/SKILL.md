@@ -95,6 +95,29 @@ Think of it like a ship: everyone on a ship knows if it's sinking. The crew does
 
 ---
 
+## Managing Team Intensity
+
+Not every week should feel the same. Teams that run at full sprint indefinitely burn out. Teams that coast lose edge. The skill is knowing what zone you're in — and choosing it consciously.
+
+A simple 5-zone model, borrowed from endurance training:
+
+| Zone | Feel | When to use |
+|------|------|-------------|
+| 1 — Very light | Calm, sustainable, low pressure | Recovery after intense periods; onboarding new members |
+| 2 — Light | Steady output, no crunch | Default healthy pace for most of the year |
+| 3 — Moderate | Focused, some urgency | Normal sprint periods, regular delivery cycles |
+| 4 — Hard | High energy, tight deadlines | Product launches, critical milestones |
+| 5 — Maximum | All-in, not sustainable | True crises only — production outages, make-or-break moments |
+
+**The mistake most EMs make:** defaulting to Zone 4 as the steady state. Zone 4 feels productive. It looks like commitment. But it has a ceiling — teams can't sustain it, and the recovery cost is high.
+
+**How to use this:**
+- Name the zone explicitly. "This sprint we're at Zone 4 because of the launch." The team tolerates intensity better when it has a name and an end date.
+- After Zone 4 or 5 periods, plan Zone 2 recovery. Don't immediately load the next hard sprint.
+- If your team is always in Zone 3–4 without recovery, that's a workload problem, not a motivation problem.
+
+---
+
 ## Related Skills
 
 - `1on1s` — Primary place to detect and address individual health issues

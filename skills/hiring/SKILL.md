@@ -72,6 +72,26 @@ Sometimes you need a specific level of expertise: building an iOS app for the fi
 
 ---
 
+## The Beer Test Bias
+
+"Would I want to grab a beer with this person?" — or some version of it — is one of the most common informal filters in hiring. It feels like culture fit. What it actually does: filter for people who are similar to the interviewer. Over time, this creates less diverse teams and reinforces existing blind spots.
+
+The bias runs both ways. You may be undervaluing someone who is genuinely excellent but communicates differently, comes from a different background, or isn't immediately likeable in a 30-minute conversation.
+
+**The comparative advantage argument.** The goal isn't to hire someone you'd be friends with — it's to hire someone whose strengths complement the team's weaknesses. A team full of people similar to the existing team is weaker than a team with diverse thinking styles, experiences, and perspectives.
+
+**5 steps to counter it:**
+
+1. **Examine your own biases explicitly.** Before the debrief, ask yourself: "Am I rating this person down for a substantive reason, or because they're different from me?"
+2. **Focus on strengths, not absence of weaknesses.** What does this person do well that nobody else on the team does? That's the question that changes decisions.
+3. **Plan interview conversations in advance.** Don't improvise. Improvised conversations drift toward comfort — topics you know, styles you recognize.
+4. **Ask for feedback on your process.** Have a colleague outside the hiring loop review your debrief notes. What patterns do they see?
+5. **Adapt your approach to the candidate.** A senior engineer from a startup communicates differently than one from a large tech company. Neither is better. Your process should surface both.
+
+This isn't about lowering the bar. It's about making sure the bar measures what you think it measures.
+
+---
+
 ## Related Skills
 
 - `em-context` — For team and role context

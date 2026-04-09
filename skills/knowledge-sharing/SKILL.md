@@ -88,6 +88,27 @@ The critical addition: **incentivize knowledge sharing in your career framework*
 
 ---
 
+## The 3 Paths for Cross-Team Requests
+
+When your team gets a request from another team — a feature, an integration, access to a system — there are three ways it gets handled in practice:
+
+1. **No attention:** The request is noted, deprioritized, and never addressed.
+2. **Delayed attention:** The team acknowledges it but puts it in the backlog. "We'll get to it next quarter."
+3. **Prioritize:** The team commits real time to it.
+
+The counterintuitive finding: **delayed attention is often worse than no attention**.
+
+When you say "we'll get to it next quarter," the requesting team builds around the assumption that the request will be fulfilled. They design their system expecting that integration. They commit to their stakeholders. When "next quarter" arrives and nothing happens, the cost is much higher than if you had said "no" at the start and let them find another path.
+
+**What to do with cross-team requests:**
+- Decide quickly. Even "not this quarter, not next quarter" is more useful than "we'll see."
+- If the answer is delayed: be specific about timeline and set a real calendar reminder to follow up.
+- If the answer is no: say so clearly, and help them understand why. They can make better decisions with that information.
+
+The cost of a delayed "no" compounds. The sooner you're honest about capacity, the less damage accumulates.
+
+---
+
 ## Related Skills
 
 - `team-health` — Team Focus Days are a structural support for cross-team connection

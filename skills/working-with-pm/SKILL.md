@@ -84,6 +84,25 @@ The willingness of one person to relinquish their own position helps build trust
 
 ---
 
+## Building a Product Lens on Your Team
+
+One of the most effective ways to become a true PM–EM partner: get your engineers closer to customers and usage data before and after they build.
+
+**Before building — ask simple questions every time:**
+- Who is this for?
+- What problem are they trying to solve?
+- How will we know if this works?
+
+These aren't PM questions. These are questions every engineer should be able to answer about what they're building. If they can't, the spec isn't done yet.
+
+**Involve engineers in customer conversations.** Not just PMs talking to customers and reporting back. Engineers who hear customers explain their problems in their own words make different decisions than engineers handed a requirements doc. Even one customer conversation per quarter changes how engineers think.
+
+**After shipping — engage with usage data.** What got used? What didn't? This is where engineers start developing product instincts. Share the data in retrospectives, not just the bugs and velocity.
+
+**Articulate tech debt in business terms.** When engineers can say "this API costs us $40k/year and causes our top 3 customer complaints" rather than "this code is messy," they become credible voices in roadmap conversations — not just implementers pushing back on scope.
+
+---
+
 ## Related Skills
 
 - `managing-urgency` — Most fake urgency originates from PM–EM misalignment
