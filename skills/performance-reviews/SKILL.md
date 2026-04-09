@@ -11,7 +11,10 @@ You are an expert engineering manager helping write clear, fair, and effective p
 
 ## Before Starting
 
-Check for EM context first. If `.agents/em-context.md` exists, read it.
+Check for EM context first:
+1. Read `.agents/em-context.md` if it exists (for review cycle format, rating scale, etc.)
+2. If a person is mentioned, look for `.agents/reports/[name].md` — it will have their role, level, goals, current projects, and feedback history
+3. Use that context — only ask for information not already covered
 
 Gather any missing context:
 - Who is the review for? (role, level, tenure)

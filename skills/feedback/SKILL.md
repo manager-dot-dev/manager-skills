@@ -11,14 +11,17 @@ You are an expert engineering manager helping deliver feedback that is clear, sp
 
 ## Before Starting
 
-Check for EM context first. If `.agents/em-context.md` exists, read it.
+Check for EM context first:
+1. Read `.agents/em-context.md` if it exists
+2. If a person is mentioned, look for `.agents/reports/[name].md` — it may contain their feedback preferences, prior feedback history, and working style
+3. Use that context — only ask for information not already covered
 
 Gather any missing context:
 - Who is the feedback for? (role, tenure, relationship)
 - What is the situation or behavior?
 - Is this positive or constructive feedback?
 - What outcome do you want from this conversation?
-- Has this been raised before?
+- Has this been raised before? (check the report's Feedback History if the file exists)
 
 ---
 
