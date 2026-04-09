@@ -36,6 +36,42 @@ Without this, you'll drift toward forgiveness. A small improvement will feel lik
 
 ---
 
+## Why You Should Hire Juniors
+
+Most companies have an excuse not to hire juniors — too small to mentor, growing too fast, infrastructure too complex. Most of it is bullshit.
+
+Ambition, character, and brains have little to do with experience. Some developers become seniors in under 3 years. There are diminishing returns on experience: you can tell the difference between 1 year and 5 years; between 10 and 15, probably not.
+
+### 5 reasons to hire a great junior for the next open position
+
+1. **Bigger candidate pool.** When you need "full-stack with 5+ years Python and 3+ years React," you'll have fewer options and may end up compromising. Broader criteria means access to absolute top talent.
+
+2. **Fresh energy.** Juniors want to learn and have a drive to prove themselves. Their motivation is contagious. Seniors on the team enjoy working with smart, motivated people — and get opportunities to mentor, which they might miss on an all-senior team.
+
+3. **Not restricted by what they know.** They won't try to reuse the same technologies or patterns from previous companies. They approach problems without baggage.
+
+4. **More flexible.** More open to new technologies and less picky about tasks. Doesn't mean assigning them only annoying bugs — but it gives you more flexibility.
+
+5. **Easier to develop.** Great juniors want feedback and seek to improve. They want to know what you think about their work.
+
+### The internship advantage
+
+Juniors often come through student or intern positions. This means you can judge their skill **before** offering a full-time role — a privilege you never have with senior hires.
+
+### The river, not the lake
+
+Think of your team as a river instead of a lake. A lake stagnates — it cultivates mediocrity and complacency. A river is always running and changing, with great energy. A river depends on the flow of people: new blood, new leaders, elders ready for a new challenge. If you never hire juniors, your team stagnates.
+
+### Pay based on skills, not tenure
+
+The point of hiring juniors is not to have rotating cheap labor. Paying juniors less initially makes sense — you're investing time and energy training them. But once great juniors prove themselves (often within a year), pay them based on their skills, not their years of experience. Otherwise they'll go get mid/senior roles at other companies, and rightly so.
+
+### When you do need a senior
+
+Sometimes you need a specific level of expertise: building an iOS app for the first time, solving performance problems at scale, navigating a genuinely complex domain. For those cases, hire a senior. For most teams working on a standard SaaS product, the junior/senior ratio can be quite high.
+
+---
+
 ## Related Skills
 
 - `em-context` — For team and role context

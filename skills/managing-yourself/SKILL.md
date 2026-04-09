@@ -68,7 +68,93 @@ From *The Dichotomy of Leadership*: *"Leaders must push hard without pushing too
 
 ---
 
+## Balcony Awareness
+
+New team leaders have a delegation problem, not a time management problem. The same qualities that made you a great developer — sense of responsibility, ownership, doing things you know you're good at — make it hard to let go.
+
+The concept of **balcony awareness**: imagine you're at a party, dancing in the middle of the dance floor. The music is great. You have a great time. But you only see your immediate view. When you step off the floor and go to the balcony — you see completely different things. The bigger picture. The dynamics others can't see from the floor.
+
+To grow in the manager role: leave the dance floor, and go to the balcony.
+
+Ask yourself regularly:
+- How well do you know the whole product?
+- Do you know what the business goals are?
+- How does your team contribute to those goals?
+
+**Manage your manager intentionally.** Your manager often knows less than you about what the right decision is. When you bring a problem, also bring the decision you want them to make. "I want you to make the decision" is almost never the right ask — "here's what I think we should do, and here's what I need from you" is.
+
+---
+
+## The Drama Triangle — and How to Exit It
+
+When things go wrong, it's easy to fall into one of three roles:
+
+- **Victim** — feels powerless, believes things are happening *to* them. Focuses on who/what to blame.
+- **Villain** — what the victim points at as the cause of all problems.
+- **Hero** — provides temporary relief (a manager who "handles it," or mindless scrolling that lets you forget).
+
+Three EM examples of falling in:
+1. PM publicly overpromises without consulting you → you're the Victim, PM is the Villain, you want your manager to be the Hero
+2. CEO tells your manager your team isn't working hard enough → you're the Victim, CEO is the Villain, your spouse validating your frustration is the Hero
+3. Underperforming developer who hasn't improved → you're the Victim, previous manager is the Villain, complaining to a peer at lunch is the Hero
+
+In all three cases, the root cause never gets fixed.
+
+**How to exit:**
+
+1. **Recognize you're in a victim mindset.** Notice not just who the villain is, but also who you're turning to as a hero to relieve the frustration.
+
+2. **Try very hard to see their side.** When the PM overpromised: instead of sending the angry Slack message, call them. Ask what made them do it. Often the "villain" is under enormous pressure you weren't aware of.
+
+3. **Focus on the outcome you want, not the problem.** The more you focus on the problem, the bigger it becomes. Ask: what outcome do I actually want here? Then work toward it.
+
+The healthier model: **Creator, Challenger, Coach**. A Creator focuses on what they *do* want, not what they don't want. Creators still face and solve problems — but in the course of creating outcomes, not in the course of stewing in frustration.
+
+---
+
+## Staying Calm Under Pressure: The BAA Framework
+
+When you feel attacked by a question, blindsided by an outage, or hit with unexpected criticism — the instinct is to act immediately. That almost always makes it worse.
+
+**BAA: Breathe, Assess, Act**
+
+**Breathe.** Take a moment. Let the initial feeling pass. If you need a minute, say you need a minute.
+
+**Assess.** Before responding, ask yourself:
+- Do I understand the question and the intent?
+- Is there an assumption in it that doesn't match mine?
+- Do I hesitate to answer? Why?
+
+**Act.** Then respond — clearly, without letting their tone or your hesitation drive the answer.
+
+### Scenario 1: Leadership Grilling (VP asks an unexpected question)
+Don't start blabbering or make promises without thinking. Start with a clear answer and share your justification. End with an invitation: *"Do you believe we should reconsider X?"* — this lets them share new data without you having conceded anything.
+
+### Scenario 2: Major Outage (team can't find root cause)
+Don't try random fixes under pressure. Spend a minute understanding the symptoms. Communicate clearly what you know vs. what you don't. Share theories being investigated. Ask for help from specific teams. Give regular updates — even if it distracts you for 5 critical minutes, those updates buy you breathing room to work.
+
+### Scenario 3: Unexpected Critical Feedback
+Don't reject it immediately, and don't accept it without understanding it. Respond with something like: *"This is a surprise, but I want to understand the specifics."* If it was raised in a group setting, ask for a 1:1 to go deeper. This signals you're listening, relaxes the feedback giver, and gives you time to reflect.
+
+---
+
+## Communicating with Senior Leadership
+
+A few behaviors that undermine how senior leadership perceives you:
+
+**Finesse matters.** How you communicate has as much impact as what you communicate. Saying *"everything we presented in the last 2 months was a lie"* in a Slack channel — even if technically accurate — demoralizes people and signals lack of judgment. HOW you present difficult information matters.
+
+**Language accuracy.** If you're not 100% sure about something, signal it. "I believe..." or "as far as I know..." prevents the frustration of confident-sounding statements that turn out to be wrong. One story: "240 will get us there faster" said with full confidence — it wasn't even going the right direction. After that: *"You do that a lot. If you'd given me even a little clue you weren't 100% sure, I would have insisted on my opinion."*
+
+**Delivering bad news.** Don't associate yourself with the news. Avoid: a long preface about importance, multiple negative words, excessive detail. State the situation clearly, own what's yours, move to next steps.
+
+**Giving feedback to senior leaders.** It's an inversion of norms — and feeling nervous about it is healthy. Techniques that work: use the "even more" framing (*"I think you could have even more impact if..."*), use yourself as an example rather than criticizing them directly, lead with curiosity rather than judgment, bring specific data and examples.
+
+---
+
 ## Related Skills
 
 - `delegation` — The bottleneck trap maps directly to #5 and the dichotomies
 - `feedback` — Ignoring destructive behaviors (#1) is a feedback failure
+- `getting-feedback` — Blind spots are central to the 10 ways EMs get stuck
+- `influence` — Managing up and across requires the persuasion skills in `influence`
