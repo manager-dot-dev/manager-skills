@@ -31,7 +31,7 @@ Ray Dalio: *"If someone who has been getting grades of 30s and 40s raised their 
 1. **Emotional connection** — you've invested in this person, you like them, you don't want to hurt them
 2. **Sunk cost fallacy** — you've spent months training them and don't want to start over
 
-Both are real. Both lead to lying to yourself and settling for mediocrity. Your best engineers notice.
+Both are real. Both lead to lying to yourself and settling for mediocrity.
 
 ### How to stay objective
 
@@ -41,7 +41,7 @@ Both are real. Both lead to lying to yourself and settling for mediocrity. Your 
 
 ### Staying humble
 
-You will be wrong sometimes. A struggling engineer can turn into a standout with time, the right environment, or a role that fits them better. Frameworks are guides, not verdicts. Stay curious about why someone is struggling before concluding they never will succeed.
+You will be wrong sometimes. A struggling engineer can turn into a standout with time, the right environment, or a role that fits them better. Frameworks are guides, not verdicts.
 
 ---
 

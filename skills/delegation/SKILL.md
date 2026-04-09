@@ -7,30 +7,9 @@ metadata:
 
 # Delegation
 
-You are an expert engineering manager helping delegate effectively — not to offload work, but to grow the team and remove yourself as a bottleneck.
-
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
-
-Gather any missing context:
-- What are you currently doing that you want to delegate?
-- What's holding you back? (trust, quality concerns, no one to delegate to)
-- What's the team's experience level?
-
----
-
-## Why EMs Struggle to Delegate
-
-The trap most new managers fall into: they were the strongest developer on the team. They're used to solving things fast. Delegation feels slower and riskier. So they keep doing it themselves.
-
-The result:
-- You become a bottleneck
-- Your team doesn't grow
-- You burn out
-- When you're away, everything falls apart
-
-**Delegation is not about throwing responsibility to others. It's about sharing it.**
 
 ---
 
@@ -47,69 +26,53 @@ The most impactful first delegation is the daily operational load — alerts, su
 - The manager is NOT the first call. The Rep is.
 
 **Setup tips:**
-- Put it on the calendar as a recurring rotation
-- Write a short guidelines doc for the first few weeks
-- In the first rotation, consultations with you are fine — but never solve it yourself. Let them work through it.
+- Put it on the calendar as a recurring rotation with a written guidelines doc
+- In the first rotations, consultations with you are fine — but never solve it yourself
 - Keep yourself in the rotation. Don't exempt yourself from the load you're delegating.
 
 **Benefits:**
-- No single point of failure (eliminates the bus factor)
+- No single point of failure (bus factor)
 - Increased ownership and debugging skills across the team
-- Developers feel "we're in the same boat" — healthier culture long-term
-- You get your time back
+- Developers feel "we're in the same boat"
 
 ### 2. New Projects: Epic Ownership
 
-Stop being the one who meets with the PM, does the technical design, and breaks down the work. Give that ownership to a developer.
+Stop being the one who meets with the PM, does the technical design, and breaks down the work.
 
 **How it works:**
 - When a new epic arrives, assign a team member as the owner
 - They: meet with the PM, write the technical design, break it into tasks, decide work distribution
-- You: stay involved — share thoughts, ask questions, review the design — but they make the decisions
-- Your involvement scales down as they get more experienced
+- You: stay involved — share thoughts, ask questions, review — but they make the decisions
 
-**Why it produces better outcomes:**
-- Each developer owns only one project at a time → 100% focus → often better designs than you rushing through five
-- Developers gain skills regardless of career path
-- You free up time for the work only you can do
+Each developer leads only one project at a time, so they can be 100% dedicated to it — often producing better designs than you rushing through five simultaneously.
 
 ---
 
-## The Third Delegation: Knowledge Ownership
+## Knowledge Ownership
 
-If you're the go-to person for every system, every question, every decision — that's a problem, not a strength.
-
-**Fix it:**
-- Divide the team's systems and applications across people, with clear owners
-- State ownership explicitly: "Alice owns the payments service. Bob owns the data pipeline."
-- When someone asks you about a system, redirect them to the owner
-- Let the knowledge live with the team, not in your head
+If you're the go-to person for every system and every question, that's a problem. Divide the team's systems and applications across people with clear, explicit owners. When someone asks you about a system, redirect them to the owner.
 
 ---
 
 ## Delegation Principles
 
-- **Never delegate 100% of an area.** Stay in the rotation. Do the work yourself occasionally to stay grounded.
-- **You can delegate at least 50% of your current work.** The exceptions (1:1s, performance decisions, firing) are fewer than you think.
-- **Delegate the outcome, not just the task.** Tell them what success looks like, not every step to get there.
-- **Expect it to be slower at first.** That's the investment. It pays off by the third or fourth cycle.
-- **Don't solve it yourself when they're struggling.** Coaching them through it is the job. Rescuing them robs them of the growth.
+From the articles directly:
+
+- **Never delegate 100% of an area.** Stay in the rotation. Do the work yourself occasionally.
+- **You can share at least 50% of your current work.** The exceptions are fewer than you think.
+- **Never solve it for them.** When they're struggling, coach — don't rescue.
 
 ---
 
 ## Signs You're Not Delegating Enough
 
-- You work weekends to cover for the team
-- You handle production incidents so the team "isn't disturbed"
-- You're the last reviewer on every PR before merge
-- Your team can't function when you're on vacation
+- You work through weekends to "help" the team meet deadlines
+- You handle production incidents yourself so the team "isn't disturbed"
 - You lead every new project personally
-- Developers come to you first for every question
+- Developers come to you as the source of knowledge for every question
 
 ---
 
 ## Related Skills
 
-- `team-health` — Over-reliance on the manager is a team health signal
-- `1on1s` — Use 1:1s to identify who is ready for more ownership
-- `performance-reviews` — Delegation opportunities show up in growth areas and promotion cases
+- `managing-yourself` — Over-involvement is trap #5 in the 10 ways EMs get stuck
