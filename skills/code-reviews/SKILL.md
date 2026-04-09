@@ -71,6 +71,35 @@ Doesn't review unless you chase them. PRs sit open for days. Often not malicious
 
 ---
 
+## What the Data Says About Review Frequency and Speed
+
+From research across 400+ engineering teams:
+
+- **Skipping reviews entirely** produces ~1.9x more output but ~2.4x more bugs — roughly 25% more bugs per unit of work. Speed gains are real but not free.
+- **The biggest quality gains** come between 0 and 0.5 reviews per PR. Diminishing returns set in after that. Not every PR needs a review.
+- **High-quality reviews** correlate with 61% fewer bugs at the cost of 38% slower output. If you do reviews, make them thorough — shallow reviews have neither the speed benefit nor the quality benefit.
+- **Turnaround speed is critical.** Teams merging PRs within 3 hours are 2.1x more productive than those taking 8+ hours. 10% of PRs wait 24+ hours — this kills both morale and flow.
+- **Review quality is reciprocal.** Engineers who give low-effort reviews tend to receive them. The culture you model cascades.
+
+Practical target: selective reviews on meaningful changes, high quality when done, resolved within 3 hours.
+
+---
+
+## The Refactor Authorization Framework
+
+Developers chronically overestimate the need to rewrite code they didn't write. Joel Spolsky's observation explains why: it's harder to read code than to write it, meaning unfamiliarity is routinely misdiagnosed as technical debt.
+
+Before authorizing a significant refactor, require two things:
+
+1. **Is substantial new feature work planned in this area soon?** If not, the refactor may never pay off — the additional development velocity benefit never arrives.
+2. **Has the developer spent meaningful time understanding the existing code?** It is common for 6–8 week rewrites to begin without a single day studying what is being replaced.
+
+Old code that has survived years of production has accumulated implicit bug fixes and edge case handling that won't be obvious in a rewrite and will take years to rediscover.
+
+Your role as EM: fight for refactor time when the business case is genuine, and push back when it isn't. Both are necessary.
+
+---
+
 ## Related Skills
 
 - `delegation` — Assigning the right reviewer is a form of delegation

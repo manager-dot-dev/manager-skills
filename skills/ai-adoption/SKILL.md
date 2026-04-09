@@ -115,6 +115,31 @@ As AI dramatically accelerates developer output, 5 things shift for the EM:
 
 ---
 
+## Staying Ahead of Agentic AI Feature Pressure
+
+When a new AI paradigm goes viral — proactive agents, autonomous task runners, background AI systems — your CPO and CEO will often be having the "we need this" conversation before Engineering is in the room. EMs who aren't in that conversation early end up receiving requirements designed without understanding blast radius, infrastructure cost, or the difference between a useful agent workflow and a dangerous one.
+
+The key distinction to drive: reactive AI features (user initiates) vs. proactive/agentic ones (system acts autonomously) carry fundamentally different risk profiles. A chatbot giving a wrong answer is embarrassing; an agent acting on wrong assumptions can cause real harm. Before any agentic feature is scoped, EMs should force the question: **"What is the failure mode if the agent acts on bad data, and who is accountable?"**
+
+Spending a few hours personally experimenting with current agentic tools gives you the vocabulary and credibility to shape these conversations rather than just receive mandates.
+
+---
+
+## Outcome-Over-Tool Adoption
+
+Three failure modes to actively avoid when rolling out AI tools:
+1. Mandating specific tools (banning IDEs, requiring agents for every API call)
+2. Creating adoption leaderboards tied to token usage or tool counts rather than outcomes
+3. Ridiculing engineers who still write code manually
+
+All three optimize for the appearance of AI adoption rather than actual delivery improvement.
+
+The alternative: assign 1–2 enthusiastic engineers a 20% workload reduction to lead organic exploration. Ask them to share only what demonstrably worked in your specific codebase, not what worked at other companies. Evaluate AI adoption purely through delivery outcomes — speed, quality, incident rate.
+
+If engineers using AI tools are outperforming those who aren't, investigate and share the specific workflow. Don't mandate the tool. Existing large codebases require meaningful experimentation time before any AI tool shows throughput gains; forcing adoption before that time is given guarantees failure and resentment.
+
+---
+
 ## Why Engineers Resist
 
 Engineer skepticism about AI tools is usually one of three things:

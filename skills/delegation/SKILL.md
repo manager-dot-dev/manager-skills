@@ -92,6 +92,41 @@ When a task feels high-stakes, ask yourself: is this person's TRM actually high 
 
 ---
 
+## Giving Engineers a Kingdom
+
+Beyond task delegation, each engineer should own a defined area — a kingdom with real decision-making authority, not just execution responsibility.
+
+Four ownership types that work:
+
+1. **An application or system** — the owner drives the roadmap relationship with PM, monitors usage, and is the incident point-of-contact
+2. **A microservice** — health monitoring, technical debt prioritization, contributing guidelines
+3. **A third-party integration** — leads the vendor relationship, monitors release notes, tracks integration health
+4. **An internal tool** — the internal expert and champion, responsible for adoption and updates
+
+The key distinction from task delegation: kingdom owners hold decision-making authority over their area. They prioritize, not just execute.
+
+Aim for one to two kingdoms per engineer; spreading too many thin defeats the purpose. Start by identifying the areas that consume the most of your own time and transfer those first.
+
+The framing matters: "ownership area" can feel like a burden of chores. "Kingdom" implies authority and pride — both affect whether engineers embrace or resist the responsibility.
+
+---
+
+## The Three-Layer Assignment Framework
+
+Work assignment operates across three layers that must be balanced simultaneously:
+
+- **Efficiency** — assign the most capable person for what's needed right now
+- **Advancement** — assign for growth and career trajectory, often at a speed cost
+- **Durability** — assign to prevent single-points-of-failure, even when neither efficiency nor growth is optimized
+
+The knowledge map exercise makes the third layer concrete: plot engineers against skill/system areas to visualize coverage gaps and identify dangerous single-owner areas.
+
+When moving engineers into new domains to serve advancement or durability, apply Task-Relevant Maturity (see above) — a Staff engineer new to a domain needs closer guidance than their title implies.
+
+Two traps to watch: **inertia** (comfortable assignments calcify even when business needs change) and **activation energy** (the transition cost is real and must be planned for, not wished away). Revisit assignments deliberately every quarter rather than letting the last good decision run indefinitely.
+
+---
+
 ## Related Skills
 
 - `managing-yourself` — Over-involvement is trap #5 in the 10 ways EMs get stuck

@@ -102,6 +102,20 @@ Once trust exists, the acquired team will pull you toward improvement. Changes t
 
 ---
 
+## Counseling Engineers on the Management Track
+
+When a senior engineer asks whether they should become a manager, three structural headwinds now apply that weren't true in previous years:
+
+**The technical pace problem.** Stepping back from the IC track carries real skill atrophy risk. The EM role leaves little time to experiment with rapidly evolving tooling, and that gap compounds fast. An engineer who pauses IC growth for three years may find the landscape unrecognizable.
+
+**The ladder has flattened.** Companies have increased IC-to-manager ratios, meaning Director and VP slots are scarcer and more competitive — especially with experienced leaders displaced from layoffs. A strong engineer can often advance further on the IC track than as a mid-level EM waiting for a Director opening.
+
+**The pay assumption is frequently wrong.** Staff/Principal IC compensation at other companies often exceeds EM compensation at the current company. The internal promotion looks like a raise but can be a cut relative to the external IC market.
+
+These arguments don't apply to someone who genuinely wants to manage — intrinsic motivation still outweighs the structural math. But they are essential context for an EM helping a report make an informed choice rather than a default one. Present both sides clearly; don't let the engineer assume management is the only path to senior impact.
+
+---
+
 ## Related Skills
 
 - `1on1s` — First-week 1:1s are critical for all four transition types

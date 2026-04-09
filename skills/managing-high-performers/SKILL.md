@@ -70,6 +70,18 @@ In most cases, they have good intentions and are simply oblivious. Bringing it u
 
 ---
 
+## The Diminishing XP Diagnostic
+
+Engineers who stay in the same role for years can quietly stagnate even when they appear productive — doing familiar work returns negligible growth while the requirements for promotion keep increasing.
+
+The RPG analogy is useful: the same task that was a stretch challenge at mid-level becomes rote at senior level. Rote work produces disengagement that precedes departure by months or years, often before either the engineer or manager notices.
+
+**How to use this:** Periodically map each senior engineer's primary skills against what they have actually worked on in the last two quarters. If every assignment falls within their existing comfort zone, they are grinding low-XP monsters.
+
+The fix isn't a job switch — most organizations have internal opportunities, but those require active EM intervention to surface and assign. Ask directly: "What skills do you want to level up in the next six months that you haven't had the chance to?" Then design at least one assignment per cycle that sits in their zone of proximal development — hard enough to generate real growth, not so far beyond current capability that it produces failure.
+
+---
+
 ## Related Skills
 
 - `retaining-developers` — Rockstars are primarily in the "Bored" and "Stuck" states

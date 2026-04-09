@@ -30,6 +30,10 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | knowledge-sharing | `skills/knowledge-sharing/SKILL.md` | Break down knowledge silos — guilds, ADRs, onboarding buddies, radical transparency |
 | ai-adoption | `skills/ai-adoption/SKILL.md` | 5-level AI adoption framework: code editors → agents → AI review → measurement → innovation |
 | business-literacy | `skills/business-literacy/SKILL.md` | Key business terms (ARR, COGS, CAC, LTV, AARRR) with EM-specific translation examples for roadmap and tech proposals |
+| feature-flags | `skills/feature-flags/SKILL.md` | 4-category flag taxonomy (release/ops/experiment/permission) with ownership, lifetime, and governance rules |
+| shadow-work | `skills/shadow-work/SKILL.md` | 3 types of invisible capacity drain: production support, glue work, shadow backlog — with EM interventions |
+| team-composition | `skills/team-composition/SKILL.md` | Dungeon party model: 5 archetypes (Warrior/Tank/Healer/Wizard/Rogue) for diagnosing team skill gaps |
+| em-internal-tools | `skills/em-internal-tools/SKILL.md` | Build internal tools with AI coding tools — 10 categories, tool selection guide, triple payoff |
 
 ## Articles Processed
 
@@ -130,3 +134,29 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | 93 | Engineering Management & Fatherhood - Take #2 | Skip | Personal narrative comparing parenting and management; no actionable EM framework |
 | 94 | It Depends: 7 viral Engineering Management dilemmas | Skip | Opinion/poll format; discussion content overlaps existing skills |
 | 95 | Engineering Management in the Age of Agents | Skip | Editorial on EM value in AI era; no concrete framework |
+| 96 | Engineering Managers are going to hate OpenClaw | Enhance existing | Added agentic AI feature pressure section to `ai-adoption` — reactive vs. proactive risk profiles, forcing accountability questions |
+| 97 | Software engineering calories: what would cal.ai say about your product? | Skip | Extended product-level metaphor; no EM framework |
+| 98 | The challenges of 100+ Development Team Leaders | Skip | Survey results with anecdotal tips; overlaps existing skills |
+| 99 | Improve your SQL skills X2 in 5 minutes | Skip | Developer-facing SQL tutorial; not an EM skill |
+| 100 | Feature flags are ruining your codebase | New skill | Created `feature-flags` — 4-category taxonomy with ownership, lifetime, and governance rules per type |
+| 101 | 10 Must-Reads for Engineering Leaders | Skip | Curated book list; no original framework |
+| 102 | The worst Slack messaging mistake engineers make | Enhance existing | Added async re-explanation trap section to `written-communication` — assume 10x threads, reframe misses as expected |
+| 103 | How refactoring almost ruined my marriage | Enhance existing | Added refactor authorization framework to `code-reviews` — two questions before authorizing rewrites |
+| 104 | Stop forcing AI tools on your engineers | Enhance existing | Added outcome-over-tool section to `ai-adoption` — 3 failure modes, organic exploration model |
+| 105 | Killing the tiny annoyances (in work and life) | Skip | Personal productivity tips; not an EM skill |
+| 106 | 7 Slack hacks for engineers and managers | Skip | Slack UI tips; overlaps deep-work territory |
+| 107 | The Software Games: Endless Grind | Enhance existing | Added diminishing XP diagnostic to `managing-high-performers` — map senior engineers' recent work against comfort zones |
+| 108 | 10 simple internal tools any EM can build in under 2 hours | New skill | Created `em-internal-tools` — 10 tool categories, tool selection guide (Cursor vs. Lovable vs. n8n) |
+| 109 | Engineering velocity on steroids | Skip | Founder/CEO perspective on startup practices; overlaps existing skills |
+| 110 | Build your engineering team like a dungeon party | New skill | Created `team-composition` — 5 archetypes (Warrior/Tank/Healer/Wizard/Rogue) for diagnosing team gaps |
+| 111 | 3D No-Code, nights and weekends | Skip | Personal side-project narrative; no EM framework |
+| 112 | The price of mandatory code reviews | Enhance existing | Added data benchmarks to `code-reviews` — 400+ team study: review frequency, quality tradeoffs, 3-hour merge target |
+| 113 | Give your engineers a kingdom | Enhance existing | Added kingdom framework to `delegation` — 4 ownership types with decision authority, not just execution |
+| 114 | Shadow work in engineering teams | New skill | Created `shadow-work` — 3 types: invisible production support, glue work, shadow backlog |
+| 115 | 5 engineering dogmas it's time to retire | Skip | Opinion recap of other newsletter articles; no new framework |
+| 116 | Who does what and how to support them | Enhance existing | Added 3-layer assignment framework to `delegation` — efficiency/advancement/durability with knowledge map exercise |
+| 117 | The time zones of Engineering Managers | Skip | Personal reflection; overlaps managing-yourself |
+| 118 | The software engineering "squeeze" | Skip | Developer-career opinion piece; not EM-facing |
+| 119 | Don't become an Engineering Manager | Enhance existing | Added counseling-engineers-on-management-track section to `management-transitions` — 3 structural headwinds (pace, ladder, pay) |
+| 120 | The unwritten laws of software engineering | Skip | Developer-facing engineering hygiene list; not EM-facing |
+| 121 | Explaining, understanding, and data compression | Enhance existing | Added compression/decompression model to `written-communication` — over-compression vs. over-explanation, calibration tool |

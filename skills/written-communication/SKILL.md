@@ -72,6 +72,34 @@ Don't aim for perfection. A clear, timely message is better than a perfect delay
 
 ---
 
+## The Async Re-Explanation Trap
+
+The most damaging Slack pattern is not bad grammar or long messages — it is calling out when someone missed a prior message: "as I already said," "I clearly wrote above," "I explained this last week."
+
+The recipient feels humiliated. Repeat exposure destroys working relationships. The root cause is a false assumption: that because you wrote something clearly, the other person read and processed it the same way.
+
+A corrective mental model: assume the other person has ten times as many active threads as you do. This reframes their miss as expected, not negligent — and produces two improvements: you write more concise, context-complete messages upfront, and you respond to misses with patience rather than public correction.
+
+If a pattern of missed messages becomes a systemic problem, address it directly and privately, never in-thread.
+
+---
+
+## The Compression/Decompression Model
+
+All communication is lossy. The speaker compresses rich internal experience or technical context into transmittable language. The listener decompresses it through their own lens. The received message is never identical to the sent one.
+
+Two failure modes follow:
+- **Over-compression:** too little context; the recipient fills gaps wrong
+- **Over-explanation:** past a clarity peak, adding more detail actually reduces understanding by introducing noise
+
+Compression skill means finding the minimum set of words that reliably produces an "aha" moment in the specific listener — not the most complete explanation, but the most efficient one for that audience. This applies to feedback, technical proposals, and stakeholder updates.
+
+Decompression skill means actively working to receive what was actually meant, not what you expected to hear. The more confident you feel you understood, the more likely you are wrong.
+
+A calibration tool: after delivering a message, ask the other person to reflect back what they heard. The gap between your intent and their summary is your compression error. Technical managers are often weakest here — precision in code does not transfer to precision in communication.
+
+---
+
 ## Related Skills
 
 - `managing-yourself` — Finesse in how you communicate with senior leadership
