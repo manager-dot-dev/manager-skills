@@ -126,3 +126,7 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | 89 | Building a $5K ARR Side Project While Managing 9 Engineers | Skip | Personal side-project story; not an EM skill |
 | 90 | How to WOW your engineers without budget | Enhance existing | Added zero-budget recognition section to `retaining-developers` — 5 specific low-cost recognition moments |
 | 91 | The 7 must-read Engineering Management books | Skip | Book list; no actionable framework to extract |
+| 92 | The 13 software engineering laws | Skip | Listicle of well-known laws (Parkinson's, Brooks', Conway's); no original framework |
+| 93 | Engineering Management & Fatherhood - Take #2 | Skip | Personal narrative comparing parenting and management; no actionable EM framework |
+| 94 | It Depends: 7 viral Engineering Management dilemmas | Skip | Opinion/poll format; discussion content overlaps existing skills |
+| 95 | Engineering Management in the Age of Agents | Skip | Editorial on EM value in AI era; no concrete framework |
