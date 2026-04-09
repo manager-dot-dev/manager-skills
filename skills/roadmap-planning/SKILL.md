@@ -53,6 +53,26 @@ The fix: large strategic initiatives shouldn't live in the 20% — they should b
 
 ---
 
+## Phased Releases: When They Help and When They Don't
+
+Releasing a feature in phases sounds careful and de-risked. Often it just delays learning and creates drag.
+
+Five questions to pressure-test a phased roadmap:
+
+1. **Are you phasing because users asked for it, or because the team wants to build more?** Phase 2 is often a wish list, not a user need.
+2. **Will Phase 1 actually be used without Phase 2?** If Phase 1 alone isn't valuable, you're just shipping a stub. Users don't care about your internal phases.
+3. **What are you learning in Phase 1 that should inform Phase 2?** If you can't name it, Phase 2 is already fully designed — which means you're not actually using Phase 1 as a learning milestone.
+4. **What's the cost of stopping after Phase 1?** Phases create internal expectations. Once you ship Phase 1, Phase 2 starts to feel like a commitment rather than a choice.
+5. **Is there a simpler version that delivers the full value?** The best version of "Phase 1 + Phase 2" is often just a better-scoped Phase 1.
+
+**The Honda story.** When Honda entered the US motorcycle market, they planned to lead with their large bikes — the serious motorcycles. Those broke down. Their small, cheap motorcycles (which they were riding around themselves) caught attention instead. They pivoted fast and built a market they hadn't planned for.
+
+The lesson: the plan you start with is a hypothesis. Great product teams are willing to stop a feature mid-build if the signal says to. They treat stopping as a sign of good product culture, not failure.
+
+**Communicate this to your team.** Engineers often feel demoralized when a feature is stopped. Your job is to frame it differently: "We shipped, we learned, we're redirecting based on real data. That's how this is supposed to work." The alternative — continuing to build something that's clearly not working — is the actual failure.
+
+---
+
 ## Related Skills
 
 - `em-context` — For team context, size, capacity

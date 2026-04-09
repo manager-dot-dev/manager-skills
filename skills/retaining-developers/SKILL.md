@@ -60,6 +60,40 @@ When developers don't care about the product or customers — only the technical
 
 ---
 
+## Stock Options and Equity Conversations
+
+Equity is one of the most misunderstood parts of compensation — and one of the most common sources of silent resentment or missed retention opportunities. As EM, you're often the one who has (or can get) the context to have this conversation well.
+
+### At Hire
+
+When a developer joins and receives an options grant, three numbers matter and most people don't explain them clearly:
+
+- **Exercise price (strike price):** What they'll pay per share to own it. Set at fair market value on grant date.
+- **Current price (FMV):** What the company is currently worth per share.
+- **The 10X scenario:** What is this worth if the company grows 10X? Put a number on it. "These options could be worth ~$Xk at a 10X outcome" makes equity concrete rather than abstract.
+
+Most people sign offer letters without understanding any of this. Be the person who explains it.
+
+### At Tenure
+
+Additional grants are a common and underused retention tool. After a year or two of strong performance, a developer's original grant is largely vested — the "golden handcuffs" loosen. A refresh grant re-anchors the retention value and signals that you're investing in them long-term.
+
+If your company has a refresh grant program, use it proactively. Don't wait for a developer to ask or start interviewing.
+
+### At Departure
+
+When someone leaves, there are three common scenarios and each needs a different conversation:
+
+1. **Staying at a startup, going to a bigger company:** They're likely leaving unvested equity on the table. Help them understand what they're walking away from. Not to guilt them — just so they have full information.
+
+2. **Leaving before a liquidity event:** Most options expire 90 days after departure. If they have in-the-money options, they may need to decide whether to exercise and pay for them. This can be expensive. Make sure they know the clock is running.
+
+3. **Leaving after a long tenure:** If they've been there long enough that most options are vested, the financial picture is cleaner — but still worth reviewing together.
+
+These conversations aren't about keeping people against their will. They're about treating people with respect by making sure they understand their own financial situation.
+
+---
+
 ## Final Caveat
 
 Not everything is in your hands. People get offers you can't match, want to change domains, start companies, or relocate. When the time comes, part on good terms. Don't take it personally.

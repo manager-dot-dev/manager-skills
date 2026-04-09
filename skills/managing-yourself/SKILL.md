@@ -152,6 +152,44 @@ A few behaviors that undermine how senior leadership perceives you:
 
 ---
 
+## Why Managers Have More Bad Days
+
+One thing nobody warns you about: management has a different emotional profile than individual contribution.
+
+As a developer, bad days are bounded. You write code, you fix bugs, you ship things. Even hard days end with something tangible. If things get really bad, you put on headphones and disappear into the work.
+
+As a manager, that escape doesn't exist. Your mood and your work are the same thing. Three reasons managers have more bad days than they expect:
+
+1. **Guilt.** You can't be everywhere. Someone needs more of you than you can give today. Someone's frustrated that their PR hasn't been reviewed, someone else needed career support you didn't have time for, someone's blocked and waiting. This guilt is constant and low-level. It doesn't go away — you learn to work with it.
+
+2. **More interactions means more variance.** As a developer, your day is mostly you and your work. As a manager, your day is mostly other people. More interactions means more opportunities for misunderstanding, conflict, a conversation that didn't land, feedback that was received badly. The upside interactions are higher. The downside ones are also more frequent.
+
+3. **No coding escape.** When coding was your job, you could always retreat to a hard technical problem and feel competent. Management doesn't have that. The work is ambiguous, slow, and relational. There's no equivalent of "I fixed the bug."
+
+**What to do when you're having a bad management day:**
+
+Two real options — pick one, don't half-do both:
+- **Take the sick day.** If you're depleted, burned out, and not able to show up well — don't. The team is better off without a depleted manager than with one who's going through the motions.
+- **Go all-in.** If you can't take the day off, fully commit to being present. The worst outcome is showing up half-present — checked out, distracted, irritable — which bleeds into every interaction.
+
+**3 red flags that something is wrong (not just a bad day):**
+
+1. You find yourself avoiding a specific person or conversation for more than a week.
+2. You feel resentful toward your team or your manager — not frustrated, but genuinely resentful.
+3. You've stopped being curious about the work and are just executing.
+
+**5 root causes when bad days become a pattern:**
+
+1. A hard relationship you're not addressing (see #1 of the 10 traps above)
+2. You don't feel you have enough autonomy — someone is micromanaging you
+3. The work doesn't connect to something you care about
+4. You're not growing — doing the same problems in a loop
+5. You're carrying too much alone and not delegating
+
+None of these fix themselves. Name the one that fits and address it directly.
+
+---
+
 ## Related Skills
 
 - `delegation` — The bottleneck trap maps directly to #5 and the dichotomies

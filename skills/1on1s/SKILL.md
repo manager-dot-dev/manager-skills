@@ -7,14 +7,30 @@ metadata:
 
 # 1:1s
 
-> This skill is being built from articles. Content will be added as relevant articles are processed.
-
 ## Before Starting
 
 Check for EM context first:
 1. Read `.agents/em-context.md` if it exists
 2. If a person is mentioned, look for `.agents/reports/[name].md` and read it
 3. Use that context — only ask for information not already covered
+
+---
+
+## What Makes 1:1s Work
+
+Based on a survey of engineers: the most valued 1:1s share a few consistent traits.
+
+**Do them weekly.** Bi-weekly feels inconsistent and leaves too much time between touchpoints. Weekly builds the habit and the trust. If you're considering skipping one, consider what that signals.
+
+**Be consistent.** The biggest mistake is cancelling or rescheduling often. Engineers notice. It communicates that the 1:1 — and by extension, they — aren't a priority. Protect the slot.
+
+**Don't focus on day-to-day work.** Status updates have other venues. 1:1s are not standups. Use them for: career development, growth, personal connection, things they won't bring up in a group setting, what's frustrating them, what they're excited about.
+
+**Use them for personal connection.** Ask about life outside work — not in a prying way, just genuine interest. Remember what they tell you. Return to it. This is how trust builds.
+
+**Be patient.** Trust takes time. Some people open up in the first 1:1. Others take months. One story: a developer didn't really open up until 6+ months in — and the relationship became one of the manager's strongest. Show up consistently. The patience pays off.
+
+---
 
 ## Related Skills
 

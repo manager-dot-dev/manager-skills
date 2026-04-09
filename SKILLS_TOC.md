@@ -7,22 +7,25 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | Skill | File | One-liner |
 |-------|------|-----------|
 | em-context | `skills/em-context/SKILL.md` | Foundation: stores team/org context and per-person direct report profiles used by all other skills |
-| 1on1s | `skills/1on1s/SKILL.md` | Prepare, run, and follow up on 1:1 meetings — agendas, question banks, note templates, anti-patterns |
+| 1on1s | `skills/1on1s/SKILL.md` | Weekly 1:1s — consistency, personal connection, don't use for status updates, patience builds trust |
 | feedback | `skills/feedback/SKILL.md` | Deliver specific positive or constructive feedback using SBI framework — scripts for hard conversations and written reviews |
 | performance-reviews | `skills/performance-reviews/SKILL.md` | Write and structure performance reviews — templates, rating guidance, promotion cases, PIPs, underperformer diagnosis |
 | hiring | `skills/hiring/SKILL.md` | Define roles, set 30/60/90 success criteria, junior vs senior mix, river-not-lake team model |
-| roadmap-planning | `skills/roadmap-planning/SKILL.md` | Tech debt management, the 5 traps of the "20% rule," single product+tech backlog |
-| team-health | `skills/team-health/SKILL.md` | Team meetings content and cadence; broader team morale, burnout, conflict, engagement |
+| roadmap-planning | `skills/roadmap-planning/SKILL.md` | Tech debt management, the 5 traps of the "20% rule," phased releases pressure-test, single product+tech backlog |
+| team-health | `skills/team-health/SKILL.md` | Team meetings, Team Focus Days, transparency and disappointment frontier |
 | delegation | `skills/delegation/SKILL.md` | Stop being the bottleneck — Team Rep pattern, project ownership, knowledge distribution, Task-Relevant Maturity |
-| managing-yourself | `skills/managing-yourself/SKILL.md` | 10 EM traps, dichotomies, balcony awareness, Drama Triangle→Creator, BAA framework, senior leadership communication |
+| managing-yourself | `skills/managing-yourself/SKILL.md` | 10 EM traps, dichotomies, balcony awareness, Drama Triangle→Creator, BAA framework, senior leadership communication, bad-day patterns |
 | getting-feedback | `skills/getting-feedback/SKILL.md` | Get real feedback from your team as a manager — 3 techniques: different angles, share difficulties, situational framing |
-| retaining-developers | `skills/retaining-developers/SKILL.md` | 5-state retention framework: unappreciated/lonely/bored/stuck/apathetic — diagnosis and concrete actions per state |
+| retaining-developers | `skills/retaining-developers/SKILL.md` | 5-state retention framework; stock options conversations at hire, tenure, and departure |
 | managing-urgency | `skills/managing-urgency/SKILL.md` | Handle urgent deadlines and use deadlines as a tool — 5 pre-sprint questions, Parkinson's Law, 5 fake-deadline mistakes |
 | managing-high-performers | `skills/managing-high-performers/SKILL.md` | Manage rockstars — 4 quadrants, what not to do, goals/visibility/unfiltered feedback, burnout protection |
 | manager-readme | `skills/manager-readme/SKILL.md` | Write a Manager README to make expectations explicit — what to include, how to present it |
 | working-with-pm | `skills/working-with-pm/SKILL.md` | Build a true PM–EM partnership — 3 relationship patterns, single roadmap, product-oriented EM |
 | influence | `skills/influence/SKILL.md` | 5 persuasion methods: Nemawashi, Decoy Pricing, Reverse Psychology, LMDTFY, Engineered Serendipity |
 | working-with-architects | `skills/working-with-architects/SKILL.md` | Get the most from Architects/Staff/Principal engineers — do your side, own the project, push for time |
+| deep-work | `skills/deep-work/SKILL.md` | Protect engineering focus time — flow state, meeting culture fixes, fixed meeting windows, async defaults |
+| management-transitions | `skills/management-transitions/SKILL.md` | 4 transition types: Apprentice, Successor, Pioneer, New Boss — specific challenges and actions for each |
+| code-reviews | `skills/code-reviews/SKILL.md` | 4 reviewer archetypes, EM role in CR culture, time guidelines, matching reviewer to task type |
 
 ## Articles Processed
 
@@ -59,3 +62,23 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | 29 | The secret of the best engineering manager I know | Skip | Primarily a book summary of "Give and Take"; EM-specific advice is thin (3 bullet points) |
 | 30 | Staying Calm When You Want to Disappear | Enhance existing | Added BAA framework (Breathe, Assess, Act) to `managing-yourself` — 3 high-pressure scenarios |
 | 31 | Using fake deadlines without driving your engineers crazy | Enhance existing | Added Parkinson's Law + 5 fake-deadline mistakes to `managing-urgency` |
+| 32 | Distracting software engineers | New skill | Created `deep-work` — flow state, 31 distractions/day, meeting culture fixes, fixed meeting times, async defaults |
+| 33 | The 4 Words that Will Drive Anyone Crazy | Skip | Behavioral tip (saying "calm down") — too narrow, not an actionable EM framework |
+| 34 | The Apprentice, The New Boss, The Successor and The Pioneer | New skill | Created `management-transitions` — 4 types from Making of a Manager, challenges and tactics per type |
+| 35 | How can developers become more business oriented | Skip | Personal advice to individual developers, not an EM skill |
+| 36 | Competition is good for your team | Skip | Thin concept, overlaps with existing retention and team health content |
+| 37 | How I almost quit because of $75 | Skip | Personal narrative, no actionable EM framework |
+| 38 | 3 steps for a FAST promotion to management | Skip | Primarily IC-facing career advice |
+| 39 | How I destroyed the company's DB | Skip | Technical incident story, thin on EM-specific lessons |
+| 40 | How a 3rd Party API Can Ruin Your Weekend | Skip | Technical incident story, not an EM skill |
+| 41 | Organizing team focus days | Enhance existing | Added Team Focus Day framework (outside office, 6-month cadence, PM included, 10 content ideas) to `team-health` |
+| 42 | The secret for effective code reviews | New skill | Created `code-reviews` — 4 reviewer types with tactics, EM role, time guidelines, reviewer-to-task matching |
+| 43 | Why do companies keep so many secrets | Enhance existing | Added transparency section to `team-health` — shit umbrella anti-pattern, disappointment frontier, financial situation, roadmap draft |
+| 44 | Becoming an Engineering Manager - Is It For You? | Skip | Self-assessment quiz format, not an actionable skill |
+| 45 | Why managers have more bad days | Enhance existing | Added bad-day patterns section to `managing-yourself` — guilt/interactions/no-escape, sick day vs all-in, 3 red flags, 5 root causes |
+| 46 | The ridiculous policy that forced engineers at 2 AM | Skip | Technical story (DST bug), no EM-specific framework |
+| 47 | The Guide to Stock Options conversations | Enhance existing | Added equity conversations section to `retaining-developers` — at hire, at tenure, at departure (3 scenarios) |
+| 48 | Great software teams don't release in phases | Enhance existing | Added phased releases section to `roadmap-planning` — 5 pressure-test questions, Honda story, stopping = good culture |
+| 49 | Product Management is broken | Skip | Overlaps heavily with existing `working-with-pm` content |
+| 50 | Becoming a sales-engineer | Skip | Career path exploration, not an EM skill |
+| 51 | What do your 1:1s look like? (survey) | Enhance existing | Added 1:1 foundations to `1on1s` — weekly cadence, consistency, personal connection, patience |
