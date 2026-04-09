@@ -13,8 +13,10 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | hiring | `skills/hiring/SKILL.md` | Define roles, write JDs, structure interview loops, run debriefs, close offers, set 30/60/90 success criteria |
 | roadmap-planning | `skills/roadmap-planning/SKILL.md` | Build quarterly roadmaps — capacity planning, prioritization frameworks, stakeholder communication |
 | team-health | `skills/team-health/SKILL.md` | Assess and improve team morale, psychological safety, burnout, conflict, and engagement |
-| delegation | `skills/delegation/SKILL.md` | Stop being the bottleneck — Team Rep pattern, project ownership, knowledge distribution, delegation principles |
-| managing-yourself | `skills/managing-yourself/SKILL.md` | EM self-assessment, managing up/down/across, relationship building, personal development, 10 common traps |
+| delegation | `skills/delegation/SKILL.md` | Stop being the bottleneck — Team Rep pattern, project ownership, knowledge distribution, Task-Relevant Maturity |
+| managing-yourself | `skills/managing-yourself/SKILL.md` | EM self-assessment, managing up/down/across, relationship building, 10 common traps, dichotomies |
+| getting-feedback | `skills/getting-feedback/SKILL.md` | Get real feedback from your team as a manager — 3 techniques: different angles, share difficulties, situational framing |
+| retaining-developers | `skills/retaining-developers/SKILL.md` | 5-state retention framework: unappreciated/lonely/bored/stuck/apathetic — diagnosis and concrete actions per state |
 
 ## Articles Processed
 
@@ -26,3 +28,8 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | 4 | What I wish somebody told me during my first year | Merged | Key content (team rep, project ownership, go-to person trap) merged into `delegation` |
 | 5 | The impossible task of engineering managers | Enhance existing | Added dichotomies table + demanding/caring framework to `managing-yourself` |
 | — | *(housekeeping)* | Cleanup | Stripped all non-article-derived generic content from `1on1s`, `feedback`, `roadmap-planning`, `team-health`, `hiring`, `performance-reviews` — now shells or article-only content |
+| 7 | You are firing people too late | Enhance existing | Added "making the hard call" section to `performance-reviews` — relief test, price of waiting, 5-step checklist |
+| 8 | The Curse of Good Managers | New skill | Created `getting-feedback` — 3 techniques with real story examples |
+| 9 | 5 reasons why your best developers will quit | New skill | Created `retaining-developers` — 5-state framework with actions per state |
+| 10 | Most micromanagers are blind to being seen as one | Enhance existing | Added Task-Relevant Maturity (TRM) framework to `delegation` |
+| 11 | The 3 hero traps experienced EMs fall into | Skip | Newsletter is teaser-only, full article behind external blog — insufficient content |

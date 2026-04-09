@@ -73,6 +73,25 @@ From the articles directly:
 
 ---
 
+---
+
+## How Much Involvement Is Right: Task-Relevant Maturity
+
+Most managers stop at "juniors need more oversight, seniors less." That's still too blunt.
+
+Andy Grove's concept from *High Output Management*: **Task-Relevant Maturity (TRM)** — not the person's general seniority, but their maturity for *this specific task*. A senior engineer doing something for the first time has low TRM for that task. A junior doing their fifth microservice has high TRM.
+
+- **Low TRM** → structured involvement: tell them what to do, check in regularly, be available
+- **High TRM** → step back: set the goal, let them work, trust the outcome
+
+Getting this wrong in either direction is a failure:
+- Too hands-on with high TRM → micromanagement, demotivation
+- Too hands-off with low TRM → the customer (internal or external) pays for the mistake
+
+When a task feels high-stakes, ask yourself: is this person's TRM actually high for *this* task — or just in general?
+
+---
+
 ## Related Skills
 
 - `managing-yourself` — Over-involvement is trap #5 in the 10 ways EMs get stuck
