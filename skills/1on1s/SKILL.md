@@ -30,6 +30,8 @@ Based on a survey of engineers: the most valued 1:1s share a few consistent trai
 
 **Be patient.** Trust takes time. Some people open up in the first 1:1. Others take months. One story: a developer didn't really open up until 6+ months in — and the relationship became one of the manager's strongest. Show up consistently. The patience pays off.
 
+**Ask about cadence — don't assume.** Weekly 1:1s work well for most people. Some prefer bi-weekly. Some feel they don't need a standing slot at all. Ask what cadence your reports actually want. The same applies to other defaults: not everyone wants to be involved in roadmap discussions, not everyone wants to present in team meetings. Ask first.
+
 ---
 
 ## Related Skills

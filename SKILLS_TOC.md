@@ -26,6 +26,9 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | deep-work | `skills/deep-work/SKILL.md` | Protect engineering focus time — flow state, meeting culture fixes, fixed meeting windows, async defaults |
 | management-transitions | `skills/management-transitions/SKILL.md` | 4 transition types: Apprentice, Successor, Pioneer, New Boss — specific challenges and actions for each |
 | code-reviews | `skills/code-reviews/SKILL.md` | 4 reviewer archetypes, EM role in CR culture, time guidelines, matching reviewer to task type |
+| written-communication | `skills/written-communication/SKILL.md` | 3-step framework for clear messages: Prepare (why/what/who), Write Simply, Garbage Collect |
+| knowledge-sharing | `skills/knowledge-sharing/SKILL.md` | Break down knowledge silos — guilds, ADRs, onboarding buddies, radical transparency |
+| ai-adoption | `skills/ai-adoption/SKILL.md` | 5-level AI adoption framework: code editors → agents → AI review → measurement → innovation |
 
 ## Articles Processed
 
@@ -82,3 +85,23 @@ A navigation guide for the skill set. Use this to decide whether to create a new
 | 49 | Product Management is broken | Skip | Overlaps heavily with existing `working-with-pm` content |
 | 50 | Becoming a sales-engineer | Skip | Career path exploration, not an EM skill |
 | 51 | What do your 1:1s look like? (survey) | Enhance existing | Added 1:1 foundations to `1on1s` — weekly cadence, consistency, personal connection, patience |
+| 52 | Clean up your Email Inbox in 5 minutes | Skip | Gmail-specific personal productivity; not an EM skill |
+| 53 | How we deleted 4195 code files in 9 hours | Enhance existing | Added Cleanathon format to `roadmap-planning` — scoring system, stability safeguards, post-event guidelines |
+| 54 | When ignoring security alerts makes sense | Skip | Harm vs. cost mental model — too thin, not distinctly EM |
+| 55 | How to keep up with all the digital content | Skip | Personal content consumption system; not an EM skill |
+| 56 | Being an engineering manager at Amazon | Enhance existing | Added precision/no weasel words to `feedback`; added mechanisms over intentions to `managing-yourself` |
+| 57 | 3 steps to write messages that people will enjoy reading | New skill | Created `written-communication` — Prepare/Write Simply/Garbage Collect framework |
+| 58 | 3 genius marketing tips for software engineers | Skip | Product/marketing advice; not an EM skill |
+| 59 | Team got cut. Scope didn't. | Enhance existing | Added maintenance costs as third roadmap dimension to `roadmap-planning` |
+| 60 | The New Engineering Manager's Handbook | Enhance existing | Added Maker/Manager calendar blocking and code-review-your-decisions to `managing-yourself` |
+| 61 | Breaking the wall between teams | New skill | Created `knowledge-sharing` — 4 root causes of silos with concrete fixes per cause |
+| 62 | How to have 27 hours in your day | Skip | Personal productivity system; not an EM skill |
+| 63 | Why sprints are taking the joy out of building software | Enhance existing | Added sprint anti-patterns and breathing room tactics to `roadmap-planning` |
+| 64 | Engineering management in the next unicorn app | Skip | Interview/story format; frameworks are thin and overlap with existing skills |
+| 65 | The slow death of the hands-on engineering manager | Enhance existing | Added Maker/Manager mode and staying technically connected to `managing-yourself` |
+| 66 | Being an Engineering Manager at Meta | Enhance existing | Added manager delta concept (weekly contribution review) to `managing-yourself` |
+| 67 | 6 secrets for never being blocked again | Skip | Mostly developer-facing tips; EM-specific parts (join DevOps planning) are thin |
+| 68 | How an EM's Side Project Reached 1,800 GitHub Stars | Skip | Personal side-project story; not an EM skill |
+| 69 | 6 assumptions engineering managers make (and engineers hate) | Enhance existing | Added "ask about cadence" nuance to `1on1s`; added public praise caveat to `feedback` |
+| 70 | $7B startup Head of Engineering builds a profitable side project | Skip | Side project story with Claude Code usage tips; not an EM skill |
+| 71 | The EM's guide to AI adoption (without your engineers hating it) | New skill | Created `ai-adoption` — 5-level framework from code editors to measurement to ongoing innovation |

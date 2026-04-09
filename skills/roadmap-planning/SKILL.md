@@ -73,6 +73,61 @@ The lesson: the plan you start with is a hypothesis. Great product teams are wil
 
 ---
 
+## Maintenance Costs as a Third Dimension
+
+Roadmap discussions usually get trapped on two axes: *what* to build and *how long* it will take. This misses the ongoing cost of everything you commit to.
+
+Every feature you ship adds permanent weight. Maintaining it, supporting it, keeping it fast and secure — even with zero technical debt — takes ongoing team capacity. The more unrelated the systems, the harder this becomes.
+
+How to add maintenance cost to the conversation:
+1. Map the current ongoing costs of each system you own (bug fixes, outages, urgent customer requests, security patches)
+2. Estimate as a percentage of team capacity (e.g., "~10% of our time per system")
+3. Show the estimated increase in ongoing cost if you take on the proposed new work
+4. Let the other side make the decision with that information visible
+
+The numbers won't be accurate. That's not the point. The goal is to make the maintenance cost dimension visible in the conversation — not to be precise, but to change what gets considered.
+
+When you start tracking these things and bringing in real stories, it becomes much easier to push back on scope without it feeling like obstruction.
+
+---
+
+## Sprint Anti-Patterns
+
+Sprints, when followed rigidly, create their own problems. Signs that sprint process is working against the team:
+
+- Taking a smaller bug at sprint end because 2 days aren't enough for the real work
+- Pushing to finish sprint goals that no longer make sense
+- "Making progress on X" counted as a sprint goal
+- Velocity tracked as a success metric while features are consistently late
+- Tech debt moved to "next sprint" for 6 months running
+
+**What to do when you can't change the process:**
+
+- Always leave breathing room. Fight the argument "let's take it in the sprint, worst case we move it" with "let's not take it, best case we add it if we have time."
+- Don't force meaningless sprint goals. No goal is better than a fake one.
+- When someone finishes their tasks, let them work on what they want.
+- Fight for "quality sprints" — 2–3 week periods for fixing things, at least once a year.
+- Question practices that don't serve your team. Daily standups adding no value? Make them optional.
+
+---
+
+## The Cleanathon: Making Tech Cleanup Happen
+
+One effective format for tackling accumulated dead code, stale infrastructure, and technical clutter: a company-wide competition day.
+
+The basic format: every team competes to delete and clean up as much as possible in a single working day. With proper scoring, teams can include non-engineering departments (finance, QA, product) — anyone with files, automations, or processes to clean up.
+
+**What makes it work:**
+- **Scoring system** — critical for energy and engagement. Without scores, it's just a boring cleanup day. With scores, teams work until the last minute. Cap points per action (e.g., 1000 points max per deletion, regardless of size) to prevent gaming.
+- **Stability safeguards** — require 2 approvals from people familiar with the code, keep PRs open until tested together post-event, run end-to-end tests before merging
+- **Celebrate the effort** — team names, logos, printed rosters, lunch together. The social element matters.
+
+**The second-order effect to manage:** in the weeks before the event, teams stop deleting things and save them for points. Remind the team that continuous cleanup is the goal — the event is a catalyst, not a substitute.
+
+**Post-event: use the momentum.** Establish guidelines that prevent the same mess from accumulating: auto-delete merged branches, add dead code analyzers, create tickets to delete feature flags when they're created.
+
+---
+
 ## Related Skills
 
 - `em-context` — For team context, size, capacity

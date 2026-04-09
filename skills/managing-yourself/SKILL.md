@@ -190,6 +190,67 @@ None of these fix themselves. Name the one that fits and address it directly.
 
 ---
 
+## The Maker/Manager Mode
+
+Most EMs drift away from coding — not because they stop having time, but because they lose the habit. One sprint without a coding task becomes five. A year goes by. Now it's not about time, it's about the habit being gone.
+
+Getting back doesn't require taking sprint tasks. It requires choosing the *right* tasks.
+
+Three categories that work at any seniority level:
+1. **Something that helps your engineers** — reduce dev friction, fix something that slows them down, automate a painful process (the one that surfaced in the last retro). Double benefit: improves their lives AND teaches you something.
+2. **Something you'll learn from** — explore a new technology your team recently adopted, try a new tool, build a small PoC.
+3. **Something nobody else will ever do** — small improvements that fall between the cracks of product and tech backlogs.
+
+Rules for tasks you take: keep them under 4 hours, not on the critical path, and not blocking anyone else.
+
+A practical tool: use **calendar color coding**. Mark maker time (yellow) vs. manager time (blue). Block maker hours in advance before meetings fill your week. What gets scheduled gets done.
+
+---
+
+## Code-Reviewing Your Own Decisions
+
+Engineers have design reviews — a process for getting feedback on technical decisions before they're made. Management decisions almost never get the same treatment.
+
+A simple habit that fixes this: **write down your dilemmas in a spreadsheet**. Any time you face a hard call, note it.
+
+Then, in your next 1:1 with your manager:
+1. Describe the **dilemma** first — not the decision you made. Let them think through it independently.
+2. After they share their take, share the decision you made.
+3. Discuss the gap.
+
+An alternative: find a fellow EM you trust and do this exercise in turns. Often, just articulating the dilemma out loud — even without the feedback — clarifies the right answer.
+
+---
+
+## Your Manager Delta
+
+At Meta, managers are evaluated not on what their team shipped, but on what would have been different without them. Did the strong engineer succeed because of you — or in spite of you?
+
+The most common question in calibrations: "What did the manager contribute?"
+
+This is the right question to ask yourself weekly. Not "what did my team deliver?" but "what are my small contributions this week?"
+
+- A hallway conversation that redirected someone's approach
+- Fast in-the-moment feedback that prevented a bad pattern
+- Connecting two people who needed to talk
+- Mentoring that helped someone see a path they couldn't see before
+
+Documenting these will make you better at *noticing* them in the first place. The habit of writing them down sharpens your awareness of contribution opportunities in the moment.
+
+---
+
+## Mechanisms Over Intentions
+
+When something breaks down repeatedly — the Jira tickets don't get updated, PRs aren't reviewed in time, nobody reads the documentation — the instinct is to ask people to do better. That almost never works.
+
+The question to ask: **what mechanism would solve this even if the people were new or having a bad day?**
+
+Example: developers weren't updating Jira tickets despite repeated requests. Solution: spend 2 minutes at the start of standup updating them together. The request didn't change behavior; the mechanism did.
+
+When you find yourself frustrated that people "just aren't doing" something, stop and ask whether there's a systemic fix waiting to be built.
+
+---
+
 ## Related Skills
 
 - `delegation` — The bottleneck trap maps directly to #5 and the dichotomies
