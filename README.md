@@ -4,15 +4,19 @@ An OPINIONATED library of Agent Skills for engineering managers, tech leads, and
 
 LLMs were trained on the whole internet, and they suck at advice related to management.
 
-For this repo, I gathered info from the best articles I've read in the last 10 years, engineering management and leadership books, and my own articles and posts based on my own experience. For books, I've used only my notes from the books. I didn't upload the full books to LLMs.
+This repo is based on the best articles I've read in the last 10 years, engineering management and leadership books, my course, and my own articles and posts based on my own experience. No link to the course here, so nobody can blame me for promotion. For the books, I used only my own notes. I did not upload the full books to LLMs.
 
 You may strongly disagree with an answer. That's good, and that's the point. Generic shit advice is not helpful. If you disagree, follow your own opinion.
 
-My goal is to provide you with some useful perspective, like if you had talked to a fellow EM and shared your dilemma.
+My goal is to provide some useful perspective, like you had talked to a fellow EM and shared your dilemma.
 
-The opinions are mine, and not a universal truth or a how-to guide.
+The opinions are mine. They are not universal truth, and this is not a how-to guide.
 
-See the [Resources](#resources) section for the full list of articles and books that inspired this repo, including resources that did not end up being used directly in a skill. The skills are heavily based on articles from my blog and newsletter, [newsletter.manager.dev](https://newsletter.manager.dev/).
+I encourage you to stress these skills. Dive deep. Ask for ideas, suggestions, alternatives, and pushback. The point is not to get a perfect answer on the first try, but to use the skill as a thinking partner for a real management situation.
+
+I also included a database of 100 practical ideas for improving your team and supporting your engineers, so the skills can suggest concrete actions instead of staying at the level of abstract advice.
+
+The skills are heavily based on articles from my blog and newsletter, [newsletter.manager.dev](https://newsletter.manager.dev/). See the [Resources](#resources) section for the full list of articles and books that inspired this repo, including resources that did not end up being used directly in a skill.
 
 ## What This Repository Is
 
