@@ -100,6 +100,18 @@ Four steps that work better (from Adam Grant, based on research):
 
 ---
 
+## In-the-Moment Feedback
+
+Waiting for the next 1:1 to give feedback costs most of its effectiveness. The closer feedback is to the event, the more likely the person can connect it to what they actually did.
+
+**Standup feedback** — feedback given in the flow of work, at or near the moment it's relevant. Not a big formal conversation; a direct, brief comment. Example: a developer repeatedly delays code reviews for teammates. Raising this in the standup (or right after, in the hallway) is far more effective than bringing it up three days later in a 1:1 where the person may barely remember the specific instance.
+
+**The volume button.** In-the-moment feedback doesn't need to be loud or intense. Think of it as tuning down the tone and volume — not the substance. Keep the content clear and direct; deliver it calmly and without drama. Brief, respectful, and close to the event beats formal, thorough, and a week later.
+
+**Why timing matters.** Humans (like any animal) struggle to connect feedback to action when the gap is too long. Waiting days doesn't just reduce effectiveness — it trains the team to expect feedback only in formal settings, which reduces psychological safety in day-to-day work. Google's research on team effectiveness identified psychological safety as the #1 factor — and the team leader is the primary influence on it.
+
+---
+
 ## Speed Feedback: Building a Feedback Habit on the Team
 
 Teams that only give feedback in formal reviews are too slow. Speed feedback is a structured activity for building a team-wide feedback habit.

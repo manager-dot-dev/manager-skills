@@ -81,9 +81,27 @@ When reviewing the roadmap, ask the business question: which AARRR stage are we 
 
 ---
 
+## The 3 Layers of Business Impact
+
+EMs who drive real business impact typically work across three layers, in increasing order of difficulty:
+
+**Layer 1 — Product:** Do you and your team understand how your features are used? Have a dashboard showing feature usage that everyone can see. Know the product's AARRR metrics. A feature that ships but nobody adopts has zero impact.
+
+**Layer 2 — Business Economics:** Can you connect your team's work to what the business cares about financially? Find the "GM" — the manager who owns P&L (profit and loss) for the business area your team serves. Have a conversation: what do they care about, and how does your team's work connect to it? Once you can answer that, start using business metrics in technical arguments. "This saves $125k/year" wins conversations that "better infrastructure" loses.
+
+**Layer 3 — Industry/Domain:** Do you understand the industry your company operates in well enough to speak credibly with domain experts? Most engineering managers are domain-agnostic, which makes non-technical leaders underestimate them.
+
+Three levels of domain knowledge:
+- **Level 1 (Passive):** Know the terminology. Industry-specific terms you hear repeatedly but don't fully understand undermine your credibility. Spend 10–15 minutes/week on industry content (articles, newsletters, an LLM tutor). Ask it to explain the domain as an instructor would.
+- **Level 2 (Sharing):** Share what you learn. Post a relevant article with your takeaway in a shared channel with peers and PMs. People who see you engaging with the domain start treating you as a peer.
+- **Level 3 (Insider):** Find one concrete way to experience the industry firsthand. Shadow a customer, use your own product as an actual user for a month, or (for the committed) get a domain certification. The gap between knowing the domain and experiencing it is the difference between being taken seriously and being tolerated.
+
+---
+
 ## Related Skills
 
 - `working-with-pm` — PMs use this language constantly; understanding it makes you a real partner
 - `roadmap-planning` — Tech debt and platform work need business justification to get prioritized
 - `managing-yourself` — Senior leadership communication requires business fluency
+- `influence` — Business fluency directly enables the 3rd level of positioning (being trusted)
 

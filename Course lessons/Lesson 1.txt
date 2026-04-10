@@ -1,0 +1,229 @@
+Lesson 1 - Your people - 45 minutes
+Presentation: https://www.canva.com/design/DAGwfqkLdRE/0PAMBcpMFNv2eYOzHwV3yA/edit
+
+Introduction - ~10 minutes
+Mapping the drivers for themselves and their people - ~15 minutes
+Go over activities - ~10 minutes
+Casual employee development - ~10 minutes
+
+Intro - 10 minutes (starting at T+1)
+
+Slide
+
+We will do a quick 10 seconds intro about each of us:
+Name
+Your team size, how many engineers you Lead
+Your favorite SaaS product
+Talk some logistics:
+
+Slide 
+Welcome to Hacking Engineering Management. 
+Introduce Myself
+Engineer 15 years, EM/director 6 out of them. 
+Did a few cohorts with other instructors, coached engineers.
+Introducing Michael and Koren who will be helping me. 
+Slide
+
+Cover the goals
+Build a team of motivated engineers that doesn’t depend on you
+Create bigger impact and visibility for yourself and the team
+Be less stressed
+Find your own blind spots
+To do that, we’ll have 6 lessons
+Show the calendar 
+Today we focus on your people and your team
+Tomorrow, on yourself and and the org
+On Thursday, we’ll do some live debugging and focus on the impact part
+All lessons except 5 and the Q&A will be recorded 
+You’ll receive a summary with all the links I’ve talked about  
+
+
+Before starting
+My goal for this first cohort - do everything I can so it’ll be a 10/10 experience for you. 
+I want to build something for the long term. So please, if you feel it’s not for you - I’ll be happy to refund you, but also to do a 1:1 session to see where I can help. The audience are Engineering Managers who directly lead engineers. 
+It’ll be super intense and loaded in material. The course is something I'd dreamt of having. I'll flood you with ideas, there will be tons of knowledge and experience. The more you take for yourself the better - I'm giving you everything that I know.
+The downside of Zoom courses is that it’s super hard to keep your attention, and it’s tempting to multitask. I can’t do anything about that aside from promising that if your brain will be 100% with us you’ll get better results for your career. 
+There will be dedicated Q&A in each day, but feel free to raise hand in Zoom during the lessons if something is not clear 
+
+Any questions before we start?
+
+Now to the first part:
+
+Slide 
+
+Managing Engineers (Without Losing Your Mind) - 25 minutes
+
+Today we are going to talk about your engineers, and I’ll start by sharing straight away the most powerful concept I know - that helped me A LOT in creating a motivated team and freeing myself. 
+
+Before I reveal them, let me introduce 3 scenarios. 
+
+Slide 
+
+Your goal in the next 2 minutes is to think in which job you would have survived (or even enjoyed).
+
+The Cyber company - 30 seconds explanation
+The bank -  30 seconds explanation
+The non-profit - 30 seconds explanation
+
+The first scenario is growth-driven people: they want to be challenged, to be promoted, to always grow. Hate boring work. 
+
+The second case is connection-driven people. They get their energy from interactions, and can stay years with the same place just because of the people. 
+
+The third case are impact driven people. They care both about what the company is doing, but it can be manifested also in impact to the customers, in business metrics. They’ll be the ones who want to see the features actually used. 
+
+All people have at least a tiny bit of all 3 - but most have a main driver, and maybe a secondary one. 
+
+I would love to know which are yours, can you please write in the chat?
+
+
+For me it’s Impact. Moving the needle for the business sparks something in me. I can do super manual work if it helps sign a new customer for example.
+
+If I tell you that every person is motivated by different things - you’ll say it’s bullshit, I know it already. But in reality, many Engineering Managers don’t know how to do anything practical with it - so the fallback is to do more of the things related to your own driver. 
+
+Slide 
+
+For example:
+Growth driven EMs will fight for the people’s promotions, make sure they are challenged. 
+Impact driver EMs will bridge the gap with the business side, push for customers conversions, monitor metrics and so on. 
+Connection driven EMs will have more team meetings and team days, will bring people from outside the team, and will help engineers create stronger connections. 
+
+The problem with that is very often your engineers need something that doesn’t come naturally to you, or you even make fun of. So many EMs feel “connection” and “fun activities” are a waste of time, and they just don’t appreciate connection-driven people. And as you all know - good EMs need to be able to manage different kinds of engineers, not just people like them. 
+
+So now, let me go over quickly about some sample questions, in addition to the previous scenario, to understand how to spot each driver. The next step will be of course to write down the names of people and their driver, so have that in mind.
+
+<Going over the 3-4 questions for each Driver>
+
+Ok, so I hope you have some approximation. Some engineers can have multiple drivers.
+
+Slide
+
+The absolute key part here - understanding and using those drivers correctly is the biggest unlocked for getting more time to yourself! Because when you delegate thing that are not aligned, people just don’t do it. 
+
+And then you have to nag people, push them, remind them. When it aligns - it sparks. 
+
+Slide
+
+<The story about the disorganized logs to the Impact person>
+
+Slide
+We had ‘R&D grooming’ meetings every sprint, to discuss technical projects. I send a growth driver engineer who wanted to become an architect, and she took care of that part. 
+Another engineer was responsible for team fun things, it came easier for him
+Yes another one was a point of contact for Operations, and talking with our international team in Brazil - he was super impact driver and didn’t care those were not technical tasks. 
+
+So not only your engineers are happier, it reduce so much stress from you. On getting the right people to own the right things - 
+
+make sure to talk about this being the best solution to tech debt. 
+
+
+Slide
+
+Quote: “Every task you don’t like can be a growth opportunity for someone else”. 
+
+Slide
+
+AND - it helps you understand the gaps. In my opinion, every team needs all 3, and it IS possible for them to work together. So if all your engineers are super technical and care only about solving tech challenges - it’s worth bringing business oriented once - and vice versa. And if all of them eat lunch at their desks alone - it’s worth having someone a bit more outgoing. In the right circumstances, every human being enjoys stronger connections to their coworkers. 
+
+If you don’ believe me:
+
+Slide 
+“...This was something I hadn't done before, but once I started, I received incredibly positive feedback.
+People who had seemed a bit low in spirits began to take more initiative, became more engaged, and seemed to enjoy coming to work more. I truly felt their positive response.”
+
+- Liad Yogev, Engineering Manager at Orteco projects 
+
+Slide 
+
+I want to introduce The EM Pulse - a small app I’ve build to organize all the things in the course for you (instead of Google sheets). It’s invite only for now.
+
+So the first thing I want you to do is to enter the first names of your team members, and choose the primary driver for each person. Don’t stress about it too much. Later, you can also do the survey (Based on the same questions) that will do it automatically for you. 
+
+You can enter fake names, or even just numbers and map it to your people outside of the app. 
+
+Take 2 minutes for that. 
+ 
+Slide
+
+Now, I want to cover some ideas for things you could for engineers from each type of drive. The goal is for you to pick just one. EMs who I’ve coached said that their engineers really loved being a part of it - hearing about the drivers, and choosing something themselves. 
+
+Growth:
+Giving them a kingdom
+Team switching
+Give a technical talk
+Lead an internal guild - or at least one meeting!
+Write a technical article
+Lead a long term tech initiative 
+Contribute to open source
+
+Connection:
+Mentor a new engineer
+Team switching
+Organize cross-team coffee chats
+Lead a retrospective - it’s about talking
+Create an internal podcast or blog
+Team Memory Wall - collect funny quotes, screenshots, photos into a shared doc/Slack channel.
+
+Impact:
+Invite to external meetings
+Talk to customers - go big, fly them to meet customers
+Deeper business updates in 1:1 meetings
+Team switching
+Leading cross-department efforts
+
+Slide
+
+Salary and appreciation
+What I don’t like about Maslow’s pyramid of needs is that it assumes every person needs the same things. I believe it’s not a single pyramid, as we just discussed, and some people might need completely different things. 
+
+I do think though that there are 2 basic things, closely related, that you need to provide every engineer:
+
+- The feeling of being appreciate 
+- A worthy salary
+
+They are closely connected because quite often low salary is not about the numbers (most software engineers earn at least in the 20% highest in their country), it’s about how you compare to others, and whether you feel the company appreciates your skills. 
+
+So salary is a (big) part of being appreciated, but it’s not only about that. 
+
+So I have 2 things that worked for me in terms of Salary, and in terms of appreciation:
+
+Salary: 
+Initial salary is SUPER critical. 
+
+
+The 2nd point is raises.
+About being proactive
+
+Appreciation:
+Don’t steal the thunder. They should announce happy things, you bad ones
+Just tell them 
+
+
+Casual employee development - standup feedback - 10 minutes
+
+Survey: When would you provide feedback for someone on the team delaying with doing a Code Review to their teammate?
+On the next 1:1 meeting
+At their workstation, on the spot
+At the next performance review
+Feedback - you’re probably tired from hearing tips on this subject
+Psychology safety - 
+What is it?
+Proven as the #1 point for team effectiveness (by Google)
+Mostly affected by the team leader - who’s responsible to fostering a culture of openness and trust
+Standup feedback - what is it?
+Standup feedback - how to do it?
+“Volume button” - tune down the tone, tune down the volume
+Be nice and respectful
+Use humor (if possible)
+Closer to the event itself => more effective, even if not formal
+An extreme but helpful example => if your dog does it on the apartment floor, you can’t give them feedback after 5 minutes. They won’t connect it to the action itself. Humans are better at this, but waiting a few days does hurt effectiveness
+CTA: try to think about a feedback that you think you should've given in real time. Think of a feedback that you gave on your 1:1s and struggled to see effectiveness.
+
+
+
+Summing it up:
+
+We’ve did a quick intro and discussed the course
+I introduced the 3 drivers, and we mapped you and your people to each of the drivers
+We went over ideas for how to approach people with different drivers, and what you can do
+Casual employee development framework summary
+
+Let’s take a 5 minute break, and get back to the same link for the 2nd lesson - which will be about building a productive team.

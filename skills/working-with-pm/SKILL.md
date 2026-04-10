@@ -95,9 +95,21 @@ One of the most effective ways to become a true PM–EM partner: get your engine
 
 These aren't PM questions. These are questions every engineer should be able to answer about what they're building. If they can't, the spec isn't done yet.
 
-**Involve engineers in customer conversations.** Not just PMs talking to customers and reporting back. Engineers who hear customers explain their problems in their own words make different decisions than engineers handed a requirements doc. Even one customer conversation per quarter changes how engineers think.
+**Launch vs. Landing.** A feature is not finished when code is in production — it's finished when users actually use it. Launching (writing the code, deploying, announcing) is the fun part. Landing (adoption, actual impact) is boring and non-technical, but it's the part that matters. When you release, schedule a check-in with the engineer who built it 1–2 weeks out to look at the data. This one habit changes how engineers think about their work.
 
-**After shipping — engage with usage data.** What got used? What didn't? This is where engineers start developing product instincts. Share the data in retrospectives, not just the bugs and velocity.
+**Understand how users actually behave.** Most PMs have access to session recording tools (FullStory, Hotjar, Posthog). Nothing stops engineers from watching them too. Start with a 30-minute "movie time" monthly — watch recordings related to features your team owns. The gap between what you think users do and what they actually do is always surprising.
+
+**Get engineers into customer conversations.** Three practical ways that don't require reorganizing anything:
+- **Piggyback on existing calls.** Ask to silently join a customer discovery call run by PM, sales, or CS. Promise not to interrupt. Even one call per quarter changes how an engineer thinks about the work.
+- **Follow up on support tickets.** Find a user who recently had an issue your team fixed. Reach out: *"I'm the engineer who fixed this — I'd love 15 minutes to make sure it's resolved and understand your workflow better."* Customers are more receptive than you expect.
+- **Partner with CS to find a power user.** Ask CS to connect you with an engaged customer. *"I'm an engineer on the team that built X — I'd love 15 minutes to learn how we can make it better for you."*
+
+Three questions that work in any customer conversation:
+- *"How do you currently solve X?"* (context)
+- *"Can you show me how you'd use this new flow?"* (usability)
+- *"What's the most frustrating part of your current workflow?"* (pain validation)
+
+**After shipping — engage with usage data.** What got used? What didn't? Share this in retrospectives, not just bugs and velocity.
 
 **Articulate tech debt in business terms.** When engineers can say "this API costs us $40k/year and causes our top 3 customer complaints" rather than "this code is messy," they become credible voices in roadmap conversations — not just implementers pushing back on scope.
 

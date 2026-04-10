@@ -82,6 +82,22 @@ The fix isn't a job switch — most organizations have internal opportunities, b
 
 ---
 
+## Pushers and Pullers
+
+High performers fall into two distinct patterns — and each needs a different response:
+
+**Pushers** always want more: more responsibility, more recognition, more impact. They drive themselves hard and can handle almost anything. The problem: they burn the people around them. They create friction by moving faster than the team can follow, and can make colleagues feel inadequate or pressured.
+
+What to do: tell them directly that their success depends on the people around them succeeding too. Help them see that not everyone operates at their pace — and that bringing people along is a leadership skill, not a compromise.
+
+**Pullers** don't ask — but they'll take everything you give them. They do great work, are reliable, and exercise good judgment. Then one day they explode: burned out, resentful, or quietly checked out.
+
+What to do: set expectations proactively. Actively offload things from their plate before they ask. Check in on their energy, not just their output.
+
+Identifying which type you're dealing with changes what kind of support to provide.
+
+---
+
 ## Related Skills
 
 - `retaining-developers` — Rockstars are primarily in the "Bored" and "Stuck" states

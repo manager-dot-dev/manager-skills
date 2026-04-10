@@ -91,6 +91,32 @@ When you start tracking these things and bringing in real stories, it becomes mu
 
 ---
 
+## The Always Green Method
+
+Delivery speed is 95% about perception. A team that consistently delivers on-time small goals is perceived as fast. A team that swings for ambitious goals and misses looks slow — even if they shipped more.
+
+The core insight: **you can always deliver on time if you choose the right goals.**
+
+**The Hill Concept (from Shape Up)**
+
+Every project has two phases: climbing the hill (discovering unknowns, figuring out what to actually build) and going down (executing on what's now clear). You can't fully understand what a project requires through planning alone — you have to climb far enough to see everything.
+
+Before committing to a goal, start the work a sprint early. Spend a few days actually doing it — uncovering the hard parts, the dependencies, the unknowns. Once you've reached the top of the hill, you can commit with high confidence. Scope surprises become rare.
+
+**How to set a sprint goal that you always finish:**
+
+1. **Pick a minimal goal.** One clear, user-facing outcome. Nothing fancy. It should fill at most half the team's capacity — so you're confident it's done by midweek.
+2. **Break it into parallel work.** Pieces that people can work on without blocking each other. No dependencies on other teams.
+3. **Announce it publicly.** Post in a shared channel: *"If all else fails, this is what we deliver."* Take full ownership.
+4. **Watch it daily.** Be on top of it. Unblock immediately. Pull people from "non-goal" tasks if needed.
+5. **Finish it.** If you have 3 goals, you need 3 checkmarks. Two out of three is not a success — it just resets the expectation that your team doesn't finish.
+
+The rest of the sprint doesn't stop — bugs, tech debt, planning, supporting other teams. The minimal goal is just the non-negotiable floor.
+
+**On ambitious goals:** teams with consistent 100% delivery rates do more over time than teams chasing ambitious goals and missing. An always-succeeding team is more effective, more trusted, and more willing to over-deliver as a bonus. The alternative — ambitious goals, consistent misses — just burns everyone out.
+
+---
+
 ## Sprint Anti-Patterns
 
 Sprints, when followed rigidly, create their own problems. Signs that sprint process is working against the team:

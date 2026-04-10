@@ -27,9 +27,15 @@ When a developer quits, it's almost always because they feel one of these 5 thin
 
 ## 1. Unappreciated → Valued
 
-**Salary:** When a developer asks for a raise, it may already be too late. If you give it, they won't thank you — they'll feel like they got what they deserved. If you don't, they'll leave. **Initiate** the raise before they ask. It's usually not your call alone, but it's always your job to fight for it.
+**Initial salary is critical.** The first salary you offer sets an anchor that's hard to correct later. Underpaying at hire means you'll always be playing catch-up — raises feel like corrections, not rewards, and the gap in perceived appreciation accumulates. When negotiating offers, fight for fair compensation from the start. It's far harder to fix this after the fact.
 
-**Recognition:** Tell them directly. Try this in a 1:1: "I wanted to tell you how much I appreciate the work you did on X. You've made real progress this year." Give them the stage — let them write the Slack announcement for features they shipped, tag them publicly. If your company has recognition programs, push for your people to get them.
+**Raise salary before they ask.** When a developer has to ask for a raise, the damage is already done — it signals that you weren't paying attention or weren't advocating for them. If you give the raise, they won't thank you; they'll feel like they got what they deserved. If you don't, they'll leave. **Be proactive.** Also: don't deny raises because the engineer earns more than you. That's not a competition.
+
+**Don't steal the thunder.** When something good happens — a promotion, a milestone, a successful launch — let the engineer announce it. Good news should come from them. Reserve your channel for bad news. If you announce their achievements for them, you take the moment; if they announce it themselves, you amplify it.
+
+**Just tell them.** Many managers recognize good work internally and assume the engineer knows. They often don't. Say it directly in a 1:1: *"I wanted to tell you — the way you handled X was exactly what I needed. That made a real difference."* It takes five seconds. It costs nothing. It often lands harder than a formal recognition program.
+
+**Recognition:** Give them the stage — let them write the Slack announcement for features they shipped, tag them publicly, push for your people to get company recognition. Route praise through its source: if a VP is excited, ask them to tell the team directly. What feels trivial to you may make someone's year.
 
 ## 2. Lonely → Connected
 
@@ -112,6 +118,20 @@ None of these require a budget. All of them require paying attention.
 
 ---
 
+## 5 Warning Signs of a Disengaging Engineer
+
+By the time someone resigns, you've usually missed the signals by weeks or months. Watch for:
+
+1. They stop speaking up in architecture meetings
+2. They stop pushing for better practices
+3. Documentation efforts disappear
+4. Tech debt tickets keep getting deprioritized without comment
+5. Standup updates get shorter and more mechanical
+
+Each of these individually might mean nothing. Together, they often mean someone has already accepted another offer in their head — they're just waiting for the paperwork.
+
+---
+
 ## Final Caveat
 
 Not everything is in your hands. People get offers you can't match, want to change domains, start companies, or relocate. When the time comes, part on good terms. Don't take it personally.
@@ -120,6 +140,7 @@ Not everything is in your hands. People get offers you can't match, want to chan
 
 ## Related Skills
 
+- `engineer-motivation` — The 3 Drivers framework: proactively understanding and acting on what motivates each person
 - `delegation` — Delegating challenging work (#3) is a retention lever
 - `1on1s` — The place to diagnose which of the 5 states someone is in
 - `team-health` — Broader team signals often map to these 5 states

@@ -1,0 +1,398 @@
+Lesson 4 - Org - 45 minutes
+
+Presentation: 
+https://www.canva.com/design/DAGw_IISBTE/ZoF1e7i2h56J_zTxf6A9Tg
+
+The 3 levels of positioning - 20 minutes 
+How to make sure senior leadership takes you seriously - 20 minutes 
+How to get what you want - 5 minutes 
+
+
+
+🙋
+👤
+👥
+🏢
+🌱
+
+
+
+
+
+
+
+
+🤝
+
+
+
+
+
+
+
+
+🎯
+
+
+
+
+
+
+
+
+
+
+
+
+Slide 
+
+My goal to help you with some tips from my and Michael’s experience. 
+
+Slide
+
+The plan
+
+Slide 
+
+In the last 2 years, the pressure on engineering orgs keeps rising. CEOs and leaders hear more and more about how LLMs should make us more productive, and they start to expect more. 
+
+Slide 
+
+The thing is, the further they are from you, and the less they know what you actually do - the more pressure there is! 
+
+Most people try to bring the leaders down - explain to them there challenges, makes them SEE why things are not realistic. In my experience, that just doesn’t work. A better approach, is to make sure you and your team rise up and play in the same field as the leadership team.
+
+You can call it organizational politics, but I love to use the term positioning - how you and your team are positioned in your company and in people’s minds.
+
+I know some of you may hate it - but there are relatively painless ways to improve in that area.
+
+In my experience, how you are positioned in the eyes of someone in the organization has 3 levels:
+They know you exist.
+90% of engineering managers fail at step 1. It’s common to just want to ‘do great work quietly’. 
+They appreciate you.
+The next step is for people to have positive feelings toward you. Liking, but especially appreciating you. This influences many interactions, like negotiating scope, or handling incidents.
+ They trust you.
+The real change happens though at level 3. One thing I’ve battled a lot is trying to explain to non-technical or senior people (or worse - both), why are we overwhelmed, why their expectations are unrealistic.
+
+It took me a while to figure what the it’s a lost fight. The only way to win trust is by impact and involvement. We’ll cover more about it in lesson 6.
+
+Level 1: to be known - be Visible
+
+Knowing that you exist puts you at the top for X other managers that people do not know at all in the organisation. If you're present and active, people will remember you, even if they don’t fully understand your work.
+
+The simple step here is to become visible. Here are some ideas:
+
+Participate in cross-team projects, coffee chats, and so on
+Ask relevant questions in meetings with people you don’t know.
+Interact with announcements and updates from other teams. You can simply react, even comment, or take it to the next level - follow up in DMs with relevant questions if you have some.
+Even if you think it’s cliche!
+
+And the same for your team:
+Bringing external guests - a painless way
+Employee recognition - push for your employees
+Have your employees write the release notes - not you or the PM
+Encourage your employees to do the 3 steps above
+
+You need to find your own balance - no need to force things you are not comfortable with. If you don’t want to do things in public, you can achieve a similar impact in 1:1 settings, we’ll cover the 2-person rule in the next level. 
+
+Michal’s story: 
+
+You can talk here about the fact that just being known helps:
+
+Our developer had a popular (in Poland) YouTube channel for people who are learning front-end development. At that time, the promotion process involved a written recommendation from the leader, which was sent to all the seniors in the company for approval. The famous developer got approval from many seniors, even though most of them had never worked with him directly. They couldn’t assess his technical skills and assumed he was senior enough based on his public visibility.
+
+We would like to value pure technical skills when promoting and rewarding people. But for me, it was much easier as a manager to get approval of a promotion or additional money for engineers, for people that had some recognition. Even if they knew them because of me, as I was broadcasting their achievements publicly.
+
+Level 2: to be appreciated - be care
+This one is so underrated. Just showing interest in others and talking to them, being curious about their challenges and their life. 
+
+A great rule to follow is the ‘new person’ rule. Every week, try to have at one conversation with someone you’ve never talked to before - not just from engineering. Start with some more personal conversations, and then be curious about their work, and their challenges. 
+
+This will also of course help in level 1 - as you will be more known. 
+
+Even just doing those 30-minutes chats will help a lot, but if you want to take it to the next level - remember and follow up. 
+ 
+People appreciate when you remember something about who they are. It makes you likeable.
+
+This holds true for your team too of course - I try to remember the names of spouses and children of people I work with, and instead of asking ‘how’s the family’, asking more concrete questions. 
+
+<Share about the basic feature in the Pulse>
+
+Slide
+Level 3: To be trusted - help people achieve their goals
+People start to trust you when you help them achieve their goals, when you make THEM seem well. 
+
+To do that, you need to first understand what they care about - and here is where level 2 comes useful. When you talk to people, use the opportunity to ask them:
+“What are your measures of success?”
+What is important to you?
+What are the biggest problems you are trying to solve right now?
+
+
+This is the last level, and it’s the hardest. We usually have so much to do, we barely have time for our own engineers, let alone helping people from outside our team. 
+
+First of all - I hope that by the time you divide some responsibilities based on the drivers you’ll have a bit more free time :) 
+
+But even if not, I believe it’s a net gain. Not only will people help you back, it’ll also reduce the time you’ll need to spend ‘aligning’ and fighting. 
+
+Slide
+
+And surprisingly - the people who help the most are the highest performers and the most productive. I recommend reading Adam Grant’s “Give and Take” for a deeper dive into it. 
+
+Here are some examples: 
+
+Helping support
+Don’t ignore or refer them to product 
+Don’t do the bare minimum when asked a question 
+Train their people 
+Do some time in support
+
+Help QA 
+Proactive about bug fixes - don’t let them open bugs and just ignore them. Super demotivating.
+Help them innovate - there are many new tools that automate some QA work, with developers work you can improve the processes for the whole company
+Mention them! Often they are underappreciated. 
+
+Help HR
+In hiring processes 
+Organization events
+Michal’s story: our company was working on new flows for budgets. The Learning & Development team needed a manager to make sure that what they prepared would work both for managers and their developers. I volunteered to help them set this up and gave them my feedback. Since then, I have been able to get the approvals for the budget much quicker. Spending just an hour invested in helping them resulted in much smoother cooperation.
+
+
+Help finance 
+Always do what they ask before time. There are always late people - don’t be one of those
+Each finance department has different challenges. For example in mine, they wanted to track the depreciation of drones - we spend millions on top tier drones, and they needed to track how long each drone flew to see how many years we can get from them. I helped organized this effort, it was always a low priority, took me half a day by adding some custom field and automating the info - and they were SUPER grateful
+
+So summing it up:
+
+To be known - be visible 
+To be appreciated - be kind and just talk to people (even if it’s not natural)
+To be trusted - help people achieve their goals 
+
+
+There are many other things you can do in the org level (in the context of the EM grid). You can find them all in the Pulse app. 
+A couple of examples:
+Organizing a huge one. I’ve done 4, in different themes. 
+A CS-oriented sprint. We discussed it in the Team lesson, as you can do it just for your team - but it can also be a bigger event. Very often Customer Success touch multiple areas of the project. So the event I organized we shuffled the teams, having 1-2 engineers from each (across 4), QA, and so on. This way you can basically deliver across a wider area.
+Slide
+How to be taken seriously by senior leadership
+Many times, the promotion to Director, VP, C-level exec is about small behaviours, and not necessarily big skill gaps.
+Today, I’m going to cover 5 small tips that helped me cross that bridge from Engineering Manager to Director - and even more importantly, to leading critical projects for the company and working directly with the CEO.
+Even if you are not looking for a promotion - changing those small behaviours will help you get that sit in the business table and influence bigger company decisions (that often affect your team). 
+
+Slide 
+
+the 5 reasons people are not taken seriously:
+Not having finesse
+Having insecure vibes
+Delivering bad news poorly
+Using inaccurate and misleading language
+Giving senior leaders feedback the wrong way
+I’ll share tips on becoming better at each of them, and share how I messed up each.
+Slide 
+
+
+“All the data we showed in the last 2 months was completely wrong”.
+Let me start with a story:
+3 years ago, we had a severe technical problem that affected only our Brazilian customers. The result was incorrect data presented to customers for 2 months.
+The team from Brazil asked me on Slack what does the problem mean for them. Like most engineers, I prefer the straightforward approach, so I answered:
+“Well, everything we presented in the last 2 months was completely wrong”.
+A few minutes later, our COO sent a message in that channel. He ‘corrected’ me, saying that we had some problems with the data and it was just not 100% accurate, but now it’s fixed and all is good. He also send me a DM that he’ll take if from there. In other words - Anton, please shut up, let the grown ups deal with it. 
+I remember being very angry, as I felt he was hiding the truth! He didn’t lie, it was indeed not 100% accurate - but it was 0% accurate! Not 90%! I believe that inside the organization, we should be ‘100% transparent’.
+It took me a couple of years, but I understood the nuances of that situation, and how I probably made the Brazillian team feel. It’s not about lying, but HOW we present the information can have a huge impact. 
+Mistake #1: Not having finesse
+So what is finesse?
+The skill of interacting with other humans in a way that gets the outcome you’re looking for, despite situations that have grey areas and a range of potential outcomes.
+The ability to notice what’s unsaid and handle sensitive dynamics.
+Good judgment applied to delicate scenarios, usually involving communicating with other humans
+Slide 
+You spot a resourcing issue or deadline risk. Instead of quietly raising it and offering mitigation ideas, you blast a long email chain with 10 people on CC, highlighting how "unrealistic" the timeline is.
+Now it’s a political problem, not a technical one.
+A senior VP casually asks in a meeting, "Are we on track?"
+You immediately answer with a super detailed technical explanation about all the dependencies and edge cases.
+They wanted a simple "yes" or "no" and high-level risks.
+You come into a cross-functional meeting with a strong opinion: "This is the best technical choice."
+Someone from Product or Sales starts hesitating - but you double down, pushing harder.
+Without noticing, you've alienated partners you need on board.
+Slide
+How to become better at it
+As you progress in your career, finesse becomes increasingly important. You can’t be trusted to handle delicate, high-stakes projects/issues. This stalls your growth and impacts your ability to add value.
+3 simple tips:
+Pause before you speak, and ask yourself: “What do I want to achieve?”. 
+
+
+Learn to Sense the Hidden Stakes. Often it’s not about being "right" or "wrong" - it’s about people protecting their priorities, reputation, goals, or fears. “”what others care about?”
+
+
+Think of someone in your org who has great finesse - the person who can deliver bad news and somehow everyone still respects them after. What do they do? Maybe it’s their word choice, calm tone, or the way they frame issues. Take notes and try to emulate the parts that feel authentic to you. At the same time, be aware of your own style. Finesse isn’t about being fake; it’s about finding a diplomatic version of yourself. You might realize, for example, that a bit of humor or a well-timed pause can soften your messages. Experiment and see what fits you.
+Ask for a feedback from that person. For me, it was our Chief Product Office. I really like how he handled himself, he was a master of reading people and situations. I started to ask him for feedback, and for advice before sensitive meetings, like an informal mentor.
+
+
+Learn by doing (and reflecting): You can’t learn finesse from a book alone. Treat your day-to-day interactions as practice. The next meeting or email, pause and think: could this situation use a lighter touch or a different approach? Afterward, reflect on what went well or sideways. Real-world practice builds judgment – every awkward conversation is a free lesson in what to do (or not do) next time.
+
+
+Slide
+ Delivering bad news poorly - How I messed it up
+One of our biggest customers requested an urgent change, which required the team to work throughout a holiday weekend. The customer insisted that they mentioned that deadline a few months back, but nobody on our side knew it.
+Somebody messed up, but the bottom line was an urgent phone call from the CEO, who mentioned how critical it is (a million+ dollars contract hinged on that. As a small startup that was almost 10% of our revenue).
+When breaking the news to the team, I made all the mistakes above. A very long preface about the importance of that customer, multiple negative words, and lots of details.
+Bad news are part of work. You don’t want to be associated with the news you bring.
+People often associate negative feelings with people who tell us bad news. You don’t need that negativity associated with you, especially if a situation is out of your control.
+Slide 
+Common mistakes are:
+Using negative words, like "however” and “unfortunately.”
+It makes everything sound more dramatic than it needs to be. Your goal is to minimize drama.
+Giving too many details.
+When we feel guilty, we tend to over-explain. We secretly hope that by explaining, the person will understand and absolve us of guilt.
+Taking too long to get to the point.
+Contrary to what you might think, adding too much preface makes things worse. The tension builds and the person imagines the worst thing that could happen.
+
+
+In addition to the above:
+Not using negative words
+Giving the right amount of details
+Getting to the point fast
+It’s important don’t accidentally accept blame.
+Slide 
+Obviously, if you’re responsible or even partially responsible for what happened, you should take responsibility.
+But there’s a difference between empathizing (“I acknowledge this is frustrating”) and accepting fault (“I should have done X and Y, but I didn’t.”).
+As the messenger, there’s no point in inviting your audience’s anger for no reason.
+When you review your message, ask yourself: “Would my recipient accidentally think I’m admitting fault based on my phrasing and word choice?”
+The danger of accidentally accepting blame is it legitimizes your audience’s negative perceptions, even if they were inaccurate and misplaced to begin with.
+The tricky part is to of course balance it with finesse. 
+If you are very late on an important project, because the requirements kept changing. Assuming you raised the flags, and it was really out of your control. You have a double goal here:
+You don’t want to take the blame for that.
+You don’t want to throw the product manager under the bus. Saying ‘it’s because the requirements kept changing’ will just make you seem petty. 
+Let’s say you are asked point blank why are late again. Here’s a variation:
+This has been a tough project, with a lot of moving parts and evolving requirements. We’ve adapted along the way, but it’s definitely made it harder to stay on the original timeline.
+Right now, we're focused on stabilizing things so we can deliver as quickly and reliably as possible.
+Slide - Giving senior leaders feedback the wrong way
+In a nutshell
+You see a senior leader making life harder for themselves and their team. 
+If you don’t speak up, you’re robbing your organization of your good insights. If you do speak up, you might put your employment and well-being at risk.
+Traditionally, the more powerful person gives feedback to the less powerful person.
+So if you want to give feedback to a more senior person, it’s an inversion of norms. This causes a moment of potential chaos, which is why you want to control the energy and channel it in a positive direction.
+Feeling nervous about giving your senior leader feedback is a good thing. It means you have survival instincts that help with self-preservation.
+How I messed it up
+2 of my developers complained that the VP of Product is ignoring good ideas if they come from engineers. I raised one of those ideas myself in a design review meeting, but still nothing happened.
+I got angry, and complained to my manager. When nothing happened, I wrote an angry email to the CEO (we are a small startup), citing that ‘innovation’ is a company value and how this approach stifles good ideas.
+We had some back and forth, but in the end he just told me to figure it out with the VP Product myself (what a surprise).
+I delayed because I was afraid of giving that feedback directly, it was easier for me to go behin his back. 
+I reached out in Slack, we scheduled a meeting, and it worked much better than any previous try.
+Slide
+How to become better at it
+3 powerful techniques:
+Deploy the “even more” technique
+🚫
+ You: "We need to communicate priorities better to the team."
+Senior leader: "You think I don't know how to set priorities? We've already shared the roadmap!"
+✅
+ You: "We might want to make the priorities even more visible for the team, especially with everything moving so fast."
+Senior leader: "Yeah, we shared the roadmap, but maybe it’s not as top-of-mind as it should be."
+Slide 20:
+Use yourself as an example
+🚫
+ You: "You should try being more explicit when setting project goals."
+✅
+ You: "Something I’ve found helpful is being even more explicit than I think I need to be when setting project goals. In the moment it sometimes feels repetitive, but it really helps the team stay aligned without needing so many follow-ups."
+Slide 21:
+3. Bring data and examples to support your point
+🚫
+ You: "We should involve engineering earlier in roadmap discussions."
+✅
+ You: "When engineering was looped in early during the Q2 planning process, we flagged two major feasibility issues ahead of time and saved about three weeks of rework. It might be worth bringing us into the conversation earlier again for this next cycle to catch potential risks sooner."
+Slide 
+Most people are extreme in one of two ways:
+They think “respecting the person’s power” means being 100% supplicant. They do everything the powerful person says, and never push back even when they have reason to. → These people are spineless.
+They share their POV in the most blunt, low-finesse way without any regard for their recipient’s person’s ego. They think, “Well, I’m right, so I should just say the thing with zero framing.” → These people are insubordinate.
+
+
+Slide - Using inaccurate and misleading language
+Until a few years ago, I didn’t even know my overconfidence annoyed people.
+Then one day we were waiting for a bus with a coworker. 2 buses arrived, numbers 40 and 240. He said “Let’s get number 40, that’s my usual one”, but I insisted: “240 will get us there faster”.
+He listened to me. Turns out 240 was not even in the right direction...
+I laughed about it, but he said seriously: “You know Anton, you do that A LOT. You are very sure about everything. Most of the time you are right, but in the 10% you are wrong, it’s very annoying. If you had given me even a little clue you are not 100% sure, I would have insisted on my opinion”.
+Since then, I have tried hard to re-evaluate my confidence in things before I speak, and put in proper caveats.
+Slide 
+There are 2 common cases here:
+People who are overly confident when they speak. They make broad, sweeping statements, but don’t have evidence to back up their claims.
+People who caveat everything, and add statements like “but you don’t have to listen to me, you can do whatever you want,” on areas where they have expertise. Or “I’m really not sure, but I think that…”
+When you speak accurately, senior leaders will learn to trust what you’re saying, and can rely on you.
+Slide 
+How to become better at it
+Choose words that reflect your level of certainty. 
+“This will X” Versus
+“This tends to X.”
+Have humility and self awareness: and use words that accurately reflect what you mean. 
+Slide - Having insecure vibes
+I was 26 when I was promoted to a manager’s role, which was quite young in my company. Everyone else on the R&D management team was in their 40s and 50s.
+2 years later, I was promoted to director, and I became a manager of people 2 decades older than me.
+In both cases, I was overly conscious of the age difference and cared too much about it. I kept mentioning it with stupid jokes, making fun of other’s ages or of my own. 
+I didn’t speak my mind with my direct reports, afraid they’d think “What does he know? I have 20+ more years of experience!”.
+When I finally let it go, it turned out nobody cared. :)
+Age differences are not an issue. There are enough young founders/managers. I was promoted for a reason, and I should have just focused on my strengths.
+Age can be one reason for having insecure vibes, but it can be anything else. 
+Slide
+Those are subconscious clues and signals we emit when we really want something to work out, but aren’t sure if it will. 
+If you appear hesitant, doubtful, or desperate…
+The other person picks up on it.
+You get more nervous.
+They start doubting you.
+Which makes you more nervous.
+If you acted normal to start with, they would have assumed everything was great. Get rid of insecure vibes, and your writing, meetings, presentations, negotiations, and pitches will become stronger.
+
+How it looks like:
+Over-explaining because you expect the other person to be skeptical. 
+Using that inaccurate language, adding caveats. This is not always about insecure vibes, but it can be sometimes.
+Insisting on email or Slack when you know a phone call is better. Deep down, you know when you should just hop on a call. But you’re nervous about messing up in a live setting, and you’d rather avoid confrontation. So you spend hours drafting the “perfect” email. 
+Slide 
+How to become better at it
+This also starts with noticing. You can ask yourself:
+Could this be interpreted as sounding defensive?
+Am I overcompensating or overexplaining?
+How would I respond on my best day?
+Would I say this if I felt secure?
+Slide - Summary 
+
+Probably not all 5 of those common mistakes apply to you - but I’m sure that you can relate to at least one. If there are more - select just one, and try to notice it next time
+I would love to know - what is your most common mistake?
+We have 5 minutes for the last topic - getting what you want to happen.
+Persuasion techniques for EMs
+Persuasion is an essential skill for Engineering Managers.
+We persuade executives to approve new projects.
+We persuade our leadership to give us more resources.
+We persuade reports to tackle tasks that may not excite them.
+We persuade peer managers to lend us their help in cross-team projects.
+We persuade our cross-functional partners to move deadlines when they might overwhelm our team.
+We persuade during calibration and promotion sessions.
+We persuade potential hires to join our team.
+The list is endless.
+Ever wonder why you feel drained after a day of sitting in meetings? Now you know!
+There are 3 persuasion techniques I learned from a Director of Engineering at Google who was promoted all the way from intern:
+The Nemawashi method
+The Decoy pricing method 
+The LMDTFY method
+The Nemawashi Method
+Nemawashi is a Japanese term that translates to “going around the roots.” It's a Japanese gardening technique used when transplanting trees.
+Transplantation (moving the tree from one location to another) is a large change for a big tree. Gently digging at its roots, one strand at a time, helps prepare the tree for the shock of the big change.
+As a manager, you can use the Nemawashi method when you are persuading a lot of stakeholders. The best example of this is if you want to get a higher calibration rating for your report.
+Story about my first role as a manager, 6 years ago. A spot in a peer team.
+The Decoy Pricing Method
+Decoy Pricing is a popular marketing strategy. It encourages customers to choose a specific product. Here is an example:
+Suppose you go to a cafe and see that a small cup costs $2.99 and a large cup is $7.99. The price difference seems large, so you are most likely to pick the small cup. If the cafe offers a medium cup for $6.99, you might choose the large cup instead. The difference is only a dollar, so it seems like a better deal. Here, the medium cup is the decoy.
+We had an annoying memory leak in one of our services. It was a slow increase, and pods just started crashing. We were before a peak season, and I was afraid to leave it like that. 
+So I presented 2 options:
+A minimal fix for that part, around a week. 
+A better refactoring, which will let us hold for a couple of years, that will be 2 weeks. 
+The LMDTFY Method
+LMDTFY stands for Let Me Decide That For You. Think of this as reverse-delegation. You decide for someone else, but they can take control back if they don’t like it. This approach is very useful as an upward persuasion method.
+This is very useful with junior or mid level engineers that you know are not good at making decisions. I had one who worked at a not-very important project, and I felt he was good enough to decide the small things himself, without consulting with me. 
+You can tell him - when you are not sure, just write me what’s the dilemma, and what you plan to do, and continue. I’ll make sure to interevne and suggest something different if I feel it’s important. 
+
+
+Summary
+
+
+Slide
+
+Open the pulse app
+
+

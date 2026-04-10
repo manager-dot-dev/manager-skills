@@ -56,11 +56,10 @@ If you're the go-to person for every system and every question, that's a problem
 
 ## Delegation Principles
 
-From the articles directly:
-
 - **Never delegate 100% of an area.** Stay in the rotation. Do the work yourself occasionally.
 - **You can share at least 50% of your current work.** The exceptions are fewer than you think.
 - **Never solve it for them.** When they're struggling, coach — don't rescue.
+- **Match the task to the person's driver.** When you delegate something that doesn't align with what motivates someone, they procrastinate and you end up nagging. When it aligns — they take ownership without being asked. A Connection-driven engineer will thrive as the team's interview coordinator; an Impact-driven one will take on the CS sprint you've been avoiding; a Growth-driven one will light up when you hand them an architectural decision. "Every task you don't like can be a growth opportunity for someone else." (See `engineer-motivation` for how to identify each person's driver.)
 
 ---
 
@@ -72,6 +71,32 @@ From the articles directly:
 - Developers come to you as the source of knowledge for every question
 
 ---
+
+---
+
+## Covering for You While You're Away
+
+When you go on vacation, who runs the team? Three options, in increasing order of long-term value:
+
+- **Your manager** — convenient, easy, keeps developers focused on work. Has the side benefit of giving your manager direct exposure to your team.
+- **The PM** — builds their understanding of the team's work and challenges. Strengthens the PM-team relationship.
+- **A team member** — hardest to implement, most valuable. Even if no one on your team is currently interested in a management path, covering for you gives them genuine experience: designing tasks, guiding teammates, managing production issues, working directly with the PM, communicating with broader audiences.
+
+Don't assume someone won't want the responsibility — sometimes all they need is the opportunity. If they try it and discover it's not for them, that's also useful information.
+
+---
+
+## Being Hands-On: Choose Tasks Intentionally
+
+When you take a task as an EM, three patterns that look like contribution but aren't:
+
+- **Taking only small or undesirable tasks** — avoids real risk, stays in the margins
+- **Sticking to what you know** — comfort over learning
+- **Taking too many tasks** — spreading thin, blocking others, reverting to IC mode
+
+Before picking up a task, ask: what's the actual goal behind me doing this? Is it to work closely with a new team member? To help in a difficult period? To learn a system you don't know well? To reduce friction somewhere?
+
+Tasks you take as EM should serve a purpose beyond helping the team ship. If the only reason is "I like this kind of work," that's a comfort trap.
 
 ---
 
@@ -124,6 +149,28 @@ The knowledge map exercise makes the third layer concrete: plot engineers agains
 When moving engineers into new domains to serve advancement or durability, apply Task-Relevant Maturity (see above) — a Staff engineer new to a domain needs closer guidance than their title implies.
 
 Two traps to watch: **inertia** (comfortable assignments calcify even when business needs change) and **activation energy** (the transition cost is real and must be planned for, not wished away). Revisit assignments deliberately every quarter rather than letting the last good decision run indefinitely.
+
+---
+
+## Delegation Anxiety
+
+Nobody tells you about the pit-in-the-stomach feeling when someone does your task differently.
+
+They accept a solution you'd have pushed back on. They make a quick fix where you'd have dug deeper. They write code that works but not the way you'd write it. These are emotional triggers — not performance issues.
+
+Delegation doesn't mean perfect. It means finding the balance between maintaining standards, preserving your own sanity, accepting different approaches, and growing your team. Your job is not to create mini-versions of yourself.
+
+When you feel the anxiety: ask whether the outcome was acceptable, not whether it was done your way. If the outcome was acceptable, that's delegation working correctly.
+
+---
+
+## Free Electrons
+
+From *Peopleware*: some engineers are self-motivated super-achievers who naturally choose their own orbits. They define their own problems, drive their own directions, and produce disproportionate value precisely because they're self-directed.
+
+The worst thing you can do with a free electron is decide what they should be working on. The best response: let them define their own job.
+
+Not every engineer is a free electron. The skill is identifying the few who have the right mix of perspective, maturity, and drive — and then getting out of their way rather than managing them into mediocrity.
 
 ---
 

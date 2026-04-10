@@ -190,6 +190,24 @@ None of these fix themselves. Name the one that fits and address it directly.
 
 ---
 
+## The EM Grid: Where Is Your Time Going?
+
+A self-assessment tool for identifying blind spots. Plot your work across two axes:
+
+**3 drivers (columns):** Growth | Connection | Impact
+
+**4 scopes (rows):** Self | Your People | Your Team | Your Organization
+
+Fill in a typical week. A meeting, a 1:1, a project — each fits somewhere. Most EMs cluster in two cells: Team × Impact (day-to-day delivery) and People × Growth/Impact (1:1s, career conversations). The other cells are often empty.
+
+The blank cells are not problems to solve — they're signals. If you consistently have nothing in "Self × Growth," you're not investing in your own development. If "Org × Connection" is always empty, you're not building the cross-org relationships that matter for promotions and influence.
+
+You don't need to fill every cell every week. But if a cell stays blank for months, that's a real gap worth addressing.
+
+The deeper question: how do you fill blank cells without working more hours? The answer is usually delegation — moving things in your full cells to engineers who match that driver, which frees time for the cells that only you can occupy.
+
+---
+
 ## The Maker/Manager Mode
 
 Most EMs drift away from coding — not because they stop having time, but because they lose the habit. One sprint without a coding task becomes five. A year goes by. Now it's not about time, it's about the habit being gone.
@@ -204,6 +222,15 @@ Three categories that work at any seniority level:
 Rules for tasks you take: keep them under 4 hours, not on the critical path, and not blocking anyone else.
 
 A practical tool: use **calendar color coding**. Mark maker time (yellow) vs. manager time (blue). Block maker hours in advance before meetings fill your week. What gets scheduled gets done.
+
+**AI lowers the re-entry cost dramatically.** Getting back into a codebase after months away is the hardest part. AI coding agents let you understand a new area, fix a bug, or build an internal tool in a fraction of the time it would have taken before. There is no longer a good excuse for losing this completely.
+
+A quarterly challenge that takes roughly one day total — try at least one thing in each:
+- **Coding agent** (Cursor, Claude Code) — pick a real bug or a small internal tool and build it
+- **No-code** (Lovable, Bolt, Replit) — build something simple, maybe connect to your own backend
+- **Automation** (n8n, Zapier) — automate something you do manually; a Slack bot that saves notes is enough
+
+The point isn't to stay in the sprint. It's to stay in the conversation, understand what your team is actually experiencing, and signal that technical work still matters to you.
 
 ---
 

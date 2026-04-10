@@ -1,0 +1,271 @@
+Lesson 2 - Your team - 40 minutes
+Building a motivated team that delivers
+
+Presentation: https://www.canva.com/design/DAGw-UZXMZI/D2ZRVFfnxg7wsrBLackroQ/edit
+
+Intro about team meeting, focus days and team character - 5 minutes 
+Team meeting ideas - 5 minutes 
+Always green method - 15 minutes 
+The knowledge mapping method - 15 minutes 
+
+
+
+🙋
+👤
+👥
+🏢
+🌱
+
+
+
+
+
+
+
+
+🤝
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+🎯
+
+
+
+
+
+
+
+
+
+
+I think the toughest part of being an engineering manager is combining those 2 words - motivation and delivery. 
+Each one is easy for a specific time:
+Motivation - if someone is motivated by the latest tech, or by talking with people all day, let them!
+Delivery - let’s just push and push and overwork people 
+
+Both break with time - you can’t really be motivated with some sense of success and meaning, and you can’t deliver for the long term without being motivated. 
+
+In the first lesson we talked about your people, and now we will talk about your team - which is a different concept. 
+
+A team is a unit, and it has its own character. It’s influenced by the majority of engineers, but even more by you. It changes with time too. 
+
+You probably intuitively know what your team is good at, and what parts are weaker. 
+
+We are challenged and have opportunities to grow?
+10 - Challenged every day, and have a lot of place to grow here!
+Does our team have a meaningful impact on the business?
+10 - YES, we love seeing the impact we make every day
+Would we want to work with this team again in the future?
+10 - Absolutely, I will try to bring all of them to my next place!
+
+Slide 
+
+In addition to the day-to-day, there are 2 very powerful levers that are underrated in 99% of the cases - team meetings, and team focus days. 
+
+Team meetings - a bit more familiar. Usually 30-60 minutes, once every 1,2,4 weeks - not talking about planning or the sprints, or task updates! We’ll cover in a second what I DO recommend to talk about. 
+
+I’m curious to know - how many of you do regular team meetings, and at what cadence?
+
+The 2nd one, which is super underrated, is team focus days. Full days (or at least half), where the team gatherers together, ideally outside of work. 
+
+Sometimes it’s done together with company offsites, but I find it that rarely there is enough time dedicated to team-only time. 
+
+My super strong recommendation is to do full days once every 6 months (I also added half a day in the quarters where it doesn’t happen). And yes, it can happen remotely too. 
+
+I talk about team focus days and team meetings together, because basically a focus day is a combination of many different team meetings done together. 
+
+Basically, what I usually did is 3-4 hours of work-related items, lunch together, additional 1-2 hours work, and 1-2 hours of fun. 
+
+
+Now, I want to go over some ideas for activities you can do. I’ll share some stories from my own implementations about 2-3 in each category. 
+
+Impact
+Quick wins CS sprint, huge success
+You know how in the regular roadmap and sprints you don’t have time for things that have ‘internal’ value? We did a 2-week sprint that was based on what the Customer Success team felt was the most painful for them. We have a team paired with a CS agent, and delivered tons of value to them. 
+Dogfood your own app together - the story about flying the drone
+Bring guests - commercial side
+Bring people from the commercial side of the company. The CRO (chief revenue officer), Customer success lead, customer support, operations. 
+Leading a deep dive into past feature usage
+Run product teardown → analyze competitor’s product.
+Organize customer support shadowing
+
+Growth
+Solve bugs from another team’s domain
+This one is a bit tricky. But you can take together 1-2 bugs, and use the opportunity to understand a new adjacent domain (with the other’s team approval of course)
+Open source work together as a team
+This one some engineers will REALLY love! A sprint might ideal, but you can make progress couple of hours at a time. Something we did in Taranis: https://www.npmjs.com/package/react-native-compare-slider
+https://www.npmjs.com/package/react-leaflet-google-layer
+You can either contribute to a library you all use and love, or you can create on of your own.
+ 
+
+Organizing watching a technical talk together
+Pick in advance a really good once. Conferences are nice, but sometimes there are just 2-3 great talks. And, you can watch it in X1.5 speed.
+Bring guests - open source maintenance, industry speakers 
+Leading post mortem deep dive
+Organize AI-tools day 
+
+Connection
+Organizing a social game for the team
+It can be drawize, we will send the link, it can be something physical. We have a document with multiple ideas. You can give a ‘connection’ driven engineer the task to organize it! 🙂
+Organizing Personal 15-minute talks
+Where people just talk about whatever they like, share a couple of examples.
+Organize a hackathon in a fun theme
+This one is harder in a team meeting - but you can spend 6 hours in a team focus day to play with some tools or create something internal for yourself. It can be something completely silly. Share the story of Arduino in the kitchen drawers (that beeped when people opened the sweets drawer).
+Cooking challenge.
+Team charity/volunteering event
+
+Show where they can find the ideas. 
+
+Slide
+
+Some of those ideas might seem like a lot of work - so a quick reminder:
+
+Your engineers can lead ANY of them! You just need to find the right engineer for the right task, and support them. 
+
+Ok, we’ll stop with activity ideas for now. I hope your brain is not fried yet 🙂
+
+In the last hour we talked a lot about drivers. What you need to remember:
+There might be a lot of low hanging fruits. If you focus a lot of growth, doing just small activities on connection and impact can have ROI, even for Growth-oriented people! So if you have an engineer who can’t get promoted or is not challenged enough, maybe you can use the other levers too. 
+Each engineer enjoys different things, and is different from YOU. 
+Use team meetings and team focus days to your advantage. 
+
+Now, I want to move on to a separate part, which is crucial for your team’s motivation - the delivery. 
+
+Slide
+Always green
+One of the most common challenges I’ve heard is the pressure to deliver. 
+
+Can you please share - how often is your team late to a deadline?
+
+In my first role as an EM, it was a constant struggle, chasing those deadlines and expectations. Then, after trying hard to understand how other people solve those problems - few things clicked, and it stopped being a problem. 
+
+My team was the one that always delivers on time - and over delivers! 
+
+I’m not trying to brag, I honestly felt this is the ‘basic’, that’s why I spent so much time on motivations, and all those external projects - I’ve done almost every idea from the ones I wrote above.
+
+I know that every company is different, but I hope what worked for me might help you too. 
+
+Let’s start:
+
+Slide
+
+Delivery, speed, how ‘fast’ engineers are is 95% about perception. 
+
+If you take on a super complex project. You try to do it in 4, it ends up 6. You know it should have been a 12-week project - you are slow. 
+You finish a much simpler project in 3 weeks, right on time. You are fast. 
+
+Slide
+
+A sentence I heard from a non-technical CEO I’ve coached: “My engineers are always late - and they are the ones setting the deadline!”.
+
+Slide
+
+A meme 
+
+Slide 
+
+The super simple secret - just ALWAYS deliver on time. Before you throw stones - here’s what I do:
+
+So how to make sure you deliver on time?
+
+Let’s start with the hill concept.
+
+Slide
+
+https://basecamp.com/shapeup/3.4-chapter-13#work-is-like-a-hill
+
+This from BaseCamp’s book about Shapeup - which is an alternative to scrum and sprints, that I REALLY recommend to read. They work quite differently, with 6-week cycles and no roadmap. I know it’ll be hard to do that in most orgs, so I took the concept that I found the most useful there. 
+
+In any work, you have the part where you climb the hill, and the part where you go down. In the top of the hill - you see clearly everything needs to be done. 
+
+The crucial part here is that you cannot get to the top of the hill by planning alone! 
+
+The hill concept applies for projects, but it’s even better to break it down by scopes, smaller parts that can be done separately. Sometimes one ambiguous scope can ruin a whole project as you know. 
+
+
+Slide 
+
+This is how it’s usually done. You plan before the sprint, you start to work, you figure out something unexpected, you don’t finish. 
+
+Instead, I recommend shifting left the work a bit left. So imagine if you have a small project that’s supposed to take 2 weeks to finish. Instead of starting and finishing it in a sprint - you start in sprint X-1. You plan it for a few days, and then spend a week actually working on it! Uncovering the complexities, and making sure you reach the top of the hill. 
+
+Then, when you set your goals - you have a much higher certainty you’ll achieve them.
+
+Your goal is to figure out what to do while doing, before you commit. 
+
+
+Let’s say you work in 2-week sprints. 
+Pick a minimal goal
+One clear user-facing outcome, nothing fancy.
+It should fill half your team’s capacity at most. So you are very confident you’ll finish during the first week.
+Break it into pieces your people can work on in parallel, no blocking each other.
+Not depending on another team!
+Tell Everyone
+Post in a public channel that those are your goals
+Take ownership of it: “If all else fails, this is what we deliver.”
+Watch It Daily
+Be super on top of it. Rush to unblock where needed. Pull people from ‘non goal’ tasks. 
+Finish the goals
+If you have 3 goals - you need to have 3 checkmarks. 2 is a failure. 
+
+Yeah this is super simple, so let me tackle the common objections:
+My manager/The CEO believes that we need ambitious goals to get more done.
+You can start with doing it internally. A team that is always succeeding is just so much more effective. Ambitious goals leading to more done rarely works in reality, if you don’t actually achieve your goals in a consistent way. 
+The PM won’t be onboard, they will want more ambitious goals. 
+Believe me, PMs want to also be delivering on time. I mean you want to change because the current situation is not working right? So pressuring the team and not achieving the deadline doesn’t work, why not try something different? 
+So we have 2 things to track? The sprint (velocity and so on) and the goals?
+Yes! There are many things that need to be done, but not necessarily the goal. Bug fixes, technical debt, additional requests, some planning for next sprint, etc. It’s not like after you finish the goals you just relax and go to the beach. One thing I found is that engineers are eager to surprise and overdeliver - because nobody expect it of you.
+Isn’t it just a fancy name for buffers?
+No, it’s reducing risk! Don’t use the word buffer, even. Buffer=people slacking of. 
+
+
+From being always late to always on time and even early - it changes the whole atmosphere in the room. You will get MORE done this way, I promise you. 
+You can also read about Shape Up if you have the option to choose a different way of working.
+https://basecamp.com/shapeup/shape-up.pdf
+
+
+⁠The knowledge mapping method - 15 minutes 
+
+
+how to measure your team as a whole and find the gaps to take your team forward -
+Improving your team as a whole includes:
+Each individual
+All of the individuals together (the team)
+The knowledge mapping system - identify gaps within your team
+Deep dive into the excel file:
+Explain each section
+Cross Cutting Concerns
+Tech in the team
+Areas in the system
+Soft Skills
+Measuring based on levels
+Finding the gaps
+Not always everyone should be an expert
+Usually more than one (bus factor)
+Great way to BUILD your individuals, AND your team
+CTA
+
+Summing it up:
+
+We’ve talked about team meetings and team focus days 
+We’ve covered some additional ideas for things you can do together with your team
+We’ve covered my ‘always green’ approach to delivery problems
+The knowledge mapping method summary
+
+
+Live Debugging - please provide dilemmas (do a nice request)

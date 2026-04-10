@@ -131,7 +131,47 @@ When a headcount request is rejected, diagnose which layer the disagreement is a
 
 ---
 
+## The 3 Levels of Positioning
+
+How you and your team are positioned in people's minds determines how much friction you face when you need things: headcount, schedule flexibility, calibration outcomes, cross-team help.
+
+Most EMs try to manage this by *explaining* themselves to leadership — clarifying challenges, defending the team, lowering expectations. That rarely works. A better approach is to rise to play in the same field.
+
+**Level 1: Known — Be Visible**
+
+Most EMs fail here. "Doing great work quietly" leaves 90% of the org not knowing you exist. Being known doesn't require networking events — it requires showing up in small ways consistently:
+- Participate in cross-team projects and company-wide discussions
+- React to and comment on announcements from other teams
+- Ask relevant questions in meetings where you don't know everyone
+- Have your team write release notes rather than you doing it
+
+For your engineers: broadcasting their achievements publicly makes promotions easier. A developer who is known beyond engineering gets approvals faster — even from people who have never worked with them directly.
+
+**Level 2: Appreciated — Show Interest**
+
+The most underrated lever. Showing curiosity about someone's work and challenges makes you memorable and liked — and liking influences everything from scope negotiations to incident blame.
+
+The **new person rule:** each week, have at least one conversation with someone you've never spoken to before. Not just from engineering. Start with something personal, then ask about their work and what's challenging for them.
+
+Remember and follow up. Asking *"How did that launch go?"* two weeks after someone mentioned it is cheap and creates real goodwill. Knowing the names of people's spouses or children and asking specifically — not "how's the family?" — signals that you pay attention.
+
+**Level 3: Trusted — Help Others Achieve Their Goals**
+
+Trust is built by making people seem good and helping them succeed — not by explaining how good you are. Counterintuitively, the highest performers and most productive people in organizations tend to be the biggest givers.
+
+To do this, you need to know what others care about. Level 2 gives you that. Then act on it:
+
+- **Support:** Don't ignore their requests or redirect to product. When they bring a problem, engage — train their people, do some time in support if needed.
+- **QA:** Be proactive about bug fixes; don't make them open tickets you ignore. Help them innovate with new tools.
+- **HR:** Volunteer to help with learning & development processes, onboarding programs, or hiring process design. The time investment is small and the reciprocity is high.
+- **Finance:** Do what they ask before the deadline. Everyone else is late. Find one operational problem they've always wanted solved and fix it — even a half-day is enough to create lasting goodwill.
+
+The less visible a department is, the more they appreciate being helped. These relationships pay dividends disproportionate to the effort.
+
+---
+
 ## Related Skills
 
 - `managing-yourself` — Influence is how you manage up and across
 - `working-with-pm` — The "it's important to me" card and PM relationship dynamics
+- `engineer-motivation` — Level 1 positioning applies to your engineers too: help them become known

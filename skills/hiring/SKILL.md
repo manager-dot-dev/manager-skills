@@ -7,8 +7,6 @@ metadata:
 
 # Hiring
 
-> This skill is being built from articles. Content will be added as relevant articles are processed.
-
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
@@ -89,6 +87,26 @@ The bias runs both ways. You may be undervaluing someone who is genuinely excell
 5. **Adapt your approach to the candidate.** A senior engineer from a startup communicates differently than one from a large tech company. Neither is better. Your process should surface both.
 
 This isn't about lowering the bar. It's about making sure the bar measures what you think it measures.
+
+---
+
+## Internal vs. External: The Case for Promoting from Within
+
+The default instinct when a management role opens is to look outside. An external hire brings experience, fresh perspective, no baggage. It feels like the safe, professional choice.
+
+The reality:
+
+An internal promotion is harder in the short term — the person has no management experience, someone else on the team may feel passed over, your VP may need to provide more support, and they'll have to navigate managing their former peers.
+
+But the long-term case is strong:
+- They can still contribute technically during the transition
+- They have genuine insight into what needs to improve
+- They know the codebase, the people, and the customers
+- They are more likely to be loyal to the company that invested in them
+
+If no one on your team wants to try management, that's worth examining. It may mean the path isn't visible, or that management looks unattractive from where they sit.
+
+Your job is to help your people grow outside their comfort zone — including toward management, if there's interest. When a manager slot opens, ask yourself who on the team is ready to try before looking outside. Often the right answer is someone who just needs the opportunity.
 
 ---
 
