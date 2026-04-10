@@ -1,8 +1,8 @@
 ---
 name: hiring
-description: When the user wants to define a role, write a job description, structure an interview loop, write interview questions, debrief a candidate, or make a hiring decision. Also use when the user says "interview," "hire," "job description," "JD," "interview loop," "debrief," "hiring bar," "offer," "reject," "sourcing," "recruiter," or "headcount."
+description: Helps structure the interview process, calibrate the hiring bar, counter interview bias, and decide between promoting internally vs. hiring externally. Also covers evaluating a new hire's fit during their first 90 days. Use when the user says "interview," "hire," "job description," "JD," "interview loop," "debrief," "hiring bar," "offer," "reject," "sourcing," "recruiter," "headcount," "should I hire a junior," "promote from within," or "new hire isn't working out." Do NOT use for ongoing performance management of an established team member (use performance-reviews).
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Hiring
@@ -10,6 +10,18 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## How to Use This Skill
+
+Identify the situation first:
+
+- **Structuring the interview or deciding on a work sample** → See the Work Before You Hire
+- **Calibrating seniority level / case for hiring juniors** → Why You Should Hire Juniors
+- **Worried about cultural bias affecting the evaluation** → The Beer Test Bias
+- **Deciding between internal promotion and external hire for a management role** → Internal vs. External
+- **New hire isn't meeting expectations — wondering if you should act** → Setting Up New Hires for Objective Evaluation
 
 ---
 
@@ -127,6 +139,12 @@ Before you trust someone with production code, see them do something close to wh
 **For internship-to-hire pipelines:** this is the strongest hiring signal you have. You've seen them work for months before you make the offer. Use that data.
 
 The discomfort many EMs feel about structured technical assessments ("it feels like a test") is real — but the alternative is making a $200k+ decision based on a good conversation. The juggler analogy is a useful reframe: the assessment isn't a judgment of the person; it's a standard you'd apply to anyone in that role.
+
+---
+
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links) and books.
 
 ---
 
