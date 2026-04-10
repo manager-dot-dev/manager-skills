@@ -1,8 +1,8 @@
 ---
 name: 1on1s
-description: When the user wants to prepare for, run, improve, or follow up on 1:1 meetings with direct reports. Also use when the user says "1:1 agenda," "prepare for my 1:1," "1:1 notes," "what should I talk about with," "my direct report," "check in with my report," "make my 1:1s better," or "1:1 template."
+description: Prepares agendas, diagnoses struggling 1:1 relationships, and gives frameworks for running effective 1:1 meetings with direct reports. Use when the user wants to prepare for, run, improve, or follow up on a 1:1, or says "1:1 agenda," "prepare for my 1:1," "1:1 notes," "what should I talk about with," "my direct report," "check in with my report," "make my 1:1s better," "1:1 template," or "my 1:1s feel like status updates." Do NOT use when the user needs to deliver specific feedback (use feedback) or discuss performance reviews (use performance-reviews).
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # 1:1s
@@ -13,6 +13,21 @@ Check for EM context first:
 1. Read `.agents/em-context.md` if it exists
 2. If a person is mentioned, look for `.agents/reports/[name].md` and read it
 3. Use that context — only ask for information not already covered
+
+---
+
+## How to Use This Skill
+
+Identify the situation before applying a framework:
+
+- **Preparing for an upcoming 1:1** → What Makes 1:1s Work + The 60/40 Rule
+- **1:1s feel flat, all status updates** → The Update, The Vent, and The Disaster — identify which type you're in and what to do differently
+- **Something feels off with a report but you can't pin it down** → Feelings as Diagnostic Signals
+- **Connection with a report just isn't clicking** → Building Connection When It Doesn't Flow Naturally
+- **Want a question that breaks the usual pattern** → The "What Would You Change?" Question
+- **1:1 drifted into heavy personal territory** → When 1:1s Turn into Therapy Sessions
+
+**If a specific person is mentioned**, check `.agents/reports/[name].md` before responding — it may already contain context about their communication style, what they care about, and past conversations.
 
 ---
 
@@ -131,6 +146,12 @@ A practical format: give 60% of the time (roughly 18 of 30 minutes) to the repor
 The trap with this format: managers use "their" 40% first and then run out of time for the report. Reverse it — start with them. Let their topics drive the conversation. Your agenda items will nearly always fit at the end; theirs won't if they're deprioritized.
 
 Share the format with your reports. When they understand that 1:1s are primarily *their* time, they come more prepared and use it better.
+
+---
+
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links) and books.
 
 ---
 

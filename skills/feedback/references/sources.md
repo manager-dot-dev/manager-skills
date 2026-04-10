@@ -12,9 +12,5 @@
 
 ## Books
 
-- *Radical Candor* — Kim Scott — Care Personally, Challenge Directly; the philosophy behind why honest feedback is an act of care
-- *The Making of a Manager* — Julie Zhuo — Opening a Critical Feedback Conversation; discomfort as a signal the conversation is real; silence as data
-
-## Course
-
-- Lesson 3 (Feedback) — In-the-Moment Feedback, volume button metaphor, Speed Feedback activity, psychological safety as the #1 team effectiveness factor (Google Project Aristotle)
+- _Radical Candor_ — Kim Scott — Care Personally, Challenge Directly; the philosophy behind why honest feedback is an act of care
+- _The Making of a Manager_ — Julie Zhuo — Opening a Critical Feedback Conversation; discomfort as a signal the conversation is real; silence as data
