@@ -63,6 +63,47 @@ If you're the go-to person for every system and every question, that's a problem
 
 ---
 
+## Intent-Based Leadership
+
+From *Turn the Ship Around* (Marquet): instead of asking permission or waiting for direction, team members state their intent and proceed unless stopped.
+
+The pattern: *"I intend to deploy the release at 2pm — let me know if you see a reason not to."* Instead of: *"Should I deploy the release?"*
+
+Why it works: asking permission transfers ownership to the person being asked. Stating intent keeps ownership with the person acting, while still maintaining oversight. Over time, it trains the entire team to think like owners rather than executors.
+
+**How to implement it:**
+- Model it yourself with your own manager: "I intend to finalize this hire — flag me if you have concerns" (this is also how you earn delegation upward)
+- When a report comes to you asking "should I do X?" — ask them what they intend to do and have them tell you. Then respond to their intent rather than making the decision for them
+- Reserve overrides for cases where you have information they don't. If you're overriding purely because you'd do it differently, ask whether that's worth the cost to their ownership
+
+The goal: a team that moves without being told, rather than a team that waits to be told.
+
+---
+
+## Micromanagement vs. Under-management
+
+From *The Dichotomy of Leadership* (Willink): the failure modes on both ends of the delegation spectrum are equally real, and the symptoms are distinct.
+
+**Signs you're micromanaging:**
+- You approve every decision before it moves forward
+- Team members stop bringing you problems because they expect you to solve them
+- You review and rewrite work that was "good enough"
+- No one acts when you're not available
+- Your calendar is full of unnecessary check-ins
+
+**Signs you're under-managing:**
+- Tasks go off-track and you're the last to know
+- Team members make significant decisions without relevant context you had
+- Quality degrades or standards slip without you noticing
+- Work done by different people on the team is inconsistent in ways that matter
+- You find out about problems after they've become crises
+
+Neither extreme is safe. The default assumption in engineering culture is that under-management is better than micromanagement — which leads many EMs to stay too hands-off and catch problems too late.
+
+The right position moves depending on the person and the task (see Task-Relevant Maturity). But the diagnostic above gives you early signals before you've drifted too far in either direction.
+
+---
+
 ## Signs You're Not Delegating Enough
 
 - You work through weekends to "help" the team meet deadlines

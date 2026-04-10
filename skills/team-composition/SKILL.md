@@ -97,6 +97,20 @@ Robert X. Cringely's model of how companies evolve requires different types of p
 
 ---
 
+## Minimum Team Size
+
+From *An Elegant Puzzle* (Will Larson): never let a team drop below roughly 4 people — and never create a team around a single person.
+
+A team of 1 or 2 is structurally fragile: one person's vacation, illness, or departure can halt everything. It also means no real code review, no knowledge redundancy, and no ability to handle an incident while also doing normal work.
+
+The failure mode to avoid: creating small "teams" as organizational fictions — one engineer "owns" a product area and is technically a team. This engineer carries all the risk and gets none of the support structure a real team provides. When something goes wrong or when they leave, there's no team to absorb it.
+
+**Minimum viable team (Larson's guidance):** ~4 engineers. This gives enough coverage for on-call, code review, technical design, and vacation without creating a single point of failure.
+
+**When you're below this:** either grow the team to minimum viability, merge it into a larger adjacent team, or be explicit that it's a temporary solo/pair arrangement with a transition plan — not a permanent structure.
+
+---
+
 ## Related Skills
 
 - `hiring` — Use the model to define what you're looking for before writing the job description

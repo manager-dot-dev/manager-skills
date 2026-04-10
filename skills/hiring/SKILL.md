@@ -110,6 +110,26 @@ Your job is to help your people grow outside their comfort zone — including to
 
 ---
 
+## See the Work Before You Hire
+
+From *Peopleware* (DeMarco & Lister): you wouldn't hire a juggler without watching them juggle.
+
+Before you trust someone with production code, see them do something close to what they'll actually do. A one-hour coding exercise isn't perfect, but it's dramatically more predictive than a conversation about how they'd approach a hypothetical problem.
+
+**What to look for in a work sample that a conversation misses:**
+- How they handle ambiguity (do they ask clarifying questions or make assumptions?)
+- Whether their code is readable, not just functional
+- How they respond to feedback on their work (do they get defensive, or engage?)
+- What they prioritize when they can't do everything
+
+**For senior candidates:** consider having them review code rather than (or in addition to) writing it. Code review reveals judgment in a way that new code doesn't — it shows whether they can identify real issues, give useful feedback, and communicate technically.
+
+**For internship-to-hire pipelines:** this is the strongest hiring signal you have. You've seen them work for months before you make the offer. Use that data.
+
+The discomfort many EMs feel about structured technical assessments ("it feels like a test") is real — but the alternative is making a $200k+ decision based on a good conversation. The juggler analogy is a useful reframe: the assessment isn't a judgment of the person; it's a standard you'd apply to anyone in that role.
+
+---
+
 ## Related Skills
 
 - `em-context` — For team and role context

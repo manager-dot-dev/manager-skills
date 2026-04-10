@@ -166,6 +166,24 @@ Most of these are instincts from individual contributor work applied in the wron
 
 ---
 
+## The Blue Tape List
+
+From *The Art of Leadership* (Lopp): when you arrive in a new role, everything that feels wrong gets a blue tape label — a note on the wall, a line in a doc, whatever works. You're not acting on it yet. You're just tagging it.
+
+Wait 30 days. Then revisit your list.
+
+Some things will have resolved themselves — they were temporary states you didn't have context for. Some will look different once you understand why they exist. Some will still feel wrong, and now you understand them well enough to actually fix them.
+
+**Why this matters:** new managers often react to the first wrong thing they see without understanding the ecosystem around it. They fix the visible symptom and break three invisible things. Or they change something that looked like a flaw but was actually a deliberate trade-off.
+
+The blue tape list separates observation from action. It preserves your fresh perspective (which disappears quickly as you normalize) while giving you time to gather context before acting on it.
+
+**Practical format:** keep a running list of "things that feel off" with the date you noticed them. At the 30-day mark, review it with someone who knows the context. For each item: is this still worth addressing? Do you now understand why it exists? If you were to act, would you act differently than you would have on day one?
+
+The list also becomes useful evidence. If the same issue appears in your notes three times over 30 days, that's different from something you noticed once.
+
+---
+
 ## Do Nothing for the First 30 Days
 
 The instinct when starting a new management role is to prove yourself. The result: you rush to make changes, miss context, the team feels disrespected, you trash the predecessor's work, and you burn trust before it's built.

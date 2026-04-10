@@ -39,6 +39,21 @@ The same trust, conflict, accountability, and commitment that you invest in buil
 
 ---
 
+## Team Health States
+
+From *An Elegant Puzzle* (Will Larson): teams exist in one of four states at any given time, each requiring a different response from the EM.
+
+| State | What it looks like | What to do |
+|---|---|---|
+| **Falling behind** | Backlog grows every sprint; team feels overwhelmed; commitments slip | Add capacity. This is the only state where hiring directly helps. In the short term: reduce the scope of what you're committing to and communicate that to stakeholders honestly. |
+| **Treading water** | Team is shipping, but only product work — no tech debt addressed, no improvements | Reduce WIP. Focus the team on fewer things. Create space by finishing existing work before starting new work. |
+| **Repaying debt** | Team is actively working down tech debt; velocity feels slower | Protect the work. Shield the team from new product demands until the debt is paid. This state is temporary and necessary — don't let urgency interrupt it. |
+| **Innovating** | Low tech debt, stable delivery, team has headspace to experiment | Preserve it carefully. This state is fragile. Only add work that's compatible with the team's current way of working. The wrong new hire or the wrong project can push you back to Treading water fast. |
+
+The most common mistake: treating all states the same. Pushing a "Falling behind" team to also repay debt doesn't work. Trying to innovate while treading water doesn't work. Diagnose the current state first, then apply the right response.
+
+---
+
 ## Team Meetings
 
 Most engineering managers underinvest in team meetings — either skipping them entirely (too busy, afraid of wasting time) or running them without an agenda. The common excuse: "I'll create one when I have something good to say." The result: 3 meetings a year.
@@ -201,6 +216,45 @@ Tense before standup. Exhausted after every sprint. Frustrated about decisions t
 Nobody performs at their best when their body is in a stress state. Ask *"How did you feel this week?"* in 1:1s — not as a therapy question, but as a diagnostic one. Give space for a real answer.
 
 If someone's nervous system is consistently in threat mode at work, that's an environment problem as much as a performance problem.
+
+---
+
+## Jelled Teams and Teamicide
+
+From *Peopleware* (DeMarco & Lister): a jelled team is one that has coalesced into a cohesive unit — members trust each other, move in sync, and collectively outperform what you'd predict from individual skill levels. Jelled teams are genuinely rare and disproportionately valuable.
+
+**What jelling requires:**
+- Enough time working together to build shared context and trust
+- A challenge worth caring about — not just assigned work, but a goal the team has ownership over
+- Freedom from bureaucratic friction that breaks flow and signals management distrust
+
+**Teamicide — the patterns that destroy cohesion:**
+
+| Factor | What it looks like |
+|---|---|
+| Defensive management | Micromanagement, second-guessing decisions, checking in constantly — signals you don't trust the team |
+| Separated workspace | Open offices that make deep work impossible; remote setups without shared async norms |
+| Fragmented work | Team members constantly switching between unrelated projects; no one gets to finish anything |
+| Quality reduction for schedule | Forcing shortcuts that engineers know are wrong — kills pride of craft |
+| Phony deadlines | Artificial urgency; "this is critical" for every sprint — engineers learn urgency means nothing |
+| Clique control | Managers who treat a subset of the team as the inner circle and the rest as implementers |
+
+You can do many things right and still destroy a jelled team with one of these. The most common is defensive management disguised as staying involved.
+
+---
+
+## Trust Battery
+
+From *It Doesn't Have to Be Crazy at Work* (Basecamp/Fried): every relationship between two people has an implicit trust battery, starting at around 50%.
+
+The battery charges when someone does what they say they'll do — responds when they said they would, ships what they committed to, handles a situation the way they promised. It discharges when they don't.
+
+Trust isn't primarily built by being warm, friendly, or enthusiastic. It's built by delivery. The engineer who quietly ships what they committed to, every sprint, has a fuller battery with their colleagues than the one who makes everyone feel great but misses constantly.
+
+**Practical use:**
+- When someone on the team is struggling socially — colleagues seem cold or disengaged — look at their delivery record before concluding it's a personality issue. A discharged battery often looks like a relationship problem.
+- When a new hire seems isolated, they haven't had time to charge the battery yet. Giving them small, visible wins early charges it faster than any onboarding activity.
+- As a manager, your own battery with the team is the foundation of everything. They watch whether you deliver on what you said, whether you fight for the things you promised to fight for.
 
 ---
 

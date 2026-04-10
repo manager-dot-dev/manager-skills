@@ -102,6 +102,38 @@ Be a Giver. Set limits on exploitative relationships — but default to helping 
 
 ---
 
+## Label the Concern
+
+From *Never Split the Difference* (Voss): before someone voices an objection, name it yourself.
+
+*"I imagine you're wondering why this is coming up now."*
+*"You might be concerned that this adds scope to an already full quarter."*
+*"I know this sounds expensive."*
+
+Labeling the concern disarms it. When people hear their unspoken worry named, they feel understood — which lowers resistance and opens them to the actual case you're making. If you don't label it and they raise it, you're defending; if you label it first, you're already on the same side.
+
+The technique is especially effective in headcount conversations, architectural proposals, and any situation where you're asking for something the other person has reason to resist.
+
+One warning: the label has to be accurate. A wrong label ("I imagine you think this is risky" when they're actually worried about ownership) creates friction instead of reducing it. When in doubt, keep the label vague: "I know there are concerns about this."
+
+---
+
+## Get to "That's Right," Not "You're Right"
+
+From *Never Split the Difference* (Voss): there's a critical difference between the two responses.
+
+**"You're right"** means: *you won the argument, I'll say what you want so we can move on.* It signals capitulation, not genuine agreement. It almost never leads to real change.
+
+**"That's right"** means: *you've just summarized my situation so accurately that I feel understood.* It's the response that comes when someone feels genuinely heard — and it opens them to persuasion.
+
+How to get there: listen to what the other person is telling you about their world, then summarize it back to them so accurately that they can't help but agree. Not a paraphrase — a precise articulation of what they care about, what they're worried about, and what they're trying to achieve.
+
+*"So the concern is that if we invest in this now, we lose flexibility in Q3, and the Q3 roadmap already has more on it than the team can realistically handle."*
+
+When someone says "that's right" — that's when they're ready to actually engage with your proposal.
+
+---
+
 ## Pull on Your Manager
 
 The best team members pull on their manager rather than waiting to be pushed.

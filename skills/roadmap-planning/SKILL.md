@@ -185,6 +185,34 @@ When a hard deadline is at risk, the options most managers reach for first are t
 
 ---
 
+## The Iron Law of Projects
+
+From *How Big Things Get Done* (Flyvbjerg): across thousands of large projects studied, only 8.5% came in on time and on budget. This is not a project management failure — it's a structural property of how humans plan.
+
+**Why estimates are almost always wrong:**
+- Planners anchor on best-case scenarios and uniqueness ("this project is special")
+- Unknown unknowns don't show up in any estimate
+- Complexity grows non-linearly but estimates grow linearly
+- Optimism bias: teams systematically underestimate duration and cost
+
+**Reference-class forecasting — the fix:**
+
+Instead of estimating from scratch ("how long will this take?"), ask: *"What happened on similar projects?"*
+
+Find a set of comparable completed projects — similar scope, similar team, similar domain. Look at how long they actually took and how much they actually cost. Anchor your estimate there, then adjust for specific differences.
+
+This sounds obvious. Almost no one does it. The instinct is to treat every project as unique and estimate bottom-up. The data says: the outside view (comparable projects) is almost always more accurate than the inside view (detailed bottom-up estimation).
+
+**Think Slow, Act Fast:**
+
+The most expensive thing in project delivery is changing course mid-execution. Flyvbjerg's principle: invest heavily in planning before committing, then execute quickly once committed.
+
+The pattern that kills projects: starting fast before the design is settled, then encountering fundamental issues mid-way and either pivoting expensively or shipping something that doesn't work.
+
+Practically: before green-lighting a large initiative, ask whether the design is actually resolved. "We'll figure it out as we go" is not a design. The hill concept (see "The Always Green Method") is a micro-version of the same idea: climb far enough to see the full scope before you commit.
+
+---
+
 ## There Are No Technical Projects
 
 Hot take worth internalizing: **all projects are business projects.** If an engineering team is doing something that can't be justified in business terms, they're doing it wrong.

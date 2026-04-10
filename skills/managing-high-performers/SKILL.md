@@ -29,6 +29,24 @@ The true rockstar challenge is **High Ability + High Confidence**:
 
 ---
 
+## Rock Stars and Superstars
+
+From *Radical Candor* (Kim Scott): not every high performer wants the same thing. The mistake is assuming they do.
+
+**Superstars** are on a steep growth trajectory — they want challenge, advancement, and new scope constantly. They're building toward something bigger. Managing them well means clearing the path, delegating high-visibility work, and being honest about what promotion requires.
+
+**Rock Stars** are excellent performers in stable mode — the "rock" of the team. They're not stagnating; they're doing great work at a level they've chosen. They may have interests outside work, have reached a career equilibrium they're satisfied with, or simply not want the cost of constant upward movement. They are not under-performing. They are essential.
+
+**The management mistake:** treating Rock Stars as Superstars who failed to advance. Asking them repeatedly "where do you see yourself in two years?" signals that their current contribution isn't enough. It creates pressure they didn't ask for and resentment they shouldn't have to manage.
+
+**What Rock Stars need:** recognition for the stability and expertise they provide. Meaningful work. Not being pushed toward a path they haven't chosen.
+
+**What Superstars need:** visible, difficult assignments. Regular feedback on what's between them and the next level. An honest answer to "what do I need to do to get there?"
+
+A team that has both — and treats each well — is more resilient than one that only prizes the Superstar trajectory.
+
+---
+
 ## How NOT to Manage a Rockstar
 
 **Overpromise.** The worst thing you can do. Painting a picture of a promotion that doesn't happen — even if your manager overrules you at the last moment — destroys trust permanently. If it's not 100% up to you, **don't promise**.

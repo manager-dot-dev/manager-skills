@@ -100,6 +100,26 @@ Four steps that work better (from Adam Grant, based on research):
 
 ---
 
+## Opening a Critical Feedback Conversation
+
+From *The Making of a Manager* (Zhuo): the moments right before a difficult feedback conversation feel uncomfortable — for both people. That discomfort is a good sign. It means the conversation is real.
+
+Comfortable feedback conversations often aren't achieving anything. If neither person feels any friction, the feedback is probably not specific enough, not honest enough, or not about anything that actually matters.
+
+**What to say at the start:**
+
+The opening doesn't need to be elaborate. What it needs to signal is: you're saying this because you care about the person, not because you're judging them.
+
+*"I want to share something that's hard for me to say, and I'm saying it because I think it matters for where you're going."*
+
+Or simply naming what's happening: *"I have some direct feedback for you. It might feel uncomfortable, and I want you to know it's coming from a place of caring about your success here."*
+
+**Then say the thing.** Don't circle around it. The opening sets the tone; the feedback itself has to be clear, specific, and direct. Softening after a strong opener defeats the purpose.
+
+**Silence is data.** If someone goes quiet after critical feedback, don't rush to fill the space. Let them process. The silence often means they're actually taking it in — which is exactly what you wanted.
+
+---
+
 ## In-the-Moment Feedback
 
 Waiting for the next 1:1 to give feedback costs most of its effectiveness. The closer feedback is to the event, the more likely the person can connect it to what they actually did.
