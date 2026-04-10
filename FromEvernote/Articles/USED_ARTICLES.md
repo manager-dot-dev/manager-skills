@@ -19,13 +19,13 @@ All HTML articles from `FromEvernote/Articles/` (excluding `not skill useful/`).
 | 13 | Commandos, Infantry, and Police | **Used** | `team-composition` | Three-phase company model (Commandos/Infantry/Police) added |
 | 14 | DMO Framework - Developer Motivation Explained | Skip | — | Similar to existing team-health/motivation content |
 | 15 | Dealing with feature factory | Skip | — | Covered by the 12 signs article which was more structured |
-| 16 | DevEx - measuring developer productivity | Skip | — | Metrics/measurement tooling, not EM management skill |
-| 17 | Developer Experience management | Skip | — | Too technical, not EM management skill |
-| 18 | Developer productivity - Advocating for qualitative metrics | Skip | — | Metrics advocacy, not EM skill |
-| 19 | Developer progression | Skip | — | IC career ladder framework, not EM-specific |
+| 16 | DevEx - measuring developer productivity | **Used** | `developer-productivity` | DevEx framework: feedback loops, cognitive load, flow state |
+| 17 | Developer Experience management | Skip | — | Too technical/tooling focused; DevEx framework covers the EM angle |
+| 18 | Developer productivity - Advocating for qualitative metrics | **Used** | `developer-productivity` | Qualitative metrics are not soft; quantitative + qualitative are complementary |
+| 19 | Developer progression | **Used** | `career-development` | R&D Circles of Influence model (Personal → Team → Group → Company) |
 | 20 | Doing support makes you a better engineer | Skip | — | Advice for ICs, not EMs |
 | 21 | EM <> PM: A Song of Ice and Fire | Skip | — | PM relationship content already covered in working-with-pm |
-| 22 | Engineering Metrics | Skip | — | Metrics/measurement, not EM management skill |
+| 22 | Engineering Metrics | **Used** | `developer-productivity` | History of metrics (SLOC → Velocity → DORA), DORA four key metrics explained |
 | 23 | Fixing broken teams - don't blame the previous leader | **Used** | `management-transitions` | Turnaround process: don't blame predecessor, name baggage, reset target, revise behaviors |
 | 24 | Gamifying feedback | **Used** | `feedback` | Speed feedback activity for building team feedback culture |
 | 25 | Getting an Engineering Executive Job | Skip | — | Career advice for EMs seeking exec roles, not day-to-day |
@@ -51,7 +51,7 @@ All HTML articles from `FromEvernote/Articles/` (excluding `not skill useful/`).
 | 45 | How to operate (barrels and ammunition) | **Used** | `team-composition` | Barrels vs ammunition model; velocity limited by barrels not headcount |
 | 46 | How to prioritize features | Skip | — | Product-focused; covered in working-with-pm/roadmap-planning |
 | 47 | How to properly estimate a project | Skip | — | Estimation covered broadly in roadmap-planning |
-| 48 | How to run better meetings | Skip | — | Meeting improvement covered in deep-work and team-health |
+| 48 | How to run better meetings | **Used** | `meeting-management` | 4 meeting types, scheduling questions, who needs to be there, running and follow-up |
 | 49 | Kebab vs Cake organization | Skip | — | Org design/structure, not EM day-to-day |
 | 50 | Layers of context | Skip | — | Context layers for Staff engineers; not EM skill |
 | 51 | Lessons from Netflix CTO | **Used** | `getting-feedback` | Keeper test, candor about failures, responsiveness as a signal |
@@ -70,7 +70,7 @@ All HTML articles from `FromEvernote/Articles/` (excluding `not skill useful/`).
 | 64 | Organizing a Hackathon | Skip | — | Specific event format, not core EM skill |
 | 65 | Performance management: the rising tide | Skip | — | Covered in performance-reviews |
 | 66 | Polarity Management | **Used** | `managing-yourself` | Polarity vs problem distinction; recurring challenges that can't be "solved" |
-| 67 | Practices to reduce meetings | Skip | — | Meeting reduction covered in deep-work |
+| 67 | Practices to reduce meetings | **Used** | `meeting-management` | Proactivity ratio, batch meetings, delegate attendance, shorten by default |
 | 68 | Reframing technical debt | Skip | — | Covered in roadmap-planning |
 | 69 | Retention techniques Elena Verna | Skip | — | Product retention metrics, not people retention |
 | 70 | Stop with the compliment sandwich | **Used** | `feedback` | 4-step alternative to compliment sandwich (Adam Grant) |
@@ -78,10 +78,10 @@ All HTML articles from `FromEvernote/Articles/` (excluding `not skill useful/`).
 | 72 | The 5 Questions to Unlock Poor Performers | **Used** | `performance-reviews` | Diagnostic spectrum: Resources → Training → Desire → Fit → Ability |
 | 73 | The 6 Mistakes You're Going to Make as a New Manager | **Used** | `management-transitions` | Dopamine shift (shipping → enabling); delegation reluctance |
 | 74 | The Management Skill Nobody Talks About (repair) | **Used** | `managing-yourself` | Repair concept: acknowledging mistakes builds more trust than avoiding them |
-| 75 | The Tarzan Method for career development | Skip | — | IC career development, not EM skill |
+| 75 | The Tarzan Method for career development | **Used** | `career-development` | Tarzan method: swing to the next vine; careers aren't straight lines; seniority requires company need too |
 | 76 | The origin of blameless post mortems | **Used** | `team-health` | Blameless postmortem philosophy: fix the system, not the person |
 | 77 | The unspoken skill of finesse | Skip | — | Covered in managing-yourself (communicating with senior leadership) |
-| 78 | Tying Engineering Metrics to Business Metrics | Skip | — | Metrics tooling, not EM management skill |
+| 78 | Tying Engineering Metrics to Business Metrics | **Used** | `developer-productivity` | Connecting DORA metrics to business outcomes (ARR, NRR, GRR, CAC) |
 | 79 | What is good retention | Skip | — | Product retention benchmarks, not people retention |
 | 80 | Why Engineers Hate Their Managers | Skip | — | Interesting but key content (focus, credit, technical credibility) covered elsewhere without a new framework |
 | 81 | Your manager wants you to manage him | Skip | — | Covered in managing-yourself (pulling on your manager) |
@@ -90,8 +90,8 @@ All HTML articles from `FromEvernote/Articles/` (excluding `not skill useful/`).
 
 ## Summary
 
-**Used:** 20 articles → skill updates written
-**Skipped:** 61 articles → duplicate, too generic, or IC-focused
+**Used:** 28 articles → skill updates written
+**Skipped:** 53 articles → duplicate, too generic, or IC-focused
 
 ### Skills updated from articles
 
@@ -109,3 +109,11 @@ All HTML articles from `FromEvernote/Articles/` (excluding `not skill useful/`).
 | `difficult-situations` | Handling layoffs |
 | `influence` | How to get more headcount |
 | `team-health` | The origin of blameless post mortems |
+
+### New skills created from articles
+
+| Skill | Articles used |
+|---|---|
+| `developer-productivity` (NEW) | Engineering Metrics, DevEx, Developer productivity qualitative metrics, Tying Engineering Metrics to Business Metrics |
+| `career-development` (NEW) | Developer progression, The Tarzan Method |
+| `meeting-management` (NEW) | How to run better meetings, Practices to reduce meetings |
