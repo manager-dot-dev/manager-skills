@@ -1,8 +1,8 @@
 ---
 name: delegation
-description: When the user wants to delegate work, reduce bottlenecks, give their team more ownership, or stop being the single point of failure. Also use when the user says "I'm doing everything," "team isn't taking ownership," "I can't let go," "team rep," "project ownership," "I'm the go-to person," "bus factor," "I work weekends," or "how do I delegate."
+description: Guides managers out of the bottleneck role — provides the Team Rep pattern, Epic Ownership model, Task-Relevant Maturity framework, kingdom ownership, and three-layer assignment strategy. Use when the user wants to delegate work or says "I'm doing everything," "team isn't taking ownership," "I can't let go," "team rep," "project ownership," "I'm the go-to person," "bus factor," "I work weekends," "how do I delegate," or "engineers don't take initiative." Do NOT use for managing a specific underperformer (use performance-reviews) or deciding what work to prioritize (use roadmap-planning).
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Delegation
@@ -10,6 +10,21 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## How to Use This Skill
+
+Identify the situation first:
+
+- **You're the bottleneck — doing too much yourself** → The Two Things to Delegate First (start here)
+- **Not sure how much involvement to have on a task or with a person** → Task-Relevant Maturity
+- **Wondering if you're micro or under-managing** → Micromanagement vs. Under-management
+- **Engineers wait to be told rather than acting** → Intent-Based Leadership
+- **Want to give engineers deeper ownership beyond individual tasks** → Giving Engineers a Kingdom
+- **Assigning work across the team strategically** → Three-Layer Assignment Framework
+- **Feeling anxious about letting someone do it differently than you would** → Delegation Anxiety
+- **Going on vacation / someone needs to cover** → Covering for You While You're Away
 
 ---
 
@@ -113,8 +128,6 @@ The right position moves depending on the person and the task (see Task-Relevant
 
 ---
 
----
-
 ## Covering for You While You're Away
 
 When you go on vacation, who runs the team? Three options, in increasing order of long-term value:
@@ -215,6 +228,13 @@ Not every engineer is a free electron. The skill is identifying the few who have
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links) and books.
+
+---
+
 ## Related Skills
 
 - `managing-yourself` — Over-involvement is trap #5 in the 10 ways EMs get stuck
+- `engineer-motivation` — Identifies each engineer's driver for motivation-aligned delegation
