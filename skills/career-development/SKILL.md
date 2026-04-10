@@ -1,8 +1,8 @@
 ---
 name: career-development
-description: When the user wants to help a direct report grow, plan their career path, prepare for a promotion, or think about the next step in someone's career. Also use when the user says "career growth," "promotion," "career path," "this person wants to grow," "career conversation," "what's next for this person," "career ladder," "IC vs manager track," or "how do I help my report advance."
+description: Helps engineering managers support direct report growth — produces a stage-by-stage model of engineering impact (Circles of Influence), a framework for non-linear career planning (Tarzan Method), diagnostic signals for stalled growth, conversation scripts for career talks, and a promotion readiness vs. timing distinction. Use when the user says "career growth," "promotion," "career path," "this person wants to grow," "career conversation," "what's next for this person," "career ladder," "IC vs manager track," "how do I help my report advance," "help someone grow," or "engineer wants a promotion." Do NOT use for formal written performance reviews or underperformance — use performance-reviews instead.
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Career Development
@@ -13,6 +13,42 @@ Check for EM context first:
 1. Read `.agents/em-context.md` if it exists
 2. If a person is mentioned, look for `.agents/reports/[name].md` — it may contain their level, goals, and growth history
 3. Use that context — only ask for information not already covered
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Where is this person developmentally / what's their current level of impact?** → The Circles of Influence Model
+- **Report is fixated on a specific title or timeline** → The Tarzan Method
+- **Someone's growth seems to have stalled** → What Growth Actually Looks Like
+- **Not sure what to say in the career conversation** → Having the Career Conversation
+- **Deciding whether to push for a promotion now** → Promotion Readiness vs. Promotion Timing
+
+---
+
+## Default Response Shape
+
+When helping with career development, produce a manager-ready plan:
+
+1. **Current growth read:** where the person appears to be operating now.
+2. **Next growth edge:** what kind of impact they need to demonstrate next.
+3. **Conversation questions:** what to ask in the next career 1:1.
+4. **Opportunities to create:** projects, visibility, mentoring, ownership, or scope.
+5. **Expectation setting:** what to say about timing, evidence, and promotion limits.
+
+Do not promise promotion. Separate "ready to grow" from "the organization has a slot and evidence."
 
 ---
 
@@ -93,6 +129,12 @@ Two separate questions that managers often conflate:
 Both have to be true. Pushing someone for promotion before they're ready damages your credibility and can actually set them back. Waiting too long after they're ready damages trust and risks losing them.
 
 The rule: start building the promotion case *while* the person is still being developed — document impact, get visibility, prepare specific examples. Don't scramble at calibration time.
+
+---
+
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links) and books.
 
 ---
 

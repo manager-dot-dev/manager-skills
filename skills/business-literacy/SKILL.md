@@ -1,8 +1,8 @@
 ---
 name: business-literacy
-description: When the user wants to understand business terms used by leadership or stakeholders, make a case for engineering work in business language, or bridge the gap between engineering and business. Also use when the user says "business terms," "EBITDA," "burn rate," "CAC," "LTV," "gross margin," "ARR," "how do I speak to business people," or "I don't understand finance."
+description: Explains business financial terms and frameworks for engineering managers — produces term definitions (ARR, COGS, CAC, LTV, gross margin, burn rate, EBITDA, AARRR), translation formulas for making engineering work visible in business language, and a three-layer framework for building business credibility. Use when the user says "business terms," "EBITDA," "burn rate," "CAC," "LTV," "gross margin," "ARR," "how do I speak to business people," "I don't understand finance," "make the case for engineering work," "connect engineering to business outcomes," "talk to the P&L owner," or "business impact." Do NOT use when the user wants to connect engineering metrics (DORA, velocity) to business metrics — use developer-productivity instead.
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Business Literacy
@@ -10,6 +10,40 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Need to decode a business term you heard in a meeting** → The Terms That Come Up Most
+- **Want to make the case for engineering work in business language** → Using These in Practice
+- **Want to build credibility with business leaders or the P&L owner** → The 3 Layers of Business Impact
+
+---
+
+## Default Response Shape
+
+When translating business concepts for an EM, make the answer operational:
+
+1. **Plain-English definition:** explain the term without finance theater.
+2. **Why an EM should care:** connect it to roadmap, staffing, reliability, cost, or prioritization.
+3. **Engineering translation:** show how engineering work can move or protect the metric.
+4. **Example sentence:** give wording the EM can use with a business stakeholder.
+5. **Caveat:** note where the metric can mislead or be gamed.
+
+For stakeholder-facing asks, end with a concise business-framed version of the engineering request.
 
 ---
 
@@ -98,10 +132,15 @@ Three levels of domain knowledge:
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links) and books.
+
+---
+
 ## Related Skills
 
 - `working-with-pm` — PMs use this language constantly; understanding it makes you a real partner
 - `roadmap-planning` — Tech debt and platform work need business justification to get prioritized
-- `managing-yourself` — Senior leadership communication requires business fluency
+- `developer-productivity` — For connecting engineering metrics (DORA, velocity) to business outcomes
 - `influence` — Business fluency directly enables the 3rd level of positioning (being trusted)
-

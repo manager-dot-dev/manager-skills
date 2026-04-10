@@ -1,8 +1,8 @@
 ---
 name: feedback
-description: Structures and scripts feedback conversations — positive, constructive, or behavioral — for a specific person or situation. Produces SBI-framed feedback statements, opening lines for hard conversations, scripts for real situations, and ways to handle resistance. Use when the user wants to give someone feedback, says "how do I tell someone," "this person is struggling," "address a behavior," "hard conversation," "someone is underperforming," "praise this person," "write feedback for," "I need to say something," or "difficult conversation." Do NOT use for formal annual or performance reviews (use performance-reviews) or sensitive HR situations that go beyond feedback (use difficult-situations).
+description: Covers both giving and getting feedback — structures and scripts feedback conversations (positive, constructive, or behavioral) and provides techniques for drawing honest feedback from your own team. Produces SBI-framed feedback statements, opening lines for hard conversations, scripts for real situations, ways to handle resistance, and methods for extracting real feedback from reports. Use when the user wants to give someone feedback, says "how do I tell someone," "this person is struggling," "address a behavior," "hard conversation," "someone is underperforming," "praise this person," "write feedback for," "I need to say something," "difficult conversation," "get feedback from my team," "my team won't give me feedback," "blind spots," or "what does my team think of me." Do NOT use for formal annual or performance reviews (use performance-reviews) or sensitive HR situations that go beyond feedback (use difficult-situations).
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # Feedback
@@ -16,8 +16,20 @@ Check for EM context first:
 
 ---
 
-## How to Use This Skill
+## Response Style
 
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
 Identify what the user needs before diving into frameworks:
 
 - **Giving positive feedback** → Go to Precision: No Weasel Words — it applies equally to praise
@@ -27,8 +39,23 @@ Identify what the user needs before diving into frameworks:
 - **Building feedback culture across the whole team** → Speed Feedback
 - **Writing feedback for a review or document** → Precision section first; then ask for the specific events to document
 - **Building a lightweight weekly accountability loop with reports** → read [`references/extended.md`](references/extended.md) — Weekly Called Shots
+- **Getting honest feedback from your own team** → Getting Feedback from Your Team
 
 **If the user hasn't given you a specific event yet, ask for it.** Vague feedback inputs always produce vague feedback outputs.
+
+---
+
+## Default Response Shape
+
+When helping with feedback, produce wording the manager can actually say:
+
+1. **Intent:** what outcome the feedback should create.
+2. **SBI draft:** situation, behavior, impact, in concrete language.
+3. **Opening line:** a direct but humane start to the conversation.
+4. **Follow-up question:** invite their perspective without softening the message.
+5. **Next step:** request, agreement, or observation period.
+
+For praise, keep it specific. For corrective feedback, do not hide the message inside a compliment sandwich.
 
 ---
 
@@ -137,6 +164,20 @@ Teams that only give feedback in formal reviews are too slow. Speed feedback is 
 **The goal isn't depth — it's normalization.** Early rounds focus on appreciation and celebrating contributions. As the team gets comfortable, they naturally start including improvement suggestions. The activity makes feedback part of the team's rhythm rather than a once-a-year event.
 
 Works best with 5–8 people. Can be run remotely with breakout rooms and a shared board. Does not replace regular 1:1 feedback — it supplements it.
+
+---
+
+## Getting Feedback from Your Team
+
+Bad managers have many problems, but most of them know it. Good managers have a few invisible ones. When you ask for feedback in a performance review, you'll usually get silence — or "everything's great!" There is always something you can improve.
+
+Three methods that get past the surface:
+
+**1. Try different angles.** Don't accept the first "I can't think of anything." Keep asking from a different direction: "A behavior you didn't like?" "Something specific to your growth or our 1:1s?" "Something the team as a whole could have done better?" Real feedback is often only reachable because the question kept changing.
+
+**2. Share your own difficulties.** When you share what you struggle with, people become more comfortable criticizing you. It signals that honest assessment is welcome. If your team only finds out about your struggles via a LinkedIn post, the psychological space for that conversation doesn't exist in your 1:1s.
+
+**3. Make it about a specific situation.** People won't easily criticize you as a person — but they will talk about a project or an event. Instead of "where can I improve?" ask "what could we have done better in project X?" Then push further: "if we had to do the same project again, what would you change?" The second question is where the real feedback lives.
 
 ---
 

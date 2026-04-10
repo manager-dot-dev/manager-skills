@@ -1,8 +1,8 @@
 ---
 name: working-with-architects
-description: When the user wants to work effectively with Software Architects, Staff Engineers, or Principal Engineers. Also use when the user says "architect," "staff engineer," "principal engineer," "getting help from architects," "technical design review," or "working with senior technical people."
+description: Helps engineering managers work effectively with Software Architects, Staff Engineers, and Principal Engineers — covers the EM's side of the relationship (responsiveness, proactive consultation, giving credit), how to advocate for architect time, pre-consultation preparation, and the two architecture team models (Centralized vs. Decentralized). Use when the user says "architect," "staff engineer," "principal engineer," "technical design review," "working with senior technical people," "getting architecture help," or "how do I get more architect time." Do NOT use for managing staff/principal engineers who report directly to you (use `managing-high-performers` or `delegation`).
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Working With Architects
@@ -13,7 +13,42 @@ Check for EM context first. If `.agents/em-context.md` exists, read it.
 
 ---
 
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Unclear what the EM's responsibilities are in the architect relationship** → Do Your Side Well
+- **Need to make the case for architect time on a project** → Their Side of the Deal — Don't Hesitate to Push
+- **About to kick off a complex project with architect involvement** → Before You Consult Them
+- **Unclear who makes decisions — your team vs. the architecture function** → Two Architecture Team Models
+
+---
+
 *Applies to any cross-team Senior+ engineers — Architects, Staff Engineers, Principal Engineers. The title varies by organization.*
+
+---
+
+## Default Response Shape
+
+When helping with architects or senior technical partners, clarify ownership:
+
+1. **Situation:** advice, review, decision, blocked project, or architect-time request.
+2. **EM responsibility:** what the manager must own before asking for help.
+3. **Architect ask:** specific input, decision, review, or escalation needed.
+4. **Preparation:** context, constraints, options, and decision deadline.
+5. **Relationship move:** credit, follow-through, or expectation reset.
+
+Do not frame the architect as the owner of the EM's project unless they explicitly own delivery.
 
 ---
 
@@ -83,7 +118,14 @@ In either model: **engage early**. Engaging too late is the biggest mistake. If 
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md).
+
+---
+
 ## Related Skills
 
 - `delegation` — Working with architects is one of the highest-leverage forms of external collaboration
 - `influence` — Arguing your case for architect time uses the same skills as broader stakeholder influence
+- `managing-high-performers` — If the architect reports to you, that's a different relationship with different dynamics

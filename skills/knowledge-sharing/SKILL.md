@@ -1,8 +1,8 @@
 ---
 name: knowledge-sharing
-description: When the user wants to break down knowledge silos, improve documentation culture, improve onboarding, or build better cross-team collaboration. Also use when the user says "knowledge silos," "reinventing the wheel," "nobody reads docs," "onboarding is bad," "teams don't talk," "documentation culture," or "cross-team friction."
+description: Helps engineering managers break down knowledge silos and build sustainable documentation and collaboration practices — produces a four-root-cause diagnostic for silos, an Engineering Guilds framework, a minimum-viable documentation approach using ADRs, a structured onboarding model, and a cross-team request decision framework. Use when the user says "knowledge silos," "reinventing the wheel," "nobody reads docs," "onboarding is bad," "teams don't talk," "documentation culture," "cross-team friction," "information doesn't flow," or "new hires struggle to ramp up."
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Knowledge Sharing
@@ -10,6 +10,42 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Teams are building things others already built / knowledge stays within teams** → No Horizontal Information Flow (Guilds)
+- **Documentation is absent, stale, or ignored** → Ineffective Knowledge Sharing (ADRs)
+- **New hires take too long to ramp up** → Poor Onboarding
+- **Teams protect information or compete rather than collaborate** → "Us vs. Them" Thinking
+- **Cross-team request is sitting in limbo** → The 3 Paths for Cross-Team Requests
+
+---
+
+## Default Response Shape
+
+When helping with knowledge sharing, diagnose the flow problem before prescribing documentation:
+
+1. **Primary silo cause:** horizontal flow, documentation, onboarding, or us-vs-them.
+2. **Evidence:** what behavior shows the knowledge is not moving.
+3. **Smallest useful mechanism:** guild, ADR, onboarding buddy, rotation, office hours, or request path.
+4. **Owner and cadence:** who maintains the mechanism and how often it runs.
+5. **Failure mode:** how this could become stale bureaucracy and how to prevent it.
+
+Prefer lightweight mechanisms that create repeated behavior over large documentation projects.
 
 ---
 
@@ -109,9 +145,15 @@ The cost of a delayed "no" compounds. The sooner you're honest about capacity, t
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md).
+
+---
+
 ## Related Skills
 
 - `team-health` — Team Focus Days are a structural support for cross-team connection
 - `working-with-architects` — Architects are often central to Architecture Review Sessions
-- `management-transitions` — New Boss transitions benefit most from immediate knowledge-sharing investment
-
+- `management-transitions` — New hires benefit most from immediate knowledge-sharing investment
+- `shadow-work` — Glue work (undocumented coordination and mentoring) is a related hidden capacity problem

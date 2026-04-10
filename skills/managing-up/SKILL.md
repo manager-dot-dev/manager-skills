@@ -2,7 +2,7 @@
 name: managing-up
 description: Helps EMs build a reliable relationship with their manager, navigate disagreements with leadership, and communicate upward effectively. Use when the user says "managing up," "my manager," "I disagree with a decision," "I need to push back," "my skip level," "communicating with leadership," "my manager committed my team without asking," "how do I tell my boss," or "senior leadership." Do NOT use for influencing peers or cross-functional stakeholders (use influence) or for general EM self-reflection (use managing-yourself).
 metadata:
-  version: 1.0.0
+  version: 1.1.0
 ---
 
 # Managing Up
@@ -13,14 +13,41 @@ Check for EM context first. If `.agents/em-context.md` exists, read it.
 
 ---
 
-## How to Use This Skill
+## Response Style
 
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
 Identify the situation first:
 
 - **Building or repairing the reliability of your relationship with your manager** → Reliability Is the Foundation of Managing Up
+- **Got a difficult performance review from your manager** → When Your Own Review Goes Badly
 - **Need to communicate a decision you disagree with to your team** → Communicating Decisions You Disagree With
 - **Delivering bad news or giving feedback upward to senior leaders** → Communicating with Senior Leadership
 - **Your manager doesn't know what you need from them** → What Your Manager Wants from You
+
+---
+
+## Default Response Shape
+
+When helping someone manage up, focus on reliability and leverage:
+
+1. **Manager need:** what the user's manager likely cares about or fears.
+2. **Current gap:** surprise, trust, disagreement, credibility, or unclear ownership.
+3. **Update / ask:** exact message to send upward.
+4. **Prevention loop:** cadence or mechanism that avoids repeating the issue.
+5. **Boundary:** what not to absorb if the manager is being unreasonable.
+
+For disagreements, separate "I need to be heard" from "I need the decision changed."
 
 ---
 
@@ -79,6 +106,18 @@ Most managers want their reports to manage up — but rarely say it explicitly. 
 - **Make their job easier.** Follow through. Don't create work for them. Be the report they don't have to chase.
 
 The EMs who have the most influence with their managers aren't the ones who make the fewest mistakes — they're the ones their manager trusts to carry things without dropping them.
+
+---
+
+## When Your Own Review Goes Badly
+
+When your manager gives you a difficult performance review, the first instinct is to blame the manager. Sometimes that's right. But half the blame is usually yours.
+
+- You didn't provide regular updates, so your manager built their own picture from incomplete information
+- You didn't initiate conversations about your direction, so they filled in the gaps
+- You expected them to recognize work you never surfaced
+
+Don't expect your manager to guess your motivations. Don't expect 1:1s to automatically solve communication problems. Don't expect appreciation for work that was never made visible. The same principle works in reverse: if your team never tells you what's working or what's frustrating, part of that is on you for not creating the space.
 
 ---
 

@@ -2,7 +2,7 @@
 name: managing-yourself
 description: Helps EMs assess their own effectiveness, avoid common traps, navigate bad days, and handle recurring tensions in their own mindset and behavior. Use when the user says "I feel stuck," "am I doing this right," "personal development," "EM effectiveness," "blind spots," "bad days," "sanity check on my behavior," "the same problem keeps coming back," "made a mistake with someone," or "my team isn't motivated." Do NOT use when the issue is about the user's relationship with their own manager (use managing-up) or giving specific feedback to someone (use feedback).
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # Managing Yourself
@@ -13,8 +13,20 @@ Check for EM context first. If `.agents/em-context.md` exists, read it.
 
 ---
 
-## How to Use This Skill
+## Response Style
 
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
 Identify the situation first:
 
 - **Feeling stuck or wondering if you're doing the EM job right** → The 10 Ways EMs Get Stuck (start here)
@@ -32,7 +44,23 @@ Identify the situation first:
 - **Writing your own performance review** → read [`references/extended.md`](references/extended.md) — Your Manager Delta
 - **Diagnosing low engagement or bad team culture** → read [`references/extended.md`](references/extended.md) — The Inversion Model
 - **Auditing your own time allocation** → read [`references/extended.md`](references/extended.md) — The LNO Framework
+- **Something went wrong and you're figuring out what you missed** → read [`references/extended.md`](references/extended.md) — Extreme Ownership
+- **Team is scared or anxious during a hard period** → read [`references/extended.md`](references/extended.md) — The Leader Absorbs Fear
 - **Anything about your manager, managing up, or senior leadership** → use `managing-up` skill
+
+---
+
+## Default Response Shape
+
+When helping an EM self-diagnose, be concrete and non-therapeutic:
+
+1. **Pattern:** which trap, polarity, bad-day cause, or repair need is showing up.
+2. **Cost:** how it affects the team, manager, peers, or the EM's own judgment.
+3. **Reframe:** the more useful interpretation of the situation.
+4. **Next action:** one behavior to try this week.
+5. **Reflection question:** what to observe afterward.
+
+If the EM sounds overwhelmed, reduce the advice to one next move rather than listing every framework.
 
 ---
 
@@ -204,5 +232,5 @@ If the user asks where a framework came from, wants to read the original article
 - `managing-up` — Managing your relationship with your manager, communicating up, handling disagreements with leadership
 - `delegation` — The bottleneck trap maps directly to #5 and the dichotomies
 - `feedback` — Ignoring destructive behaviors (#1) is a feedback failure
-- `getting-feedback` — Blind spots are central to the 10 ways EMs get stuck
+- `feedback` — Getting honest feedback from your team; blind spots are central to the 10 ways EMs get stuck
 - `influence` — Managing up and across requires the persuasion skills in `influence`

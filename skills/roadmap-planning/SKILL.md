@@ -1,8 +1,8 @@
 ---
 name: roadmap-planning
-description: When the user wants to plan a team roadmap, prioritize projects, communicate priorities to stakeholders, or run a planning cycle. Also use when the user says "roadmap," "quarterly planning," "OKRs," "prioritization," "what should we work on," "planning cycle," "project list," "backlog grooming," "stakeholder alignment," or "capacity planning."
+description: Helps engineering managers plan roadmaps, prioritize work, and communicate priorities effectively — produces the 20% tech debt framework (and its 5 traps), a phased release pressure-test, a maintenance cost model, the Always Green delivery method, sprint anti-patterns, hidden costs of custom features, a critical deadline playbook, the Iron Law of Projects with reference-class forecasting, a "no technical projects" framing, and feature factory warning signs. Use when the user says "roadmap," "quarterly planning," "OKRs," "prioritization," "what should we work on," "planning cycle," "backlog grooming," "stakeholder alignment," "capacity planning," "technical debt," "we're always late," or "leadership doesn't understand engineering work."
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Roadmap Planning
@@ -10,6 +10,48 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Negotiating tech debt time with stakeholders** → Tech Debt and the "20% Rule"
+- **Feature is being broken into phases — pressure-test whether it's right** → Phased Releases
+- **Need to show the ongoing cost of building new things** → Maintenance Costs as a Third Dimension
+- **Team keeps missing sprint goals / perception of the team is "slow"** → The Always Green Method
+- **Sprint rituals are creating more friction than value** → Sprint Anti-Patterns
+- **PM keeps adding one-off custom features** → Hidden Costs of Custom Features
+- **Hard deadline is at risk — what to do** → When the Team Can't Make a Critical Deadline
+- **Project estimates keep being wrong** → The Iron Law of Projects
+- **Technical work keeps getting deprioritized** → There Are No Technical Projects
+- **Team is shipping but nothing seems to have impact** → Feature Factory Warning Signs
+- **Running a company-wide cleanup event** → read [`references/extended.md`](references/extended.md) — The Cleanathon
+
+---
+
+## Default Response Shape
+
+When helping with roadmap planning, make tradeoffs visible:
+
+1. **Planning problem:** tech debt, phases, deadlines, capacity, maintenance, feature factory, or stakeholder alignment.
+2. **Decision frame:** what options are actually on the table.
+3. **Business translation:** why the engineering work matters in product or company terms.
+4. **Recommendation:** what to do now and what to defer.
+5. **Stakeholder message:** concise wording for PMs, leadership, or the team.
+
+If the issue is "technical work keeps losing," translate it into risk, cost, speed, reliability, or customer impact before arguing for it.
 
 ---
 
@@ -137,23 +179,6 @@ Sprints, when followed rigidly, create their own problems. Signs that sprint pro
 
 ---
 
-## The Cleanathon: Making Tech Cleanup Happen
-
-One effective format for tackling accumulated dead code, stale infrastructure, and technical clutter: a company-wide competition day.
-
-The basic format: every team competes to delete and clean up as much as possible in a single working day. With proper scoring, teams can include non-engineering departments (finance, QA, product) — anyone with files, automations, or processes to clean up.
-
-**What makes it work:**
-- **Scoring system** — critical for energy and engagement. Without scores, it's just a boring cleanup day. With scores, teams work until the last minute. Cap points per action (e.g., 1000 points max per deletion, regardless of size) to prevent gaming.
-- **Stability safeguards** — require 2 approvals from people familiar with the code, keep PRs open until tested together post-event, run end-to-end tests before merging
-- **Celebrate the effort** — team names, logos, printed rosters, lunch together. The social element matters.
-
-**The second-order effect to manage:** in the weeks before the event, teams stop deleting things and save them for points. Remind the team that continuous cleanup is the goal — the event is a catalyst, not a substitute.
-
-**Post-event: use the momentum.** Establish guidelines that prevent the same mess from accumulating: auto-delete merged branches, add dead code analyzers, create tickets to delete feature flags when they're created.
-
----
-
 ## Hidden Costs of Custom Features
 
 When a PM or customer asks for a one-off "special" feature, the visible cost is the development time. Three costs that almost never make it into the estimate:
@@ -247,8 +272,15 @@ The risk is that a feature factory *feels* productive — lots of shipping, lots
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md). For running a company-wide cleanup event, read [`references/extended.md`](references/extended.md).
+
+---
+
 ## Related Skills
 
-- `em-context` — For team context, size, capacity
-- `team-health` — For understanding team capacity and morale as planning inputs
+- `shadow-work` — Shadow backlog and untracked work are a major source of capacity planning failures
+- `team-health` — Team capacity and morale as planning inputs
 - `working-with-pm` — A true partnership produces a single roadmap for product and tech
+- `managing-urgency` — When deadline pressure overrides the plan

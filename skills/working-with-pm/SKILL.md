@@ -1,8 +1,8 @@
 ---
 name: working-with-pm
-description: When the user wants to improve their relationship with their Product Manager, fix an imbalanced PM–EM dynamic, or become more product-oriented. Also use when the user says "PM drives me crazy," "PM relationship," "product manager," "roadmap disagreement," "PM overrides me," "PM–EM partnership," or "engineering-led vs product-led."
+description: Helps engineering managers build a functional PM–EM partnership and become more product-oriented — produces a 3-pattern PM–EM dynamic model (PM-Led / Engineering-Led / Fake Balanced), a true partnership definition, the "It's Important to Me" card for navigating disagreements, tips for getting engineers closer to customers and usage data (launch vs. landing, session recordings, customer conversations), and an explicit responsibilities exercise. Use when the user says "PM relationship," "PM drives me crazy," "product manager," "roadmap disagreement," "PM overrides me," "PM–EM partnership," "I want to be more product-oriented," or "how do I get engineers closer to customers." Do NOT use for general roadmap prioritization (use `roadmap-planning`) or when urgency is being manufactured by a PM (use `managing-urgency`).
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Working With Your PM
@@ -10,6 +10,43 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Diagnosing the current PM–EM dynamic** → The 3 Relationship Patterns
+- **Trying to build a real partnership** → What a True Partnership Looks Like + 3 Tips to Get There
+- **Navigating a specific disagreement with your PM** → The "It's Important to Me" Card
+- **PM doesn't understand or respect technical work** → Tip 1: Help Your PM Become Tech-Oriented
+- **Getting engineers closer to customers and product outcomes** → Building a Product Lens on Your Team
+- **Confusion about who owns what between EM and PM** → Tips from Experienced PMs
+
+---
+
+## Default Response Shape
+
+When helping with a PM-EM relationship, identify the operating pattern first:
+
+1. **Pattern read:** PM-led, engineering-led, fake balanced, or true partnership.
+2. **Specific friction:** roadmap, estimates, quality, customer context, ownership, or trust.
+3. **EM move:** product lens, technical translation, boundary, escalation, or responsibility exercise.
+4. **Conversation script:** wording that protects the relationship while naming the issue.
+5. **Shared mechanism:** recurring sync, decision log, customer exposure, or responsibility split.
+
+If the PM is creating urgency, connect to `managing-urgency`; if the issue is roadmap tradeoff, connect to `roadmap-planning`.
 
 ---
 
@@ -115,7 +152,15 @@ Three questions that work in any customer conversation:
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md).
+
+---
+
 ## Related Skills
 
-- `managing-urgency` — Most fake urgency originates from PM–EM misalignment
 - `roadmap-planning` — A true partnership produces a single shared roadmap
+- `managing-urgency` — Most manufactured urgency originates from PM–EM misalignment
+- `written-communication` — How to frame technical work in terms a PM and stakeholders understand
+- `influence` — Making the case for engineering priorities in cross-functional settings

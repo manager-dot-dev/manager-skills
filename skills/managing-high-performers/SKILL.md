@@ -1,8 +1,8 @@
 ---
 name: managing-high-performers
-description: When the user is managing a rockstar, superstar, or high-performing engineer who is hard to keep challenged or on track. Also use when the user says "rockstar engineer," "superstar," "high performer," "brilliant jerk," "wants promotion," "hardest to manage," "overconfident," or "my best developer is pushing me."
+description: Guides engineering managers through the specific challenges of managing top engineers — produces a four-quadrant ability/confidence diagnostic, the Rock Star vs. Superstar distinction, common mistakes to avoid, a stagnation diagnostic (Diminishing XP), and a Pusher vs. Puller framework for managing burnout and team friction. Use when the user says "rockstar engineer," "superstar," "high performer," "brilliant jerk," "wants promotion," "hardest to manage," "overconfident," "my best developer is burning out," "engineer is frustrated," or "my best developer is pushing me." Do NOT use for standard underperformance (use performance-reviews) or general motivation questions (use engineer-motivation).
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Managing High Performers
@@ -10,6 +10,43 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it. If the person is named, check `.agents/reports/[name].md`.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Not sure what kind of challenge you're dealing with** → The 4 Quadrants (start here)
+- **High performer who wants to keep climbing vs. one who's settled** → Rock Stars and Superstars
+- **Promotion conversation or setting goals for a high performer** → What to Do
+- **High performer is damaging team dynamics or being a jerk** → The Brilliant Jerk Problem
+- **Senior engineer seems productive but quietly stagnating** → The Diminishing XP Diagnostic
+- **High performer is burning people out or burning themselves out** → Pushers and Pullers
+
+---
+
+## Default Response Shape
+
+When helping with a high performer, avoid treating excellence as a generic good:
+
+1. **Type of high performer:** rock star, superstar, pusher, puller, brilliant jerk, bored expert, or burnout risk.
+2. **Core tension:** autonomy vs. oversight, growth vs. stability, impact vs. team cost.
+3. **Manager move:** goals, visibility, feedback, constraints, scope, or recovery.
+4. **Conversation script:** direct wording that respects their competence.
+5. **Team impact:** how to protect the rest of the team while keeping the person engaged.
+
+If the issue is harmful behavior, do not excuse it because the person is talented.
 
 ---
 
@@ -116,8 +153,15 @@ Identifying which type you're dealing with changes what kind of support to provi
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context — read [`references/sources.md`](references/sources.md).
+
+---
+
 ## Related Skills
 
 - `retaining-developers` — Rockstars are primarily in the "Bored" and "Stuck" states
+- `engineer-motivation` — Use the 3 Drivers to find what kind of high-visibility work actually motivates them
 - `delegation` — Delegating high-visibility work is both retention and development
 - `performance-reviews` — Setting clear promotion criteria is how you manage expectations

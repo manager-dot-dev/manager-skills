@@ -1,8 +1,8 @@
 ---
 name: written-communication
-description: When the user wants to write a message, email, or announcement to their team or stakeholders and wants it to land well. Also use when the user says "how do I write this," "draft a message," "write an announcement," "communicate this change," "message for my team," "how to word this," or "write an update."
+description: Helps engineering managers write messages, announcements, and stakeholder updates that land well — produces a 3-Step Writing Framework (Prepare / Write Simply / Run a Garbage Collector), the Async Re-Explanation Trap (calling out missed messages), and the Compression/Decompression model for diagnosing why messages are misunderstood. Use when the user says "draft a message," "write an announcement," "communicate this change," "how do I word this," "message for my team," "write an update," or "how do I communicate X." Do NOT use for verbal feedback or difficult conversations (use `feedback` or `difficult-situations`).
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Written Communication
@@ -10,6 +10,42 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it. If a person is mentioned, check `.agents/reports/[name].md`.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Need to write or draft a message** → The 3-Step Framework
+- **High-stakes announcement or sensitive policy change** → When Stakes Are High
+- **Writing for different audiences (engineers vs. stakeholders vs. leadership)** → The 3-Step Framework → Step 1: Prepare
+- **Someone is calling out missed messages in Slack ("as I already said…")** → The Async Re-Explanation Trap
+- **Message wasn't understood the way you intended** → The Compression/Decompression Model
+
+---
+
+## Default Response Shape
+
+When helping with written communication, draft the actual message:
+
+1. **Intent:** what the message must accomplish.
+2. **Audience calibration:** what this audience knows, fears, and needs.
+3. **Draft:** concise, direct, and ready to send.
+4. **Why it works:** short notes on structure or wording.
+5. **Risk check:** what could be misread and how to reduce it.
+
+If the user asks for wording, put the draft before the explanation.
 
 ---
 
@@ -100,9 +136,15 @@ A calibration tool: after delivering a message, ask the other person to reflect 
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md).
+
+---
+
 ## Related Skills
 
-- `managing-yourself` — Finesse in how you communicate with senior leadership
-- `feedback` — Specific principles for written and verbal feedback
-- `working-with-pm` — Stakeholder communication is a core part of the PM-EM relationship
-
+- `feedback` — Specific principles for written and verbal feedback delivery
+- `managing-yourself` — Communication finesse with senior leadership
+- `working-with-pm` — Stakeholder communication is central to the PM–EM relationship
+- `influence` — Written communication as a tool for building organizational influence

@@ -2,7 +2,7 @@
 name: hiring
 description: Helps structure the interview process, calibrate the hiring bar, counter interview bias, and decide between promoting internally vs. hiring externally. Also covers evaluating a new hire's fit during their first 90 days. Use when the user says "interview," "hire," "job description," "JD," "interview loop," "debrief," "hiring bar," "offer," "reject," "sourcing," "recruiter," "headcount," "should I hire a junior," "promote from within," or "new hire isn't working out." Do NOT use for ongoing performance management of an established team member (use performance-reviews).
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # Hiring
@@ -13,8 +13,20 @@ Check for EM context first. If `.agents/em-context.md` exists, read it.
 
 ---
 
-## How to Use This Skill
+## Response Style
 
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
 Identify the situation first:
 
 - **Structuring the interview or deciding on a work sample** → See the Work Before You Hire
@@ -22,6 +34,20 @@ Identify the situation first:
 - **Worried about cultural bias affecting the evaluation** → The Beer Test Bias
 - **Deciding between internal promotion and external hire for a management role** → Internal vs. External
 - **New hire isn't meeting expectations — wondering if you should act** → Setting Up New Hires for Objective Evaluation
+
+---
+
+## Default Response Shape
+
+When helping with hiring, turn the advice into a hiring artifact:
+
+1. **Hiring goal:** what problem this role or hire must solve.
+2. **Bar / evidence:** what evidence should prove the candidate can do it.
+3. **Process:** interview loop, work sample, debrief, or 30/60/90 plan.
+4. **Bias check:** where the decision may be distorted by similarity, urgency, or sunk cost.
+5. **Decision language:** concise recommendation: hire, reject, calibrate, or gather more evidence.
+
+For new-hire concerns, shift from candidate evaluation to objective 30/60/90 success criteria.
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 name: developer-productivity
-description: When the user wants to measure, discuss, or improve their team's productivity, choose engineering metrics, or explain engineering performance to leadership. Also use when the user says "how do I measure productivity," "DORA metrics," "velocity," "cycle time," "developer experience," "DevEx," "how do I show our team is performing well," or "metrics for engineering."
+description: Helps engineering managers measure and improve team delivery — produces a history of why common metrics fail, the DORA four-key-metrics framework (deployment frequency, lead time, change failure rate, MTTR), DevEx's three dimensions (feedback loops, cognitive load, flow state), a translation layer from engineering metrics to business outcomes, and a list of measurement anti-patterns to avoid. Use when the user says "how do I measure productivity," "DORA metrics," "velocity," "cycle time," "developer experience," "DevEx," "how do I show our team is performing well," "metrics for engineering," "team is slow," "engineering performance," or "connect engineering to business." Do NOT use for managing an underperforming individual — use performance-reviews instead.
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Developer Productivity
@@ -10,6 +10,42 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Don't know where to start with engineering metrics** → DORA: The Four Key Metrics (start here)
+- **Team feels slow but you can't point to data / engineers say they're blocked** → DevEx: Three Dimensions
+- **Leadership asking how the team is performing** → Tying Engineering Metrics to Business Outcomes
+- **Being asked to rank or score individual developers** → The Problem With Productivity Metrics + What Not to Do
+- **Wondering whether surveys and qualitative data count** → Qualitative Metrics Are Not Soft
+
+---
+
+## Default Response Shape
+
+When helping with productivity, keep the focus on systems, not individual scoring:
+
+1. **Problem framing:** what the user is trying to learn or prove.
+2. **Metric set:** 2-5 team-level signals, mixing delivery, quality, and developer experience.
+3. **Interpretation:** what each metric can and cannot tell you.
+4. **Action loop:** how the team will use the data to remove friction.
+5. **Anti-pattern warning:** what not to measure or communicate.
+
+If leadership wants a single productivity number, explain the risk and offer a small dashboard of complementary signals instead.
 
 ---
 
@@ -107,8 +143,14 @@ A practical translation example: "Our change failure rate dropped from 22% to 8%
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links) and books.
+
+---
+
 ## Related Skills
 
 - `team-health` — Productivity friction and DevEx signals often surface in team health conversations
 - `roadmap-planning` — Delivery metrics inform capacity planning and deadline discussions
-- `deep-work` — Flow state is the DevEx dimension most directly affected by meeting culture
+- `meetings` — Flow state is the DevEx dimension most directly affected by meeting culture

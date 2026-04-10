@@ -3,3 +3,9 @@
 *.swo
 node_modules/
 .env
+.claude/
+evals/
+FromEvernote/
+Course lessons/
+*.csv
+*_sample.txt

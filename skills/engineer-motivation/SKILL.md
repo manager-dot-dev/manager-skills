@@ -1,8 +1,8 @@
 ---
 name: engineer-motivation
-description: When the user wants to understand what motivates a specific engineer, delegate in a way that actually sticks, or build a more engaged team. Also use when the user says "this person isn't motivated," "nobody picks up tasks," "I keep reminding people," "what drives my engineers," "how do I motivate my team," "driver," or "what should I delegate to this person."
+description: Helps engineering managers understand and act on what drives each engineer — produces a three-driver framework (Growth, Connection, Impact), techniques for identifying someone's primary driver, driver-aligned delegation patterns, and a team composition diagnostic. Use when the user says "this person isn't motivated," "nobody picks up tasks," "I keep reminding people," "what drives my engineers," "how do I motivate my team," "what should I delegate to this person," "engineer seems disengaged," or "what growth activity should I give this person." Do NOT use when someone is actively leaving or at risk of quitting (use retaining-developers) or when the engineer is a high performer with specific management challenges (use managing-high-performers).
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Engineer Motivation
@@ -10,6 +10,42 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it. If a person is mentioned, check `.agents/reports/[name].md` — it may contain their motivation profile.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Don't know what drives someone / need to figure out their driver** → How to Identify Someone's Driver
+- **Know their driver, want to delegate something that sticks** → Driver-Aligned Delegation
+- **Looking for specific activity ideas for a specific engineer** → read [`references/activities.md`](references/activities.md)
+- **Thinking about hiring or team composition** → Team Composition
+- **Your own driver is bleeding into how you manage everyone** → The 3 Drivers (the common EM mistake)
+
+---
+
+## Default Response Shape
+
+When diagnosing motivation, avoid generic "motivate them" advice:
+
+1. **Likely driver:** Growth, Connection, Impact, or mixed, with evidence.
+2. **Signals to verify:** what to ask or observe before acting.
+3. **Matching intervention:** delegation, activity, visibility, customer context, or relationship-building.
+4. **Mismatch risk:** what would demotivate this person if the manager assumes wrong.
+5. **Next 1:1 script:** a short way to test the hypothesis with the engineer.
+
+If the person may be actively leaving, switch to `retaining-developers` rather than treating it as ordinary motivation.
 
 ---
 
@@ -59,27 +95,13 @@ This is particularly powerful for tech debt: frame it as the business problem it
 
 ## Activity Ideas by Driver
 
-Use the driver as a guide when deciding what to offer someone for growth or stretch work. Start with one.
+A few vivid examples per driver — for the full list of specific individual-scope activities, read [`references/activities.md`](references/activities.md).
 
-**Growth:**
-- Give them a technical kingdom (ownership of a system or domain)
-- Assign them to lead technical design for an upcoming project
-- Have them give a technical talk internally or lead a guild session
-- Write a technical article or contribute to open source
-- Lead a long-term technical initiative
+**Growth:** Give them a technical kingdom (full ownership of a system, including PM relationship and tech debt prioritization). Assign them to lead a long-term tech initiative that *they* identified as painful. Help them write a real technical article — not AI-generated, but a deep dive into something they actually solved.
 
-**Connection:**
-- Assign them to mentor a new engineer
-- Have them organize cross-team coffee chats or lead a retrospective
-- Put them in the interview loop (they often love meeting people)
-- Let them create a "team memory wall" — shared doc with quotes, screenshots, photos
-- Give them the social/fun parts of a team focus day to organize
+**Connection:** Assign them to onboard a new engineer (you keep the 1:1s, they handle everything else). Have them lead a retrospective — connection-driven engineers usually know what frustrated teammates better than you do.
 
-**Impact:**
-- Invite them to external meetings or customer calls
-- Share deeper business context in 1:1s — metrics, the sales pipeline, the real stakes
-- Assign them to cross-department initiatives where their work has org-wide visibility
-- Have them lead a sprint focused on what Customer Success or Operations needs most
+**Impact:** Invite them to a customer call or business meeting — ask privately in a 1:1 so there's no pressure. Share deeper business context in 1:1s: metrics, the sales pipeline, the real stakes behind what the team is building.
 
 ---
 
@@ -95,9 +117,16 @@ The drivers coexist fine. In practice, mixing them creates teams where someone n
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from or wants more context — read [`references/sources.md`](references/sources.md). For a full list of individual-scope activity ideas organized by driver, read [`references/activities.md`](references/activities.md).
+
+---
+
 ## Related Skills
 
 - `delegation` — Driver-aligned delegation is the primary mechanism for acting on this
 - `retaining-developers` — The 5 reasons engineers quit often map to an unmet primary driver
+- `managing-high-performers` — High performers have driver needs too, but with additional complexity
 - `1on1s` — The place to surface and update your understanding of someone's driver
 - `hiring` — Use driver balance to assess what your team is missing

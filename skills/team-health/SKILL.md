@@ -1,8 +1,8 @@
 ---
 name: team-health
-description: When the user wants to assess, improve, or track the health of their engineering team. Also use when the user says "team morale," "team is struggling," "burnout," "engagement," "attrition risk," "team survey," "retro," "psychological safety," "team dynamics," "something feels off," "team culture," or "team is unhappy."
+description: Helps engineering managers assess and improve team health across morale, cohesion, delivery culture, and engagement — produces Google's 5 Factors (Project Aristotle), a 4-state team health diagnosis (Falling Behind / Treading Water / Repaying Debt / Innovating), a 5-zone intensity model, the Engagement Stack, the Trust Battery, Teamicide patterns (Peopleware), a blameless postmortem format, and a library of team activities organized by driver. Use when the user says "team morale," "team is struggling," "burnout," "engagement," "attrition risk," "psychological safety," "team dynamics," "something feels off," "team culture," "team is unhappy," "retros aren't working," "team isn't working hard enough," "ideas for team activities," or "how do I run a team offsite." Do NOT use for individual performance concerns (use `managing-high-performers`), team staffing or hiring (use `team-composition`), or individual motivation interventions (use `engineer-motivation`).
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Team Health
@@ -10,6 +10,51 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Don't know where to start / need a health diagnostic** → The 5 Factors of Effective Teams
+- **Team is slow, behind on commitments, or burning out** → Team Health States
+- **Team is running at an unsustainable pace** → Managing Team Intensity
+- **Someone said "the team isn't working hard enough"** → "The Team Isn't Working Hard Enough"
+- **Team seems disengaged or disconnected** → The Engagement Stack
+- **Planning a team meeting and need content ideas** → Team Meetings
+- **Planning a team offsite or focus day** → Team Focus Days
+- **Want a library of activity ideas (Growth / Connection / Impact)** → read [`references/activities.md`](references/activities.md)
+- **Retros keep surfacing the same issues** → When Retros Feel Repetitive
+- **Team members don't seem to trust each other** → Trust Battery
+- **Something broke — need to run a postmortem** → Blameless Postmortems
+- **Team is technically strong but cohesion feels fragile** → Jelled Teams and Teamicide
+- **Unsure how much to share with the team** → Transparency as a Team Health Signal
+- **Want to model flexible work without creating a surveillance culture** → Leave Loudly
+
+---
+
+## Default Response Shape
+
+When helping with team health, diagnose before prescribing activities:
+
+1. **Health read:** morale, safety, dependability, clarity, intensity, trust, or engagement.
+2. **Evidence:** what the user observed and what it likely means.
+3. **Immediate stabilizer:** what to do this week.
+4. **Structural intervention:** meeting, ritual, transparency change, recovery plan, retro change, or activity.
+5. **Watch signal:** what to monitor to know if the team is improving.
+
+If the team is in burnout or high-intensity mode, address recovery and priorities before suggesting morale activities.
 
 ---
 
@@ -279,9 +324,16 @@ Blameless doesn't mean consequence-free. Repeated individual negligence or delib
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md). For a library of team activity ideas organized by driver (Growth / Connection / Impact), read [`references/activities.md`](references/activities.md).
+
+---
+
 ## Related Skills
 
 - `1on1s` — Primary place to detect and address individual health issues
 - `feedback` — For addressing specific behavioral concerns on the team
+- `engineer-motivation` — Individual-level motivation and engagement interventions
 - `roadmap-planning` — Workload and capacity as inputs to team health
 - `retaining-developers` — The 5-state retention framework maps directly to team health signals

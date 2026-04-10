@@ -2,7 +2,7 @@
 name: 1on1s
 description: Prepares agendas, diagnoses struggling 1:1 relationships, and gives frameworks for running effective 1:1 meetings with direct reports. Use when the user wants to prepare for, run, improve, or follow up on a 1:1, or says "1:1 agenda," "prepare for my 1:1," "1:1 notes," "what should I talk about with," "my direct report," "check in with my report," "make my 1:1s better," "1:1 template," or "my 1:1s feel like status updates." Do NOT use when the user needs to deliver specific feedback (use feedback) or discuss performance reviews (use performance-reviews).
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # 1:1s
@@ -16,8 +16,20 @@ Check for EM context first:
 
 ---
 
-## How to Use This Skill
+## Response Style
 
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
 Identify the situation before applying a framework:
 
 - **Preparing for an upcoming 1:1** → What Makes 1:1s Work + The 60/40 Rule
@@ -28,6 +40,20 @@ Identify the situation before applying a framework:
 - **1:1 drifted into heavy personal territory** → When 1:1s Turn into Therapy Sessions
 
 **If a specific person is mentioned**, check `.agents/reports/[name].md` before responding — it may already contain context about their communication style, what they care about, and past conversations.
+
+---
+
+## Default Response Shape
+
+When helping with a 1:1, produce something the manager can use in the next conversation:
+
+1. **Read of the situation:** what the 1:1 is really for: connection, growth, tension, feedback, diagnosis, or follow-up.
+2. **Agenda:** 3-5 ordered topics, with the report's topics first when possible.
+3. **Questions to ask:** concrete wording, not abstract categories.
+4. **Manager stance:** how to listen, where to push, and what to avoid.
+5. **Follow-up:** what to write down, commit to, or revisit next time.
+
+If the user only asks for a template, give the template first and keep explanation short.
 
 ---
 

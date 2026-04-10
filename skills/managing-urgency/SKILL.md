@@ -1,8 +1,8 @@
 ---
 name: managing-urgency
-description: When the user needs to handle a high-urgency request, respond to pressure for faster delivery, or use deadlines as a tool. Also use when the user says "urgent deadline," "everything is on fire," "we need to ship fast," "fake deadline," "unreasonable timeline," "crisis mode," "working weekends," or "Parkinson's Law."
+description: Helps engineering managers respond to high-urgency requests and use deadlines effectively — produces a five-question framework for evaluating unreasonable deadlines, guidance on scope/staffing/intensity decisions under pressure, Parkinson's Law applied to engineering, and five common deadline mistakes to avoid. Use when the user says "urgent deadline," "everything is on fire," "we need to ship fast," "fake deadline," "unreasonable timeline," "crisis mode," "working weekends," "Parkinson's Law," or "leadership is pushing for faster delivery."
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Managing Urgency
@@ -13,86 +13,114 @@ Check for EM context first. If `.agents/em-context.md` exists, read it.
 
 ---
 
-## When You're Handed an Unreasonable Deadline
+## Response Style
 
-Before going all-in, ask yourself these questions:
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
 
-### 1. Is the deadline really necessary?
-
-Going too fast has a price: you'll accumulate technical debt, make wrong decisions, and burn people out sooner. That's the car/fuel analogy — each car has an optimal speed. Going faster might reach the first destination sooner, but you'll run out of fuel earlier.
-
-Ask the hard questions. Maybe the feature is not that urgent? Who decided the timeline is reasonable? Does everyone understand quality will suffer?
-
-When you ask your team to work very hard, they better know why.
-
-### 2. Who should work on it?
-
-There's a limit to how many developers you can assign to a small project. Above a certain number, additional people actually **increase** the time to finish — the noise and coordination cost overwhelms the benefit.
-
-Understand what balance to strike. Other important work might not be worth abandoning. It's okay to divide your team for a short period — set expectations clearly.
-
-### 3. How hard should we work?
-
-People have lives. You can't expect people to work 90-hour weeks. But you also can't be afraid to ask for more.
-
-Guidelines:
-- Weekend work: only when the company's success genuinely depends on it — and compensate with time off after
-- Each person is different — some can contribute more
-- Set expectations about crunch periods in advance (seasonal businesses, launch periods)
-
-Bring a senior leader to kickstart the effort — both to answer questions and boost morale.
-
-### 4. Are we on the right path?
-
-Regular work is like sailing a calm sea — a developer can be a few degrees off and still correct course. Urgent work is like sailing a narrow river — a small deviation and you crash.
-
-Your most critical job in an urgent project: make sure the team is on the best possible path. Provide short feedback loops. Involve PM and design immediately. Ask every day: can a feature be removed? A design simplified? A service reused?
-
-You might even need to micromanage for the first few days — especially when every early decision is critical.
-
-### 5. When do we go back to normal?
-
-After the team saves the day, leadership may think: "Great! Why don't we always work like that?"
-
-That's where the balance breaks. If your company is always in crisis mode, most people won't enjoy working there long-term.
-
-It's your job to set the boundaries and push back when needed.
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
 
 ---
 
-## Using Deadlines as a Tool (Parkinson's Law)
+## How to Use This Skill
+- **Just received an unreasonable deadline — need to decide how to respond** → When You're Handed an Unreasonable Deadline (start here)
+- **Want to use deadlines proactively to drive focus** → Using Deadlines as a Tool
+- **Deadline is set — want to avoid common pitfalls in execution** → 5 Mistakes to Avoid
 
-Parkinson's Law: **work expands to fill the time available.** Projects without deadlines take much longer than they need to, and suffer from scope creep.
+---
 
-Challenging deadlines produce better results. The key: use them in a healthy environment. Impossible deadlines in a toxic environment produce all the bad outcomes. Challenging deadlines in a healthy environment drive real innovation and creativity.
+## Default Response Shape
 
-A simple version: send a survey with no deadline vs. one due tomorrow — you'll get a much higher response rate far faster. Apply this everywhere.
+When helping with urgency, make tradeoffs explicit:
 
-### 5 Mistakes to Avoid
+1. **Deadline type:** real, fake, useful constraint, or panic.
+2. **Five-question check:** goal, scope, quality, staffing, and intensity.
+3. **Options:** reduce scope, add capacity, accept risk, move date, or stop other work.
+4. **Recommendation:** the least-bad path and why.
+5. **Stakeholder script:** how to communicate the tradeoff without sounding defensive.
 
-**1. Not telling your team what happens after the deadline**
+Never answer urgent requests with only "push back." Give a concrete tradeoff menu.
 
-It's completely okay for nothing external to happen when the deadline arrives. You still built trust with the rest of the organization and freed yourself to work on other things. If you set expectations right, people won't be disappointed.
+---
 
-**2. Not consulting your team on what's feasible**
+## When You're Handed an Unreasonable Deadline
 
-Deadlines work best when the team takes part in deciding the scope. You don't have to reach consensus — it's okay to decide differently. But they should be part of the conversation. If your engineers think "if only somebody had asked me…" — you've failed.
+Before committing the team, work through five questions:
 
-**3. Pushing too hard to meet it**
+**1. Is the deadline actually necessary?**
 
-The point of the deadline is focus, not suffering. Things change — unexpected obstacles, blocked by another team, underestimated scope. Being rigid and priding yourself on "my team always delivers on time!" creates unnecessary conflict. Missing a fake deadline occasionally is better than working weekends.
+Speed has a cost: technical debt, poor decisions, and burnout. Each engineering team has an optimal sustainable pace — pushing significantly beyond it reaches the first milestone faster but degrades everything that follows.
 
-**4. Not pushing enough**
+Pressure-test the deadline. Who set it and on what basis? Does it reflect an external constraint (contract, launch, regulatory date) or an internal wish? Does everyone involved understand the quality trade-offs? If the deadline is genuinely necessary, communicate exactly why — teams will go further when they know what they're fighting for.
 
-The other extreme. Some managers try so hard to please their team that they avoid asking for more — sometimes even compensating by doing the work themselves. It's okay to ask people to work harder. Finding the right balance is your job.
+**2. Who should work on it?**
 
-**5. Being rigid when the deadline needs to change**
+More people is not always faster. Above a small number, coordination costs overtake the benefit of additional capacity — especially on tightly coupled work. Identify the minimum effective team size. It's often acceptable to split the team for a short sprint, keeping critical ongoing work alive elsewhere, rather than pulling everyone into one crisis.
 
-External people may want to change the deadline or add scope. Your first instinct may be to say "no, we agreed." But don't let pride drive you. Communicate well and people will understand.
+**3. How hard should you ask people to work?**
+
+People have lives. The bar for asking for extra effort should be high — and when you ask, you need to mean it. Guidelines that tend to hold:
+- Weekend work: only when the company's success genuinely depends on it, and compensate with time off after
+- People differ in capacity and willingness — don't assume uniformity
+- If your business has predictable crunch periods (launches, seasonal peaks), set those expectations during onboarding, not mid-crisis
+
+When you do ask for extraordinary effort, bring in a senior leader to acknowledge it directly — it answers questions and signals that the effort is seen.
+
+**4. Are you on the right path?**
+
+Normal delivery tolerates course corrections over time. Urgent delivery doesn't — a small wrong turn compounds fast. Your most critical job during a crunch is ensuring the team is working on the right thing in the right way.
+
+Run short feedback loops. Involve PM and design immediately. Ask daily: what can be cut? What can be simplified? What already exists that we can reuse? Early in the sprint, even temporary micromanagement on key decisions is justified — every early choice locks in or unlocks downstream time.
+
+**5. What does the return to normal look like?**
+
+After a successful crunch, leadership may assume the team can always work that way. It cannot. Sustained crisis mode drives attrition and degrades quality. Your job after the crunch is to be explicit: "We delivered this under exceptional circumstances — this isn't the baseline." Set that expectation before the next deadline appears.
+
+---
+
+## Using Deadlines as a Tool
+
+Parkinson's Law: **work expands to fill the time available.** Projects without deadlines take longer than they need to and accumulate scope. This isn't a flaw in people — it's a structural property of open-ended time.
+
+The practical implication: a challenging deadline in a healthy environment drives focus and creativity. The same deadline in a toxic environment drives shortcuts and fear. The tool is neutral — the environment determines the outcome.
+
+A simple test: send a survey with no deadline vs. the same survey due tomorrow. Response rate and speed differ dramatically. Apply this principle broadly — to internal reviews, design sign-offs, decision cycles.
+
+The critical distinction between a *challenging* deadline and an *impossible* one: a challenging deadline requires prioritization and focus. An impossible deadline requires cutting corners on things that matter, burning people out, or both. Your judgment on which category a deadline falls into is one of the most consequential calls you make as EM.
+
+---
+
+## 5 Mistakes to Avoid
+
+**1. Not telling the team what happens after the deadline.**
+Teams will work harder when they understand the consequence of hitting or missing the date. If the deadline is internal, say so — and explain what it enables. "Nothing external happens, but shipping this unlocks Q3 roadmap approval" is a real reason worth knowing.
+
+**2. Not involving the team in scoping.**
+Deadlines work best when the team has had input on what's feasible. You don't need consensus — you need to have asked. An engineer who thinks "if anyone had asked me, I could have told them this wouldn't work" is disengaged before the sprint begins.
+
+**3. Pushing too hard to hit it.**
+The point of a deadline is focus, not suffering. When unexpected obstacles appear — external blockers, underestimated complexity, a dependency that slips — a deadline should flex before it breaks the team. Missing a self-imposed deadline occasionally is better than working weekends to defend a date that no longer makes sense.
+
+**4. Not pushing hard enough.**
+The opposite failure. Some managers avoid asking for more effort to protect goodwill — sometimes doing the extra work themselves rather than asking. That's not protection; it's avoidance. Finding the right level of push is the job.
+
+**5. Being rigid when the scope or date needs to change.**
+External requests to adjust scope or timeline are not failures. They're new information. The right response is to communicate the trade-offs clearly and make a joint decision — not to defend the original plan as a matter of pride.
+
+---
+
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md).
 
 ---
 
 ## Related Skills
 
-- `delegation` — Constant urgency is often a sign of delegation failures
-- `working-with-pm` — Most fake urgency comes from misaligned PM–EM dynamics
+- `delegation` — Chronic urgency is often a symptom of delegation failures upstream
+- `working-with-pm` — Most fake or misaligned urgency originates in the PM–EM relationship
+- `roadmap-planning` — Unreasonable deadlines are usually a planning and scoping problem at the source

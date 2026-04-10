@@ -1,15 +1,12 @@
-# 1:1s — Sources & Further Reading
+# 1:1s - Sources & Further Reading
 
 ## manager.dev Articles
 
-- [6 assumptions engineering managers make (and engineers hate)](https://newsletter.manager.dev/p/6-assumptions-engineering-managers) — Assumptions EMs Make That Engineers Hate; ask about cadence rather than assuming weekly works for everyone
-- [A Scientist's Guide to Debugging Engineers](https://newsletter.manager.dev/p/a-scientists-guide-to-debugging-engineers) — Feelings as Diagnostic Signals; the over-responsive, always-late, and messy-PR behavioral patterns
+- [What do your 1:1s look like?](https://newsletter.manager.dev/p/what-do-your-11s-look-like) - weekly cadence, consistency, personal connection, and patience
+- [6 assumptions engineering managers make (and engineers hate)](https://newsletter.manager.dev/p/6-assumptions-engineering-managers) - ask about cadence and preferences rather than assuming weekly works for everyone
+- [A Scientist's Guide to Debugging Engineers](https://newsletter.manager.dev/p/a-scientists-guide-to-debugging-engineers) - feelings as diagnostic signals; over-responsive, always-late, and messy-PR behavioral patterns
 
 ## External Articles
 
-- [The Update, The Vent, and The Disaster](https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) — Rands in Repose — the three 1:1 types and how to respond to each; "you work for them, not the other way around"
-- [One on One Meeting Format Ideas](https://marcgg.com/) — Marc G — The 60/40 Rule; start with the report's topics, not yours
-
-## Books
-
-- _Setting the Table_ — Danny Meyer — "There is no stronger way to build relationships than taking a genuine interest in other human beings"; Building Connection When It Doesn't Flow Naturally
+- [The Update, The Vent, and The Disaster](https://randsinrepose.com/archives/the-update-the-vent-and-the-disaster/) - Rands in Repose; three 1:1 types and how to respond to each
+- [One on One Meeting Format Ideas](https://marcgg.com/) - Marc G; the 60/40 rule and starting with the report's topics

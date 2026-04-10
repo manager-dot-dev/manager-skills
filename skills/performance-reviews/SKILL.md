@@ -2,7 +2,7 @@
 name: performance-reviews
 description: Helps diagnose underperformance, structure a performance case, decide whether to put someone on a PIP or let them go, and think through your own manager review. Use when the user says "perf review," "review cycle," "performance calibration," "write a review," "rating," "meets expectations," "performance improvement," "PIP," "promotion case," "end of year review," "mid-year review," "underperformer," "struggling employee," or "should I let them go." Do NOT use for delivering day-to-day feedback (use feedback) or for evaluating a new hire candidate (use hiring).
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # Performance Reviews
@@ -16,8 +16,20 @@ Check for EM context first:
 
 ---
 
-## How to Use This Skill
+## Response Style
 
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
 Identify the situation first:
 
 - **Someone on the team isn't performing — not sure what's wrong** → Diagnosing Underperformance: Work Left to Right (start here)
@@ -25,6 +37,20 @@ Identify the situation first:
 - **Wondering if you've been tolerating underperformance too long** → Recognizing Underperformance Early
 - **Seriously considering letting someone go** → Making the Hard Call + When to Act
 - **Writing or structuring your own manager review** → The Meta Performance Review Question
+
+---
+
+## Default Response Shape
+
+When helping with performance, separate diagnosis from action:
+
+1. **Performance read:** behavior, impact, pattern, and severity.
+2. **Root-cause hypothesis:** resources, training, desire, fit, or ability.
+3. **Evidence needed:** examples, expectations, prior feedback, and business impact.
+4. **Manager action:** feedback, support plan, PIP, promotion case, or separation path.
+5. **Wording:** review language or conversation script.
+
+Do not let empathy turn into vagueness. Be humane and specific at the same time.
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 name: team-composition
-description: When the user wants to think about their team's skill balance, identify gaps when hiring, or diagnose why the team struggles in certain areas. Also use when the user says "team balance," "what roles do I need," "who should I hire next," "team is missing something," "skill gaps," or "team dynamics."
+description: Helps engineering managers diagnose team skill gaps and make better hiring and assignment decisions — produces the Dungeon Party archetype model (Warrior, Tank, Healer, Wizard, Rogue), the Barrels and Ammunition framework for understanding throughput limits, the Commandos/Infantry/Police phase model, and a minimum team size guideline. Use when the user says "team balance," "what roles do I need," "who should I hire next," "team is missing something," "skill gaps," "team is slow despite headcount," "this person thrived before but struggles now," or "what type of engineer should I hire."
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Team Composition
@@ -10,6 +10,41 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Diagnosing what the team is missing / who to hire next** → The Dungeon Party Model
+- **Team is slow despite having enough headcount** → Barrels and Ammunition
+- **Senior engineer who thrived before is struggling now (or vice versa)** → Commandos, Infantry, and Police
+- **Team is dangerously small or built around one person** → Minimum Team Size
+
+---
+
+## Default Response Shape
+
+When helping with team composition, diagnose capability before recommending headcount:
+
+1. **Team need:** execution, reliability, glue, architecture, exploration, or phase-fit.
+2. **Current imbalance:** which archetype or capability is missing or overloaded.
+3. **Evidence:** symptoms in delivery, incidents, planning, collaboration, or morale.
+4. **Intervention:** hire, grow, reassign, pair, split ownership, or change expectations.
+5. **Risk:** what happens if the team adds the wrong kind of person.
+
+Do not default to "hire a senior." Explain what capability is missing.
 
 ---
 
@@ -111,8 +146,15 @@ The failure mode to avoid: creating small "teams" as organizational fictions —
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md).
+
+---
+
 ## Related Skills
 
 - `hiring` — Use the model to define what you're looking for before writing the job description
 - `delegation` — Kingdom assignments often follow archetype: give systems ownership to Warriors and Wizards, cross-team coordination to Healers
 - `managing-high-performers` — Wizards in particular need visible, high-complexity work to stay engaged
+- `engineer-motivation` — Phase mismatch (Commando in a Police phase) often looks like a motivation problem

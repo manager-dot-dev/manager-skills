@@ -1,8 +1,8 @@
 ---
 name: difficult-situations
-description: When the user faces a sensitive or high-stakes situation that doesn't fit a standard management playbook — inappropriate behavior on the team, a developer talking badly about leadership, letting someone go who is in a hard personal situation, or managing personal guilt around a job change. Also use when the user says "don't know how to handle this," "uncomfortable situation," "someone said something inappropriate," "awkward situation," or "not sure what to do here."
+description: Provides situational playbooks for high-stakes edge cases that don't fit the standard management toolkit — produces step-by-step guidance for inappropriate team behavior, an engineer badmouthing your manager, letting someone go when circumstances are hard, manager quitting guilt, and handling layoffs (for both those leaving and those staying). Use when the user says "don't know how to handle this," "someone said something inappropriate," "engineer said something offensive," "developer talks badly about my manager," "letting someone go when their situation is hard," "I feel guilty about leaving my job," or "handling a layoff." Do NOT use for standard underperformance management (use performance-reviews) or giving direct feedback (use feedback).
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Difficult Situations
@@ -10,6 +10,42 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it. If a specific person is mentioned, check `.agents/reports/[name].md`.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Offensive or inappropriate remark posted in a team channel** → Inappropriate Remarks in Team Channels
+- **Engineer is venting about or criticizing your manager to you** → When an Engineer Talks Badly About Your Manager
+- **Letting someone go but their personal circumstances are terrible** → Letting Someone Go When the Timing Is Terrible
+- **Feeling guilty about leaving your own job** → Quitting as a Manager: The Guilt That Comes With It
+- **Planning or executing a layoff** → Handling Layoffs
+
+---
+
+## Default Response Shape
+
+For difficult situations, prioritize safety, clarity, and sequence:
+
+1. **Situation read:** what is at stake and who could be harmed.
+2. **Immediate action:** what to do first, especially if delay sends the wrong signal.
+3. **Private follow-up:** who needs a 1:1 and what to say.
+4. **Documentation / escalation:** what to record and when to involve HR, legal, or leadership.
+5. **Repair path:** how to stabilize trust after the acute moment.
+
+If the situation may involve harassment, discrimination, threats, layoffs, or termination, advise involving the appropriate company process rather than improvising alone.
 
 ---
 
@@ -111,42 +147,15 @@ Layoffs are logistically and emotionally hard. Some things that reduce the harm:
 
 ---
 
-## Extreme Ownership: Start with Yourself
+## Dive Deeper
 
-From *Extreme Ownership* (Willink): when something goes wrong, the leader's first question should be "What did I fail to do?" — not "who else is responsible."
-
-This isn't about self-flagellation. It's a diagnostic tool. When you start with your own contribution to the failure, you find things you can actually change. Starting with other people's failures leads to explanations, not solutions.
-
-**In practice:**
-- Team missed a deadline → What did I fail to communicate, unblock, or prioritize?
-- An engineer is underperforming → What did I fail to clarify, coach, or address earlier?
-- A project went sideways → What did I fail to flag, escalate, or course-correct?
-
-The honest answer is often "nothing — I genuinely couldn't have changed this." But the question forces you to look. And more often than EMs expect, there's something.
-
-This principle also changes how you talk to your team after failures. When the leader visibly owns the outcome — "I should have seen this sooner and I didn't" — it reduces blame, opens honest conversation, and models the behavior you want from everyone else.
-
----
-
-## The Leader Absorbs Fear
-
-From *Managing General Electric* (Welch) and *Extreme Ownership* (Willink): when there's uncertainty or bad news in the organization, the team looks to the leader. What they need is not false reassurance — it's honest information and a clear direction.
-
-False assurance ("everything is fine, don't worry") backfires because the team can see that everything is not fine. It damages credibility at the moment trust matters most.
-
-What works instead: absorb the fear by acknowledging reality and giving truth + direction.
-
-**The pattern:**
-1. Name what's real — don't minimize or spin: *"Yes, this is a difficult period. The layoffs last week were real, and there's uncertainty about what comes next."*
-2. State what you know and what you don't: *"Here's what I know... Here's what I don't know yet..."*
-3. Give direction — a clear next step the team can orient to: *"What I can tell you is what we're doing right now and what I'm fighting for."*
-
-The leader who gives false assurance trains the team to stop listening to them in a crisis. The leader who absorbs fear and gives truth — even when the truth is uncomfortable — becomes the person the team runs toward when things get hard.
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links) and books.
 
 ---
 
 ## Related Skills
 
-- `feedback` — Most difficult situations require a direct feedback conversation
-- `performance-reviews` — The letting-someone-go framework lives here
+- `feedback` — Most difficult situations require a direct feedback conversation first
+- `performance-reviews` — The formal letting-someone-go process lives here
+- `managing-yourself` — How to lead under pressure and absorb team fear during hard moments
 - `1on1s` — The place where most of these situations first surface

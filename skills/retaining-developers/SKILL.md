@@ -1,8 +1,8 @@
 ---
 name: retaining-developers
-description: When the user wants to understand why developers quit, reduce attrition, or keep their best engineers engaged. Also use when the user says "developer quit," "attrition," "someone is disengaged," "how do I retain," "engineer is leaving," "motivation," "developer unhappy," or "keeping the team."
+description: Helps engineering managers prevent and respond to engineer attrition by diagnosing retention risk, choosing the right intervention, and preparing retention conversations. Use when the user says "developer quit," "attrition," "someone is disengaged," "how do I retain," "engineer is leaving," "developer unhappy," "keeping the team," "someone seems checked out," "engineer received another offer," "retention risk," or "my best engineer may leave." Produces a five-state diagnostic, action plan, conversation script, compensation/equity guidance, zero-budget recognition ideas, and warning signs. Do NOT use when the issue is day-to-day motivation only; use engineer-motivation.
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Retaining Developers
@@ -13,90 +13,155 @@ Check for EM context first. If `.agents/em-context.md` exists, read it. If a spe
 
 ---
 
-When a developer quits, it's almost always because they feel one of these 5 things. Use the inverse to diagnose and act.
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Engineer seems disengaged or at risk** -> diagnose with The 5 States
+- **Compensation or raise conversation** -> start with Unappreciated -> Valued
+- **Equity or options conversation at hire, refresh, or departure** -> use Stock Options and Equity Conversations
+- **Want to recognize someone but have no budget** -> use Zero-Budget Recognition
+- **Worried someone might be leaving but has not said anything** -> use 5 Warning Signs of a Disengaging Engineer
+- **Engineer already has another offer** -> use When Someone Has Another Offer
+
+---
+
+## Default Response Shape
+
+When the user asks for help with retention, produce a practical manager response:
+
+1. **Risk read:** low / medium / high, with evidence from the prompt.
+2. **Likely state:** unappreciated, lonely, bored, stuck, apathetic, or mixed.
+3. **What to verify in the next 1:1:** 3-5 questions that are direct but not interrogating.
+4. **Action plan:** what to do this week, this month, and structurally.
+5. **Conversation script:** concrete wording the manager can use.
+6. **What not to do:** common overreactions that will make the situation worse.
+
+If someone has already resigned or has another offer, do not pretend normal retention tactics are enough. Shift to: understand the reason, decide if there is a credible counter, treat them respectfully, and protect the relationship.
+
+---
+
+## Retention Risk Diagnostic
+
+Use this before choosing an intervention:
+
+- **Signal strength:** Is this one weak signal, a pattern over weeks, or a direct statement that they may leave?
+- **State:** Which of the five states best explains the behavior?
+- **Specificity:** Can the manager name the exact moment, project, decision, or pattern that caused the shift?
+- **Agency:** Is there something the manager can actually change, or is this outside the manager's control?
+- **Time horizon:** Is the risk immediate, emerging, or long-term?
+- **Trust level:** Will the engineer believe the manager is acting because they care, or only because they are afraid of losing them?
+
+The last question matters. Retention attempts that appear only after someone disengages can feel transactional. Acknowledge that directly when needed.
+
+---
+
+## The 5 States
+
+When a developer quits, it is often because they feel one of these five things. Use the inverse to diagnose and act.
 
 | What they feel | What they need |
 |----------------|---------------|
 | Unappreciated | To feel valued |
 | Lonely | To feel connected |
 | Bored | To feel challenged |
-| Stuck | To feel like they're growing |
+| Stuck | To feel like they are growing |
 | Apathetic | To feel passionate about the work |
 
 ---
 
-## 1. Unappreciated → Valued
+## 1. Unappreciated -> Valued
 
-**Initial salary is critical.** The first salary you offer sets an anchor that's hard to correct later. Underpaying at hire means you'll always be playing catch-up — raises feel like corrections, not rewards, and the gap in perceived appreciation accumulates. When negotiating offers, fight for fair compensation from the start. It's far harder to fix this after the fact.
+**Initial salary is critical.** The first salary you offer sets an anchor that is hard to correct later. Underpaying at hire means you will always be playing catch-up. Raises feel like corrections, not rewards, and the gap in perceived appreciation accumulates.
 
-**Raise salary before they ask.** When a developer has to ask for a raise, the damage is already done — it signals that you weren't paying attention or weren't advocating for them. If you give the raise, they won't thank you; they'll feel like they got what they deserved. If you don't, they'll leave. **Be proactive.** Also: don't deny raises because the engineer earns more than you. That's not a competition.
+**Raise salary before they ask.** When a developer has to ask for a raise, the damage is already done. It signals that you were not paying attention or were not advocating for them. Be proactive. Also: do not deny raises because the engineer earns more than you. That is not a competition.
 
-**Don't steal the thunder.** When something good happens — a promotion, a milestone, a successful launch — let the engineer announce it. Good news should come from them. Reserve your channel for bad news. If you announce their achievements for them, you take the moment; if they announce it themselves, you amplify it.
+**Do not steal the thunder.** When something good happens, like a promotion, milestone, or successful launch, let the engineer announce it. Good news should come from them. If you announce their achievements for them, you take the moment; if they announce it themselves, you amplify it.
 
-**Just tell them.** Many managers recognize good work internally and assume the engineer knows. They often don't. Say it directly in a 1:1: *"I wanted to tell you — the way you handled X was exactly what I needed. That made a real difference."* It takes five seconds. It costs nothing. It often lands harder than a formal recognition program.
+**Just tell them.** Many managers recognize good work internally and assume the engineer knows. They often do not. Say it directly in a 1:1: "I wanted to tell you: the way you handled X was exactly what I needed. That made a real difference."
 
-**Recognition:** Give them the stage — let them write the Slack announcement for features they shipped, tag them publicly, push for your people to get company recognition. Route praise through its source: if a VP is excited, ask them to tell the team directly. What feels trivial to you may make someone's year.
+**Recognition:** Give them the stage. Let them write the Slack announcement for features they shipped, tag them publicly, and push for your people to get company recognition. Route praise through its source: if a VP is excited, ask them to tell the team directly.
 
-## 2. Lonely → Connected
+---
 
-You can't force people to connect, but you can create opportunities: team meetings, focus days outside the office, activities during working hours (not forced evening dinners). The goal is shared memories and personal conversation.
+## 2. Lonely -> Connected
 
-Be honest in interviews about what your team culture actually looks like. If your team is mostly married with kids and nobody hangs out after work, say so. Don't let someone join expecting something that isn't there.
+You cannot force people to connect, but you can create opportunities: team meetings, focus days outside the office, activities during working hours, and shared work that creates real memories.
 
-## 3. Bored → Challenged
+Be honest in interviews about what your team culture actually looks like. If your team is mostly married with kids and nobody hangs out after work, say so. Do not let someone join expecting something that is not there.
 
-The best way: **delegate interesting tasks**. Writing technical designs, mentoring a new engineer, leading a cross-team effort — things you currently own but don't have to.
+---
 
-Also just ask: "Do you feel challenged? What's missing from your work today?" Often we assume we know what developers want instead of having the conversation.
+## 3. Bored -> Challenged
 
-## 4. Stuck → Growing
+The best lever is to delegate interesting tasks: writing technical designs, mentoring a new engineer, leading a cross-team effort, or owning a project area you currently hold.
 
-Even challenged developers can feel stuck if they can't see a path forward. Career planning is your job.
+Ask directly: "Do you feel challenged? What's missing from your work today?" Managers often assume they know what developers want instead of having the conversation.
+
+---
+
+## 4. Stuck -> Growing
+
+Even challenged developers can feel stuck if they cannot see a path forward. Career planning is your job.
 
 Work through it together:
+
 - What are the requirements for the next level?
-- How far are they from it — and why? Be 100% honest.
+- How far are they from it, and why? Be fully honest.
 - What tasks do they need to take on to get there?
+- What evidence will promotion decision-makers need to see?
 
-If they want a management path and there's no open slot: make them your second-in-command, let them experience the work. Help them prepare. Never promise a timeline.
+If they want a management path and there is no open slot, make them your second-in-command where appropriate and let them experience parts of the work. Help them prepare. Never promise a timeline you do not control.
 
-## 5. Apathetic → Passionate
+---
 
-When developers don't care about the product or customers — only the technical puzzles — engagement is fragile. Connect the team to the business: share customer success stories, bring in senior leaders to talk with the team, involve developers in customer conversations when possible.
+## 5. Apathetic -> Passionate
+
+When developers do not care about the product or customers, and only care about technical puzzles, engagement is fragile. Connect the team to the business: share customer success stories, bring in senior leaders to talk with the team, and involve developers in customer conversations when possible.
+
+Do not fake passion. Find a real customer, business, craft, or ownership connection that the engineer can actually care about.
 
 ---
 
 ## Stock Options and Equity Conversations
 
-Equity is one of the most misunderstood parts of compensation — and one of the most common sources of silent resentment or missed retention opportunities. As EM, you're often the one who has (or can get) the context to have this conversation well.
+Equity is one of the most misunderstood parts of compensation and one of the most common sources of silent resentment or missed retention opportunities. As EM, you are often the one who has, or can get, the context to have this conversation well.
 
 ### At Hire
 
-When a developer joins and receives an options grant, three numbers matter and most people don't explain them clearly:
+When a developer joins and receives an options grant, three numbers matter and most people do not explain them clearly:
 
-- **Exercise price (strike price):** What they'll pay per share to own it. Set at fair market value on grant date.
+- **Exercise price (strike price):** What they will pay per share to own it. Set at fair market value on grant date.
 - **Current price (FMV):** What the company is currently worth per share.
-- **The 10X scenario:** What is this worth if the company grows 10X? Put a number on it. "These options could be worth ~$Xk at a 10X outcome" makes equity concrete rather than abstract.
+- **The 10X scenario:** What this could be worth if the company grows 10X.
 
 Most people sign offer letters without understanding any of this. Be the person who explains it.
 
 ### At Tenure
 
-Additional grants are a common and underused retention tool. After a year or two of strong performance, a developer's original grant is largely vested — the "golden handcuffs" loosen. A refresh grant re-anchors the retention value and signals that you're investing in them long-term.
+Additional grants are a common and underused retention tool. After a year or two of strong performance, a developer's original grant is largely vested and the "golden handcuffs" loosen. A refresh grant re-anchors the retention value and signals that you are investing in them long-term.
 
-If your company has a refresh grant program, use it proactively. Don't wait for a developer to ask or start interviewing.
+If your company has a refresh grant program, use it proactively. Do not wait for a developer to ask or start interviewing.
 
 ### At Departure
 
 When someone leaves, there are three common scenarios and each needs a different conversation:
 
-1. **Staying at a startup, going to a bigger company:** They're likely leaving unvested equity on the table. Help them understand what they're walking away from. Not to guilt them — just so they have full information.
+1. **Staying at a startup, going to a bigger company:** They may be leaving unvested equity on the table. Help them understand what they are walking away from.
+2. **Leaving before a liquidity event:** Most options expire 90 days after departure. If they have in-the-money options, they may need to decide whether to exercise and pay for them.
+3. **Leaving after a long tenure:** If most options are vested, the financial picture is cleaner, but still worth reviewing together.
 
-2. **Leaving before a liquidity event:** Most options expire 90 days after departure. If they have in-the-money options, they may need to decide whether to exercise and pay for them. This can be expensive. Make sure they know the clock is running.
-
-3. **Leaving after a long tenure:** If they've been there long enough that most options are vested, the financial picture is cleaner — but still worth reviewing together.
-
-These conversations aren't about keeping people against their will. They're about treating people with respect by making sure they understand their own financial situation.
+These conversations are not about keeping people against their will. They are about treating people with respect by making sure they understand their own financial situation.
 
 ---
 
@@ -104,23 +169,21 @@ These conversations aren't about keeping people against their will. They're abou
 
 Some of the most memorable recognition moments cost nothing. These are specific ideas that have worked:
 
-**Creative onboarding.** When a new developer joins, send a personal newsletter introducing them to the team — something beyond "please welcome X, they come from Y." Include their background, what they care about, an interesting fact. Or build a simple landing page about them. It signals that they matter as a person, not just a resource.
+**Creative onboarding.** When a new developer joins, send a personal newsletter introducing them to the team. Include their background, what they care about, and an interesting fact. It signals that they matter as a person, not just a resource.
 
-**The physical promotion ceremony.** When a developer is promoted, don't just post it in Slack. Order a physical placard with their new title. Present it in person (or ship it). The object makes the moment real. Slack announcements are forgotten in hours; objects last.
+**The physical promotion ceremony.** When a developer is promoted, do not just post it in Slack. Order a physical placard with their new title. Present it in person or ship it. The object makes the moment real.
 
-**The birthday widget.** Add team birthdays to your engineering dashboard or status page. When someone's birthday appears on the Grafana screen the team stares at all day — and someone points it out — it creates a moment. Small, but noticed.
+**The birthday widget.** Add team birthdays to your engineering dashboard or status page. When someone's birthday appears on the Grafana screen the team stares at all day, it creates a small but noticed moment.
 
-**Surprise senior leader catch-up.** Arrange a 30-minute casual conversation between a high-performing developer and a VP or senior leader they wouldn't normally interact with. Not a presentation — just a conversation. The message it sends: you're seen at the highest levels. This one scales zero dollars and creates loyalty that salary increases can't buy.
+**Surprise senior leader catch-up.** Arrange a 30-minute casual conversation between a high-performing developer and a VP or senior leader they would not normally interact with. Not a presentation, just a conversation. The message it sends: you are seen at the highest levels.
 
-**Personalized books.** When you see a developer struggling with a problem — leadership, communication, a technical challenge — send them a relevant book with a personal note. It says: "I pay enough attention to know what you're working on."
-
-None of these require a budget. All of them require paying attention.
+**Personalized books.** When you see a developer struggling with a problem, send them a relevant book with a personal note. It says: "I pay enough attention to know what you are working on."
 
 ---
 
 ## 5 Warning Signs of a Disengaging Engineer
 
-By the time someone resigns, you've usually missed the signals by weeks or months. Watch for:
+By the time someone resigns, you have usually missed signals by weeks or months. Watch for:
 
 1. They stop speaking up in architecture meetings
 2. They stop pushing for better practices
@@ -128,19 +191,51 @@ By the time someone resigns, you've usually missed the signals by weeks or month
 4. Tech debt tickets keep getting deprioritized without comment
 5. Standup updates get shorter and more mechanical
 
-Each of these individually might mean nothing. Together, they often mean someone has already accepted another offer in their head — they're just waiting for the paperwork.
+Each signal individually might mean nothing. Together, they often mean someone has already accepted another offer in their head and is waiting for the paperwork.
+
+---
+
+## When Someone Has Another Offer
+
+Slow down. Do not immediately ask, "What will it take to keep you?" That can make the relationship feel purely transactional.
+
+Use this order:
+
+1. **Understand:** "What made you start looking?" and "What does this new role give you that you feel you are missing here?"
+2. **Check credibility:** Can you actually change the root cause, or only offer a temporary patch?
+3. **Decide on a counter:** Counter only if the fix is real, fast, and fair to the rest of the team.
+4. **Protect the relationship:** If they leave, make the exit respectful. Alumni relationships matter.
+
+If the root cause is boredom, stuckness, or compensation, a counter may work only if you can act concretely. If the root cause is trust, apathy, or a long pattern of neglect, a counter often just delays the resignation.
+
+---
+
+## What Not to Do
+
+- Do not offer generic praise when the person needs specific recognition, compensation action, or growth.
+- Do not create fake growth opportunities with no real scope or decision authority.
+- Do not guilt someone for leaving. It teaches the rest of the team that honesty is unsafe.
+- Do not promise promotion timelines you do not control.
+- Do not wait for annual review cycles if the retention risk is active now.
 
 ---
 
 ## Final Caveat
 
-Not everything is in your hands. People get offers you can't match, want to change domains, start companies, or relocate. When the time comes, part on good terms. Don't take it personally.
+Not everything is in your hands. People get offers you cannot match, want to change domains, start companies, or relocate. When the time comes, part on good terms. Do not take it personally.
+
+---
+
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context, read [`references/sources.md`](references/sources.md).
 
 ---
 
 ## Related Skills
 
-- `engineer-motivation` — The 3 Drivers framework: proactively understanding and acting on what motivates each person
-- `delegation` — Delegating challenging work (#3) is a retention lever
-- `1on1s` — The place to diagnose which of the 5 states someone is in
-- `team-health` — Broader team signals often map to these 5 states
+- `engineer-motivation` - The 3 Drivers framework helps understand what motivates each person before they disengage
+- `managing-high-performers` - High performers have specific retention risks: bored, stuck, burnout
+- `delegation` - Delegating challenging work is a retention lever
+- `1on1s` - The place to diagnose which of the five states someone is in
+- `team-health` - Broader team signals often map to these five states

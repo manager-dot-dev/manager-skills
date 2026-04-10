@@ -1,8 +1,8 @@
 ---
 name: influence
-description: When the user needs to persuade a stakeholder, get approval for a project, push through a promotion, influence without authority, or navigate organizational politics. Also use when the user says "how do I convince," "persuade," "get buy-in," "stakeholder management," "influence without authority," "get approval," or "calibration."
+description: Equips engineering managers with persuasion techniques and positioning strategies for getting things done without direct authority — produces tactical methods (Nemawashi, Decoy Pricing, Reverse Psychology, LMDTFY, Engineered Serendipity), conversation techniques for disarming resistance (Label the Concern, Get to "That's Right"), a headcount argument framework, and a three-level visibility/trust model. Use when the user says "how do I convince," "persuade," "get buy-in," "stakeholder management," "influence without authority," "get approval," "calibration," "nobody takes me seriously," "how do I get headcount," or "organizational politics." Do NOT use when the issue is the user's relationship with their own manager (use managing-up).
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Influence
@@ -13,9 +13,47 @@ Check for EM context first. If `.agents/em-context.md` exists, read it.
 
 ---
 
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Need a specific tactic for an upcoming conversation or meeting** → The 5 Methods (pick the one that fits)
+- **Facing objections or resistance you anticipate** → Label the Concern
+- **The other person isn't really engaging with your proposal** → Get to "That's Right"
+- **Headcount request has been rejected or feels stuck** → Getting Headcount: Arguing at the Right Layer
+- **Want to build long-term influence and be taken seriously** → The 3 Levels of Positioning
+- **Wondering whether to play politics at all** → Politics as a Skill
+- **Default approach to helping vs. extracting in relationships** → Giver / Matcher / Taker
+
+---
+
 As an EM, you persuade constantly: executives to approve projects, leadership for more resources, reports to take on tasks, peers for cross-team help, hiring candidates to join, promotion panels to say yes. The list is endless.
 
 5 methods that work specifically for engineering managers:
+
+---
+
+## Default Response Shape
+
+When helping with influence, produce a stakeholder plan:
+
+1. **Decision target:** what the user wants changed, approved, or believed.
+2. **Stakeholder map:** who needs to agree, who can block, and who is merely informed.
+3. **Best influence move:** choose the relevant method and explain why it fits.
+4. **Message / script:** wording for the next conversation or written ask.
+5. **Risk:** what could backfire politically or relationally.
+
+If the user is trying to get headcount, start by checking alignment on problem and approach before arguing for people.
 
 ---
 
@@ -134,20 +172,6 @@ When someone says "that's right" — that's when they're ready to actually engag
 
 ---
 
-## Pull on Your Manager
-
-The best team members pull on their manager rather than waiting to be pushed.
-
-In practice:
-- Think about what you need before your manager asks
-- Tell your manager your concerns, goals, and asks — proactively
-- Give your manager action items in 1:1s, not just answers
-- Be curious about *their* world: ask about their biggest worry, the state of other teams, what's keeping them up at night
-
-The strongest EM-manager relationships are mutual. Your manager isn't just someone you report to — they're someone you can actively leverage. Come to 1:1s with a clear agenda, bring solutions not just problems, follow up on action items, and ask how you can support their goals. The myth is that strong EMs don't need their managers. The reality is that the best EMs use the relationship actively.
-
----
-
 ## Getting Headcount: Arguing at the Right Layer
 
 Most headcount requests fail not because they're wrong, but because they're arguing on the wrong layer. You're discussing whether to hire when the real disagreement is about something bigger.
@@ -202,8 +226,14 @@ The less visible a department is, the more they appreciate being helped. These r
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links) and books.
+
+---
+
 ## Related Skills
 
-- `managing-yourself` — Influence is how you manage up and across
-- `working-with-pm` — The "it's important to me" card and PM relationship dynamics
+- `managing-up` — For influencing your own manager specifically: pulling, reliability, pushing back on decisions
+- `working-with-pm` — PM relationship dynamics and getting alignment on roadmap priorities
 - `engineer-motivation` — Level 1 positioning applies to your engineers too: help them become known

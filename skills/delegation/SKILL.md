@@ -2,7 +2,7 @@
 name: delegation
 description: Guides managers out of the bottleneck role — provides the Team Rep pattern, Epic Ownership model, Task-Relevant Maturity framework, kingdom ownership, and three-layer assignment strategy. Use when the user wants to delegate work or says "I'm doing everything," "team isn't taking ownership," "I can't let go," "team rep," "project ownership," "I'm the go-to person," "bus factor," "I work weekends," "how do I delegate," or "engineers don't take initiative." Do NOT use for managing a specific underperformer (use performance-reviews) or deciding what work to prioritize (use roadmap-planning).
 metadata:
-  version: 2.0.0
+  version: 2.1.0
 ---
 
 # Delegation
@@ -13,8 +13,20 @@ Check for EM context first. If `.agents/em-context.md` exists, read it.
 
 ---
 
-## How to Use This Skill
+## Response Style
 
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
 Identify the situation first:
 
 - **You're the bottleneck — doing too much yourself** → The Two Things to Delegate First (start here)
@@ -30,6 +42,20 @@ Identify the situation first:
 - **A process keeps breaking despite repeated asks** → read [`references/extended.md`](references/extended.md) — Mechanisms Over Intentions
 - **Engineers keep coming to you for answers instead of deciding** → read [`references/extended.md`](references/extended.md) — Pulling Instead of Pushing
 - **Feedback about being too controlling or too hands-off** → read [`references/extended.md`](references/extended.md) — 4 Decision-Making Modes
+
+---
+
+## Default Response Shape
+
+When helping with delegation, diagnose the bottleneck before giving tactics:
+
+1. **Delegation target:** what work should move away from the manager.
+2. **Maturity read:** how much context, autonomy, and follow-up the person or task needs.
+3. **Delegation contract:** owner, decision rights, check-in cadence, and done criteria.
+4. **Risk controls:** what the manager should inspect without taking the work back.
+5. **Script:** exact wording for assigning the work or resetting ownership.
+
+If the manager is anxious about quality, address the control fear directly and design a review loop rather than advising them to "just let go."
 
 ---
 

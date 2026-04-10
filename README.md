@@ -1,67 +1,93 @@
-# Engineering Management Skills for AI Agents
+# Engineering Management Skills
 
-A collection of AI agent skills for engineering managers. Built for EMs, tech leads, and directors who want AI coding agents to help with 1:1s, performance reviews, hiring, team health, roadmap planning, and more. Works with Claude Code, Cursor, Windsurf, and any agent that supports the [Agent Skills spec](https://agentskills.io).
+A production-ready library of Agent Skills for engineering managers, tech leads, and directors.
 
-**Contributions welcome!** Found a way to improve a skill or have a new one to add? [Open a PR](#contributing).
+These skills help AI agents give sharper management support for 1:1s, feedback, hiring, performance, roadmap tradeoffs, team health, delegation, stakeholder communication, and related engineering leadership work.
 
-## What are Skills?
+The repository follows the [Agent Skills specification](https://agentskills.io/specification.md). Each skill lives in `skills/<skill-name>/SKILL.md` and may include focused supporting material under `references/`.
 
-Skills are markdown files that give AI agents specialized knowledge and workflows for specific tasks. When you add these to your project, your agent can recognize when you're working on an engineering management task and apply the right frameworks and best practices.
+## How The Skills Work
 
-## How Skills Work Together
+`em-context` is the foundation skill. It stores team, org, manager, and direct-report context. Other skills instruct the agent to read that context first when it exists, so advice can be grounded in the user's actual team.
 
-Skills reference each other and build on shared context. The `em-context` skill is the foundation — every other skill reads it first to understand your team, org structure, and management style.
+Each management skill is designed to:
 
-```
-                         ┌─────────────────────────────┐
-                         │         em-context          │
-                         │  (read by all skills first) │
-                         └──────────────┬──────────────┘
-                                        │
-    ┌───────────────┬───────────────────┼───────────────────┬───────────────┐
-    ▼               ▼                   ▼                   ▼               ▼
-┌──────────┐  ┌──────────┐       ┌──────────┐        ┌──────────┐  ┌──────────────┐
-│  People  │  │  Growth  │       │ Planning │        │  Hiring  │  │   Culture &  │
-│          │  │          │       │          │        │          │  │    Health    │
-├──────────┤  ├──────────┤       ├──────────┤        ├──────────┤  ├──────────────┤
-│  1on1s   │  │  perf-   │       │ roadmap- │        │interview │  │ team-health  │
-│ feedback │  │  reviews │       │ planning │        │ hiring   │  │              │
-└──────────┘  └──────────┘       └──────────┘        └──────────┘  └──────────────┘
-```
+- Trigger from realistic manager prompts, not only exact skill names
+- Ask only for missing context that materially changes the advice
+- Give concise, direct, actionable guidance by default
+- Provide scripts, next steps, tradeoffs, and risks where useful
+- Link to source material in `references/sources.md`
 
 ## Available Skills
 
-<!-- SKILLS:START -->
-| Skill | Description |
-|-------|-------------|
-| [em-context](skills/em-context/) | Foundation skill. Set your team context, org structure, and management style so all other skills work with your specific situation. |
-| [1on1s](skills/1on1s/) | When the user wants to prepare for, run, or follow up on 1:1 meetings with direct reports. |
-| [feedback](skills/feedback/) | When the user wants to give structured feedback — positive or constructive — to an individual or in a review. |
-| [performance-reviews](skills/performance-reviews/) | When the user wants to write, structure, or prepare for a performance review cycle. |
-| [hiring](skills/hiring/) | When the user wants to define a role, write a job description, structure an interview loop, or make a hiring decision. |
-| [roadmap-planning](skills/roadmap-planning/) | When the user wants to plan a team roadmap, prioritize projects, or communicate priorities to stakeholders. |
-| [team-health](skills/team-health/) | When the user wants to assess, improve, or track the health of their engineering team. |
-<!-- SKILLS:END -->
+| Skill | Purpose |
+|---|---|
+| [em-context](skills/em-context/) | Stores team/org context and direct-report profiles used by the other skills |
+| [1on1s](skills/1on1s/) | Prepare, run, improve, and follow up on 1:1s |
+| [business-literacy](skills/business-literacy/) | Translate engineering work into business and finance language |
+| [career-development](skills/career-development/) | Support career growth, promotion readiness, and career conversations |
+| [delegation](skills/delegation/) | Move managers out of the bottleneck role and build ownership |
+| [developer-productivity](skills/developer-productivity/) | Measure team productivity without harmful individual scoring |
+| [difficult-situations](skills/difficult-situations/) | Handle high-stakes management edge cases and sensitive situations |
+| [engineer-motivation](skills/engineer-motivation/) | Diagnose what drives engineers and match work to motivation |
+| [feedback](skills/feedback/) | Give specific positive or corrective feedback and ask for feedback upward |
+| [hiring](skills/hiring/) | Define roles, structure interviews, calibrate hiring, and evaluate new hires |
+| [influence](skills/influence/) | Persuade stakeholders and get buy-in without direct authority |
+| [knowledge-sharing](skills/knowledge-sharing/) | Break knowledge silos and improve documentation/onboarding flow |
+| [management-transitions](skills/management-transitions/) | Navigate new-manager, inherited-team, peer-to-manager, and acquisition transitions |
+| [managing-high-performers](skills/managing-high-performers/) | Manage top engineers, brilliant jerks, boredom, ambition, and burnout risk |
+| [managing-up](skills/managing-up/) | Build a reliable relationship with your manager and communicate upward |
+| [managing-urgency](skills/managing-urgency/) | Handle deadlines, fake urgency, crisis pressure, and tradeoff conversations |
+| [managing-yourself](skills/managing-yourself/) | Diagnose personal EM traps, bad-day patterns, and recurring leadership tensions |
+| [meetings](skills/meetings/) | Decide whether to meet, run better meetings, and protect engineering focus time |
+| [performance-reviews](skills/performance-reviews/) | Diagnose underperformance, write reviews, and decide on PIPs or exits |
+| [retaining-developers](skills/retaining-developers/) | Diagnose attrition risk and prepare retention conversations |
+| [roadmap-planning](skills/roadmap-planning/) | Plan roadmaps, prioritize tech work, and communicate tradeoffs |
+| [shadow-work](skills/shadow-work/) | Identify hidden capacity drains like support, glue work, and shadow backlogs |
+| [team-composition](skills/team-composition/) | Diagnose team capability gaps and hiring/assignment needs |
+| [team-health](skills/team-health/) | Assess and improve morale, trust, intensity, engagement, and team culture |
+| [working-with-architects](skills/working-with-architects/) | Work effectively with architects, staff engineers, and principal engineers |
+| [working-with-pm](skills/working-with-pm/) | Build a stronger PM-EM partnership and improve product orientation |
+| [written-communication](skills/written-communication/) | Draft clear Slack messages, announcements, and stakeholder updates |
 
 ## Installation
 
-### Claude Code
-
-```bash
-claude mcp add-plugin https://raw.githubusercontent.com/YOUR_USERNAME/engineeringmanagementskills/main/.claude-plugin/marketplace.json
-```
-
-Or copy the skills you want into `.agents/skills/` in your project.
-
-### Any Agent (Agent Skills spec)
+Copy the skills you want into `.agents/skills/` in your project:
 
 ```bash
 mkdir -p .agents/skills
+cp -r skills/em-context .agents/skills/
 cp -r skills/1on1s .agents/skills/
+```
+
+For the full library:
+
+```bash
+mkdir -p .agents/skills
+cp -r skills/* .agents/skills/
+```
+
+Then create or update `.agents/em-context.md` with your team context so the other skills can tailor their advice.
+
+## Repository Structure
+
+```text
+skills/
+  skill-name/
+    SKILL.md
+    references/
+      sources.md
 ```
 
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for how to add or improve skills.
 
-**Skill ideas welcome!** [Open a skill request](../../issues/new) if you have a topic that's missing.
+Each `SKILL.md` should:
+
+- Use valid YAML frontmatter
+- Keep `name` equal to the directory name
+- Keep `description` under 1024 characters
+- Stay under 500 lines
+- Read `em-context` before giving personalized advice
+- Prefer concise, direct, manager-ready output

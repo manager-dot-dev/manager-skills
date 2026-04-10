@@ -1,8 +1,8 @@
 ---
 name: management-transitions
-description: When the user is transitioning into a new management role, taking over an existing team, starting a new team, or managing former peers. Also use when the user says "new manager," "first management role," "took over a team," "managing former peers," "new team," "just became a manager," "inherited a team," or "starting fresh as a manager."
+description: Helps engineering managers navigate role transitions — produces a four-type framework for first management roles (Apprentice, Successor, Pioneer, New Boss), an acquisition integration model, guidance for counseling engineers on the management track, a Blue Tape List method for new roles, a broken team turnaround process, and the Dopamine Shift framing for new managers. Use when the user says "new manager," "first management role," "took over a team," "managing former peers," "new team," "just became a manager," "inherited a team," "starting fresh as a manager," "second time as manager," "acquisition integration," or "should my engineer become a manager."
 metadata:
-  version: 1.0.0
+  version: 2.1.0
 ---
 
 # Management Transitions
@@ -10,6 +10,45 @@ metadata:
 ## Before Starting
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
+
+---
+
+## Response Style
+
+Keep the first answer concise and useful. Do not dump the whole framework unless the user asks for depth.
+
+Default to:
+- State the likely diagnosis or recommendation first
+- Ask at most 2-3 targeted questions only if the missing context changes the advice
+- Give the next concrete action and, when useful, exact wording the manager can use
+- Mention the relevant framework briefly, but do not explain every part of it
+- Offer a deeper version only after the direct answer
+
+---
+
+## How to Use This Skill
+- **Just became a manager / starting a new role — identify which type** → The 4 Types of Transitions
+- **Taking over a team after an acquisition** → Acquisition Integration
+- **Engineer asking whether to go into management** → Counseling Engineers on the Management Track
+- **First weeks in a new role — what to observe and when to act** → The Blue Tape List
+- **Inherited a struggling or dysfunctional team** → Turning Around a Broken Team
+- **Feeling unfulfilled since switching from IC to manager** → The Dopamine Shift
+- **Second time as a manager and making the same or new mistakes** → read [`references/extended.md`](references/extended.md) — Second-Time Manager Mistakes
+- **Understanding how the EM role has changed post-2022** → read [`references/extended.md`](references/extended.md) — The EM Role in the New Era
+
+---
+
+## Default Response Shape
+
+When helping with a management transition, orient the manager before giving advice:
+
+1. **Transition type:** Apprentice, Successor, Pioneer, New Boss, acquisition integration, or other.
+2. **First risk:** the mistake most likely in this transition.
+3. **First 30 days:** what to observe, ask, and avoid changing too early.
+4. **Trust-building moves:** with reports, peers, manager, and stakeholders.
+5. **Message:** how to explain the manager's approach to the team.
+
+For inherited teams, separate learning the system from fixing the system. Premature certainty is the main risk.
 
 ---
 
@@ -184,35 +223,6 @@ The list also becomes useful evidence. If the same issue appears in your notes t
 
 ---
 
-## Do Nothing for the First 30 Days
-
-The instinct when starting a new management role is to prove yourself. The result: you rush to make changes, miss context, the team feels disrespected, you trash the predecessor's work, and you burn trust before it's built.
-
-Instead:
-- **Listen for 30 days.** Take notes. Ask questions. Build relationships.
-- **Document what you find.** Write down observations without acting on them yet.
-- **Then co-create changes with the team.** Changes you impose get resistance. Changes the team helps design get traction.
-
-The team wants to see you understand the situation before you change it. Patience here is leverage, not weakness.
-
----
-
-## Managing Former Peers
-
-When you're promoted from within the team, the power dynamic shifts — and everyone knows it. Some team members may feel they deserved the role. Resentment can go unspoken for months.
-
-**Talk about it directly.** Acknowledge the awkwardness in a 1:1. It defuses more than you expect.
-
-The friendship doesn't have to end, but the terms change. You can stay close — but you can't gossip about other teammates with them, and you have to be able to give them tough feedback. You can be honest about the awkwardness of early 1:1s. Naming the weird thing is usually better than pretending it isn't there.
-
----
-
-## On Age Differences
-
-When you're younger than the people you manage: nobody really cares about age differences unless you make them care. Behave like your role. Bring the substance, not the anxiety about the age gap. Most people forget the difference quickly once they see you doing the job.
-
----
-
 ## Turning Around a Broken Team
 
 When you inherit a struggling team, the instinct is to blame the previous leader and signal change fast. That almost always backfires.
@@ -245,9 +255,15 @@ Two other common traps for new managers:
 
 ---
 
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md). For second-time manager mistakes and the EM role in the post-2022 era, read [`references/extended.md`](references/extended.md).
+
+---
+
 ## Related Skills
 
 - `1on1s` — First-week 1:1s are critical for all four transition types
 - `delegation` — Apprentices especially struggle with letting go of IC work
+- `feedback` — Turning around a broken team requires direct, specific feedback conversations
 - `managing-yourself` — The 10 EM traps hit hardest during transitions
-

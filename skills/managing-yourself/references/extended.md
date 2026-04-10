@@ -137,6 +137,35 @@ Example: "What would make standups useless?" → People talk to the air, no deci
 
 ---
 
+## Extreme Ownership: Start with Yourself
+
+From *Extreme Ownership* (Willink): when something goes wrong, the leader's first question should be "What did I fail to do?" — not "who else is responsible."
+
+This isn't about self-flagellation. It's a diagnostic tool. When you start with your own contribution to the failure, you find things you can actually change. Starting with other people's failures leads to explanations, not solutions.
+
+- Team missed a deadline → What did I fail to communicate, unblock, or prioritize?
+- An engineer is underperforming → What did I fail to clarify, coach, or address earlier?
+- A project went sideways → What did I fail to flag, escalate, or course-correct?
+
+When the leader visibly owns the outcome — "I should have seen this sooner and I didn't" — it reduces blame, opens honest conversation, and models the behavior you want from everyone else.
+
+---
+
+## The Leader Absorbs Fear
+
+From *Managing General Electric* (Welch) and *Extreme Ownership* (Willink): when there's uncertainty or bad news, the team looks to the leader. What they need is not false reassurance — it's honest information and a clear direction.
+
+False assurance ("everything is fine, don't worry") backfires because the team can see that everything is not fine. It damages credibility at the moment trust matters most.
+
+**The pattern:**
+1. Name what's real — don't minimize or spin
+2. State what you know and what you don't: *"Here's what I know... Here's what I don't know yet..."*
+3. Give direction — a clear next step the team can orient to
+
+The leader who gives false assurance trains the team to stop listening to them in a crisis. The leader who absorbs fear and gives truth becomes the person the team runs toward when things get hard.
+
+---
+
 ## The LNO Framework
 
 Not all tasks are equal. Every item on your plate falls into one of three categories:
