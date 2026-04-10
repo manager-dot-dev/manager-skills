@@ -1,8 +1,8 @@
 ---
 name: feedback
-description: When the user wants to give structured feedback — positive or constructive — to a direct report, peer, or in a written review. Also use when the user says "give feedback," "how do I tell someone," "this person is struggling," "address a behavior," "hard conversation," "someone is underperforming," "praise this person," "write feedback for," or "difficult conversation."
+description: Structures and scripts feedback conversations — positive, constructive, or behavioral — for a specific person or situation. Produces SBI-framed feedback statements, opening lines for hard conversations, scripts for real situations, and ways to handle resistance. Use when the user wants to give someone feedback, says "how do I tell someone," "this person is struggling," "address a behavior," "hard conversation," "someone is underperforming," "praise this person," "write feedback for," "I need to say something," or "difficult conversation." Do NOT use for formal annual or performance reviews (use performance-reviews) or sensitive HR situations that go beyond feedback (use difficult-situations).
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Feedback
@@ -13,6 +13,21 @@ Check for EM context first:
 1. Read `.agents/em-context.md` if it exists
 2. If a person is mentioned, look for `.agents/reports/[name].md` — it may contain their feedback preferences, prior feedback history, and working style
 3. Use that context — only ask for information not already covered
+
+---
+
+## How to Use This Skill
+
+Identify what the user needs before diving into frameworks:
+
+- **Giving positive feedback** → Go to Precision: No Weasel Words — it applies equally to praise
+- **Constructive feedback — know the issue but not how to open** → Opening a Critical Feedback Conversation, then Instead of the Compliment Sandwich
+- **Expecting resistance or pushback** → Behavior Change Stages first
+- **Something happened recently and the user wants to address it now** → In-the-Moment Feedback (don't save it for the 1:1)
+- **Building feedback culture across the whole team** → Speed Feedback
+- **Writing feedback for a review or document** → Precision section first; then ask for the specific events to document
+
+**If the user hasn't given you a specific event yet, ask for it.** Vague feedback inputs always produce vague feedback outputs.
 
 ---
 
@@ -40,26 +55,6 @@ Apply this same standard to positive feedback. "You did a great job" is forgetta
 Some engineers genuinely don't want to be called out in front of the team. They prefer private acknowledgment. Surprising them with public praise — a Slack shoutout, a nomination for a recognition program — can create awkwardness instead of motivation.
 
 Ask before you assume. A simple "How do you prefer to be recognized when you do great work?" in a 1:1 is enough.
-
----
-
-## The Bad Breath Dilemma
-
-Don't avoid uncomfortable personal conversations. If someone on your team has bad breath and doesn't know it, it may be affecting their relationships and their career — and nobody will tell them except you.
-
-You can start gently (offer gum, see if they take the hint). At some point you may need to say it directly. Ask yourself: if it were you, would you want to know?
-
-The same logic applies to other personal feedback that feels too awkward to give. Avoiding the conversation isn't kindness — it's protecting your own discomfort at the cost of the other person's opportunity to fix something.
-
----
-
-## Giving Praise Is Harder Than It Looks
-
-Most managers find it easier to give critical feedback than positive feedback. There's something uncomfortable about saying "Hey Alex, that was great work" out loud in a direct conversation.
-
-It takes 5 seconds. It costs nothing. It has outsized impact.
-
-Acknowledge the awkwardness if you feel it — and push through it anyway.
 
 ---
 
@@ -141,6 +136,12 @@ Teams that only give feedback in formal reviews are too slow. Speed feedback is 
 **The goal isn't depth — it's normalization.** Early rounds focus on appreciation and celebrating contributions. As the team gets comfortable, they naturally start including improvement suggestions. The activity makes feedback part of the team's rhythm rather than a once-a-year event.
 
 Works best with 5–8 people. Can be run remotely with breakout rooms and a shared board. Does not replace regular 1:1 feedback — it supplements it.
+
+---
+
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic in this skill — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links), books, and course material.
 
 ---
 
