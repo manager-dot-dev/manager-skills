@@ -1,8 +1,8 @@
 ---
 name: performance-reviews
-description: When the user wants to write, structure, or prepare for a performance review — for a direct report or themselves. Also use when the user says "perf review," "review cycle," "performance calibration," "write a review," "rating," "meets expectations," "performance improvement," "PIP," "promotion case," "end of year review," or "mid-year review."
+description: Helps diagnose underperformance, structure a performance case, decide whether to put someone on a PIP or let them go, and think through your own manager review. Use when the user says "perf review," "review cycle," "performance calibration," "write a review," "rating," "meets expectations," "performance improvement," "PIP," "promotion case," "end of year review," "mid-year review," "underperformer," "struggling employee," or "should I let them go." Do NOT use for delivering day-to-day feedback (use feedback) or for evaluating a new hire candidate (use hiring).
 metadata:
-  version: 1.0.0
+  version: 2.0.0
 ---
 
 # Performance Reviews
@@ -13,6 +13,18 @@ Check for EM context first:
 1. Read `.agents/em-context.md` if it exists (for review cycle format, rating scale, etc.)
 2. If a person is mentioned, look for `.agents/reports/[name].md` — it will have their role, level, goals, current projects, and feedback history
 3. Use that context — only ask for information not already covered
+
+---
+
+## How to Use This Skill
+
+Identify the situation first:
+
+- **Someone on the team isn't performing — not sure what's wrong** → Diagnosing Underperformance: Work Left to Right (start here)
+- **You've diagnosed the problem — now need to address the behavior** → 4-Stage Process for Addressing Persistent Behavior Problems
+- **Wondering if you've been tolerating underperformance too long** → Recognizing Underperformance Early
+- **Seriously considering letting someone go** → Making the Hard Call + When to Act
+- **Writing or structuring your own manager review** → The Meta Performance Review Question
 
 ---
 
@@ -130,6 +142,12 @@ Before deciding "up or out," work through this spectrum in order. As you move ri
 5. **Ability** — do they have the raw capability to reach the required level?
 
 Most underperformance diagnoses jump straight to #3 or #5 without addressing #1 and #2. This is a mistake: it skips the manager's responsibility, burns trust, and produces a weak performance case.
+
+---
+
+## Dive Deeper
+
+If the user asks where a framework came from, wants to read the original article, or wants more context on any topic — read [`references/sources.md`](references/sources.md) for the full list of source articles (with links) and books.
 
 ---
 
