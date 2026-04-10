@@ -57,6 +57,34 @@ Two principles that help:
 
 ---
 
+## Peak Productivity Windows Are Narrower Than You Think
+
+Research across 600K+ pull requests shows engineers are truly productive during only two windows: **9–11 AM and 2–4 PM**. Outside these windows, output quality and complexity drop meaningfully.
+
+A single 30-minute meeting scheduled at 11 AM doesn't cost 30 minutes — it can cost the entire morning, because the meeting is in the middle of the productive window rather than at its edge.
+
+With AI coding tools, this gets worse, not better. AI enables engineers to work in shorter, more interrupted bursts — which reduces the pressure to protect deep work time, while actually making the underlying skill more valuable.
+
+The practical implication: when scheduling meetings, treat 9–11 and 2–4 as protected by default. Put meetings at 8:30, 11:30, 1:00, or 4:00+. The difference is not marginal.
+
+---
+
+## Maker's Schedule vs Manager's Schedule
+
+Paul Graham's framing: there are two fundamentally different ways to use time.
+
+**Manager's schedule:** the day is cut into one-hour slots. Moving between tasks each hour is routine. Scheduling a meeting just means finding an open slot.
+
+**Maker's schedule:** meaningful work requires half-day units at minimum. You can't write code well in an hour — that's barely enough time to get started.
+
+When you became an EM, you shifted to a manager's schedule. Your engineers are still on a maker's schedule. **A meeting that costs you an hour costs them a day.** A meeting scheduled at 11am doesn't just take an hour — it destroys the entire morning, because the block ahead of it is too short to do deep work in.
+
+This is why engineers hate meetings: not because they're lazy, but because meetings are genuinely more costly for them than for you. When you schedule a meeting at 10am, it's routine for you and catastrophic for them.
+
+The practical rule: treat the maker's morning and afternoon blocks as protected units. Meetings go at the edges — 8:30, 12:00, 4:00 — not in the middle. A 30-minute meeting at 11am doesn't cost 30 minutes. It costs the morning.
+
+---
+
 ## Related Skills
 
 - `team-health` — Focus days and team meetings cadence as a structural fix

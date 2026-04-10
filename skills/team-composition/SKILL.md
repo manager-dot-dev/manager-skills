@@ -67,6 +67,36 @@ This is a diagnostic model, not a box to lock people into. Most senior engineers
 
 ---
 
+## Barrels and Ammunition
+
+Keith Rabois's insight: adding headcount doesn't linearly increase velocity, because most hires are **ammunition** — skilled people who need direction. What limits your team's throughput is the number of **barrels**.
+
+A barrel is someone who can take an idea from conception all the way to shipping and bring people along in the process. They don't need direction — they create it. Adding a barrel doubles your effective output. Adding ammunition without barrels just creates more coordination overhead.
+
+**Barrels are rare and culturally specific.** Someone who is a barrel at one company may not be at another — the skill is partly about navigating a specific organization. When you find one, treat them accordingly: give them equity, visibility, and significant scope. Replacing a barrel is nearly impossible.
+
+**Practical application:** when a team is slow despite headcount, the diagnosis is often "not enough barrels." Before requesting more engineers, ask: how many of the people we already have can end-to-end own something? If the answer is one or two, more ammunition won't fix it.
+
+---
+
+## Commandos, Infantry, and Police
+
+Robert X. Cringely's model of how companies evolve requires different types of people at different stages:
+
+**Commandos** — the first wave. Operate at startup speed. Work hard, fast, and cheap. Their job is to establish a beachhead: build the prototype, prove the idea, move before anyone knows they're there. They're not precious about quality — they're precious about speed.
+
+**Infantry** — the second wave. Scale what the commandos started. They work systematically, build properly, and ship the first real product. Where commandos made 20 decisions a day, infantry makes them stick.
+
+**Police** — the third wave. Companies that succeed eventually need compliance, process, and stability. Police ensure repeatable quality but are poor at innovation or speed.
+
+**The management trap:** most people strongly prefer one of the three modes and are poorly suited for the others. A commando in a police phase is a troublemaker. A police officer in a commando phase is a bottleneck. Mismatches explain a large fraction of "why is this person struggling?" situations.
+
+**Two practical uses:**
+1. When hiring, identify which phase your team/product is in. Hire commandos to build new things; hire infantry to scale them. Police skills are rarely a shortage in engineering.
+2. When a senior engineer who thrived in a startup phase struggles in your scaled organization (or vice versa), phase mismatch is often the explanation — not a sudden decline in skill.
+
+---
+
 ## Related Skills
 
 - `hiring` — Use the model to define what you're looking for before writing the job description

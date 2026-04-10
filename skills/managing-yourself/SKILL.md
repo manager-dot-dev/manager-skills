@@ -303,6 +303,150 @@ This is slower in individual interactions and dramatically faster for the team o
 
 ---
 
+## 4 Decision-Making Modes
+
+Every management decision can be made in four ways. Great managers use all four. Over-reliance on any single mode is a failure pattern.
+
+| Mode | Description | Failure pattern when over-used |
+|------|-------------|-------------------------------|
+| **Solo** | Decide yourself | Control freak — team never develops judgment |
+| **Participative** | Involve the team in the decision | People pleaser — endless consensus-seeking |
+| **Elevated** | Let your manager decide | Zero confidence — abdicates responsibility upward |
+| **Delegated** | Team decides | Hands-off — disengaged from decisions that need you |
+
+When you get feedback that you're too controlling, the answer isn't to let go of everything — it's to move more decisions into Participative or Delegated modes selectively.
+
+---
+
+## The LNO Framework
+
+Not all tasks are equal. Every item on your plate falls into one of three categories:
+
+- **Leverage (L):** 10x impact — an architecture review that saves months, a hard conversation that fixes team dynamics, a process change that unlocks capacity
+- **Neutral (N):** 1x impact — regular 1:1s, sprint planning, standard code reviews
+- **Overhead (O):** 0.5x or worse — taking notes in every standup, attending meetings "just to be there"
+
+The same activity can be L, N, or O depending on context. A code review is Neutral when it's routine. It's Leverage when it's the one review that will prevent a critical architectural mistake.
+
+Use this to audit where your time goes. If most of your week is N and O, that's a delegation and prioritization problem.
+
+---
+
+## Staying on Top of Things
+
+The most underrated EM skill: reliability.
+
+- Remembering what each person has asked of you
+- Following up on 100% of manager requests
+- Responding to every Slack message and email — even if just to say "I'll get back to you"
+
+This isn't about being fast. It's about being the kind of manager people trust to carry things. Missing follow-ups and dropped threads are the fastest way to lose credibility with both your team and your manager.
+
+---
+
+## The Periphery Is Where You Learn First
+
+Andy Grove's observation: "Snow melts at the periphery first."
+
+The first signs of problems in a company rarely appear at the center — they appear at the edges. Salespeople know why deals are falling. Customer support hears complaints months before they reach engineering. CS teams see product gaps firsthand.
+
+As EM, you're usually far from the action. Spend time with support, CS, sales, and marketing. Ask them what's frustrating. It'll make you substantially better at prioritizing and at understanding the real impact of your team's work.
+
+---
+
+## Weekly Called Shots
+
+A simple accountability habit: each Monday morning, have your reports send you 3–5 bullets on what they'll accomplish that week. Each Friday afternoon, they self-grade — hit or miss on each bullet, with a brief explanation for any misses.
+
+Writing down commitments forces people to visualize what it actually takes to accomplish them. Knowing they'll need to grade themselves creates personal accountability without requiring you to chase.
+
+The pattern also gives you signal: someone who consistently misses their own self-assessed bullets is either over-committing or under-delivering. Someone who always nails them may be sandbagging. The data accumulates naturally without performance theater.
+
+---
+
+## Communicating Decisions You Disagree With
+
+When leadership makes a call you don't fully buy into, how you communicate it to the team matters more than people realize.
+
+First: engage properly with the decision before communicating it. Distinguish between types:
+- **Non-material** (e.g., which lunch day): give feedback and move on. Debating small things wastes everyone's time.
+- **Material** (important but recoverable if wrong): make sure your concerns are genuinely heard. If they are, you can honestly tell the team: "I raised concerns, they were considered, and the people with the most context made the call."
+- **Critical** (company-trajectory-level): actively push to change it. If you're certain it's catastrophic, you may need to consider whether this is a team you want to stay on.
+
+The key principle: **you're almost never as certain as you think you are.** Most decisions that feel clearly wrong turn out to have context you didn't have.
+
+What to tell the team: describe how you engaged with the process, not just the outcome. "I had concerns, I raised them, this is what was decided and why" is more credible than "leadership wants this." The first version maintains your integrity. The second erodes it every time.
+
+---
+
+## Clear the Path
+
+The most common management mistake when a team is struggling: assuming they need more motivation.
+
+Most engineers don't wake up wanting to do mediocre work. When output is low, the question isn't "how do I motivate them?" — it's "what's in their way?"
+
+**The obstacle audit:** Ask everyone: *"What prevents you from doing the best work of your career here?"* Classify each obstacle (process, technical, resource, clarity). Fix the top three immediately.
+
+Common obstacles that go unnoticed by managers:
+- Contradictory directives from different stakeholders
+- Technical debt that turns simple tasks into nightmares
+- Approval processes that add days to tasks that take hours
+- Incomplete requirements that force constant rework
+
+When you remove a real obstacle, throughput improves without any "motivation" effort. The manager's job is closer to bulldozer than cheerleader.
+
+---
+
+## Reliability Is the Foundation of Managing Up
+
+"Managing up" is often described as a political skill. It isn't. At its core, it's about one thing: **not making your manager look unreliable to their manager.**
+
+Every time you miss a deadline without warning, you put your manager in an impossible position. They committed that deadline upward. Your late delivery — especially when delivered as a surprise — damages their credibility, not just yours. Managers talk to each other. Repeated surprises end careers.
+
+The rule: **warn early, not late.** As soon as you know you can't hit a commitment, say so. "Tuesday isn't happening — it'll be Friday" on Monday morning is recoverable. "Oops, it'll be next week" on Tuesday afternoon is not.
+
+This applies upward at every level. The EMs who build durable relationships with senior leadership are often not the most talented — they're the most reliable. They follow through. They don't make promises they can't keep. They surface problems before they become surprises.
+
+---
+
+## Repair
+
+You will make management mistakes. You'll give feedback that crushes confidence. You'll commit the team to something without consulting them. You'll lose your temper. You'll drop a promise.
+
+The question isn't whether these happen — it's what you do after.
+
+The managers who lose their best people aren't necessarily the ones who made the most mistakes. They're the ones who never acknowledged them. Who doubled down when wrong. Who let ego prevent them from saying: *"I put you in an impossible position. I should have consulted you first. Here's how I'll do it differently."*
+
+That kind of acknowledgment — specific, honest, without over-apologizing — builds more trust than never making the mistake would have. It signals that you're safe to work with.
+
+**How to repair well:**
+1. Name what happened specifically. Don't generalize.
+2. Take responsibility. Don't explain it away.
+3. Say what you'll do differently. Keep it concrete.
+4. Then drop it. Extended guilt-tripping helps no one.
+
+---
+
+## Problems vs. Polarities
+
+Some management challenges keep coming back no matter how well you solve them. That's often because they're not problems — they're **polarities**.
+
+A problem can be solved once and stays solved. A polarity is a tension between two interdependent opposites that must be managed continuously. Neither pole is the "right answer."
+
+Examples: Speed vs. Quality. Autonomy vs. Alignment. Short-term delivery vs. Long-term architecture health. Individual focus time vs. Team collaboration.
+
+The mistake: treating a polarity like a problem. You "solve" quality by clearing the bug backlog — and a year later the backlog is back. You "solved" the wrong thing. The real work is managing the ongoing tension between speed and quality.
+
+**How to manage a polarity:**
+- Name both poles. Resist the temptation to pick one as "correct."
+- Identify the upsides and downsides of each pole.
+- Recognize when you're over-indexed on one side — that's when the pressure to swing to the other builds.
+- Build mechanisms that let you consciously shift between poles rather than lurching between them.
+
+When you catch yourself wondering why a recurring problem keeps coming back, ask: is this actually a polarity I'm trying to solve?
+
+---
+
 ## Related Skills
 
 - `delegation` — The bottleneck trap maps directly to #5 and the dichotomies

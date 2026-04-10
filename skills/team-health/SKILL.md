@@ -13,6 +13,32 @@ Check for EM context first. If `.agents/em-context.md` exists, read it.
 
 ---
 
+## The 5 Factors of Effective Teams
+
+Google's Project Aristotle studied hundreds of teams to find what actually makes them effective. The top 5 factors, in order of importance:
+
+1. **Psychological safety** — Can team members take risks without feeling insecure or embarrassed?
+2. **Dependability** — Can team members count on each other to do high-quality work on time?
+3. **Structure & clarity** — Are goals, roles, and execution plans clear?
+4. **Meaning** — Is the work personally important to each team member?
+5. **Impact** — Does the team believe their work matters?
+
+The order matters. All five are necessary, but psychological safety is foundational — without it, the others don't activate. People don't raise concerns, share ideas, or flag problems when they fear judgment.
+
+A practical way to use this: run a short team exercise where each person scores each factor (1–5). Look at where the scores are lowest. The lowest factor by average score is your most important focus area — not the one that feels most urgent to you.
+
+---
+
+## Your Peer Team Matters Too
+
+When managers are asked "who is your team?", they almost always list their direct reports. Never their peers.
+
+But a manager's peer group is also a team — and the same five factors apply to it. Engineering managers who treat peer relationships as purely transactional (or competitive) create the conditions for silos: no knowledge sharing, slow cross-team coordination, and blame when things go wrong at the boundaries.
+
+The same trust, conflict, accountability, and commitment that you invest in building with your reports — invest it with your peer EMs too.
+
+---
+
 ## Team Meetings
 
 Most engineering managers underinvest in team meetings — either skipping them entirely (too busy, afraid of wasting time) or running them without an agenda. The common excuse: "I'll create one when I have something good to say." The result: 3 meetings a year.
@@ -115,6 +141,87 @@ A simple 5-zone model, borrowed from endurance training:
 - Name the zone explicitly. "This sprint we're at Zone 4 because of the launch." The team tolerates intensity better when it has a name and an end date.
 - After Zone 4 or 5 periods, plan Zone 2 recovery. Don't immediately load the next hard sprint.
 - If your team is always in Zone 3–4 without recovery, that's a workload problem, not a motivation problem.
+
+---
+
+## "The Team Isn't Working Hard Enough"
+
+If someone tells you your team isn't working hard enough, don't dismiss it and don't accept it uncritically. There are three distinct root causes — and each requires a different response:
+
+1. **Lack of "hustle"** — an external person sees no visible effort signals. People seem relaxed, unhurried, and don't look busy. This is often a perception gap, not a performance gap — especially in remote environments.
+
+2. **Lack of visible output** — poor communication, unreasonable expectations, or poor prioritization. The team is working but progress isn't visible to stakeholders. This is a communication/transparency problem.
+
+3. **Lack of passion** — the team seems unmotivated or detached. This is a morale and engagement problem.
+
+In all three cases: don't dismiss the feedback. Find ways to bridge the gap between what you see and what the feedback-giver sees. Often, making the work more visible (more frequent updates, clearer progress communication) is enough.
+
+---
+
+## Leave Loudly — and Don't Ask for Permission
+
+When a developer tells you they'll continue working from home, don't say "ok" — that implies they need to explain themselves or seek approval.
+
+Instead, say something like: *"I trust you to manage your own time — no need to mention it when you continue from home."*
+
+Then model it yourself. When you leave early, don't add "I'll continue working after the kids go to sleep." Just leave. Announce it without the justification. This signals that you trust people to manage their own time without surveillance — which is what psychological safety around flexible work actually looks like.
+
+---
+
+## When Retros Feel Repetitive
+
+If retros keep surfacing the same issues without resolution, try:
+
+- **Different questions.** The 4Ls format (Liked, Learned, Lacked, Longed for) changes what people surface.
+- **Different tools.** Online retro tools (EasyRetro, Parabol, etc.) can re-engage people who've gone through the motions too many times.
+- **A meta-retro.** Summarize the last 6 months of retros. What themes keep appearing? Why haven't they been resolved?
+- **"Reveal at end" format.** Everyone writes items without seeing others'. Reveal all at once. Reduces anchoring.
+
+The deeper issue behind retro déjà vu is usually that the output doesn't lead to action. Before changing the format, check whether anything from previous retros was ever actually addressed.
+
+---
+
+## The Engagement Stack
+
+Individual engagement requires four layers to be aligned — each depends on the one below:
+
+1. **The individual** — is this person fundamentally energized at work?
+2. **The role** — does the work use their strengths and grow them?
+3. **The team** — do they feel connected and respected by their peers?
+4. **The company** — do they believe in the direction and feel proud of where they work?
+
+When someone is disengaged, find out which layer broke first. Fixing company communication won't help someone who's in the wrong role. Fixing the role won't help someone who has a bad team dynamic.
+
+---
+
+## Engineers' Emotional State as a Performance Signal
+
+Tense before standup. Exhausted after every sprint. Frustrated about decisions they had no input into. These are not personal problems — they're team health signals.
+
+Nobody performs at their best when their body is in a stress state. Ask *"How did you feel this week?"* in 1:1s — not as a therapy question, but as a diagnostic one. Give space for a real answer.
+
+If someone's nervous system is consistently in threat mode at work, that's an environment problem as much as a performance problem.
+
+---
+
+## Blameless Postmortems
+
+When something breaks — a production incident, a failed deployment, a major bug — the traditional response is to find the person responsible and correct them. Etsy's approach (which became the industry standard) is different: assume that people acted with the best information and tools they had at the time. The goal is not to find who caused the problem, but to understand how the system allowed it to happen.
+
+**Why blame-first postmortems backfire:**
+- People self-censor. They hide what happened or minimize their role.
+- You lose the detailed picture of what actually occurred.
+- You fix the person instead of the system — and the next person makes the same mistake.
+
+**What a blameless postmortem looks like:**
+1. Construct a timeline of events without attributing blame. What happened, in sequence, not "who did what wrong."
+2. Ask: what did people know at the time of each decision? They almost certainly made the best decision available with the information they had.
+3. Ask: what would have had to be different for this not to happen? Usually the answer involves tooling, processes, missing alerts, or insufficient context — not individual negligence.
+4. Capture action items that change the system, not just people's behavior.
+
+**The EM's role:** model the tone. If you're leading the postmortem and you're looking for a villain, the team will protect themselves. If you're genuinely curious about what the system allowed, they'll tell you the truth.
+
+Blameless doesn't mean consequence-free. Repeated individual negligence or deliberate violations are different situations. But they're the exception, not the default explanation.
 
 ---
 

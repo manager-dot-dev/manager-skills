@@ -50,6 +50,35 @@ Real example: a developer said the deadline on a recent project was too short. E
 
 ---
 
+## When Your Own Review Goes Badly
+
+When your manager gives you a difficult performance review — critical of your decisions, your communication, your output — the first instinct is to blame the manager.
+
+Sometimes that's right. But half the blame in a bad performance review is usually yours.
+
+Why:
+- You didn't provide regular updates, so your manager built their own picture from incomplete information
+- You didn't initiate conversations about your direction, so they filled in the gaps
+- You expected them to recognize work you never surfaced
+
+Don't expect your manager to guess your motivations. Don't expect 1:1s to automatically solve communication problems. Don't expect appreciation for work that was never made visible.
+
+The same principle works in reverse: if your team never tells you what's working or what's frustrating, part of that is on you for not creating the space.
+
+---
+
+## The Keeper Test — and Making It Bidirectional
+
+Netflix uses the "keeper test" in manager calibrations: would I fight to keep this person if they told me they were leaving? If the answer is no, that's a conversation to have.
+
+The useful flip: **be open about this test with your team.** When people understand what "excellent" looks like in your eyes, they can calibrate. Clarity about expectations is itself a form of feedback.
+
+The Netflix CTO's approach to candor: when something goes wrong publicly (a reorganization that didn't land, a decision that backfired), discuss it openly rather than moving on. Naming the failure — "here's what I tried, here's what didn't work, here's what I learned" — models the behavior you want from your team and creates the psychological safety that makes real feedback possible.
+
+Responsiveness is also a signal. If you routinely make people wait for decisions or replies, you're communicating that their time matters less than yours. The inverse is also true: being reliably responsive signals that you take their work seriously — and that's a precondition for honest feedback.
+
+---
+
 ## Related Skills
 
 - `1on1s` — The primary venue for all three techniques

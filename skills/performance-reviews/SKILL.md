@@ -7,8 +7,6 @@ metadata:
 
 # Performance Reviews
 
-> This skill is being built from articles. Content will be added as relevant articles are processed.
-
 ## Before Starting
 
 Check for EM context first:
@@ -78,6 +76,60 @@ To know you did everything right before letting someone go:
 5. **Be patient** — changing behavior takes real work. It's often worth it.
 
 Note: 50% of people on performance improvement plans become repeat offenders. Smart employees know how to rise to the occasion temporarily. Watch for the pattern.
+
+---
+
+## When to Act: The Fire Quickly Heuristic
+
+A rough but useful signal: *if you've thought seriously about firing someone even once, you should probably act sooner rather than later.*
+
+With genuinely strong employees, the thought doesn't arise. The fact that it arose at all is diagnostic.
+
+This doesn't mean fire impulsively. It means: if you've crossed the threshold of "should I let this person go?" without acting on it, examine why you're waiting. The most common reason is discomfort — not evidence that the situation will resolve itself.
+
+---
+
+## The Meta Performance Review Question
+
+The most useful question for evaluating a manager's performance: *"What would have been different if this person hadn't been here?"*
+
+This targets manager delta — not what the team shipped, but what the manager caused to happen that wouldn't have happened otherwise. Apply it to yourself: what is your contribution to outcomes that your team couldn't have produced without you?
+
+Common contributions that count:
+- A hard conversation that shifted someone's trajectory
+- Hiring decisions that raised the bar
+- Removing a blocker nobody else could remove
+- Growing someone who was stuck
+
+---
+
+## 4-Stage Process for Addressing Persistent Behavior Problems
+
+For an engineer who repeatedly shows a problematic pattern (constant complaining, missing commitments, interpersonal friction):
+
+**Stage 1 — Listen and understand.** Do everything you can to understand what's behind the behavior. There is almost always some legitimate grievance underneath. Don't skip this — going straight to "stop doing X" ignores the signal.
+
+**Stage 2 — Address the root cause.** Identify the 1–2 biggest underlying issues and address them in partnership with the person. This requires actually solving something, not just acknowledging it.
+
+**Stage 3 — Discuss the behavior itself.** Once you've addressed the root cause, have an explicit conversation about how the behavior needs to change: what's acceptable, what isn't, and what the expectations are going forward.
+
+**Stage 4 — Let them go.** If the behavior persists after stages 1–3, it's a choice, not a circumstance. Act.
+
+The failure mode is skipping stages. Managers who haven't done stages 1–2 don't have standing to hold stage 3 conversations with credibility.
+
+---
+
+## Diagnosing Underperformance: Work Left to Right
+
+Before deciding "up or out," work through this spectrum in order. As you move right, ownership shifts from you to the employee:
+
+1. **Resources** — do they have what they need? Access, software, tooling, support. If not, that's 100% your problem. Fix it before drawing any conclusions about them.
+2. **Training** — do they have enough knowledge to do the job? This is shared responsibility: you ensure they have access to training; they own using it. Avoid the bottomless training trap — aim for sufficient, not exhaustive.
+3. **Desire** — do they actually want to do this work? The hardest conversation, with real personal stakes for them. If you've been clear about expectations from day one, and they still don't want to meet them, that's theirs to own. You can be their fan or their coach — you can't want it for them.
+4. **Fit** — are they in the right role for their strengths? Someone can be talented and still be wrong for this specific job.
+5. **Ability** — do they have the raw capability to reach the required level?
+
+Most underperformance diagnoses jump straight to #3 or #5 without addressing #1 and #2. This is a mistake: it skips the manager's responsibility, burns trust, and produces a weak performance case.
 
 ---
 

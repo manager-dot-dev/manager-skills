@@ -75,6 +75,62 @@ Deliberately engineer a "coincidence" to create the right conditions for a hard 
 
 ---
 
+## Politics as a Skill
+
+"Politics" in engineering has a bad reputation. It's worth reclaiming the word.
+
+Politics, in this context, means: making the things you want to happen, actually happen. Understanding what each stakeholder cares about. Knowing how to frame a conversation for the right audience. Navigating resistance with the least friction rather than the most force.
+
+Mediocre EMs resent politics. Effective EMs learn it. The skill is neutral — it can be used to advance good work or bad work. Your job is to use it to advance good work.
+
+---
+
+## Giver / Matcher / Taker
+
+From Adam Grant's *Give and Take*: people approach help and collaboration in one of three ways:
+
+- **Givers** contribute without expecting anything back
+- **Matchers** help when they expect to be helped in return
+- **Takers** focus on what they can extract from relationships
+
+The counterintuitive finding: Givers are both the lowest AND highest performers. The bottom of most industries is dominated by Givers (who give until they're exploited). The top is also dominated by Givers — because of two effects:
+
+1. Givers are constantly involved in complex problems (because people want their help), so they learn fastest
+2. When a Giver needs something, people line up to help them — because they've built genuine goodwill
+
+Be a Giver. Set limits on exploitative relationships — but default to helping freely.
+
+---
+
+## Pull on Your Manager
+
+The best team members pull on their manager rather than waiting to be pushed.
+
+In practice:
+- Think about what you need before your manager asks
+- Tell your manager your concerns, goals, and asks — proactively
+- Give your manager action items in 1:1s, not just answers
+- Be curious about *their* world: ask about their biggest worry, the state of other teams, what's keeping them up at night
+
+The strongest EM-manager relationships are mutual. Your manager isn't just someone you report to — they're someone you can actively leverage. Come to 1:1s with a clear agenda, bring solutions not just problems, follow up on action items, and ask how you can support their goals. The myth is that strong EMs don't need their managers. The reality is that the best EMs use the relationship actively.
+
+---
+
+## Getting Headcount: Arguing at the Right Layer
+
+Most headcount requests fail not because they're wrong, but because they're arguing on the wrong layer. You're discussing whether to hire when the real disagreement is about something bigger.
+
+Will Larson's hierarchy of alignment — work through these in order:
+
+1. **Do we agree on the problem?** e.g., "We're having too many incidents and it's hurting developer productivity and user trust." If leadership doesn't share this problem framing, no amount of headcount justification will land.
+2. **Do we agree on the general approach?** e.g., "We should invest in improving test coverage and on-call tooling." If they think the answer is process changes, not hiring, you're still misaligned.
+3. **Do we agree the team is executing well today?** Show metrics: incident trends over time, test coverage trajectory, developer survey data. If they don't believe the current team is capable, more of the same won't seem like the solution.
+4. **Then ask for headcount.** Only now is the specific request likely to land.
+
+When a headcount request is rejected, diagnose which layer the disagreement is actually at. Arguing harder at layer 4 when the disagreement is at layer 1 wastes everyone's time and erodes credibility.
+
+---
+
 ## Related Skills
 
 - `managing-yourself` — Influence is how you manage up and across

@@ -116,6 +116,117 @@ These arguments don't apply to someone who genuinely wants to manage — intrins
 
 ---
 
+## Second-Time Manager Mistakes
+
+The second management role is supposed to be easier. Often it isn't — because experience creates overconfidence.
+
+Five common mistakes when coming back to management after a break:
+
+1. **Assuming what worked before will work again.** Different organization, different people, different context. You can't copy-paste your methods. Managing junior developers from a previous military-style context is not the same as managing experienced engineers in a product company.
+
+2. **Too eager to change everything.** By the time you're promoted the second time, you have years of ideas backed up. The instinct is to immediately fix everything you see. But the previous manager did things that way for reasons you haven't discovered yet — especially in stakeholder relationships.
+
+3. **Making promises you don't follow through on.** You arrive motivated, commit to all kinds of improvements, and then get overwhelmed. Three team meetings in the first year instead of the promised monthly cadence. People remember the gap.
+
+4. **Falling into the same old traps.** The first time, you can excuse the hard conversations you avoided with "I'm new at this." The second time, the excuses run out — but the avoidance doesn't.
+
+5. **Never stopping to think.** A year goes by and nothing you planned actually happened. Build in dedicated reflection time — treat it like a commitment to yourself to review what you planned vs. what you achieved.
+
+---
+
+## The EM Role in the New Era
+
+Since the end of the zero-interest-rate period (post-2022), the engineering management role has been shifting:
+
+- Fewer managers, higher IC-to-manager ratios
+- More responsibility per manager
+- Growing expectation that EMs can be "player-coaches" — contributing technically while managing
+- A tougher market for line managers who can't or won't engage technically
+
+**Practical implications for job security and effectiveness:**
+- Stay close to the code — not at the expense of management quality, but enough to maintain credibility and context
+- Strengthen your network inside and outside the company. Tenure matters; so does visibility
+- Be the kind of EM who makes technical people around you better, not just the one who coordinates their work
+
+---
+
+## 7 Deadly Sins of a New EM
+
+The most common mistakes new engineering managers make in their first months:
+
+1. Taking critical coding tasks yourself instead of delegating
+2. Fighting with the PM constantly
+3. Not trusting anyone except yourself
+4. Immediately trying to change things
+5. Committing to unreasonable deadlines
+6. Not running team meetings because "it feels weird now"
+7. Making promises you can't keep
+
+Most of these are instincts from individual contributor work applied in the wrong role.
+
+---
+
+## Do Nothing for the First 30 Days
+
+The instinct when starting a new management role is to prove yourself. The result: you rush to make changes, miss context, the team feels disrespected, you trash the predecessor's work, and you burn trust before it's built.
+
+Instead:
+- **Listen for 30 days.** Take notes. Ask questions. Build relationships.
+- **Document what you find.** Write down observations without acting on them yet.
+- **Then co-create changes with the team.** Changes you impose get resistance. Changes the team helps design get traction.
+
+The team wants to see you understand the situation before you change it. Patience here is leverage, not weakness.
+
+---
+
+## Managing Former Peers
+
+When you're promoted from within the team, the power dynamic shifts — and everyone knows it. Some team members may feel they deserved the role. Resentment can go unspoken for months.
+
+**Talk about it directly.** Acknowledge the awkwardness in a 1:1. It defuses more than you expect.
+
+The friendship doesn't have to end, but the terms change. You can stay close — but you can't gossip about other teammates with them, and you have to be able to give them tough feedback. You can be honest about the awkwardness of early 1:1s. Naming the weird thing is usually better than pretending it isn't there.
+
+---
+
+## On Age Differences
+
+When you're younger than the people you manage: nobody really cares about age differences unless you make them care. Behave like your role. Bring the substance, not the anxiety about the age gap. Most people forget the difference quickly once they see you doing the job.
+
+---
+
+## Turning Around a Broken Team
+
+When you inherit a struggling team, the instinct is to blame the previous leader and signal change fast. That almost always backfires.
+
+**Don't open with blame.** Even if the prior situation was genuinely bad, opening with "the previous approach was wrong" signals disrespect for what people endured to get here. Show that you value their effort before you redirect their direction.
+
+**Name the baggage explicitly.** Teams don't leave the past behind by hoping it disappears. Name what stops here — specific behaviors, processes, or patterns — and ask the team to help rewrite the rules. The more they co-author the new approach, the more they'll follow it.
+
+**Own your part.** You may not have caused the problem, but if you were even partially complicit (slow to act, missed signals), say so. Teams forgive mistakes they're told about. They don't forgive the same mistakes being repeated silently.
+
+**Reset the target together.** Ask the team to look 6–9 months ahead: imagine everything went your way. What do they see? What did you deliver? How do you interact? How do they feel? The shared destination becomes a filter for 100 daily micro-decisions.
+
+**Revise the behaviors, not just the goals.** Goals without defined behaviors are empty. "Act like owners" means nothing. What specifically does ownership look like on this team, in this context? Be concrete.
+
+---
+
+## The Dopamine Shift: What New Managers Miss
+
+The most overlooked transition challenge has nothing to do with skills — it's neurological.
+
+As an IC, your dopamine came from a predictable place: shipping things. Closing a PR. Fixing a bug. Watching something deploy. As a manager, those direct rewards vanish. For weeks or months, you may feel genuinely unfulfilled.
+
+This isn't a sign you made the wrong choice. It's a sign you haven't yet rewired where you get satisfaction from.
+
+The shift: **you're not the star anymore — you're the facilitator.** You don't ship a project. You help your team ship all projects. The satisfaction comes from different signals: a report growing noticeably, a difficult conversation that landed well, a team delivering something they wouldn't have without you.
+
+Two other common traps for new managers:
+- **Reluctance to delegate.** The rationalization is "they won't do it the way I would." Even if that's true, long-term you need your team capable of doing what you used to do — otherwise neither of you grow.
+- **Equating team size with success.** More headcount isn't a sign of management skill. Quality of output is.
+
+---
+
 ## Related Skills
 
 - `1on1s` — First-week 1:1s are critical for all four transition types

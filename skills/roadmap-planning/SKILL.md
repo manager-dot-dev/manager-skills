@@ -128,6 +128,71 @@ The basic format: every team competes to delete and clean up as much as possible
 
 ---
 
+## Hidden Costs of Custom Features
+
+When a PM or customer asks for a one-off "special" feature, the visible cost is the development time. Three costs that almost never make it into the estimate:
+
+1. **Future maintenance tax** — every custom feature needs to be fixed, adjusted to product changes, and kept working. This cost compounds indefinitely.
+2. **Complexity tax** — every new feature makes the overall product more complex, which increases the cost of every subsequent feature.
+3. **Opportunity cost** — that developer-month could have gone toward higher-impact work.
+
+Practical responses:
+- Price "customer specials" significantly higher than standard features to make the true cost visible
+- Track what percentage of team capacity goes toward specials. Agree on a ceiling with PM/leadership
+- Measure actual feature usage. Features nobody uses are maintenance cost with zero return
+
+---
+
+## When the Team Can't Make a Critical Deadline
+
+When a hard deadline is at risk, the options most managers reach for first are the ones that work least well.
+
+**What almost never works:**
+- **Adding people** — adding developers to a late project adds communication overhead and slows things down initially (Brook's Law). The one exception: adding a senior developer as a shadow/pair to an existing developer can help if done early enough.
+- **Reducing quality** — "we'll write tests after" always costs more than the time saved. It either causes post-launch fires or results in a growing unpayable quality debt.
+
+**What sometimes works:**
+- **Adding work time** — genuinely warranted in a true crisis, but sets a precedent. Use sparingly.
+
+**What works best:**
+- **Reducing scope** — identify what can be cut while still delivering core value. "What's the minimum we can ship that still solves the problem?" is the most important question to ask before a deadline crunch, not during.
+
+---
+
+## There Are No Technical Projects
+
+Hot take worth internalizing: **all projects are business projects.** If an engineering team is doing something that can't be justified in business terms, they're doing it wrong.
+
+This doesn't mean abandoning technical work. It means every technical initiative — refactors, dependency upgrades, infrastructure changes, architecture improvements — should be framed in terms of the business value it delivers.
+
+| Looks like | Is actually |
+|---|---|
+| Refactoring | Reducing the time it takes to ship features by N weeks |
+| Updating dependencies | Reducing security risk and support costs |
+| Adding tests | Reducing the frequency and cost of production incidents |
+| Improving architecture | Enabling the team to build X, which they currently can't |
+
+The business case doesn't have to be exact — it has to be honest and visible. When technical work has no business framing, it's the first thing cut in planning. When it does, it competes on equal footing.
+
+There's a second principle: **some things just need to happen.** You can't build software without tests, security, or operational support. Explain why these are necessary, but don't let "but this is really a business decision" become a reason to continuously deprioritize work that keeps the system running.
+
+---
+
+## Feature Factory Warning Signs
+
+Signs your team is being run as a feature factory — shipping output with no measurement of outcomes:
+
+- No measurement of feature impact after shipping
+- Teams reshuffled between projects constantly (Team Tetris)
+- Success theater around "shipping" with no discussion of whether it worked
+- Features are never removed, even when they don't get used
+- Teams can't connect their work to key business or customer metrics
+- Retrospectives focus on process, never on whether product decisions were right
+
+The risk is that a feature factory *feels* productive — lots of shipping, lots of demos — while actually delivering little business value. As EM, your job is to push for outcome measurement even when the delivery machine doesn't want to slow down.
+
+---
+
 ## Related Skills
 
 - `em-context` — For team context, size, capacity
