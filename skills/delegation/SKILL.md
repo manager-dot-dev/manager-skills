@@ -23,8 +23,10 @@ Identify the situation first:
 - **Engineers wait to be told rather than acting** → Intent-Based Leadership
 - **Want to give engineers deeper ownership beyond individual tasks** → Giving Engineers a Kingdom
 - **Assigning work across the team strategically** → Three-Layer Assignment Framework
-- **Feeling anxious about letting someone do it differently than you would** → Delegation Anxiety
-- **Going on vacation / someone needs to cover** → Covering for You While You're Away
+- **Feeling anxious about letting someone do it differently than you would** → read [`references/extended.md`](references/extended.md) — Delegation Anxiety
+- **Going on vacation / someone needs to cover** → read [`references/extended.md`](references/extended.md) — Covering for You While You're Away
+- **Deciding which tasks to pick up yourself as EM** → read [`references/extended.md`](references/extended.md) — Being Hands-On: Choose Tasks Intentionally
+- **Someone on the team seems entirely self-directed** → read [`references/extended.md`](references/extended.md) — Free Electrons
 
 ---
 
@@ -35,17 +37,20 @@ Identify the situation first:
 The most impactful first delegation is the daily operational load — alerts, support requests, production issues.
 
 **How it works:**
-- Each day, one team member is the "Team Rep" (rotating)
+
+- Each day/week, one team member is the "Team Rep" (rotating)
 - The Rep is responsible for: monitoring alert channels, helping the support team, debugging new issues, coordinating incident response
 - The Rep is NOT responsible for fixing everything — the developer who introduced a bug fixes it. The Rep coordinates and learns.
 - The manager is NOT the first call. The Rep is.
 
 **Setup tips:**
+
 - Put it on the calendar as a recurring rotation with a written guidelines doc
 - In the first rotations, consultations with you are fine — but never solve it yourself
 - Keep yourself in the rotation. Don't exempt yourself from the load you're delegating.
 
 **Benefits:**
+
 - No single point of failure (bus factor)
 - Increased ownership and debugging skills across the team
 - Developers feel "we're in the same boat"
@@ -55,6 +60,7 @@ The most impactful first delegation is the daily operational load — alerts, su
 Stop being the one who meets with the PM, does the technical design, and breaks down the work.
 
 **How it works:**
+
 - When a new epic arrives, assign a team member as the owner
 - They: meet with the PM, write the technical design, break it into tasks, decide work distribution
 - You: stay involved — share thoughts, ask questions, review — but they make the decisions
@@ -80,13 +86,14 @@ If you're the go-to person for every system and every question, that's a problem
 
 ## Intent-Based Leadership
 
-From *Turn the Ship Around* (Marquet): instead of asking permission or waiting for direction, team members state their intent and proceed unless stopped.
+From _Turn the Ship Around_ (Marquet): instead of asking permission or waiting for direction, team members state their intent and proceed unless stopped.
 
-The pattern: *"I intend to deploy the release at 2pm — let me know if you see a reason not to."* Instead of: *"Should I deploy the release?"*
+The pattern: _"I intend to deploy the release at 2pm — let me know if you see a reason not to."_ Instead of: _"Should I deploy the release?"_
 
 Why it works: asking permission transfers ownership to the person being asked. Stating intent keeps ownership with the person acting, while still maintaining oversight. Over time, it trains the entire team to think like owners rather than executors.
 
 **How to implement it:**
+
 - Model it yourself with your own manager: "I intend to finalize this hire — flag me if you have concerns" (this is also how you earn delegation upward)
 - When a report comes to you asking "should I do X?" — ask them what they intend to do and have them tell you. Then respond to their intent rather than making the decision for them
 - Reserve overrides for cases where you have information they don't. If you're overriding purely because you'd do it differently, ask whether that's worth the cost to their ownership
@@ -97,9 +104,10 @@ The goal: a team that moves without being told, rather than a team that waits to
 
 ## Micromanagement vs. Under-management
 
-From *The Dichotomy of Leadership* (Willink): the failure modes on both ends of the delegation spectrum are equally real, and the symptoms are distinct.
+From _The Dichotomy of Leadership_ (Willink): the failure modes on both ends of the delegation spectrum are equally real, and the symptoms are distinct.
 
 **Signs you're micromanaging:**
+
 - You approve every decision before it moves forward
 - Team members stop bringing you problems because they expect you to solve them
 - You review and rewrite work that was "good enough"
@@ -107,6 +115,7 @@ From *The Dichotomy of Leadership* (Willink): the failure modes on both ends of 
 - Your calendar is full of unnecessary check-ins
 
 **Signs you're under-managing:**
+
 - Tasks go off-track and you're the last to know
 - Team members make significant decisions without relevant context you had
 - Quality degrades or standards slip without you noticing
@@ -119,55 +128,21 @@ The right position moves depending on the person and the task (see Task-Relevant
 
 ---
 
-## Signs You're Not Delegating Enough
-
-- You work through weekends to "help" the team meet deadlines
-- You handle production incidents yourself so the team "isn't disturbed"
-- You lead every new project personally
-- Developers come to you as the source of knowledge for every question
-
----
-
-## Covering for You While You're Away
-
-When you go on vacation, who runs the team? Three options, in increasing order of long-term value:
-
-- **Your manager** — convenient, easy, keeps developers focused on work. Has the side benefit of giving your manager direct exposure to your team.
-- **The PM** — builds their understanding of the team's work and challenges. Strengthens the PM-team relationship.
-- **A team member** — hardest to implement, most valuable. Even if no one on your team is currently interested in a management path, covering for you gives them genuine experience: designing tasks, guiding teammates, managing production issues, working directly with the PM, communicating with broader audiences.
-
-Don't assume someone won't want the responsibility — sometimes all they need is the opportunity. If they try it and discover it's not for them, that's also useful information.
-
----
-
-## Being Hands-On: Choose Tasks Intentionally
-
-When you take a task as an EM, three patterns that look like contribution but aren't:
-
-- **Taking only small or undesirable tasks** — avoids real risk, stays in the margins
-- **Sticking to what you know** — comfort over learning
-- **Taking too many tasks** — spreading thin, blocking others, reverting to IC mode
-
-Before picking up a task, ask: what's the actual goal behind me doing this? Is it to work closely with a new team member? To help in a difficult period? To learn a system you don't know well? To reduce friction somewhere?
-
-Tasks you take as EM should serve a purpose beyond helping the team ship. If the only reason is "I like this kind of work," that's a comfort trap.
-
----
-
 ## How Much Involvement Is Right: Task-Relevant Maturity
 
 Most managers stop at "juniors need more oversight, seniors less." That's still too blunt.
 
-Andy Grove's concept from *High Output Management*: **Task-Relevant Maturity (TRM)** — not the person's general seniority, but their maturity for *this specific task*. A senior engineer doing something for the first time has low TRM for that task. A junior doing their fifth microservice has high TRM.
+Andy Grove's concept from _High Output Management_: **Task-Relevant Maturity (TRM)** — not the person's general seniority, but their maturity for _this specific task_. A senior engineer doing something for the first time has low TRM for that task. A junior doing their fifth microservice has high TRM.
 
 - **Low TRM** → structured involvement: tell them what to do, check in regularly, be available
 - **High TRM** → step back: set the goal, let them work, trust the outcome
 
 Getting this wrong in either direction is a failure:
+
 - Too hands-on with high TRM → micromanagement, demotivation
 - Too hands-off with low TRM → the customer (internal or external) pays for the mistake
 
-When a task feels high-stakes, ask yourself: is this person's TRM actually high for *this* task — or just in general?
+When a task feels high-stakes, ask yourself: is this person's TRM actually high for _this_ task — or just in general?
 
 ---
 
@@ -203,28 +178,6 @@ The knowledge map exercise makes the third layer concrete: plot engineers agains
 When moving engineers into new domains to serve advancement or durability, apply Task-Relevant Maturity (see above) — a Staff engineer new to a domain needs closer guidance than their title implies.
 
 Two traps to watch: **inertia** (comfortable assignments calcify even when business needs change) and **activation energy** (the transition cost is real and must be planned for, not wished away). Revisit assignments deliberately every quarter rather than letting the last good decision run indefinitely.
-
----
-
-## Delegation Anxiety
-
-Nobody tells you about the pit-in-the-stomach feeling when someone does your task differently.
-
-They accept a solution you'd have pushed back on. They make a quick fix where you'd have dug deeper. They write code that works but not the way you'd write it. These are emotional triggers — not performance issues.
-
-Delegation doesn't mean perfect. It means finding the balance between maintaining standards, preserving your own sanity, accepting different approaches, and growing your team. Your job is not to create mini-versions of yourself.
-
-When you feel the anxiety: ask whether the outcome was acceptable, not whether it was done your way. If the outcome was acceptable, that's delegation working correctly.
-
----
-
-## Free Electrons
-
-From *Peopleware*: some engineers are self-motivated super-achievers who naturally choose their own orbits. They define their own problems, drive their own directions, and produce disproportionate value precisely because they're self-directed.
-
-The worst thing you can do with a free electron is decide what they should be working on. The best response: let them define their own job.
-
-Not every engineer is a free electron. The skill is identifying the few who have the right mix of perspective, maturity, and drive — and then getting out of their way rather than managing them into mediocrity.
 
 ---
 
