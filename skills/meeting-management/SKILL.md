@@ -101,6 +101,18 @@ As EM, your calendar is the model for your team's calendar. If you're in back-to
 
 ---
 
+## Killing Meetings That Have Outlived Their Purpose
+
+Every team has recurring meetings nobody can explain why they exist. A standup that adds no value. A document that gets filled out and never read. A sync that's been on the calendar for two years.
+
+The question to ask regularly: **"Why are we still doing this?"**
+
+If the answer is "because we always have" or "I'm not sure," that's inertia — not a reason. Processes inherited from a previous manager, a different team size, or a different stage of the company often outlive their usefulness.
+
+A simple habit: once a quarter, list your team's regular rituals and ask for each: what problem does this solve? If nobody can answer, try removing it for one month. Most people will feel relieved, not lost.
+
+---
+
 ## Related Skills
 
 - `deep-work` — Meeting culture is the primary driver of lost focus time for engineers

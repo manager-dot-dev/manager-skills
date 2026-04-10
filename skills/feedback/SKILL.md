@@ -26,6 +26,7 @@ Identify what the user needs before diving into frameworks:
 - **Something happened recently and the user wants to address it now** → In-the-Moment Feedback (don't save it for the 1:1)
 - **Building feedback culture across the whole team** → Speed Feedback
 - **Writing feedback for a review or document** → Precision section first; then ask for the specific events to document
+- **Building a lightweight weekly accountability loop with reports** → read [`references/extended.md`](references/extended.md) — Weekly Called Shots
 
 **If the user hasn't given you a specific event yet, ask for it.** Vague feedback inputs always produce vague feedback outputs.
 

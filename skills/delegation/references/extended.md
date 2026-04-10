@@ -45,3 +45,46 @@ From _Peopleware_: some engineers are self-motivated super-achievers who natural
 The worst thing you can do with a free electron is decide what they should be working on. The best response: let them define their own job.
 
 Not every engineer is a free electron. The skill is identifying the few who have the right mix of perspective, maturity, and drive — and then getting out of their way rather than managing them into mediocrity.
+
+---
+
+## Mechanisms Over Intentions
+
+When something breaks down repeatedly — the Jira tickets don't get updated, PRs aren't reviewed in time, nobody reads the documentation — the instinct is to ask people to do better. That almost never works.
+
+The question to ask: **what mechanism would solve this even if the people were new or having a bad day?**
+
+Example: developers weren't updating Jira tickets despite repeated requests. Solution: spend 2 minutes at the start of standup updating them together. The request didn't change behavior; the mechanism did.
+
+When you find yourself frustrated that people "just aren't doing" something, stop and ask whether there's a systemic fix waiting to be built.
+
+---
+
+## Pulling Instead of Pushing
+
+When an engineer comes to you with a problem, the reflex is to give them the answer. It's faster. It feels helpful. And it creates dependency.
+
+The alternative: **pull the answer out of them with questions**.
+
+- "What options have you considered?"
+- "If you had to pick one, what would it be and why?"
+- "What's stopping you from deciding this yourself?"
+
+Most of the time, engineers already know the answer. They want validation, not information. When you ask instead of tell, they reach the conclusion themselves — and own it more fully.
+
+This is slower in individual interactions and dramatically faster for the team over time.
+
+---
+
+## 4 Decision-Making Modes
+
+Every management decision can be made in four ways. Great managers use all four. Over-reliance on any single mode is a failure pattern.
+
+| Mode | Description | Failure pattern when over-used |
+|------|-------------|-------------------------------|
+| **Solo** | Decide yourself | Control freak — team never develops judgment |
+| **Participative** | Involve the team in the decision | People pleaser — endless consensus-seeking |
+| **Elevated** | Let your manager decide | Zero confidence — abdicates responsibility upward |
+| **Delegated** | Team decides | Hands-off — disengaged from decisions that need you |
+
+When you get feedback that you're too controlling, the answer isn't to let go of everything — it's to move more decisions into Participative or Delegated modes selectively.

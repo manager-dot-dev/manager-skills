@@ -27,6 +27,9 @@ Identify the situation first:
 - **Going on vacation / someone needs to cover** → read [`references/extended.md`](references/extended.md) — Covering for You While You're Away
 - **Deciding which tasks to pick up yourself as EM** → read [`references/extended.md`](references/extended.md) — Being Hands-On: Choose Tasks Intentionally
 - **Someone on the team seems entirely self-directed** → read [`references/extended.md`](references/extended.md) — Free Electrons
+- **A process keeps breaking despite repeated asks** → read [`references/extended.md`](references/extended.md) — Mechanisms Over Intentions
+- **Engineers keep coming to you for answers instead of deciding** → read [`references/extended.md`](references/extended.md) — Pulling Instead of Pushing
+- **Feedback about being too controlling or too hands-off** → read [`references/extended.md`](references/extended.md) — 4 Decision-Making Modes
 
 ---
 
