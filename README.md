@@ -1,19 +1,18 @@
 # Engineering Management Skills
 
-An opinionated library of Agent Skills for engineering managers, tech leads, and directors.
+An OPINIONATED library of Agent Skills for engineering managers, tech leads, and directors.
 
-This repo exists because LLMs were trained on the whole internet, and a lot of internet management advice is generic, sanitized, and not very useful when you are actually in the chair. The goal here is different: give an agent a strong point of view, grounded in hard-won engineering management material, so the answer feels more like talking through a dilemma with another EM than receiving a universal how-to guide.
+LLMs were trained on the whole internet, and they suck at advice related to management.
 
-The opinions in these skills are intentionally opinionated. They are not universal truth. They are not meant to be neutral consensus. You may strongly disagree with a recommendation, and that is part of the point: the skills should give you a useful perspective to react to, not bland advice that tries to offend nobody and helps nobody.
+For this repo, I gathered info from the best articles I've read in the last 10 years, engineering management and leadership books, and my own articles and posts based on my own experience. For books, I've used only my notes from the books. I didn't upload the full books to LLMs.
 
-The material is based on:
+You may strongly disagree with an answer. That's good, and that's the point. Generic shit advice is not helpful. If you disagree, follow your own opinion.
 
-- Articles from my blog and newsletter at [newsletter.manager.dev](https://newsletter.manager.dev/)
-- The best engineering management and leadership articles I have read over the last decade
-- Notes from management, leadership, product, business, and organizational books
-- My own writing, posts, and experience as an engineering manager
+My goal is to provide you with some useful perspective, like if you had talked to a fellow EM and shared your dilemma.
 
-No full books were uploaded into the skills. Book influence comes from personal notes and interpretation.
+The opinions are mine, and not a universal truth or a how-to guide.
+
+See the [Resources](#resources) section for the full list of articles and books that inspired this repo, including resources that did not end up being used directly in a skill. The skills are heavily based on articles from my blog and newsletter, [newsletter.manager.dev](https://newsletter.manager.dev/).
 
 ## What This Repository Is
 
@@ -34,37 +33,76 @@ Each management skill is designed to:
 - Preserve a clear point of view instead of flattening everything into generic advice
 - Link to source material in `references/sources.md`
 
-## Available Skills
+## Skills By Management Area
+
+The `skills/` directory stays flat so skills are easy to install and publish. This grouping is only here to make the library easier to browse.
+
+### Foundation
 
 | Skill | Purpose |
 |---|---|
 | [em-context](skills/em-context/) | Stores team/org context and direct-report profiles used by the other skills |
+
+### Managing People
+
+Individual humans: growth, feedback, motivation, performance, retention, hiring, and direct manager/report conversations.
+
+| Skill | Purpose |
+|---|---|
 | [1on1s](skills/1on1s/) | Prepare, run, improve, and follow up on 1:1s |
-| [business-literacy](skills/business-literacy/) | Translate engineering work into business and finance language |
 | [career-development](skills/career-development/) | Support career growth, promotion readiness, and career conversations |
-| [delegation](skills/delegation/) | Move managers out of the bottleneck role and build ownership |
-| [developer-productivity](skills/developer-productivity/) | Measure team productivity without harmful individual scoring |
-| [difficult-situations](skills/difficult-situations/) | Handle high-stakes management edge cases and sensitive situations |
 | [engineer-motivation](skills/engineer-motivation/) | Diagnose what drives engineers and match work to motivation |
 | [feedback](skills/feedback/) | Give specific positive or corrective feedback and ask for feedback upward |
 | [hiring](skills/hiring/) | Define roles, structure interviews, calibrate hiring, and evaluate new hires |
-| [influence](skills/influence/) | Persuade stakeholders and get buy-in without direct authority |
-| [knowledge-sharing](skills/knowledge-sharing/) | Break knowledge silos and improve documentation/onboarding flow |
-| [management-transitions](skills/management-transitions/) | Navigate new-manager, inherited-team, peer-to-manager, and acquisition transitions |
 | [managing-high-performers](skills/managing-high-performers/) | Manage top engineers, brilliant jerks, boredom, ambition, and burnout risk |
-| [managing-up](skills/managing-up/) | Build a reliable relationship with your manager and communicate upward |
-| [managing-urgency](skills/managing-urgency/) | Handle deadlines, fake urgency, crisis pressure, and tradeoff conversations |
-| [managing-yourself](skills/managing-yourself/) | Diagnose personal EM traps, bad-day patterns, and recurring leadership tensions |
-| [meetings](skills/meetings/) | Decide whether to meet, run better meetings, and protect engineering focus time |
 | [performance-reviews](skills/performance-reviews/) | Diagnose underperformance, write reviews, and decide on PIPs or exits |
 | [retaining-developers](skills/retaining-developers/) | Diagnose attrition risk and prepare retention conversations |
-| [roadmap-planning](skills/roadmap-planning/) | Plan roadmaps, prioritize tech work, and communicate tradeoffs |
-| [shadow-work](skills/shadow-work/) | Identify hidden capacity drains like support, glue work, and shadow backlogs |
+
+### Building The Team
+
+The team as a system: ownership, trust, rituals, staffing shape, knowledge flow, and sensitive team-level situations.
+
+| Skill | Purpose |
+|---|---|
+| [delegation](skills/delegation/) | Move managers out of the bottleneck role and build ownership |
+| [difficult-situations](skills/difficult-situations/) | Handle high-stakes management edge cases and sensitive situations |
+| [knowledge-sharing](skills/knowledge-sharing/) | Break knowledge silos and improve documentation/onboarding flow |
+| [meetings](skills/meetings/) | Decide whether to meet, run better meetings, and protect engineering focus time |
 | [team-composition](skills/team-composition/) | Diagnose team capability gaps and hiring/assignment needs |
 | [team-health](skills/team-health/) | Assess and improve morale, trust, intensity, engagement, and team culture |
+
+### Delivery And Execution
+
+Getting work through the system: prioritization, deadlines, productivity, hidden work, delivery tradeoffs, and capacity.
+
+| Skill | Purpose |
+|---|---|
+| [developer-productivity](skills/developer-productivity/) | Measure team productivity without harmful individual scoring |
+| [managing-urgency](skills/managing-urgency/) | Handle deadlines, fake urgency, crisis pressure, and tradeoff conversations |
+| [roadmap-planning](skills/roadmap-planning/) | Plan roadmaps, prioritize tech work, and communicate tradeoffs |
+| [shadow-work](skills/shadow-work/) | Identify hidden capacity drains like support, glue work, and shadow backlogs |
+
+### Product, Business, And Stakeholders
+
+Operating outside the team boundary: PM partnership, business framing, stakeholder trust, upward communication, architecture collaboration, and written alignment.
+
+| Skill | Purpose |
+|---|---|
+| [business-literacy](skills/business-literacy/) | Translate engineering work into business and finance language |
+| [influence](skills/influence/) | Persuade stakeholders and get buy-in without direct authority |
+| [managing-up](skills/managing-up/) | Build a reliable relationship with your manager and communicate upward |
 | [working-with-architects](skills/working-with-architects/) | Work effectively with architects, staff engineers, and principal engineers |
 | [working-with-pm](skills/working-with-pm/) | Build a stronger PM-EM partnership and improve product orientation |
 | [written-communication](skills/written-communication/) | Draft clear Slack messages, announcements, and stakeholder updates |
+
+### Managing Yourself
+
+Your own operating system as a manager: role transitions, personal traps, bad-day patterns, and recurring leadership tensions.
+
+| Skill | Purpose |
+|---|---|
+| [management-transitions](skills/management-transitions/) | Navigate new-manager, inherited-team, peer-to-manager, and acquisition transitions |
+| [managing-yourself](skills/managing-yourself/) | Diagnose personal EM traps, bad-day patterns, and recurring leadership tensions |
 
 ## Installation
 
