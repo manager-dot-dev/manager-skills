@@ -2,12 +2,14 @@
 name: em-context
 description: Foundation skill for engineering managers. Use when setting up context about your team, org structure, management philosophy, and current priorities. All other EM skills read this first. Also use when creating or updating a direct report profile. Trigger phrases: "set my team context," "update my EM context," "here's my team setup," "my team is," "my org is," "add a report," "update report profile," "create a profile for."
 metadata:
-  version: 1.1.0
+  version: 1.2.0
 ---
 
 # EM Context
 
 This is the foundation skill. Its purpose is to capture your team, org, and individual direct report context so every other skill can work with your specific situation rather than generic advice.
+
+This skill is not meant to be the main thing you invoke every day. It is the shared memory layer for the other EM skills.
 
 ## File Structure
 
@@ -27,6 +29,39 @@ This is the foundation skill. Its purpose is to capture your team, org, and indi
 **Direct report profiles:** Create `.agents/reports/[firstname].md` for each direct report. Skills like `1on1s`, `feedback`, and `performance-reviews` will look for this file when you mention a person by name.
 
 If files don't exist, ask the user for the relevant context before proceeding.
+
+When other skills learn durable new context, they should update these files automatically. Treat them as living memory, not static setup files.
+
+---
+
+## Auto-Update Rules
+
+All EM skills should use `em-context` as shared memory:
+
+1. Read `.agents/em-context.md` first if it exists
+2. If a specific person is involved, also read `.agents/reports/[name].md`
+3. If the conversation reveals durable new context, update the relevant file automatically
+4. Prefer additive updates over rewrites
+5. Do not overwrite existing context unless the user clearly corrected it
+
+Only save information that is likely to remain useful across future conversations.
+
+Good candidates for auto-save:
+
+- team size, charter, org changes, stakeholder changes
+- management preferences and communication norms
+- a report's level, goals, working style, motivations, and recurring growth areas
+- durable project ownership or recurring responsibilities
+- feedback history and stable risk signals worth remembering
+
+Do not save:
+
+- one-off frustration or venting phrased as fact
+- speculative diagnoses that have not been validated
+- transient emotions that will age badly
+- details that are too vague to help later
+
+When in doubt, ask: "Will this still be useful and fair three months from now?"
 
 ---
 
@@ -127,5 +162,7 @@ Create one file per person at `.agents/reports/[firstname].md`:
 When another skill says "check em-context first," this means:
 1. Read `.agents/em-context.md` if it exists
 2. If the task involves a specific person, also look for `.agents/reports/[name].md`
-3. If files don't exist, ask the user for the relevant pieces before proceeding
-4. Never ask for information already in the context files
+3. If the conversation reveals durable new context, update the relevant file automatically
+4. If files don't exist, ask the user for the relevant pieces before proceeding
+5. Never ask for information already in the context files
+6. Never store guesses, temporary frustration, or unresolved interpretations as facts

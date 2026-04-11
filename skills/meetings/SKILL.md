@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

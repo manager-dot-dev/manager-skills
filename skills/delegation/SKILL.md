@@ -2,7 +2,7 @@
 name: delegation
 description: Guides managers out of the bottleneck role — provides the Team Rep pattern, Epic Ownership model, Task-Relevant Maturity framework, kingdom ownership, and three-layer assignment strategy. Use when the user wants to delegate work or says "I'm doing everything," "team isn't taking ownership," "I can't let go," "team rep," "project ownership," "I'm the go-to person," "bus factor," "I work weekends," "how do I delegate," or "engineers don't take initiative." Do NOT use for managing a specific underperformer (use performance-reviews) or deciding what work to prioritize (use roadmap-planning).
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Delegation
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

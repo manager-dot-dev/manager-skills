@@ -2,7 +2,7 @@
 name: managing-yourself
 description: Helps EMs assess their own effectiveness, avoid common traps, navigate bad days, and handle recurring tensions in their own mindset and behavior. Use when the user says "I feel stuck," "am I doing this right," "personal development," "EM effectiveness," "blind spots," "bad days," "sanity check on my behavior," "the same problem keeps coming back," "made a mistake with someone," or "my team isn't motivated." Do NOT use when the issue is about the user's relationship with their own manager (use managing-up) or giving specific feedback to someone (use feedback).
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Managing Yourself
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

@@ -2,7 +2,7 @@
 name: retaining-developers
 description: Helps engineering managers prevent and respond to engineer attrition by diagnosing retention risk, choosing the right intervention, and preparing retention conversations. Use when the user says "developer quit," "attrition," "someone is disengaged," "how do I retain," "engineer is leaving," "developer unhappy," "keeping the team," "someone seems checked out," "engineer received another offer," "retention risk," or "my best engineer may leave." Produces a five-state diagnostic, action plan, conversation script, compensation/equity guidance, zero-budget recognition ideas, and warning signs. Do NOT use when the issue is day-to-day motivation only; use engineer-motivation.
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Retaining Developers
@@ -11,6 +11,9 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it. If a specific person is mentioned, check `.agents/reports/[name].md`.
 
+
+
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

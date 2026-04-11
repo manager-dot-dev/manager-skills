@@ -2,7 +2,7 @@
 name: managing-high-performers
 description: Guides engineering managers through the specific challenges of managing top engineers — produces a four-quadrant ability/confidence diagnostic, the Rock Star vs. Superstar distinction, common mistakes to avoid, a stagnation diagnostic (Diminishing XP), and a Pusher vs. Puller framework for managing burnout and team friction. Use when the user says "rockstar engineer," "superstar," "high performer," "brilliant jerk," "wants promotion," "hardest to manage," "overconfident," "my best developer is burning out," "engineer is frustrated," or "my best developer is pushing me." Do NOT use for standard underperformance (use performance-reviews) or general motivation questions (use engineer-motivation).
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Managing High Performers
@@ -11,6 +11,9 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it. If the person is named, check `.agents/reports/[name].md`.
 
+
+
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

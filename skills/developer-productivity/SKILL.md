@@ -2,7 +2,7 @@
 name: developer-productivity
 description: Helps engineering managers measure and improve team delivery — produces a history of why common metrics fail, the DORA four-key-metrics framework (deployment frequency, lead time, change failure rate, MTTR), DevEx's three dimensions (feedback loops, cognitive load, flow state), a translation layer from engineering metrics to business outcomes, and a list of measurement anti-patterns to avoid. Use when the user says "how do I measure productivity," "DORA metrics," "velocity," "cycle time," "developer experience," "DevEx," "how do I show our team is performing well," "metrics for engineering," "team is slow," "engineering performance," or "connect engineering to business." Do NOT use for managing an underperforming individual — use performance-reviews instead.
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Developer Productivity
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

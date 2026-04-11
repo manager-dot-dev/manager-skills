@@ -2,7 +2,7 @@
 name: knowledge-sharing
 description: Helps engineering managers break down knowledge silos and build sustainable documentation and collaboration practices — produces a four-root-cause diagnostic for silos, an Engineering Guilds framework, a minimum-viable documentation approach using ADRs, a structured onboarding model, and a cross-team request decision framework. Use when the user says "knowledge silos," "reinventing the wheel," "nobody reads docs," "onboarding is bad," "teams don't talk," "documentation culture," "cross-team friction," "information doesn't flow," or "new hires struggle to ramp up."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Knowledge Sharing
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

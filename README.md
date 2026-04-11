@@ -26,7 +26,7 @@ The repository follows the [Agent Skills specification](https://agentskills.io/s
 
 ## How The Skills Work
 
-`em-context` is the foundation skill. It stores team, org, manager, and direct-report context. Other skills instruct the agent to read that context first when it exists, so advice can be grounded in the user's actual team.
+`em-context` is the foundation skill. It stores team, org, manager, and direct-report context. Other skills should read that context first when it exists, and update it automatically when a conversation reveals durable new information, so advice can stay grounded in the user's actual team.
 
 Each management skill is designed to:
 
@@ -45,7 +45,7 @@ The `skills/` directory stays flat so skills are easy to install and publish. Th
 
 | Skill | Purpose |
 |---|---|
-| [em-context](skills/em-context/) | Stores team/org context and direct-report profiles used by the other skills |
+| [em-context](skills/em-context/) | Stores team/org context and direct-report profiles used by the other skills, and acts as shared memory across conversations |
 
 ### Managing People
 
@@ -110,19 +110,17 @@ Your own operating system as a manager: role transitions, personal traps, bad-da
 
 ## Installation
 
-Copy the skills you want into `.agents/skills/` in your project:
+Use the Skills CLI in the project where you want to install the skills:
 
 ```bash
-mkdir -p .agents/skills
-cp -r skills/em-context .agents/skills/
-cp -r skills/1on1s .agents/skills/
+npx skills init
+npx skills add manager-dot-dev/manager-skills
 ```
 
-For the full library:
+You can also install a specific skill from the repo:
 
 ```bash
-mkdir -p .agents/skills
-cp -r skills/* .agents/skills/
+npx skills add manager-dot-dev/manager-skills/skills/1on1s
 ```
 
 Then create or update `.agents/em-context.md` with your team context so the other skills can tailor their advice.

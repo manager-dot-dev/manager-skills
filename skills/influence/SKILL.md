@@ -2,7 +2,7 @@
 name: influence
 description: Equips engineering managers with persuasion techniques and positioning strategies for getting things done without direct authority — produces tactical methods (Nemawashi, Decoy Pricing, Reverse Psychology, LMDTFY, Engineered Serendipity), conversation techniques for disarming resistance (Label the Concern, Get to "That's Right"), a headcount argument framework, and a three-level visibility/trust model. Use when the user says "how do I convince," "persuade," "get buy-in," "stakeholder management," "influence without authority," "get approval," "calibration," "nobody takes me seriously," "how do I get headcount," or "organizational politics." Do NOT use when the issue is the user's relationship with their own manager (use managing-up).
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Influence
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

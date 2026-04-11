@@ -2,7 +2,7 @@
 name: business-literacy
 description: Explains business financial terms and frameworks for engineering managers — produces term definitions (ARR, COGS, CAC, LTV, gross margin, burn rate, EBITDA, AARRR), translation formulas for making engineering work visible in business language, and a three-layer framework for building business credibility. Use when the user says "business terms," "EBITDA," "burn rate," "CAC," "LTV," "gross margin," "ARR," "how do I speak to business people," "I don't understand finance," "make the case for engineering work," "connect engineering to business outcomes," "talk to the P&L owner," or "business impact." Do NOT use when the user wants to connect engineering metrics (DORA, velocity) to business metrics — use developer-productivity instead.
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Business Literacy
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

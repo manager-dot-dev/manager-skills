@@ -2,7 +2,7 @@
 name: team-composition
 description: Helps engineering managers diagnose team skill gaps and make better hiring and assignment decisions — produces the Dungeon Party archetype model (Warrior, Tank, Healer, Wizard, Rogue), the Barrels and Ammunition framework for understanding throughput limits, the Commandos/Infantry/Police phase model, and a minimum team size guideline. Use when the user says "team balance," "what roles do I need," "who should I hire next," "team is missing something," "skill gaps," "team is slow despite headcount," "this person thrived before but struggles now," or "what type of engineer should I hire."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Team Composition
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

@@ -2,7 +2,7 @@
 name: shadow-work
 description: Helps engineering managers identify, quantify, and reduce hidden capacity drains that make teams miss commitments even when everyone is busy. Use this skill whenever the user mentions invisible work, untracked work, support requests consuming the team, glue work, shadow backlog, sprint spillover, capacity planning being wrong, teams always underestimating, senior engineers burning out, or "we are busy but nothing ships." Produces a diagnostic, evidence plan, and concrete interventions.
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Shadow Work
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

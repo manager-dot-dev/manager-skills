@@ -2,7 +2,7 @@
 name: working-with-pm
 description: Helps engineering managers build a functional PM–EM partnership and become more product-oriented — produces a 3-pattern PM–EM dynamic model (PM-Led / Engineering-Led / Fake Balanced), a true partnership definition, the "It's Important to Me" card for navigating disagreements, tips for getting engineers closer to customers and usage data (launch vs. landing, session recordings, customer conversations), and an explicit responsibilities exercise. Use when the user says "PM relationship," "PM drives me crazy," "product manager," "roadmap disagreement," "PM overrides me," "PM–EM partnership," "I want to be more product-oriented," or "how do I get engineers closer to customers." Do NOT use for general roadmap prioritization (use `roadmap-planning`) or when urgency is being manufactured by a PM (use `managing-urgency`).
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Working With Your PM
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

@@ -2,7 +2,7 @@
 name: performance-reviews
 description: Helps diagnose underperformance, structure a performance case, decide whether to put someone on a PIP or let them go, and think through your own manager review. Use when the user says "perf review," "review cycle," "performance calibration," "write a review," "rating," "meets expectations," "performance improvement," "PIP," "promotion case," "end of year review," "mid-year review," "underperformer," "struggling employee," or "should I let them go." Do NOT use for delivering day-to-day feedback (use feedback) or for evaluating a new hire candidate (use hiring).
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Performance Reviews
@@ -14,6 +14,7 @@ Check for EM context first:
 2. If a person is mentioned, look for `.agents/reports/[name].md` — it will have their role, level, goals, current projects, and feedback history
 3. Use that context — only ask for information not already covered
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

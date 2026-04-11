@@ -2,7 +2,7 @@
 name: management-transitions
 description: Helps engineering managers navigate role transitions — produces a four-type framework for first management roles (Apprentice, Successor, Pioneer, New Boss), an acquisition integration model, guidance for counseling engineers on the management track, a Blue Tape List method for new roles, a broken team turnaround process, and the Dopamine Shift framing for new managers. Use when the user says "new manager," "first management role," "took over a team," "managing former peers," "new team," "just became a manager," "inherited a team," "starting fresh as a manager," "second time as manager," "acquisition integration," or "should my engineer become a manager."
 metadata:
-  version: 2.1.0
+  version: 2.1.1
 ---
 
 # Management Transitions
@@ -11,6 +11,7 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
+If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style
