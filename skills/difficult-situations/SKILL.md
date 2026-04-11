@@ -2,7 +2,7 @@
 name: difficult-situations
 description: Provides situational playbooks for high-stakes edge cases that don't fit the standard management toolkit — produces step-by-step guidance for inappropriate team behavior, an engineer badmouthing your manager, letting someone go when circumstances are hard, manager quitting guilt, and handling layoffs (for both those leaving and those staying). Use when the user says "don't know how to handle this," "someone said something inappropriate," "engineer said something offensive," "developer talks badly about my manager," "letting someone go when their situation is hard," "I feel guilty about leaving my job," or "handling a layoff." Do NOT use for standard underperformance management (use performance-reviews) or giving direct feedback (use feedback).
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Difficult Situations
@@ -13,7 +13,11 @@ Check for EM context first. If `.agents/em-context.md` exists, read it. If a spe
 
 
 
-If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
+If `.agents/em-context.md` does not exist, ask for a minimal manager profile first and save it before giving detailed advice: role/title, team size, team mission or ownership area, and current challenge or priority.
+
+If a specific person is central to the conversation and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person first and save it before giving detailed advice: title/level, tenure, strengths, and current challenge or growth area.
+
+If the conversation reveals durable new context later, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

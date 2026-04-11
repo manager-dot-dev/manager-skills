@@ -2,7 +2,7 @@
 name: engineer-motivation
 description: Helps engineering managers understand and act on what drives each engineer — produces a three-driver framework (Growth, Connection, Impact), techniques for identifying someone's primary driver, driver-aligned delegation patterns, and a team composition diagnostic. Use when the user says "this person isn't motivated," "nobody picks up tasks," "I keep reminding people," "what drives my engineers," "how do I motivate my team," "what should I delegate to this person," "engineer seems disengaged," or "what growth activity should I give this person." Do NOT use when someone is actively leaving or at risk of quitting (use retaining-developers) or when the engineer is a high performer with specific management challenges (use managing-high-performers).
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Engineer Motivation
@@ -13,7 +13,11 @@ Check for EM context first. If `.agents/em-context.md` exists, read it. If a per
 
 
 
-If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
+If `.agents/em-context.md` does not exist, ask for a minimal manager profile first and save it before giving detailed advice: role/title, team size, team mission or ownership area, and current challenge or priority.
+
+If a specific person is central to the conversation and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person first and save it before giving detailed advice: title/level, tenure, strengths, and current challenge or growth area.
+
+If the conversation reveals durable new context later, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

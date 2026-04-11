@@ -2,7 +2,7 @@
 name: em-context
 description: Foundation skill for engineering managers. Use when setting up context about your team, org structure, management philosophy, and current priorities. All other EM skills read this first. Also use when creating or updating a direct report profile. Trigger phrases: "set my team context," "update my EM context," "here's my team setup," "my team is," "my org is," "add a report," "update report profile," "create a profile for."
 metadata:
-  version: 1.2.0
+  version: 1.3.0
 ---
 
 # EM Context
@@ -34,15 +34,41 @@ When other skills learn durable new context, they should update these files auto
 
 ---
 
+## Bootstrapping Missing Context
+
+If there is no `.agents/em-context.md` yet, do not keep giving generic advice forever. Ask for a minimal manager profile first, create the file, and then continue.
+
+Minimum manager profile to collect:
+
+- role/title
+- team size
+- team mission or area of ownership
+- current challenge or priority
+
+If a specific person comes up and there is no `.agents/reports/[name].md` yet, ask for a minimal profile for that person first, create the file, and then continue.
+
+Minimum direct report profile to collect:
+
+- title or level
+- tenure on the team
+- strengths
+- current challenge, growth area, or reason they came up
+
+Do not wait for a perfect profile. Save the minimum useful context first, then enrich it over time as new conversations reveal more.
+
+---
+
 ## Auto-Update Rules
 
 All EM skills should use `em-context` as shared memory:
 
 1. Read `.agents/em-context.md` first if it exists
 2. If a specific person is involved, also read `.agents/reports/[name].md`
-3. If the conversation reveals durable new context, update the relevant file automatically
-4. Prefer additive updates over rewrites
-5. Do not overwrite existing context unless the user clearly corrected it
+3. If `.agents/em-context.md` does not exist, collect the minimum manager profile and create it before giving detailed advice
+4. If a specific person is involved and `.agents/reports/[name].md` does not exist, collect the minimum direct report profile and create it before giving detailed advice
+5. If the conversation reveals durable new context, update the relevant file automatically
+6. Prefer additive updates over rewrites
+7. Do not overwrite existing context unless the user clearly corrected it
 
 Only save information that is likely to remain useful across future conversations.
 
@@ -162,7 +188,8 @@ Create one file per person at `.agents/reports/[firstname].md`:
 When another skill says "check em-context first," this means:
 1. Read `.agents/em-context.md` if it exists
 2. If the task involves a specific person, also look for `.agents/reports/[name].md`
-3. If the conversation reveals durable new context, update the relevant file automatically
-4. If files don't exist, ask the user for the relevant pieces before proceeding
-5. Never ask for information already in the context files
-6. Never store guesses, temporary frustration, or unresolved interpretations as facts
+3. If `.agents/em-context.md` does not exist, ask for a minimal manager profile and create it first
+4. If a specific person is involved and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person and create it first
+5. If the conversation reveals durable new context, update the relevant file automatically
+6. Never ask for information already in the context files
+7. Never store guesses, temporary frustration, or unresolved interpretations as facts

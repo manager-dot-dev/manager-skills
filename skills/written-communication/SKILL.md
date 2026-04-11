@@ -2,7 +2,7 @@
 name: written-communication
 description: Helps engineering managers write messages, announcements, and stakeholder updates that land well — produces a 3-Step Writing Framework (Prepare / Write Simply / Run a Garbage Collector), the Async Re-Explanation Trap (calling out missed messages), and the Compression/Decompression model for diagnosing why messages are misunderstood. Use when the user says "draft a message," "write an announcement," "communicate this change," "how do I word this," "message for my team," "write an update," or "how do I communicate X." Do NOT use for verbal feedback or difficult conversations (use `feedback` or `difficult-situations`).
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Written Communication
@@ -13,7 +13,11 @@ Check for EM context first. If `.agents/em-context.md` exists, read it. If a per
 
 
 
-If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
+If `.agents/em-context.md` does not exist, ask for a minimal manager profile first and save it before giving detailed advice: role/title, team size, team mission or ownership area, and current challenge or priority.
+
+If a specific person is central to the conversation and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person first and save it before giving detailed advice: title/level, tenure, strengths, and current challenge or growth area.
+
+If the conversation reveals durable new context later, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

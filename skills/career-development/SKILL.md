@@ -2,7 +2,7 @@
 name: career-development
 description: Helps engineering managers support direct report growth — produces a stage-by-stage model of engineering impact (Circles of Influence), a framework for non-linear career planning (Tarzan Method), diagnostic signals for stalled growth, conversation scripts for career talks, and a promotion readiness vs. timing distinction. Use when the user says "career growth," "promotion," "career path," "this person wants to grow," "career conversation," "what's next for this person," "career ladder," "IC vs manager track," "how do I help my report advance," "help someone grow," or "engineer wants a promotion." Do NOT use for formal written performance reviews or underperformance — use performance-reviews instead.
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Career Development
@@ -14,7 +14,11 @@ Check for EM context first:
 2. If a person is mentioned, look for `.agents/reports/[name].md` — it may contain their level, goals, and growth history
 3. Use that context — only ask for information not already covered
 
-If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
+If `.agents/em-context.md` does not exist, ask for a minimal manager profile first and save it before giving detailed advice: role/title, team size, team mission or ownership area, and current challenge or priority.
+
+If a specific person is central to the conversation and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person first and save it before giving detailed advice: title/level, tenure, strengths, and current challenge or growth area.
+
+If the conversation reveals durable new context later, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

@@ -2,7 +2,7 @@
 name: feedback
 description: Covers both giving and getting feedback — structures and scripts feedback conversations (positive, constructive, or behavioral) and provides techniques for drawing honest feedback from your own team. Produces SBI-framed feedback statements, opening lines for hard conversations, scripts for real situations, ways to handle resistance, and methods for extracting real feedback from reports. Use when the user wants to give someone feedback, says "how do I tell someone," "this person is struggling," "address a behavior," "hard conversation," "someone is underperforming," "praise this person," "write feedback for," "I need to say something," "difficult conversation," "get feedback from my team," "my team won't give me feedback," "blind spots," or "what does my team think of me." Do NOT use for formal annual or performance reviews (use performance-reviews) or sensitive HR situations that go beyond feedback (use difficult-situations).
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Feedback
@@ -14,7 +14,11 @@ Check for EM context first:
 2. If a person is mentioned, look for `.agents/reports/[name].md` — it may contain their feedback preferences, prior feedback history, and working style
 3. Use that context — only ask for information not already covered
 
-If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
+If `.agents/em-context.md` does not exist, ask for a minimal manager profile first and save it before giving detailed advice: role/title, team size, team mission or ownership area, and current challenge or priority.
+
+If a specific person is central to the conversation and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person first and save it before giving detailed advice: title/level, tenure, strengths, and current challenge or growth area.
+
+If the conversation reveals durable new context later, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

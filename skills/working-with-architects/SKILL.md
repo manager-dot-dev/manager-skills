@@ -2,7 +2,7 @@
 name: working-with-architects
 description: Helps engineering managers work effectively with Software Architects, Staff Engineers, and Principal Engineers — covers the EM's side of the relationship (responsiveness, proactive consultation, giving credit), how to advocate for architect time, pre-consultation preparation, and the two architecture team models (Centralized vs. Decentralized). Use when the user says "architect," "staff engineer," "principal engineer," "technical design review," "working with senior technical people," "getting architecture help," or "how do I get more architect time." Do NOT use for managing staff/principal engineers who report directly to you (use `managing-high-performers` or `delegation`).
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Working With Architects
@@ -11,7 +11,11 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
-If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
+If `.agents/em-context.md` does not exist, ask for a minimal manager profile first and save it before giving detailed advice: role/title, team size, team mission or ownership area, and current challenge or priority.
+
+If a specific person is central to the conversation and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person first and save it before giving detailed advice: title/level, tenure, strengths, and current challenge or growth area.
+
+If the conversation reveals durable new context later, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

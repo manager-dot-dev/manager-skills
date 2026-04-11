@@ -2,7 +2,7 @@
 name: roadmap-planning
 description: Helps engineering managers plan roadmaps, prioritize work, and communicate priorities effectively — produces the 20% tech debt framework (and its 5 traps), a phased release pressure-test, a maintenance cost model, the Always Green delivery method, sprint anti-patterns, hidden costs of custom features, a critical deadline playbook, the Iron Law of Projects with reference-class forecasting, a "no technical projects" framing, and feature factory warning signs. Use when the user says "roadmap," "quarterly planning," "OKRs," "prioritization," "what should we work on," "planning cycle," "backlog grooming," "stakeholder alignment," "capacity planning," "technical debt," "we're always late," or "leadership doesn't understand engineering work."
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Roadmap Planning
@@ -11,7 +11,11 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
-If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
+If `.agents/em-context.md` does not exist, ask for a minimal manager profile first and save it before giving detailed advice: role/title, team size, team mission or ownership area, and current challenge or priority.
+
+If a specific person is central to the conversation and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person first and save it before giving detailed advice: title/level, tenure, strengths, and current challenge or growth area.
+
+If the conversation reveals durable new context later, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

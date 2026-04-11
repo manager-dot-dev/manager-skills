@@ -2,7 +2,7 @@
 name: team-health
 description: Helps engineering managers assess and improve team health across morale, cohesion, delivery culture, and engagement — produces Google's 5 Factors (Project Aristotle), a 4-state team health diagnosis (Falling Behind / Treading Water / Repaying Debt / Innovating), a 5-zone intensity model, the Engagement Stack, the Trust Battery, Teamicide patterns (Peopleware), a blameless postmortem format, and a library of team activities organized by driver. Use when the user says "team morale," "team is struggling," "burnout," "engagement," "attrition risk," "psychological safety," "team dynamics," "something feels off," "team culture," "team is unhappy," "retros aren't working," "team isn't working hard enough," "ideas for team activities," or "how do I run a team offsite." Do NOT use for individual performance concerns (use `managing-high-performers`), team staffing or hiring (use `team-composition`), or individual motivation interventions (use `engineer-motivation`).
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Team Health
@@ -11,7 +11,11 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
-If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
+If `.agents/em-context.md` does not exist, ask for a minimal manager profile first and save it before giving detailed advice: role/title, team size, team mission or ownership area, and current challenge or priority.
+
+If a specific person is central to the conversation and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person first and save it before giving detailed advice: title/level, tenure, strengths, and current challenge or growth area.
+
+If the conversation reveals durable new context later, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style

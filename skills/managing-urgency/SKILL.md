@@ -2,7 +2,7 @@
 name: managing-urgency
 description: Helps engineering managers respond to high-urgency requests and use deadlines effectively — produces a five-question framework for evaluating unreasonable deadlines, guidance on scope/staffing/intensity decisions under pressure, Parkinson's Law applied to engineering, and five common deadline mistakes to avoid. Use when the user says "urgent deadline," "everything is on fire," "we need to ship fast," "fake deadline," "unreasonable timeline," "crisis mode," "working weekends," "Parkinson's Law," or "leadership is pushing for faster delivery."
 metadata:
-  version: 2.1.1
+  version: 2.1.2
 ---
 
 # Managing Urgency
@@ -11,7 +11,11 @@ metadata:
 
 Check for EM context first. If `.agents/em-context.md` exists, read it.
 
-If the conversation reveals durable new context about the team or a specific person, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
+If `.agents/em-context.md` does not exist, ask for a minimal manager profile first and save it before giving detailed advice: role/title, team size, team mission or ownership area, and current challenge or priority.
+
+If a specific person is central to the conversation and `.agents/reports/[name].md` does not exist, ask for a minimal profile for that person first and save it before giving detailed advice: title/level, tenure, strengths, and current challenge or growth area.
+
+If the conversation reveals durable new context later, update `.agents/em-context.md` or `.agents/reports/[name].md` automatically. Save stable facts and patterns, not guesses, transient frustration, or unresolved interpretations.
 ---
 
 ## Response Style
