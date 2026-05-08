@@ -1,345 +1,369 @@
 ---
 name: em-grid-scorer
-description: Score an Engineering Manager's coverage across all 12 cells of the EM Grid based on their calendar. Use this skill whenever someone wants to understand where they're spending their management energy, find blind spots, get a weekly or monthly self-reflection on their EM focus, or hear phrases like "score my EM grid", "where am I spending time as a manager", "what are my blind spots", "analyze my calendar as EM", "which EM areas am I neglecting", "how balanced is my management focus", or "check my EM grid coverage". Always pull live calendar data — do not ask the user to describe their week manually.
+description: Score an Engineering Manager's coverage across all 12 cells of the EM Grid based on their calendar and Slack. Use this skill whenever someone wants to understand where they're spending their management energy, find blind spots, get a monthly self-reflection on their EM focus, or hear phrases like "score my EM grid", "where am I spending time as a manager", "what are my blind spots", "analyze my calendar as EM", "which EM areas am I neglecting", "how balanced is my management focus", or "check my EM grid coverage". Always pull live calendar data — never ask the user to describe their week manually.
 ---
 
 # EM Grid Scorer
 
-You are helping an Engineering Manager score their coverage across the EM Grid — a 4×3 framework of management scope (Self / People / Team / Org) against driver (Growth / Impact / Connection) — and identify which of the 12 areas they are neglecting.
+You are helping an Engineering Manager score their coverage across the EM Grid — a 4×3 framework of management scope (Self / People / Team / Org) against driver (Growth / Impact / Connection) — and surface which of the 12 areas they are neglecting.
 
-The goal is a rigorous, honest, actionable assessment. Do not be vague or encouraging for its own sake. The EM is a professional who wants to know the truth.
-
----
-
-## Step 1: Gather Calendar Data
-
-Use the calendar MCP tools:
-1. Call `list_calendars` to see available calendars
-2. Call `list_events` for **the last 14 days** across all calendars that look work-related (skip personal, holiday, or birthday calendars)
-3. Pull all events that are: duration > 5 minutes, not marked as "free", not all-day blocks
-
-Then ask the user one short question before proceeding:
-
-> "I've pulled your last 2 weeks of calendar events. Before I score, do you want to add any context about work that doesn't show on your calendar — async Slack conversations, informal hallway chats, things you did but didn't calendar? A few bullet points is fine, or skip it. Note: **without Slack data, scores in Self×Connection, People×Connection, and Org×Connection may be underestimated**, since those often happen in messages rather than meetings."
-
-Wait for their response (even "skip it" is valid), then proceed.
+The goal is a rigorous, honest, data-driven assessment. Do not be vague or encouraging for its own sake. The EM wants to know the truth about where their time actually goes.
 
 ---
 
-## Step 2: Classify Each Calendar Event
+## Step 0: Prerequisites
 
-For each event, determine:
-- **Which scope** (Self / People / Team / Org) — based primarily on WHO was in the meeting
-- **Which driver** (Growth / Impact / Connection) — based primarily on WHY the meeting happened
-- **Duration in minutes** — this is your weight
+### Calendar MCP — required
 
-### Scope rules (attendees are the clearest signal):
+Before doing anything else, verify the calendar MCP is available by calling `list_calendars`. If it fails or returns nothing, stop immediately and explain:
 
-| Attendees | Likely scope |
+> "This skill needs access to your calendar to work — without it, we're just guessing. The whole point is to see what you actually did, not what you remember doing. Self-reported data is heavily biased.
+>
+> Please connect your Google Calendar (or equivalent) via the Calendar MCP, then come back and I'll run the full analysis."
+
+Do not proceed without calendar access.
+
+### Slack MCP — strongly recommended
+
+Check if a Slack MCP is available. If it is, proceed with Slack data collection in Step 3. If it is not connected, say:
+
+> "I don't see a Slack integration. I strongly recommend connecting one — calendar only captures scheduled meetings, but a big portion of your management work happens async: feedback in DMs, cross-team connections, recognizing people, sharing knowledge. Without Slack, scores for People×Connection, Org×Connection, and Self×Growth will likely be underestimated.
+>
+> You can still proceed with calendar-only, but the picture will be incomplete — especially for the connection-type cells. Connect Slack when you can for a more accurate read."
+
+Continue either way — but flag the gap in the final output if Slack is missing.
+
+### Time window
+
+Default to the **last 30 days**. Do not ask the user to choose — just use 30 days and state it upfront. Only deviate if the user explicitly asks for a different period.
+
+30 days is the right window because: some important activities (team focus days, cross-team projects, org-level work) are infrequent enough that 2 weeks would miss them entirely and make those cells look empty when they aren't.
+
+---
+
+## Step 1: Load Role Context
+
+Before classifying anything, you need to understand who this person manages. Classification is meaningless without it — a 1:1 with a direct report who manages 5 engineers themselves is very different from a 1:1 with an IC.
+
+**Check em-context first.** Read `.agents/em-context.md` if it exists. Extract:
+- Number of direct reports
+- Whether any direct reports are themselves managers (manager of managers = MoM)
+- Team size (total engineers, including indirect)
+- The EM's own level/title if mentioned
+
+**If em-context doesn't exist or doesn't have this information**, do not ask the user a long list of questions. Ask exactly one thing:
+
+> "Quick context before I analyze: how many people do you directly manage, and are any of them managers themselves?"
+
+Use the answer to calibrate classification throughout. Do not ask anything else manually.
+
+**How role context affects classification:**
+- **Manager of managers:** Their 1:1s are likely with other EMs → scope shifts from People×Growth to Org×Growth. Their Team×Impact may be indirect (through their reports' teams).
+- **Large team (6+):** Having only 2 1:1s per week looks thin. Having 8 looks appropriate.
+- **Small team (2-3):** Higher expected % of time in Team×Impact and Team×Connection relative to Org.
+- **Director/Senior EM:** Org×Impact and Org×Growth are more expected; lower Team×Connection involvement is normal.
+
+---
+
+## Step 2: Gather and Process Calendar Data Efficiently
+
+### Fetch events
+
+Call `list_calendars` to identify work-relevant calendars (skip personal, holiday, birthday). Then call `list_events` for the last 30 days across those calendars.
+
+Filter out:
+- All-day events (holidays, OOO, reminders)
+- Events the user declined
+- Events marked as "free"
+- Events under 5 minutes
+
+### Deduplicate recurring events — critical for efficiency
+
+A month of calendar data can contain 150–250 raw events, but most EMs have highly repetitive calendars. Do not classify each event individually. Instead:
+
+1. **Normalize titles** by stripping variable parts: names, dates, sprint numbers, ticket IDs
+   - "1:1 with Alice", "1:1 with Bob", "1:1 - Carol" → all become `1:1 (direct report)` if those names are direct reports
+   - "Sprint 42 Planning", "Sprint 43 Planning" → `Sprint Planning`
+   - "Sync with [external person]" → `External Sync`
+
+2. **Group by normalized title + attendee pattern** (solo / 1:1-with-report / whole-team / cross-team / external)
+
+3. **Classify each unique group once**, then multiply by the number of occurrences and total duration
+
+4. This reduces 200 raw events to roughly 20–40 unique patterns — classify those, not 200 individual rows
+
+### Cross-reference attendees
+
+For accurate scope assignment, compare event attendees against:
+- Direct reports (from em-context or Step 1 answer)
+- The EM's own manager (if known from em-context)
+- Email domains: same company domain = internal, different = external
+
+This determines whether a meeting is Self / People / Team / Org scope — don't guess from title alone when attendee data is available.
+
+---
+
+## Step 3: Gather Slack Data (if available)
+
+The goal is classification signal, not a comprehensive audit. Do not read every message. Use this efficient extraction protocol.
+
+### Phase 1 — Channel landscape (~5 calls)
+
+1. `conversations.list` (type: member) → get all channels/groups the user is a member of
+2. Categorize each channel:
+   - **Team channel**: contains your team name, engineering team, or your direct reports are the primary members
+   - **Cross-team channel**: engineering-adjacent channels with people from other teams
+   - **Leadership/exec channel**: management-only, exec comms, leadership sync
+   - **Company-wide**: all-hands, announcements, social, random, general
+3. For each channel, note: does the user post here, or just read?
+
+### Phase 2 — Activity distribution (~10 calls)
+
+4. For each channel category, get the user's message count in the last 30 days (use `conversations.history` with pagination, count only messages authored by the user — do NOT load full content yet)
+5. List DM conversations active in last 30 days (`conversations.list` type: im) → get the partner's display name or ID for each
+6. Cross-reference DM partners against the direct reports list from em-context: split into "DMs with direct reports" vs "DMs with others"
+
+### Phase 3 — Targeted content sampling (~10–15 calls)
+
+7. For the **team channel**: fetch the user's 20 most recent messages. Look for: social/personal content (celebrations, check-ins, GIFs, reactions) vs task/delivery content
+8. For **cross-team channels where user is active**: fetch user's 15 most recent messages. Look for: relationship-building vs technical collaboration vs business/impact language
+9. For **DMs with direct reports**: fetch last 10 messages per report in the last 30 days. Look for: developmental content ("what do you want to work on", sharing resources, feedback patterns) vs operational content (task updates, blockers)
+10. For **DMs with non-reports**: note who they are (cross-dept peers, leadership, external) and check for relationship-building signals
+11. Count reactions the user has **given** in the last 30 days (especially ❤️ 🎉 👏 in team/people channels — this is a People×Connection signal)
+
+### What Slack data maps to
+
+| Slack signal | Grid cell |
+|---|---|
+| DMs with direct reports that are personal, supportive, or developmental | People×Connection or People×Growth |
+| Social/celebratory messages in team channel | Team×Connection |
+| Messages in leadership/exec channels with business language | Org×Impact |
+| Messages or DMs with cross-dept people (not task-related) | Org×Connection |
+| User sharing articles, learning content, asking technical questions | Self×Growth |
+| Reactions given to direct reports (❤️ 🎉 👏) | People×Connection |
+| Cross-team channel activity with technical substance | Org×Growth |
+
+Do not try to classify individual messages — classify the **pattern** across each channel type.
+
+---
+
+## Step 4: Classify Each Event Group
+
+For each unique event pattern from Step 2, determine:
+- **Scope** (Self / People / Team / Org) — from attendees
+- **Driver** (Growth / Impact / Connection) — from purpose
+- **Total minutes** = duration × occurrence count
+
+### Scope rules — attendees are the clearest signal
+
+| Attendees | Scope |
 |---|---|
 | No attendees / blocked solo time | Self |
-| 1:1 with your direct manager or skip-level | Self (you are the learner/receiver) |
+| 1:1 with your own manager or skip-level | Self |
 | 1:1 with a direct report | People |
-| Whole team or most of your team | Team |
+| Whole team or majority of team present | Team |
 | Your team + people from other teams | Org |
-| Entirely outside your team (other depts, customers, execs) | Org |
-| Hiring interviews (any team) | People |
+| Entirely outside your team (other depts, execs, customers) | Org |
+| Hiring interviews | People |
 
-### Driver rules (purpose is the key signal):
+### Driver rules — purpose is the key signal
 
 | Purpose | Driver |
 |---|---|
-| Building capabilities, learning, developing for the future | Growth |
+| Building capabilities, learning, developing skills for the future | Growth |
 | Producing results, shipping, moving metrics, unblocking delivery | Impact |
-| Building relationships, belonging, being seen as a human | Connection |
+| Building relationships, belonging, being seen and appreciated | Connection |
 
 ### The 12 cells — detailed definitions
 
-Read these carefully. They are the classification engine. When in doubt, re-read the relevant cell.
+These are the classification engine. Read the relevant cell when a meeting is ambiguous.
 
 ---
 
-#### SELF × GROWTH
-**What it is:** Time you invest in developing yourself — your skills, knowledge, and capabilities as a leader and practitioner. You are the student here. This is future-oriented; the payoff may not be immediate.
+**SELF × GROWTH**
+Time you invest developing yourself as a leader and practitioner. You are the student.
 
-**Counts as this cell:**
-- Hands-on coding, building internal tools, experimenting with AI coding tools (Cursor, Claude Code), no-code tools, or automation — even if small
-- Taking courses, watching technical talks, reading books or newsletters about management, engineering, or your industry
-- Attending conferences or meetups with a learning intent
-- Receiving coaching or mentorship (you are the mentee)
-- Experimenting with new methodologies, mental models, or frameworks for yourself
-- Career planning sessions where your manager helps you think through your growth
-- Deliberate self-reflection time: journaling about your management practice, reviewing past decisions to learn from them
-- 1:1s with your own manager where the agenda is YOUR development
+Counts: coding/building with AI tools, taking courses, watching technical talks, reading books/newsletters, receiving coaching or mentorship, experimenting with new methodologies, career planning sessions with your own manager, deliberate self-reflection time.
 
-**Does NOT count:** Consuming news passively, administrative tasks, doing work (even technical work) that is primarily about delivery rather than learning.
+Does NOT count: news consumption, admin tasks, technical work done primarily for delivery (not learning).
 
-**Calendar undercount risk:** HIGH. Reading, online courses, and async learning almost never appear on calendars. If the user mentions any of this in their optional context, add it in.
+Calendar undercount risk: HIGH — reading and async learning almost never appear on calendars.
 
 ---
 
-#### SELF × IMPACT
-**What it is:** Time you spend personally producing something of value — not through your team, but through your own direct contribution. This is you doing, not managing.
+**SELF × IMPACT**
+Time you personally produce something of value — not through your team, but by your own direct contribution.
 
-**Counts as this cell:**
-- Deep work blocks where you write strategy documents, engineering proposals, RFCs, or post-mortems that actually get read and used
-- Writing performance reviews, promotion cases, or hiring scorecards (direct output you produce)
-- Building something yourself that gets used: a dashboard, an internal tool, an automation, a script
-- Making a key architectural or technical decision on your own
-- Personally firefighting a critical incident — hands on keyboard, not just coordinating
-- Creating processes, templates, or frameworks that other people adopt
-- Preparing and delivering presentations to senior leadership that land impact
-- Running a proof of concept or experiment yourself
+Counts: deep work blocks producing strategy docs/RFCs/post-mortems, writing performance reviews or promotion cases, building internal tools/dashboards/automations yourself, making key architectural decisions solo, personal firefighting (hands on keyboard), preparing impactful presentations for leadership.
 
-**Does NOT count:** Meetings where you facilitate but others produce the output. Administrative busy-work. Reading or learning (that's Self×Growth).
+Does NOT count: facilitating meetings where others produce the output, admin busy-work.
 
-**Calendar undercount risk:** MODERATE. Deep work blocks often get calendared ("Focus Time", "No meetings"), but many EMs do this work in fragments between meetings without blocking time.
+Calendar undercount risk: MODERATE — deep work often happens in fragments between meetings.
 
 ---
 
-#### SELF × CONNECTION
-**What it is:** Building YOUR professional network beyond your current company and team — relationships that benefit your career and your perspective, not just your team's positioning.
+**SELF × CONNECTION**
+Building YOUR professional network outside your current company — relationships that benefit your career and perspective.
 
-**Counts as this cell:**
-- Coffee chats or calls with peers at other companies
-- Maintaining relationships with former colleagues in a professional capacity
-- Attending industry events with a networking intent
-- Building a relationship with a professional mentor or sponsor outside your company
-- Writing publicly (LinkedIn, blog, newsletter) to build your professional presence and community
-- Participating in professional communities (Slack groups, forums, Discord servers) in a meaningful way
+Counts: calls with peers at other companies, maintaining former-colleague relationships professionally, attending industry events to network, writing publicly (LinkedIn, blog, newsletter), participating in professional communities.
 
-**Does NOT count:** Internal company networking (that's Org×Connection). Coffee chats with people in your own org. LinkedIn scrolling with no engagement.
+Does NOT count: internal company networking (that's Org×Connection).
 
-**Calendar undercount risk:** VERY HIGH. Most professional networking happens async (LinkedIn messages, email, DMs) or in informal settings that are not calendared.
+Calendar undercount risk: VERY HIGH — external professional networking is almost never calendared.
 
 ---
 
-#### PEOPLE × GROWTH
-**What it is:** Deliberately investing in the development of your direct reports — their careers, their skills, their next level. This is intentional and forward-looking, not just day-to-day task management.
+**PEOPLE × GROWTH**
+Deliberately developing your direct reports — their careers, skills, and next level. Intentional and forward-looking, not task management.
 
-**Counts as this cell:**
-- 1:1s where you explicitly discuss the engineer's career goals, growth plan, next role, or skills to develop — NOT just "what are you working on?"
-- Writing or preparing promotion cases, calibration documents, or lobbying for your engineers in performance conversations
-- Giving meaningful developmental feedback: identifying patterns in someone's behavior, not just reacting to one incident
-- Intentionally delegating a stretch assignment to an engineer because it will help them grow — and then following up on it
-- Helping an engineer prepare for a talk, write a technical article, lead a project, or take on a new responsibility
-- Setting up shadowing, team-switching, or pairing opportunities
-- Matching work to the engineer's driver type (assigning an impact-driven person to a customer-facing task, etc.)
-- Hiring conversations and interviews — you are building team capability
-- Having the explicit career conversation: "Where do you want to be in 3 years?"
+Counts: 1:1s where you explicitly discuss career goals, growth plan, or next role; writing/preparing promotion cases; giving meaningful developmental feedback (pattern-level, not incident-level); delegating stretch assignments intentionally; helping an engineer prepare a talk, article, or new responsibility; setting up shadowing or team-switching; matching work to driver type; hiring interviews; explicit career conversations.
 
-**Does NOT count:** 1:1s that are purely status updates or task check-ins. Those are closer to Team×Impact. A 1:1 without a development agenda is not People×Growth, no matter how long it is.
+Does NOT count: 1:1s that are purely task status updates. A 1:1 without a development agenda is not People×Growth regardless of length.
 
-**Scoring note:** If the user has 1:1s on the calendar but doesn't know what they covered, default to classifying them as People×Growth (since that's what 1:1s should be). But note the caveat.
+Scoring note for MoM: if their direct reports are other managers, People×Growth includes coaching those managers on their own leadership, not just IC development.
 
 ---
 
-#### PEOPLE × IMPACT
-**What it is:** Actively helping your engineers understand, connect with, and contribute to real business outcomes — not just shipping code, but shipping things that matter and are recognized.
+**PEOPLE × IMPACT**
+Helping your engineers connect with and contribute to real business outcomes — not just shipping code, but shipping things that matter and get noticed.
 
-**Counts as this cell:**
-- Inviting an engineer to a customer call, a business review, or a stakeholder meeting where they can see real impact
-- Sharing product metrics, usage data, or business context with an engineer in a 1:1 or small group
-- Making sure an engineer understands WHY they are building what they are building, not just the spec
-- Giving an engineer the opportunity to present their shipped work to leadership or other departments
-- Helping an engineer write a compelling announcement for their feature
-- Advocating for an engineer's work to be used, adopted, or noticed by the business
-- Bringing business stakeholders to talk directly to the team about what they need
-- Flying or sending engineers to meet customers or see the product in use in the real world
+Counts: inviting engineers to customer calls or business reviews; sharing product metrics/usage data in 1:1s; explaining WHY they're building something (not just the spec); giving engineers the chance to present shipped work to leadership; helping them write compelling announcements; bringing business stakeholders to talk to the team.
 
-**Does NOT count:** Pure delivery management (that's Team×Impact). Engineers being CC'd on a meeting passively without real engagement.
+Does NOT count: pure delivery management (Team×Impact). Engineers passively CC'd on a meeting.
 
 ---
 
-#### PEOPLE × CONNECTION
-**What it is:** The personal relationship layer — knowing your engineers as human beings, making them feel genuinely seen, appreciated, and psychologically safe. This is about the individual, not the team as a whole.
+**PEOPLE × CONNECTION**
+The personal relationship layer — knowing engineers as human beings, making them feel genuinely seen and psychologically safe.
 
-**Counts as this cell:**
-- Asking about family, life events, hobbies — and actually remembering and following up next time
-- Recognizing an engineer's contribution publicly or privately in a genuine, specific way (not a generic "great job")
-- Proactively noticing when someone seems off, burned out, or disengaged, and checking in with care
-- Salary conversations and advocating for fair, competitive compensation (deeply connected to feeling valued)
-- Being a safe space: an engineer brings you something personal or vulnerable, and you handle it well
-- Casual, timely standup-style feedback that feels like coaching from a coach who respects them, not management
-- Celebrating life events: promotions, birthdays, babies, personal milestones
-- Letting engineers announce good news themselves (not stealing their thunder)
+Counts: asking about family, life events, hobbies and remembering; specific genuine recognition (not "great job" but what exactly); proactively noticing when someone seems off; salary conversations and compensation advocacy; being a safe space for personal or vulnerable topics; casual timely standup-style feedback delivered with respect; celebrating life events; letting engineers announce good news themselves.
 
-**Does NOT count:** Team social events (Team×Connection). Appreciation that is purely performative or part of a process.
+Does NOT count: team social events (Team×Connection). Purely performative appreciation.
 
-**Calendar undercount risk:** HIGH. Most of this happens in the last 5 minutes of a 1:1, in Slack messages, or in informal hallway conversations.
+Calendar undercount risk: HIGH — most happens in the last 5 minutes of a 1:1, in DMs, or informally.
 
 ---
 
-#### TEAM × GROWTH
-**What it is:** Building the collective capability of the team — closing skill gaps, growing technical maturity, and learning together as a unit.
+**TEAM × GROWTH**
+Building the collective capability of the team — closing skill gaps, growing technical maturity, learning together.
 
-**Counts as this cell:**
-- Doing knowledge mapping: systematically assessing who knows what, finding bus factor risks, identifying skill gaps across the team
-- Organizing or facilitating technical talks, learning sessions, or L&D time for the whole team
-- Post-mortem deep dives where the team learns from failures together — not just documents the incident
-- Leading or facilitating a retrospective that results in real behavior change
-- Open source work done as a team
-- Hackathons or AI tools days with a learning goal
-- Technical guild meetings, architecture reviews that involve the whole team
-- Bringing in external speakers (technical, industry) for the team
-- Introducing and running a new methodology or engineering practice (TDD, pair programming, etc.)
-- Cross-team knowledge exchanges where your team is the student
+Counts: knowledge mapping (who knows what, bus factor risks); organizing technical talks or L&D sessions for the team; post-mortem deep dives where the team actually learns; retrospectives that cause real behavior change; open source work as a team; AI tools days, hackathons with learning goals; architecture reviews involving the whole team; introducing new engineering practices.
 
-**Does NOT count:** Sprint planning or delivery standups (Team×Impact). Team social events (Team×Connection).
+Does NOT count: sprint planning or delivery standups (Team×Impact). Team social events (Team×Connection).
 
 ---
 
-#### TEAM × IMPACT
-**What it is:** The delivery engine — making sure the team consistently executes, ships on time, and produces real value. This is the core operational responsibility most EMs default to.
+**TEAM × IMPACT**
+The delivery engine — the team consistently executes, ships on time, and produces real value.
 
-**Counts as this cell:**
-- Sprint planning and goal-setting, especially using the "always green" approach (setting minimal, confident goals you're certain to hit)
-- Sprint reviews, sprint demos, and showcasing shipped work
-- Daily standups focused on delivery, blockers, and progress — not as a social ritual
-- Roadmap planning and prioritization with PM
-- Actively removing blockers: escalating dependencies, clearing ambiguity, pulling people off non-goal tasks
-- Monitoring feature adoption after releases: checking if what shipped is actually being used
-- Incident management and resolution — coordinating the team through production issues
-- Making sure technical debt is on the roadmap with a business justification, not just a wish
-- Working with PM to scope down features to protect the team's ability to deliver
-- Tracking and reporting on team delivery metrics to stakeholders
+Counts: sprint planning and goal-setting (especially "always green" — minimal confident goals); sprint reviews and demos; daily standups focused on blockers and delivery; roadmap planning and prioritization with PM; actively removing blockers; monitoring feature adoption after releases; incident coordination; getting technical debt onto the roadmap with business justification; working with PM to scope down for reliable delivery.
 
-**Does NOT count:** 1:1s (even delivery-focused ones). Team social activities.
+Does NOT count: 1:1s (even delivery-focused ones). Social activities.
 
 ---
 
-#### TEAM × CONNECTION
-**What it is:** Building the team's bonds, trust, psychological safety, and identity as a unit — the social fabric that makes people want to work together.
+**TEAM × CONNECTION**
+Building the team's bonds, trust, psychological safety, and identity as a unit.
 
-**Counts as this cell:**
-- Team meetings that go beyond task updates: sharing context, learning about each other, having real discussions about work culture
-- Team focus days, offsites, or half-days — in person or remote
-- Social activities: games, cooking challenges, team lunches, volunteering events
-- "Personal talks" where engineers present something they care about (not a technical topic)
-- Celebrating shipped work together as a group
-- Hackathons with a fun/playful theme (not just learning-focused)
-- Team memory walls, shared humor channels, photo collections
-- Team retrospectives that explicitly focus on team dynamics and how people work together
+Counts: team meetings with genuine sharing and discussion (not just task updates); team focus days or offsites; social activities (games, lunches, volunteering); personal talks where engineers share something they care about; celebrating shipped work together; playful hackathons; team memory walls, shared humor channels.
 
-**Does NOT count:** Task-update standups. Focus days that are purely work sprints with no social component.
+Does NOT count: task-update standups. Focus days that are purely work sprints.
 
 ---
 
-#### ORG × GROWTH
-**What it is:** Your contribution to building the broader organization's capabilities — initiatives and efforts that outlast your team and develop the org as a whole.
+**ORG × GROWTH**
+Your contribution to building the broader organization's capabilities — things that outlast your team.
 
-**Counts as this cell:**
-- Leading or significantly contributing to a cross-team technical initiative (not just attending)
-- Participating in hiring panels for roles outside your team
-- Mentoring someone who is not your direct report
-- Contributing to org-wide processes: onboarding programs, career ladders, performance frameworks, engineering standards
-- Participating in internal communities of practice or guilds as a leader, not just a member
-- Speaking at an internal all-hands, tech talk, or company event to share knowledge
-- Leading cross-functional working groups or task forces
-- Helping another team's EM think through a problem (informal cross-team coaching)
+Counts: leading or significantly contributing to cross-team technical initiatives; hiring panels for roles outside your team; mentoring people who are not your direct reports; contributing to org-wide processes (onboarding, career ladders, engineering standards); leading internal guilds or communities of practice; speaking at internal all-hands or tech talks; helping another EM think through a problem.
 
-**Does NOT count:** Your own team's technical work. Attending (but not contributing to) org-wide meetings.
+Does NOT count: your own team's technical work. Attending (but not contributing to) org-wide meetings.
 
 ---
 
-#### ORG × IMPACT
-**What it is:** Making your team and yourself visible, trusted, and impactful at the organizational level — influencing decisions and outcomes beyond your team's boundaries.
+**ORG × IMPACT**
+Making your team and yourself visible, trusted, and impactful beyond your team's boundaries.
 
-**Counts as this cell:**
-- Regular touchpoints with stakeholders outside engineering: product leadership, business ops, customer success, support, finance, HR
-- Proactively helping another department achieve their goals (helping support with tooling, helping finance with a tracking problem, training CS on your product)
-- Presenting your team's results or roadmap to senior leadership
-- Working with your PM to get technical work defended in roadmap conversations with execs
-- Cross-functional projects that move company-wide needles, where you are a decision-maker
-- Speaking in business terms (ROI, gross margin, retention, churn) with senior leaders
-- Being part of organizational decisions: reorgs, hiring plans, strategy discussions
-- Building trust at the 3rd level: actively helping stakeholders achieve THEIR goals, not just your team's
+Counts: regular touchpoints with stakeholders outside engineering (product, CS, support, finance, HR); proactively helping other departments achieve their goals; presenting team results to senior leadership; getting technical work defended in roadmap conversations; cross-functional projects where you are a decision-maker; speaking in business terms (ROI, retention, churn) with leaders; being part of org-level decisions.
 
-**Does NOT count:** Internal team delivery work. Attending a stakeholder meeting passively without contributing.
+Does NOT count: internal team delivery work. Attending stakeholder meetings passively.
 
 ---
 
-#### ORG × CONNECTION
-**What it is:** Being known and liked across the organization — building relationships with people outside your team so that you have goodwill, context, and allies when you need them.
+**ORG × CONNECTION**
+Being known and liked across the organization — building goodwill and allies beyond your team.
 
-**Counts as this cell:**
-- The "new person rule" — intentionally meeting someone new in the company each week (coffee chat, Zoom call)
-- Cross-department informal 1:1s: grabbing coffee or a quick call with someone in finance, support, marketing, HR, etc.
-- Responding to, commenting on, or following up after announcements from other teams
-- Participating genuinely in company-wide social events — not just showing up, but engaging
-- Remembering and following up on personal things you learned about colleagues in other teams
-- DMs or Slack messages where you reach out to someone you don't know well just to connect
-- Volunteering for company events that bring people together
+Counts: the "new person rule" (intentional coffee chat with someone new each week); cross-department informal 1:1s; engaging with announcements from other teams; participating genuinely in company-wide social events; following up on personal things learned about colleagues in other teams; proactive DMs to people you don't know well.
 
-**Does NOT count:** Building your own professional network (Self×Connection). Stakeholder management with an impact agenda (Org×Impact).
+Does NOT count: building your own external professional network (Self×Connection). Stakeholder management with a business agenda (Org×Impact).
 
-**Calendar undercount risk:** VERY HIGH. Almost all Org×Connection happens in Slack, in the hallway, or in informal DMs — almost never on a calendar.
+Calendar undercount risk: VERY HIGH — almost all Org×Connection happens in Slack or informal conversations.
 
 ---
 
-## Step 3: Score Each Cell
+## Step 5: Score Each Cell
 
-For each cell, calculate:
+**Raw minutes:** total duration of all classified events in that cell (split duration proportionally when an event covers two cells)
 
-**Raw minutes:** Total duration of all classified events (split duration proportionally if an event spans two cells)
-
-**Calendar coverage flag:**
-- Cells with HIGH/VERY HIGH calendar undercount risk: add a ⚠️ next to the score to signal the calendar alone may significantly understate real activity
-- These cells are: Self×Growth, Self×Connection, People×Connection, Org×Connection, and (moderately) Self×Impact
+**Add Slack signal:** for cells where Slack data revealed meaningful activity not on the calendar, add an estimated 30–90 minutes per week (120–360 minutes per month) per cell, based on how active the pattern appeared. Be conservative.
 
 **Normalized score (0–10):**
-- Find the cell with the most raw minutes → that becomes 10
-- All others scale proportionally: score = (cell_minutes / max_minutes) × 10, rounded to nearest 0.5
-- If a cell has 0 minutes AND the user provided no additional context about it: score = 0
-- If the user mentioned uncalendared activity in that cell, add 1–2 points to the raw estimate before normalizing
+- Find the cell with the most total minutes → that becomes 10
+- All others: `score = (cell_minutes / max_minutes) × 10`, rounded to nearest 0.5
+- Cell with 0 minutes and no Slack signal: score = 0
 
 **Quality adjustment (±1 point):**
-- 1:1s that the user or context suggests are mostly task-tracking (not development): adjust People×Growth down by 1
-- Standups that are clearly just status updates: adjust Team×Impact down by 0.5 (they're operational noise, not real delivery leadership)
-- Any cell where the user explicitly mentioned high-quality, intentional work in their optional context: adjust up by 1
+- 1:1s that appear to be pure task check-ins (no developmental signal in Slack DMs either): adjust People×Growth down by 1
+- Standups that are clearly just status-read-outs: adjust Team×Impact down by 0.5
+- Any cell with clear high-quality intentional activity (e.g. Slack shows consistent developmental DMs): adjust up by 1
+
+**Flag cells with undercount risk:** add ⚠️ to cells where calendar likely misses real activity (Self×Growth, Self×Connection, People×Connection, Org×Connection)
 
 ---
 
-## Step 4: Output the Scored Grid
+## Step 6: Output
 
-Present the grid as a clean table:
+### Grid table
 
 ```
-## Your EM Grid — Last 2 Weeks
+## Your EM Grid — Last 30 Days
 
 |  | Growth | Impact | Connection |
 |---|---|---|---|
-| **Self** | X/10 | X/10 ⚠️ | X/10 ⚠️ |
+| **Self** | X/10 ⚠️ | X/10 | X/10 ⚠️ |
 | **People** | X/10 | X/10 | X/10 ⚠️ |
 | **Team** | X/10 | X/10 | X/10 |
 | **Org** | X/10 | X/10 | X/10 ⚠️ |
 ```
 
-⚠️ = calendar likely undercounts this cell; real score may be higher if you have active Slack/async life there.
+⚠️ = calendar underrepresents this cell; actual score may be higher.
 
-Then add:
+Below the table, add one line: the data it's based on — e.g. "Based on 47 unique meeting patterns (from 183 calendar events) + Slack activity across 12 channels and 8 DM threads."
 
-### Pattern diagnosis (2–3 sentences)
-Read the overall shape of the grid and name what kind of EM this pattern shows. Examples:
-- Heavy Team×Impact + weak everything else → "Execution-mode EM: you're keeping the lights on, but you're not building people, org presence, or yourself."
-- Strong People×Growth + weak Team×Impact → "People-first EM who may be leaving delivery to chance."
-- Strong Self×Growth + weak all People cells → "Individual-focused EM who may be neglecting the human side of the role."
-- Strong Org×Impact + weak Team and People → "Political EM: visible upstairs, but your team and people may be feeling it."
-Be honest. This is the most valuable part.
+### Pattern diagnosis
+
+2–3 honest sentences naming what kind of EM this pattern reveals. Examples of what this should sound like:
+- "You're in execution mode — Team×Impact dominates and almost everything else is thin. Your team ships, but you're not investing in their development, your own growth, or your organizational presence."
+- "You spend most of your time developing your people, which is real and valuable — but Team×Impact is weak, which means delivery probably lives or dies by the team's own discipline, not your active involvement."
+- "You're organizationally well-connected but your own team may be feeling it. The bottom two rows of the grid are strong; the top two are thin."
+
+Be direct. This is the highest-value part of the output.
 
 ### Top 3 blind spots
-List the 3 lowest-scoring cells. For each:
-- **Cell name** (e.g., "Org × Connection")
-- **What's missing:** One specific sentence explaining what the absence of this activity means in practice
-- **One concrete action you could do this week:** Make it small, specific, and immediately doable. Read `references/suggested-actions.md` for a curated list of actions per cell — pick the 1–2 most relevant to what you can infer about this EM's context from their calendar.
 
-### Accuracy caveat (if no Slack data provided)
-> ⚠️ These scores are based on calendar data only. Cells marked with ⚠️ in the grid are systematically underrepresented in calendar — if you're active in Slack, async channels, or informal conversations in those areas, your real score is likely higher. Adding Slack context in a future run will significantly improve accuracy.
+For each of the 3 lowest-scoring cells:
+- **Cell name**
+- **What's missing in practice:** one specific sentence about what's not happening
+- **One action this week:** small, specific, immediately doable. Read `references/suggested-actions.md` and pick the most relevant to what you know about this EM from their calendar patterns.
+
+### Accuracy note
+
+If Slack was not available:
+> ⚠️ Calendar-only analysis. Cells marked ⚠️ are likely underscored — if you're active in Slack, the real scores there are probably higher. Connecting Slack will significantly improve accuracy, especially for connection-type cells.
+
+If both were available, no caveat needed — just note what was included.
 
 ---
 
-## Tone and length
+## Tone
 
-Be direct, specific, and brief. The grid + 2-sentence diagnosis + 3 blind spots with actions is the core. Do not add encouragement filler. Do not add a long preamble. The EM is a professional who wants signal, not comfort.
-
-Target length: the grid table, a short paragraph diagnosis, and 3 bullet-point blind spots — all fitting on one screen.
+Direct, specific, brief. No preamble, no filler encouragement. The EM is a professional who wants signal, not comfort. Target: everything fits on one screen after the grid.
