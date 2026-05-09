@@ -71,24 +71,41 @@ Do not ask anything else manually.
 
 Call `list_calendars` to identify work-relevant calendars. Call `list_events` for the last 30 days. Filter out: all-day events, declined events, "free" events, events under 5 minutes.
 
-### Deduplicate before classifying
+### Process with the bundled script
 
-A month of calendar data can be 150–250 raw events, but most EMs have highly repetitive calendars. Do not classify each event individually.
+A month of calendar data can be 150–250 raw events. Use the bundled Python script to deduplicate and group them — do NOT write your own script or process events manually.
 
-1. **Normalize titles** — strip variable parts (names, sprint numbers, ticket IDs, dates):
-   - "1:1 with Alice", "1:1 with Bob", "1:1 - Carol" → `1:1 (direct report)` if those are reports
-   - "Sprint 42 Planning", "Sprint 43 Planning" → `Sprint Planning`
-   - "Sync with [external name]" → `External Sync`
+**Step 1: Save the raw MCP output**
 
-2. **Group by normalized title + attendee pattern** (solo / 1:1-with-report / whole-team / cross-team / external)
+When you call `list_events`, save the full JSON response to `/tmp/cal_events.json` using the Write tool (or Bash redirect).
 
-3. **Classify each unique group once**, then multiply by occurrence count and total duration
+**Step 2: Find and run the script**
 
-This reduces 200 raw events to ~20–40 unique patterns. Classify those.
+Use Glob to find the script: search for `**/em-grid-scorer/scripts/process_calendar.py`. Then run it:
+
+```bash
+python "<script_path>" /tmp/cal_events.json <em_email> [report_email_1] [report_email_2] ...
+```
+
+Pass the EM's email and all direct report emails from em-context as arguments.
+
+The script outputs:
+- A human-readable summary table to stdout (print it to your context)
+- Full grouped JSON to `/tmp/em_grid_calendar_groups.json`
+
+**Step 3: Load the grouped data**
+
+Read `/tmp/em_grid_calendar_groups.json`. Each entry in `groups` is a unique event pattern with:
+- `count` — how many times it occurred
+- `total_minutes` — total duration
+- `attendee_category` — one of: `solo`, `1:1-report`, `1:1-manager`, `1:1-external`, `team`, `cross-team`, `external-group`
+- `sample_names` — names of non-EM attendees
+
+Classify each group (not each raw event) in Step 4.
 
 ### Cross-reference attendees for accurate scope
 
-Compare attendees against: direct reports and the EM's manager (from em-context), and email domains (same company = internal, different = external). Don't guess scope from title alone when attendee data is available.
+The script's `attendee_category` already handles most scope decisions. Use it as the primary signal. Cross-check against em-context for edge cases: direct report names not in the email list, MoM patterns, or unusually large meetings that the category might miscategorize.
 
 ---
 
